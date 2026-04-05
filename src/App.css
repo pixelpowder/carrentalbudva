@@ -292,7 +292,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgb(5, 32, 60);
+  background: rgb(61, 20, 16);
   border-bottom: none;
   height: 136px;
   display: flex;
@@ -431,7 +431,7 @@
   right: 0;
   bottom: 0;
   width: 280px;
-  background: rgb(5, 32, 60);
+  background: rgb(61, 20, 16);
   z-index: 201;
   display: flex;
   flex-direction: column;
@@ -526,7 +526,7 @@
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  background: rgb(5, 32, 60);
+  background: rgb(61, 20, 16);
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: var(--radius-sm);
   overflow: hidden;
@@ -568,7 +568,7 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: rgb(5,32,60);
+  background: rgb(61, 20, 16);
 }
 
 .hero-wrapper__bg::after {
@@ -932,7 +932,7 @@ select.booking-field__input {
 }
 
 .booking-card__search {
-  background: rgb(0, 98, 227);
+  background: rgb(232, 93, 74);
   color: var(--white);
   border: none;
   border-radius: 8px;
