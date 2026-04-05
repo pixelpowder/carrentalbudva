@@ -12,7 +12,7 @@
     "perDay": "po danu"
   },
   "hero": {
-    "headline": "Rent a Car Crna Gora",
+    "headline": "Rent a Car Budva",
     "badges": {
       "freeCancellation": "Besplatna Otkazivanja",
       "fullInsurance": "Puno Osiguranje Uključeno",
@@ -62,18 +62,18 @@
   },
   "destinations": {
     "label": "Top Destinacije",
-    "title": "Istražite Crnu Goru",
-    "subtitle": "Od Bokokotorskog zaliva do albanske granice — svaka destinacija je drugi svijet."
+    "title": "Istražite iz Budve",
+    "subtitle": "Od Svetog Stefana do Bokokotorskog zaliva — svaka destinacija je drugi svijet."
   },
   "features": {
     "label": "Zašto Mi",
-    "title": "Napravljeno za Putnike",
-    "subtitle": "Sve što vam treba za bezbrižan rent a car u Crnoj Gori."
+    "title": "Napravljeno za Goste Budve",
+    "subtitle": "Sve što vam treba za bezbrižan rent a car na Budvanskoj rivijeri."
   },
   "reviews": {
     "label": "Recenzije",
     "title": "Omiljeni Među Putnicima",
-    "subtitle": "Stvarna iskustva stvarnih korisnika širom Crne Gore."
+    "subtitle": "Stvarna iskustva korisnika iz Budve i sa rivijere."
   },
   "faq": {
     "label": "FAQ",
@@ -81,13 +81,13 @@
     "subtitle": "Sve što treba da znate prije rezervacije."
   },
   "cta": {
-    "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu. Vozite cijelom jadranskom obalom sopstvenim tempom.",
+    "title": "Spremni da Istražite Rivijeru?",
+    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Tivat ili u Budvi. Vozite rivijeru sopstvenim tempom.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {
     "bookTitle": "Rezervišite Vaš Auto",
-    "bookText": "Pretražite dostupnost i cijene u realnom vremenu širom Crne Gore.",
+    "bookText": "Pretražite dostupnost i cijene za Budvu i rivijeru u realnom vremenu.",
     "helpTitle": "Trebate Pomoć?",
     "helpText": "Naš tim je dostupan putem WhatsApp, Viber ili telefona.",
     "popularDest": "Popularne Destinacije"
@@ -95,10 +95,10 @@
   "book": {
     "title": "Pronađite Vaš Auto",
     "seoTitle": "Rezervišite Auto",
-    "seoDesc": "Pretražite i rezervišite rent a car u Crnoj Gori. Dostupnost u realnom vremenu, trenutna potvrda, besplatno otkazivanje."
+    "seoDesc": "Pretražite i rezervišite rent a car u Budvi, Crna Gora. Dostupnost u realnom vremenu, trenutna potvrda, besplatno otkazivanje."
   },
   "footer": {
-    "brandDesc": "Premium rent a car u Crnoj Gori od 2007. Preuzimanje na aerodromu, puno osiguranje i bez skrivenih troškova.",
+    "brandDesc": "Rent a car u Budvi, Crna Gora. Preuzimanje na aerodromu Tivat, puno osiguranje i bez skrivenih troškova. Istražite Budvansku rivijeru.",
     "quickLinks": "Brzi Linkovi",
     "guides": "Vodiči",
     "locations": "Lokacije",
@@ -117,17 +117,17 @@
   "notFound": {
     "code": "404",
     "title": "Pogrešno Skretanje",
-    "text": "Izgleda da ste skrenuli s puta. Ova cesta ne vodi nikuda — ali najbolje rute Crne Gore su na jedan klik.",
+    "text": "Izgleda da ste skrenuli pogrešno. Ovaj put nikuda ne vodi — ali najbolje rute Budvanske rivijere su na jedan klik.",
     "backHome": "Nazad na Početnu",
     "searchCars": "Pretraži Auta"
   },
   "home": {
-    "seoDesc": "Iznajmite auto u Crnoj Gori od 13 €/dan. Preuzimanje na aerodromu Tivat, Podgorica, u Kotoru, Budvi i na više od 28 lokacija. Besplatno otkazivanje, puno osiguranje, bez skrivenih troškova. Rezervišite online za nekoliko minuta."
+    "seoDesc": "Rent a car u Budvi od 13 €/dan. Preuzimanje na aerodromu Tivat (22 km), Stari grad Budva, Bečići i 28+ lokacija. Besplatno otkazivanje, puno osiguranje."
   },
   "about": {
     "title": "O Nama",
-    "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
-    "seoDesc": "O Crna Gora Car Hire. Od 2007. pomažemo putnicima da istraže Crnu Goru sa pouzdanim automobilima, isporukom na aerodrom i lokalnom ekspertizom."
+    "subtitle": "Pomažemo putnicima da istraže Budvansku rivijeru i Crnu Goru.",
+    "seoDesc": "O Budva Car Hire. Pomažemo putnicima da istraže Budvu i crnogorsku rivijeru sa pouzdanim vozilima."
   },
   "kotor": {
     "title": "Rent a Car Kotor",
@@ -196,8 +196,8 @@
   },
   "featureCards": {
     "airportPickup": {
-      "title": "Preuzimanje na aerodromu",
-      "desc": "Preuzmite automobil na aerodromu Tivat ili Podgorica. Bez prevoza, bez čekanja."
+      "title": "Preuzimanje Aerodrom Tivat",
+      "desc": "Preuzmite auto na aerodromu Tivat, samo 22 km od Budve. Bez transfera, bez čekanja."
     },
     "fullInsurance": {
       "title": "Potpuno osiguranje",
@@ -222,13 +222,13 @@
   },
   "testimonials": {
     "0": {
-      "text": "Preuzeo sam besprijekornu Octavia na aerodromu Tivat za manje od 5 minuta. Nevjerovatna vrijednost."
+      "text": "Preuzeli čistu Octaviju na aerodromu Tivat, za 20 minuta bili u Budvi. Istražili cijelu rivijeru od plaže Jaz do Petrovca. Odličan servis."
     },
     "1": {
-      "text": "BMW je bio u savršenom stanju, a dokumenti za Croatia bili su spremni kada smo stigli. Toplo preporučujem."
+      "text": "Boravili u Budvi i iznajmili auto za sedmicu. Obišli Sveti Stefan, Kotor i Lovćen. Dokumenti za Hrvatsku su bili uključeni. Preporučujemo."
     },
     "2": {
-      "text": "Istraživali smo Crna Gora dvije sedmice. Jeep je savršeno savladao planinske puteve."
+      "text": "Džip je bio savršen za planinske puteve iznad Budve. Svaki dan smo vozili na Lovćen i u Petrovac. Najbolji rent a car na odmoru."
     }
   },
   "faqItems": {
@@ -284,7 +284,7 @@
   "destCards": {
     "tivat-airport": {
       "name": "Aerodrom Tivat",
-      "tag": "Najpopularnije",
+      "tag": "22 km",
       "desc": "Naš glavni hub. Dočekujemo vas na dolascima."
     },
     "kotor": {
@@ -304,13 +304,13 @@
     },
     "budva": {
       "name": "Budva",
-      "tag": "Primorski grad",
-      "desc": "Plaže Rivijere i zidine starog grada."
+      "tag": "Baza",
+      "desc": "Stari grad, plaže i srce rivijere."
     },
     "dubrovnik-airport": {
       "name": "Aerodrom Dubrovnik",
       "tag": "Prekogranično",
-      "desc": "Doletite u Dubrovnik, vozite u Crna Gora."
+      "desc": "Doletite u Dubrovnik, vozite do Budve."
     },
     "tivat": {
       "name": "Tivat",
@@ -324,12 +324,12 @@
     }
   },
   "aboutBody": {
-    "h1": "Rent a car Crna Gora",
-    "p1": "Od 2007. godine, Crna Gora Car Hire povezuje putnike sa pouzdanim i pristupačnim rent-a-car vozilima širom Crna Gora. Ono što je počelo kao jednostavna ideja — olakšati posjetiocima istraživanje ovog zadivljujućeg kutka Adriatic — izraslo je u jednu od najpouzdanijih usluga iznajmljivanja vozila u zemlji.",
-    "h2": "Zašto smo počeli",
-    "p2": "Crna Gora je zemlja koja se najbolje doživljava sopstvenim tempom. Vijugavi obalni putevi, skrivena planinska sela i gradovi pod zaštitom UNESCO-a teško su dostupni javnim prevozom. Prepoznali smo priliku da putnicima pružimo slobodu da otkriju Crna Gora na svoj način — bez rasporeda turističkih autobusa, bez propuštenih vidikovaca, bez kompromisa.",
+    "h1": "Budva Car Hire",
+    "p1": "Budva Car Hire povezuje putnike sa pouzdanim i pristupačnim vozilima u Budvi i na crnogorskoj rivijeri. Naša misija: olakšati gostima istraživanje ovog prekrasnog jadranskog primorja.",
+    "h2": "Zašto Budva?",
+    "p2": "Budva je najposjećenija turistička destinacija u Crnoj Gori sa preko 800.000 posjetilaca godišnje. Stari grad star 2.500 godina, plaže svjetske klase i blizina Svetog Stefana čine je idealnom bazom za putovanje.",
     "h3": "Šta nudimo",
-    "p3": "Pružamo usluge iznajmljivanja vozila širom Crna Gora, sa preuzimanjem i vraćanjem na aerodromu Tivat, aerodromu Podgorica, kao i na lokacijama duž obale i u unutrašnjosti. Naša flota obuhvata sve, od kompaktnih gradskih automobila do prostranih SUV vozila, sa potpunim osiguranjem i bez skrivenih troškova.",
+    "p3": "Nudimo rent a car na Budvanskoj rivijeri i širom Crne Gore, sa preuzimanjem na aerodromu Tivat (22 km), Podgorica (65 km) i drugim lokacijama.",
     "promiseTitle": "Naše obećanje",
     "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
     "promise2": "Doček na aerodromu — donosimo automobil direktno do sale za dolaske",
@@ -338,9 +338,9 @@
     "promise5": "Besplatno otkazivanje za većinu rezervacija",
     "promise6": "Pomoć na putu 24/7 tokom cijelog putovanja",
     "h4": "Lokalno znanje",
-    "p4": "Sa sjedištem u Crna Gora, poznajemo puteve, najbolje rute i skrivene dragulje koje turistički vodiči ne pominju. Bilo da vozite sa aerodroma Tivat do srednjovjekovnog starog grada Kotor, idete slikovitom rutom kroz Boku Kotorsku do Perast, ili se upućujete u unutrašnjost ka Nacionalnom parku Durmitor, možemo vam pomoći da isplanirate savršeno putovanje.",
+    "p4": "Bazirani na Budvanskoj rivijeri, poznajemo puteve i skrivene dragulje. Od aerodroma Tivat do Starog grada Budve, južno ka Svetom Stefanu ili sjeverno ka Kotoru i Perastu.",
     "h5": "Kontaktirajte nas",
-    "p5": "Imate pitanje o iznajmljivanju automobila u Crna Gora? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte našu flotu online i rezervišite za nekoliko minuta — ili nam se javite i pomoći ćemo vam da pronađete savršen automobil za vaše putovanje."
+    "p5": "Imate pitanja o rent a car u Budvi? Dostupni smo putem WhatsApp, Viber ili telefona. Pronađite vozilo i rezervišite za nekoliko minuta."
   },
   "kotorBody": {
     "h1": "Kotor -- Lokalitet pod Zastitom UNESCO-a",

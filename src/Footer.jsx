@@ -73,10 +73,10 @@ export default function Footer() {
 
         <FooterColumn title={t('footer.locations')}>
           {[
-            { name: 'Tivat Airport', slug: 'tivat-airport' },
-            { name: 'Podgorica Airport', slug: 'podgorica-airport' },
-            { name: 'Kotor', slug: 'kotor' },
             { name: 'Budva', slug: 'budva' },
+            { name: 'Tivat Airport', slug: 'tivat-airport' },
+            { name: 'Kotor', slug: 'kotor' },
+            { name: 'Podgorica Airport', slug: 'podgorica-airport' },
           ].map(dest => (
             <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="footer__link">
               <MapPin size={12} /> {dest.name}

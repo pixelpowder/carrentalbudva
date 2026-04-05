@@ -18,7 +18,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p style={{ fontSize: '16px', color: 'var(--gray-600)', marginBottom: '40px', lineHeight: 1.6 }}>
-              Have a question about renting a car in Montenegro? Get in touch and we'll help you find the perfect vehicle for your trip.
+              Have a question about renting a car in Budva? Get in touch and we'll help you find the perfect vehicle for your trip.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>

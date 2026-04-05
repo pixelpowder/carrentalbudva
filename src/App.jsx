@@ -122,13 +122,13 @@ const locationSelectStyles = {
     padding: '0',
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(5,32,60)',
+    color: 'rgb(61,20,16)',
   }),
   singleValue: (base) => ({
     ...base,
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(5,32,60)',
+    color: 'rgb(61,20,16)',
     margin: '0',
   }),
   placeholder: (base) => ({
@@ -141,7 +141,7 @@ const locationSelectStyles = {
   dropdownIndicator: (base) => ({
     ...base,
     padding: '0',
-    color: 'rgb(0,98,227)',
+    color: 'rgb(232,93,74)',
   }),
   menu: (base) => ({
     ...base,
@@ -164,8 +164,8 @@ const locationSelectStyles = {
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? 'rgb(0,98,227)' : 'rgb(5,32,60)',
-    background: state.isSelected ? 'rgba(0,98,227,0.08)' : state.isFocused ? 'rgba(0,98,227,0.05)' : 'transparent',
+    color: state.isSelected ? 'rgb(232,93,74)' : 'rgb(61,20,16)',
+    background: state.isSelected ? 'rgba(232,93,74,0.08)' : state.isFocused ? 'rgba(232,93,74,0.05)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',
@@ -202,7 +202,7 @@ function LocationField({ value, onChange }) {
 function Hero() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
-  const [pickup, setPickup] = useState('Tivat');
+  const [pickup, setPickup] = useState('Budva');
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [pickupTime, setPickupTime] = useState('10:00');
@@ -492,7 +492,7 @@ function Fleet() {
 
     const obs = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
-        const load = () => setIframeSrc('/widget.html?city_id=9&hide_search=1&v=12');
+        const load = () => setIframeSrc('/widget.html?city_id=3&hide_search=1&v=12');
         if ('requestIdleCallback' in window) {
           requestIdleCallback(load, { timeout: 1500 });
         } else {
@@ -599,7 +599,7 @@ function TrustpilotBanner() {
           data-style-width="100%"
           data-token="048c09ab-d890-4af6-91a4-0c5532f846df"
         >
-          <a href="https://www.trustpilot.com/review/montenegrocarhire.com" target="_blank" rel="noopener">Trustpilot</a>
+          <a href="https://www.trustpilot.com/review/budvacarhire.com" target="_blank" rel="noopener">Trustpilot</a>
         </div>
       </div>
     </div>
@@ -738,8 +738,8 @@ function CTABanner() {
             <a href={localePath("/book")} className="cta-btn--primary" style={{ textDecoration: 'none' }}>
               {t('cta.browseFleet')} <ArrowRight size={16} />
             </a>
-            <a href="mailto:info@montenegrocarhire.com" className="cta-btn--outline">
-              <Mail size={15} /> info@montenegrocarhire.com
+            <a href="mailto:info@budvacarhire.com" className="cta-btn--outline">
+              <Mail size={15} /> info@budvacarhire.com
             </a>
           </div>
         </div>
@@ -766,7 +766,7 @@ function StickyMobileCTA() {
       <a href={localePath("/book")} className="sticky-cta__btn">
         {t('common.bookNow')} <ArrowRight size={16} />
       </a>
-      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
+      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
         <MessageCircle size={18} />
       </a>
     </div>
@@ -777,7 +777,7 @@ function StickyMobileCTA() {
 function WhatsAppFab() {
   return (
     <a
-      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro.`}
+      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva.`}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-fab"

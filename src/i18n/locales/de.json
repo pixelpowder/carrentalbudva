@@ -12,7 +12,7 @@
     "perDay": "pro Tag"
   },
   "hero": {
-    "headline": "Mietwagen in Montenegro",
+    "headline": "Mietwagen in Budva",
     "badges": {
       "freeCancellation": "Kostenlose Stornierung",
       "fullInsurance": "Vollkasko inklusive",
@@ -46,11 +46,11 @@
     "title": "In 3 Schritten unterwegs",
     "subtitle": "Einfache Buchung. Sofortige Bestätigung. Kein Anstehen am Flughafen.",
     "step1Title": "Wählen Sie Ihren Abholort",
-    "step1Desc": "Wählen Sie aus Flughäfen, Kotor, Budva, Perast und weiteren Abholpunkten in ganz Montenegro und darüber hinaus.",
+    "step1Desc": "Wählen Sie Budva, Flughafen Tivat, Bečići, Sveti Stefan oder einen von 28+ Abholpunkten in Montenegro.",
     "step2Title": "Wählen Sie Ihr Auto",
     "step2Desc": "Entdecken Sie unsere Flotte von sparsamen Kleinwagen bis zu Premium-SUVs. Filtern Sie nach Größe, Getriebe oder Budget.",
-    "step3Title": "Fahren Sie durch Montenegro",
-    "step3Desc": "Wir empfangen Sie am Ankunftsbereich. Ihr Auto steht bereit. Entdecken Sie Küste, Berge und historische Städte."
+    "step3Title": "Fahren Sie die Riviera",
+    "step3Desc": "Wir empfangen Sie am Ankunftsbereich oder liefern nach Budva. Ihr Auto steht bereit. Entdecken Sie Strände, Berge und Altstädte."
   },
   "fleet": {
     "label": "Unsere Flotte",
@@ -62,18 +62,18 @@
   },
   "destinations": {
     "label": "Top-Reiseziele",
-    "title": "Montenegro entdecken",
-    "subtitle": "Von der Bay of Kotor bis zur albanischen Grenze — jedes Reiseziel eine andere Welt."
+    "title": "Von Budva aus entdecken",
+    "subtitle": "Von Sveti Stefan bis zur Bucht von Kotor — jedes Reiseziel eine andere Welt."
   },
   "features": {
     "label": "Warum wir",
-    "title": "Für Reisende gemacht",
-    "subtitle": "Alles, was Sie für eine stressfreie Autovermietung in Montenegro brauchen."
+    "title": "Für Budva-Reisende gemacht",
+    "subtitle": "Alles, was Sie für eine stressfreie Autovermietung an der Budva Riviera brauchen."
   },
   "reviews": {
     "label": "Bewertungen",
     "title": "Von Reisenden geliebt",
-    "subtitle": "Echte Erfahrungen von echten Kunden in ganz Montenegro."
+    "subtitle": "Echte Erfahrungen von echten Kunden in Budva und an der Riviera."
   },
   "faq": {
     "label": "FAQ",
@@ -81,13 +81,13 @@
     "subtitle": "Alles, was Sie vor Ihrer Buchung wissen müssen."
   },
   "cta": {
-    "title": "Bereit, Montenegro zu entdecken?",
-    "subtitle": "In wenigen Minuten buchen. Am Flughafen abholen. Die gesamte Adriatic-Küste in Ihrem eigenen Tempo erkunden.",
+    "title": "Bereit, die Riviera zu entdecken?",
+    "subtitle": "In wenigen Minuten buchen. Am Flughafen Tivat oder in Budva abholen. Die gesamte Küste in Ihrem eigenen Tempo erkunden.",
     "browseFleet": "Flotte ansehen"
   },
   "sidebar": {
     "bookTitle": "Ihr Auto buchen",
-    "bookText": "Echtzeit-Verfügbarkeit und Preise in ganz Montenegro durchsuchen.",
+    "bookText": "Echtzeit-Verfügbarkeit und Preise für Budva und die Riviera durchsuchen.",
     "helpTitle": "Brauchen Sie Hilfe?",
     "helpText": "Unser Team ist per WhatsApp, Viber oder Telefon erreichbar.",
     "popularDest": "Beliebte Reiseziele"
@@ -95,10 +95,10 @@
   "book": {
     "title": "Finden Sie Ihr Auto",
     "seoTitle": "Auto buchen",
-    "seoDesc": "Mietwagen in Montenegro suchen und buchen. Echtzeit-Verfügbarkeit, sofortige Bestätigung, kostenlose Stornierung."
+    "seoDesc": "Mietwagen in Budva, Montenegro suchen und buchen. Echtzeit-Verfügbarkeit, sofortige Bestätigung, kostenlose Stornierung."
   },
   "footer": {
-    "brandDesc": "Premium-Autovermietung in Montenegro seit 2007. Flughafenabholung, Vollkasko und keine versteckten Kosten.",
+    "brandDesc": "Mietwagen in Budva, Montenegro. Abholung am Flughafen Tivat, Vollkasko und keine versteckten Kosten. Entdecken Sie die Budva Riviera.",
     "quickLinks": "Schnelllinks",
     "guides": "Reiseführer",
     "locations": "Standorte",
@@ -117,17 +117,17 @@
   "notFound": {
     "code": "404",
     "title": "Falsch abgebogen",
-    "text": "Es sieht so aus, als hätten Sie einen Umweg genommen. Diese Straße führt nirgendwohin — aber Montenegros beste Routen sind nur einen Klick entfernt.",
+    "text": "Es sieht so aus, als hätten Sie einen Umweg genommen. Diese Straße führt nirgendwohin — aber die besten Routen der Budva Riviera sind nur einen Klick entfernt.",
     "backHome": "Zurück zur Startseite",
     "searchCars": "Autos suchen"
   },
   "home": {
-    "seoDesc": "Mietwagen in Montenegro ab 13 €/Tag. Abholung am Flughafen Tivat, Flughafen Podgorica, Kotor, Budva und über 28 Standorten. Kostenlose Stornierung, Vollkasko, keine versteckten Kosten. Online in wenigen Minuten buchen."
+    "seoDesc": "Mietwagen in Budva ab 13 €/Tag. Abholung am Flughafen Tivat (22 km), Budva Altstadt, Bečići und über 28 Standorten. Kostenlose Stornierung, Vollkasko, keine versteckten Kosten."
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Wir helfen Reisenden seit 2007, Montenegro zu entdecken.",
-    "seoDesc": "Über Montenegro Car Hire. Seit 2007 helfen wir Reisenden, Montenegro mit zuverlässigen Mietwagen, Flughafenzustellung und lokaler Expertise zu entdecken."
+    "subtitle": "Wir helfen Reisenden, die Budva Riviera und ganz Montenegro zu entdecken.",
+    "seoDesc": "Über Budva Car Hire. Wir helfen Reisenden, Budva und die Montenegrinische Riviera mit zuverlässigen Mietwagen und Flughafenzustellung zu entdecken."
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
@@ -182,22 +182,22 @@
   "privacy": {
     "title": "Datenschutzrichtlinie",
     "subtitle": "Wie wir mit Ihren Daten umgehen.",
-    "seoDesc": "Datenschutzrichtlinie von Montenegro Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
+    "seoDesc": "Datenschutzrichtlinie von Budva Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",
     "subtitle": "Nutzungsbedingungen für unsere Website.",
-    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Montenegro Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
+    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Budva Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
   },
   "cookie-policy": {
     "title": "Cookie-Richtlinie",
     "subtitle": "Wie wir Cookies auf dieser Website verwenden.",
-    "seoDesc": "Cookie-Richtlinie von Montenegro Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
+    "seoDesc": "Cookie-Richtlinie von Budva Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
   },
   "featureCards": {
     "airportPickup": {
       "title": "Flughafenabholung",
-      "desc": "Holen Sie Ihr Auto am Flughafen Tivat oder Podgorica ab. Kein Shuttle, kein Warten."
+      "desc": "Holen Sie Ihr Auto am Flughafen Tivat ab, nur 22 km von Budva. Kein Shuttle, kein Warten."
     },
     "fullInsurance": {
       "title": "Vollversicherung",
@@ -222,13 +222,13 @@
   },
   "testimonials": {
     "0": {
-      "text": "Einen makellosen Octavia am Flughafen Tivat in unter 5 Minuten abgeholt. Die gesamte Küste bis nach Ulcinj gefahren. Unglaubliches Preis-Leistungs-Verhältnis."
+      "text": "Einen makellosen Octavia am Flughafen Tivat abgeholt und in 20 Minuten in Budva gewesen. Die ganze Riviera erkundet, von Jaz Beach bis Petrovac. Toller Service."
     },
     "1": {
-      "text": "Der BMW war in perfektem Zustand und die Grenzübertrittsdokumente für Croatia waren bei unserer Ankunft bereit. Sehr empfehlenswert."
+      "text": "Wir haben in Budva gewohnt und einen Mietwagen für die Woche genommen. Sveti Stefan, Kotor und Lovćen besucht. Die Dokumente für Kroatien waren inklusive. Sehr empfehlenswert."
     },
     "2": {
-      "text": "Wir haben Montenegro zwei Wochen lang erkundet. Der Jeep meisterte Bergstraßen perfekt. Die beste Mietwagen-Erfahrung, die wir je hatten."
+      "text": "Der Jeep war perfekt für die Bergstraßen oberhalb von Budva. Wir sind jeden Tag zum Lovćen und nach Petrovac gefahren. Beste Mietwagen-Erfahrung unseres Urlaubs."
     }
   },
   "faqItems": {
@@ -284,8 +284,8 @@
   "destCards": {
     "tivat-airport": {
       "name": "Flughafen Tivat",
-      "tag": "Beliebteste Wahl",
-      "desc": "Unser Hauptstandort. Wir treffen Sie bei der Ankunft."
+      "tag": "22 km entfernt",
+      "desc": "Der nächste Flughafen zu Budva. Wir treffen Sie bei der Ankunft."
     },
     "kotor": {
       "name": "Kotor",
@@ -304,13 +304,13 @@
     },
     "budva": {
       "name": "Budva",
-      "tag": "Strandstadt",
-      "desc": "Riviera-Strände und die Altstadt-Mauern."
+      "tag": "Heimatbasis",
+      "desc": "Altstadt, Strände und das Herz der Riviera."
     },
     "dubrovnik-airport": {
       "name": "Flughafen Dubrovnik",
       "tag": "Grenzüberschreitend",
-      "desc": "Fliegen Sie nach Dubrovnik, fahren Sie nach Montenegro."
+      "desc": "Fliegen Sie nach Dubrovnik, fahren Sie nach Budva."
     },
     "tivat": {
       "name": "Tivat",
@@ -324,12 +324,12 @@
     }
   },
   "aboutBody": {
-    "h1": "Montenegro Autovermietung",
-    "p1": "Seit 2007 verbindet Montenegro Car Hire Reisende mit zuverlässigen und erschwinglichen Mietwagen in ganz Montenegro. Was als einfache Idee begann — Besuchern die Erkundung dieser atemberaubenden Ecke der Adriatic zu erleichtern — hat sich zu einem der vertrauenswürdigsten Mietwagenservices des Landes entwickelt.",
-    "h2": "Warum wir angefangen haben",
-    "p2": "Montenegro ist ein Land, das man am besten in eigenem Tempo erlebt. Die kurvigen Küstenstraßen, versteckten Bergdörfer und UNESCO-Welterbestätten sind mit öffentlichen Verkehrsmitteln nur schwer erreichbar. Wir sahen die Möglichkeit, Reisenden die Freiheit zu geben, Montenegro auf eigene Faust zu entdecken — keine Reisebusfahrpläne, keine verpassten Aussichtspunkte, keine Kompromisse.",
+    "h1": "Budva Car Hire",
+    "p1": "Budva Car Hire verbindet Reisende mit zuverlässigen und erschwinglichen Mietwagen in Budva und an der Montenegrinischen Riviera. Unsere Mission: Besuchern die Erkundung dieser atemberaubenden Adriatic-Küste auf eigene Faust zu ermöglichen.",
+    "h2": "Warum Budva?",
+    "p2": "Budva ist Montenegros Top-Reiseziel mit über 800.000 Besuchern pro Jahr. Die 2.500 Jahre alte Altstadt, Weltklasse-Strände wie Mogren und Jaz sowie die Nähe zu Sveti Stefan machen es zur perfekten Basis für einen Roadtrip. Aber öffentliche Verkehrsmittel bringen Sie nur bedingt weiter — ein Mietwagen erschließt die gesamte Riviera.",
     "h3": "Was wir anbieten",
-    "p3": "Wir bieten Mietwagenservices in ganz Montenegro an, mit Abholung und Rückgabe am Tivat Airport, Podgorica Airport sowie an Standorten entlang der Küste und im Landesinneren. Unsere Flotte reicht von kompakten Stadtwagen bis zu geräumigen SUVs — alle vollversichert und ohne versteckte Gebühren.",
+    "p3": "Wir bieten Mietwagenservices an der Budva Riviera und in ganz Montenegro an, mit Abholung am Flughafen Tivat (22 km), Flughafen Podgorica (65 km) und weiteren Standorten. Unsere Flotte reicht von kompakten Stadtwagen bis zu geräumigen SUVs — alle vollversichert und ohne versteckte Gebühren.",
     "promiseTitle": "Unser Versprechen",
     "promise1": "Vollkaskoversicherung mit Option auf null Selbstbeteiligung",
     "promise2": "Persönliche Begrüßung am Flughafen — wir bringen das Auto direkt zur Ankunftshalle",
@@ -338,9 +338,9 @@
     "promise5": "Kostenlose Stornierung bei den meisten Buchungen",
     "promise6": "24/7 Pannenhilfe während Ihrer gesamten Reise",
     "h4": "Lokales Wissen",
-    "p4": "Wir sind in Montenegro ansässig und kennen die Straßen, die besten Routen und die versteckten Schätze, die in keinem Reiseführer stehen. Ob Sie vom Tivat Airport zur mittelalterlichen Altstadt von Kotor fahren, die malerische Route durch die Bucht von Kotor nach Perast nehmen oder ins Landesinnere zum Durmitor-Nationalpark aufbrechen — wir helfen Ihnen, den perfekten Roadtrip zu planen.",
+    "p4": "Wir sind an der Budva Riviera ansässig und kennen die Straßen, die besten Routen und die versteckten Schätze. Ob Sie vom Flughafen Tivat zur Altstadt von Budva fahren, südlich nach Sveti Stefan und Petrovac oder nördlich nach Kotor und Perast — wir helfen Ihnen, den perfekten Roadtrip zu planen.",
     "h5": "Kontaktieren Sie uns",
-    "p5": "Haben Sie Fragen zur Autovermietung in Montenegro? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten — oder kontaktieren Sie uns und wir finden das perfekte Auto für Ihre Reise."
+    "p5": "Haben Sie Fragen zur Autovermietung in Budva? Wir sind per Telefon, WhatsApp und Viber erreichbar. Durchsuchen Sie unsere Flotte online und buchen Sie in wenigen Minuten — oder kontaktieren Sie uns und wir finden das perfekte Auto für Ihre Reise."
   },
   "kotorBody": {
     "h1": "Kotor — UNESCO-Weltkulturerbe",

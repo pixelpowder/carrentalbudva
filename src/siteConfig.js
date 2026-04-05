@@ -1,14 +1,14 @@
 const siteConfig = {
-  name: "Montenegro Car Hire",
-  tagline: "Drive the Adriatic",
-  domain: "montenegrocarhire.com",
+  name: "Budva Car Hire",
+  tagline: "Drive the Montenegrin Riviera",
+  domain: "budvacarhire.com",
   phone: "",
-  email: "info@montenegrocarhire.com",
-  address: "Kotor, Montenegro",
+  email: "info@budvacarhire.com",
+  address: "Budva, Montenegro",
 
   hero: {
-    headline: "Explore Montenegro at Your Own Pace",
-    subheadline: "Premium car rentals from Tivat & Podgorica airports. Pick up in minutes, drive the entire coast.",
+    headline: "Budva Car Hire — Drive the Riviera",
+    subheadline: "Rent a car in Budva from Tivat Airport (22 km). Beaches, Old Town, Sveti Stefan — all within reach.",
     image: "/img/pexels-3802510.jpg",
   },
 
@@ -144,8 +144,8 @@ const siteConfig = {
   ],
 
   features: [
-    { icon: "map-pin", title: "Airport Pickup", description: "Collect your car at Tivat or Podgorica airport arrivals. No shuttle, no waiting." },
-    { icon: "shield-check", title: "Full Insurance", description: "Comprehensive coverage with zero excess option. Drive with complete peace of mind." },
+    { icon: "map-pin", title: "Tivat Airport Pickup", description: "Collect your car at Tivat Airport, just 22 km from Budva. No shuttle, no waiting." },
+    { icon: "shield-check", title: "Full Insurance", description: "Comprehensive coverage with zero excess option. Drive the riviera with peace of mind." },
     { icon: "clock", title: "24/7 Support", description: "Roadside assistance and customer service available around the clock, every day." },
     { icon: "ban", title: "No Hidden Fees", description: "Fuel policy, mileage, tax — everything is included in the price you see." },
     { icon: "refresh-cw", title: "Free Cancellation", description: "Plans change. Cancel up to 24 hours before pickup for a full refund." },
@@ -153,9 +153,9 @@ const siteConfig = {
   ],
 
   testimonials: [
-    { name: "Mark Thompson", location: "Manchester, UK", text: "Picked up a spotless Octavia at Tivat airport in under 5 minutes. Drove the entire coast down to Ulcinj. Incredible value.", rating: 5, avatar: "/img/pexels-220453.jpg" },
-    { name: "Claudia Braun", location: "Berlin, Germany", text: "The BMW was in perfect condition and the cross-border paperwork for Croatia was ready when we arrived. Highly recommend.", rating: 5, avatar: "/img/pexels-774909.jpg" },
-    { name: "David & Lisa", location: "Sydney, Australia", text: "We explored Montenegro for two weeks. The Jeep handled mountain roads perfectly. Best car hire experience we've ever had.", rating: 5, avatar: "/img/pexels-1222271.jpg" },
+    { name: "James Harrison", location: "London, UK", text: "Collected a clean Octavia at Tivat Airport, drove straight to Budva in 20 minutes. Explored the whole riviera from Jaz Beach to Petrovac. Great service.", rating: 5, avatar: "/img/pexels-220453.jpg" },
+    { name: "Claudia Braun", location: "Berlin, Germany", text: "Stayed in Budva and rented a car for the week. Made it to Sveti Stefan, Kotor, and Lovcen. The cross-border paperwork for Croatia was included. Highly recommend.", rating: 5, avatar: "/img/pexels-774909.jpg" },
+    { name: "Sophie & Matt", location: "Melbourne, Australia", text: "The Jeep was perfect for the mountain roads above Budva. We drove up to Lovcen and down to Petrovac every day. Best holiday car hire we've used.", rating: 5, avatar: "/img/pexels-1222271.jpg" },
   ],
 
   faq: [
@@ -163,7 +163,7 @@ const siteConfig = {
     { q: "Can I drive to Croatia or Albania?", a: "Yes! Cross-border travel is permitted to Croatia, Bosnia, Albania, Kosovo, and Serbia. Just let us know at booking and we'll prepare the Green Card." },
     { q: "Is there a minimum age?", a: "The minimum age is 21 with at least 2 years driving experience. Drivers under 25 pay a small young driver supplement of €5/day." },
     { q: "What's included in the price?", a: "Full insurance (CDW + theft protection), unlimited mileage, VAT, airport pickup/dropoff, 24/7 roadside assistance, and a free second driver." },
-    { q: "How does pickup work at the airport?", a: "We meet you at the arrivals hall with your name on a sign. Your car is parked right outside. Total time from landing to driving: about 10 minutes." },
+    { q: "How does pickup work at the airport?", a: "We meet you at Tivat Airport arrivals hall with your name on a sign. Your car is parked right outside. Total time from landing to driving: about 10 minutes. Budva is a 22 km drive." },
     { q: "Can I drop off at a different location?", a: "Yes — one-way rentals are supported across 28 cities and towns in Montenegro. Simply choose different pickup and dropoff locations during booking." },
     { q: "Can I cancel my booking?", a: "Free cancellation up to 7 days before the rental start date. For luxury cars and convertibles, free cancellation is available up to 30 days before. A 6% payment service fee applies to all cancellations." },
     { q: "Is a deposit required?", a: "Deposits range from €50 to €300 depending on the vehicle. Some cars are available with no deposit. The deposit must be on a physical credit card in the driver's name and is refunded upon return of the vehicle in good condition." },
@@ -174,49 +174,40 @@ const siteConfig = {
   ],
 
   locations: [
-    { name: "Tivat Airport", tag: "Most Popular" },
-    { name: "Podgorica Airport", tag: "" },
-    { name: "Kotor Old Town", tag: "" },
-    { name: "Budva", tag: "" },
-    { name: "Herceg Novi", tag: "" },
-    { name: "Bar", tag: "" },
+    { name: "Budva Old Town", tag: "Most Popular" },
+    { name: "Tivat Airport", tag: "22 km" },
+    { name: "Bečići", tag: "" },
+    { name: "Sveti Stefan", tag: "" },
   ],
 
   destinations: [
     {
       name: "Tivat Airport",
       slug: "tivat-airport",
-      tag: "Most Popular",
-      desc: "Our main hub. We meet you at arrivals.",
+      tag: "22 km Away",
+      desc: "The closest airport to Budva. We meet you at arrivals.",
       image: "/img/pexels-16099591.jpg",
-    },
-    {
-      name: "Podgorica Airport",
-      slug: "podgorica-airport",
-      tag: "Capital Hub",
-      desc: "Montenegro's main international airport.",
-      image: "/img/pexels-9526645.jpg",
     },
     {
       name: "Kotor",
       slug: "kotor",
       tag: "UNESCO Site",
-      desc: "Medieval walled city on the Adriatic.",
+      desc: "Medieval walled city, 25 km from Budva.",
       image: "/img/pexels-5668157.jpg",
     },
     {
       name: "Budva",
       slug: "budva",
-      tag: "Beach Town",
-      desc: "Riviera beaches and the old town walls.",
+      tag: "Home Base",
+      desc: "Old Town, beaches, and the heart of the riviera.",
       image: "/img/pexels-26753897.jpg",
     },
     {
-      name: "Dubrovnik Airport",
-      slug: "dubrovnik-airport",
-      tag: "Cross-Border",
-      desc: "Fly into Dubrovnik, drive into Montenegro.",
-      image: "/img/pexels-30006498.jpg",
+      name: "Podgorica Airport",
+      slug: "podgorica-airport",
+      tag: "Capital Hub",
+      desc: "Montenegro's main international airport, 65 km away.",
+      image: "/img/pexels-9526645.jpg",
     },
     {
       name: "Tivat",
@@ -231,6 +222,13 @@ const siteConfig = {
       tag: "Hidden Gem",
       desc: "Baroque village on the Bay of Kotor.",
       image: "/img/pexels-29904099.jpg",
+    },
+    {
+      name: "Dubrovnik Airport",
+      slug: "dubrovnik-airport",
+      tag: "Cross-Border",
+      desc: "Fly into Dubrovnik, drive to Budva.",
+      image: "/img/pexels-30006498.jpg",
     },
     {
       name: "Podgorica",

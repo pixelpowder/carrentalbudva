@@ -27,10 +27,10 @@
     [class*="notification"] { display: none !important; height: 0 !important; overflow: hidden !important; visibility: hidden !important; }
   </style>
   <script>
-    // Intercept widget style injections and recolour green → navy/blue
-    const NAVY  = '#05203c';
-    const BLUE  = '#0062e3';
-    const LIGHT = '#e8f0fd';
+    // Intercept widget style injections and recolour green → coral
+    const NAVY  = '#3D1410';
+    const BLUE  = '#E85D4A';
+    const LIGHT = '#FDE8E5';
 
     // Colours to replace (widget greens)
     const replacements = [
@@ -39,11 +39,11 @@
       [/#00a651/gi, BLUE],
       [/#2ecc71/gi, BLUE],
       [/#27ae60/gi, BLUE],
-      [/rgb\(57,\s*181,\s*74\)/gi,  'rgb(0,98,227)'],
-      [/rgb\(76,\s*175,\s*80\)/gi,  'rgb(0,98,227)'],
-      [/rgb\(0,\s*166,\s*81\)/gi,   'rgb(0,98,227)'],
-      [/rgba\(57,\s*181,\s*74,/gi,  'rgba(0,98,227,'],
-      [/rgba\(76,\s*175,\s*80,/gi,  'rgba(0,98,227,'],
+      [/rgb\(57,\s*181,\s*74\)/gi,  'rgb(232,93,74)'],
+      [/rgb\(76,\s*175,\s*80\)/gi,  'rgb(232,93,74)'],
+      [/rgb\(0,\s*166,\s*81\)/gi,   'rgb(232,93,74)'],
+      [/rgba\(57,\s*181,\s*74,/gi,  'rgba(232,93,74,'],
+      [/rgba\(76,\s*175,\s*80,/gi,  'rgba(232,93,74,'],
     ];
 
     function recolour(css) {
@@ -79,13 +79,14 @@
   <script>
     (function() {
       const _params = new URLSearchParams(window.location.search);
-      const cityId = _params.get('city_id') || '9';
+      const cityId = _params.get('city_id') || '3';
       const widgetLang = _params.get('lang') || 'en';
       const script = document.createElement('script');
       script.src = 'https://static.localrent.com/booking/v2/wl/app.js';
       script.async = true;
       script.setAttribute('data-mrc-wl',   'true');
       script.setAttribute('data-affiliate','14905');
+      script.setAttribute('data-marker', 'budva');
       script.setAttribute('data-country',  '133');
       script.setAttribute('data-city',     cityId);
       script.setAttribute('data-routing',  'on');
@@ -186,7 +187,7 @@
       /* Search bar — match nav exactly */
       .search-cigarette,
       .search-cigarette__wrap,
-      .search-cigarette__row { background: rgb(5,32,60) !important; }
+      .search-cigarette__row { background: rgb(61,20,16) !important; }
       .search-cigarette__city,
       .search-cigarette__calendar,
       .search-cigarette__place-time { border-color: rgba(255,255,255,0.12) !important; }
@@ -196,7 +197,7 @@
       .search-place-time { color: #fff !important; }
       .search-cigarette__placeholder { color: rgba(255,255,255,0.55) !important; }
       .search-filters,
-      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(5,32,60) !important; }
+      .search-filters__wrap { border-color: rgba(255,255,255,0.2) !important; color: #fff !important; background: rgb(61,20,16) !important; }
       .search-cigarette__calendar { background: #fff !important; border-radius: 8px; }
       .search-calendar,
       .search-calendar__date,
@@ -207,30 +208,30 @@
       .date-range__days,
       .date-range__dash,
       .search-cigarette__calendar .search-cigarette__trigger,
-      .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(5,32,60) !important; }
+      .search-cigarette__calendar .search-cigarette__placeholder { color: rgb(61,20,16) !important; }
 
       /* Calendar selected range — fix invisible white-on-white text */
       .calendar-day.calendar-highlighted {
-        background: rgba(0,98,227,0.12) !important;
-        color: rgb(5,32,60) !important;
+        background: rgba(232,93,74,0.12) !important;
+        color: rgb(61,20,16) !important;
       }
       .calendar-day.calendar-selected {
-        background: rgb(0,98,227) !important;
+        background: rgb(232,93,74) !important;
         color: #fff !important;
       }
 
       /* Low deposit badge — wildcard to beat inline styles */
       .product-sticker--low-deposit,
-      [class*="low-deposit"] { background: rgb(0,98,227) !important; color: #fff !important; border-color: rgb(0,98,227) !important; }
+      [class*="low-deposit"] { background: rgb(232,93,74) !important; color: #fff !important; border-color: rgb(232,93,74) !important; }
 
       /* Buttons */
-      .button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; color: #fff !important; }
-      .button:hover { background: rgb(0,75,195) !important; }
-      .embla__button { background: rgb(0,98,227) !important; border-color: rgb(0,98,227) !important; }
+      .button { background: rgb(232,93,74) !important; border-color: rgb(232,93,74) !important; color: #fff !important; }
+      .button:hover { background: rgb(201,74,57) !important; }
+      .embla__button { background: rgb(232,93,74) !important; border-color: rgb(232,93,74) !important; }
 
       /* Progress & accents */
-      .search__progress { background: rgb(0,98,227) !important; }
-      .vehicle-card-info__badge { color: rgb(0,98,227) !important; }
+      .search__progress { background: rgb(232,93,74) !important; }
+      .vehicle-card-info__badge { color: rgb(232,93,74) !important; }
 
       /* Hide promotional banners and filter badges */
       [class*="banner"], [class*="promo"], [class*="winter"], [class*="notification"],
