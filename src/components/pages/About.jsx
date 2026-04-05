@@ -11,9 +11,10 @@ export default function About() {
       description={t("about.seoDesc")}
       image="/img/budva-riviera.webp"
     >
-      <img src="/img/budva-riviera.webp" alt="Budva Riviera coastline" loading="lazy" />
       <h2>{t('aboutBody.h1')}</h2>
       <p>{t('aboutBody.p1')}</p>
+
+      <img src="/img/budva-riviera.webp" alt="Budva Riviera coastline with beaches" loading="lazy" />
 
       <h2>{t('aboutBody.h2')}</h2>
       <p>{t('aboutBody.p2')}</p>

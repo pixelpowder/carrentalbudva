@@ -11,20 +11,23 @@ export default function DubrovnikAirport() {
       description={t("dubrovnik-airport.seoDesc")}
       image="/img/tivat-airport.webp"
     >
-      <img src="/img/tivat-airport.webp" alt="Dubrovnik aerial view" loading="lazy" />
       <h2>{t('dubrovnikAirportBody.h1')}</h2>
       <p>{t('dubrovnikAirportBody.p1')}</p>
       <p>{t('dubrovnikAirportBody.p2')}</p>
+
+      <img src="/img/tivat-airport.webp" alt="Adriatic coast road" loading="lazy" />
       <p>{t('dubrovnikAirportBody.p3')}</p>
-      <h2>{t('dubrovnikAirportBody.borderTitle')}</h2>
-      <p>{t('dubrovnikAirportBody.borderText')}</p>
-      <h2>{t('dubrovnikAirportBody.facilitiesTitle')}</h2>
-      <p>{t('dubrovnikAirportBody.facilitiesText1')}</p>
-      <p>{t('dubrovnikAirportBody.facilitiesText2')}</p>
-      <img src="/img/tivat-airport.webp" alt="Dubrovnik historic harbour" loading="lazy" />
+
       <h2>{t('dubrovnikAirportBody.gettingTitle')}</h2>
       <p>{t('dubrovnikAirportBody.gettingText1')}</p>
       <p>{t('dubrovnikAirportBody.gettingText2')}</p>
+
+      <h2>{t('dubrovnikAirportBody.borderTitle')}</h2>
+      <p>{t('dubrovnikAirportBody.borderText')}</p>
+
+      <h2>{t('dubrovnikAirportBody.facilitiesTitle')}</h2>
+      <p>{t('dubrovnikAirportBody.facilitiesText1')}</p>
+      <p>{t('dubrovnikAirportBody.facilitiesText2')}</p>
     </ContentPage>
   );
 }
