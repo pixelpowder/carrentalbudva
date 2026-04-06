@@ -2575,9 +2575,20 @@ select.booking-field__input {
 .beach-card {
   background: var(--white);
   border-radius: var(--radius-lg);
-  padding: 28px 24px;
+  overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s;
+}
+
+.beach-card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.beach-card__body {
+  padding: 24px;
 }
 
 .beach-card:hover {
