@@ -69,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-/* Force light mode even when Firefox/browser prefers dark */
+/* Force light mode even when browser prefers dark */
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: light only;

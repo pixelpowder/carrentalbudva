@@ -7,11 +7,8 @@ import { useRouter } from 'next/navigation';
 import useTranslation from './i18n/useTranslation';
 import Nav from './Nav';
 import Footer from './Footer';
-import useGlobalReveal from './useReveal';
 import {
-  Car,
   MapPin,
-  ChevronRight,
   ChevronDown,
   Star,
   ShieldCheck,
@@ -20,23 +17,17 @@ import {
   Globe,
   Ban,
   Users,
-  Fuel,
-  Settings,
   Briefcase,
   CheckCircle,
   ArrowRight,
-  Phone,
   Mail,
-  Calendar,
   Search,
-  Menu,
-  X,
-  MessageCircle,
+  Calendar,
 } from 'lucide-react';
 import config from './siteConfig';
 import './App.css';
 
-/* ─── ICON MAP ─────────────────────────────────────────── */
+/* ── Icon map for siteConfig.features ──────────────────── */
 const FEATURE_ICONS = {
   'map-pin': MapPin,
   'shield-check': ShieldCheck,
@@ -46,121 +37,58 @@ const FEATURE_ICONS = {
   'globe': Globe,
 };
 
+/* ── Locations & city IDs ──────────────────────────────── */
 const LOCATIONS = [
   'Tivat', 'Podgorica', 'Kotor', 'Budva', 'Herceg-Novi',
   'Bar', 'Ulcinj', 'Sveti Stefan', 'Perast', 'Petrovac',
-  'Bečići', 'Rafailovići', 'Pržno', 'Sutomore', 'Luštica Bay',
-  'Žabljak', 'Kolašin', 'Nikšić', 'Igalo', 'Risan',
-  'Orahovac', 'Prčanj', 'Bijela', 'Rose', 'Reževići',
+  'Becici', 'Rafailovici', 'Przno', 'Sutomore', 'Lustica Bay',
+  'Zabljak', 'Kolasin', 'Niksic', 'Igalo', 'Risan',
+  'Orahovac', 'Prcanj', 'Bijela', 'Rose', 'Rezevici',
   'Dobre Vode', 'Djenovici', 'Krasici', 'Radovici', 'Buljarica',
 ];
 
-// LocalRent city IDs — used to configure the booking widget per location
 const CITY_ID_MAP = {
-  'Tivat':             17,
-  'Podgorica':         15,
-  'Kotor':              9,
-  'Budva':              5,
-  'Bar':                2,
-  'Herceg-Novi':       19,
-  'Ulcinj':            18,
-  'Kolašin':            8,
-  'Žabljak':            7,
-  'Sveti Stefan':      25,
-  'Perast':            33,
-  'Petrovac':          39,
-  'Sutomore':          29,
-  'Luštica Bay':   549187,
-  'Nikšić':        549113,
-  'Bečići':            23,
-  'Igalo':             35,
-  'Rafailovići':       22,
-  'Pržno':             24,
-  'Risan':             34,
-  'Orahovac':          32,
-  'Prčanj':            36,
-  'Bijela':        549193,
-  'Rose':              40,
-  'Reževići':          26,
-  'Dobre Vode':        30,
-  'Djenovici':     548985,
-  'Krasici':       548984,
-  'Radovici':      548966,
-  'Buljarica':     548986,
+  'Tivat': 17, 'Podgorica': 15, 'Kotor': 9, 'Budva': 5,
+  'Bar': 2, 'Herceg-Novi': 19, 'Ulcinj': 18, 'Kolasin': 8,
+  'Zabljak': 7, 'Sveti Stefan': 25, 'Perast': 33, 'Petrovac': 39,
+  'Sutomore': 29, 'Lustica Bay': 549187, 'Niksic': 549113,
+  'Becici': 23, 'Igalo': 35, 'Rafailovici': 22, 'Przno': 24,
+  'Risan': 34, 'Orahovac': 32, 'Prcanj': 36, 'Bijela': 549193,
+  'Rose': 40, 'Rezevici': 26, 'Dobre Vode': 30,
+  'Djenovici': 548985, 'Krasici': 548984, 'Radovici': 548966,
+  'Buljarica': 548986,
 };
 
-const NAV_LINKS = [
-  { label: 'Fleet', href: '#fleet' },
-  { label: 'Destinations', href: '#destinations' },
-  { label: 'About', href: '#features' },
-  { label: 'Help', href: '#faq' },
-];
-
-/* ─── LOCATION AUTOCOMPLETE ────────────────────────────── */
 const LOCATION_OPTIONS = LOCATIONS.map(l => ({ value: l, label: l }));
 
-const locationSelectStyles = {
-  control: (base, state) => ({
+const TIME_OPTIONS = Array.from({ length: 24 }, (_, i) => {
+  const t = `${String(i).padStart(2, '0')}:00`;
+  return t;
+});
+
+/* ── react-select custom styles ────────────────────────── */
+const selectStyles = {
+  control: (base) => ({
     ...base,
     border: 'none',
     boxShadow: 'none',
     background: 'transparent',
     minHeight: 'unset',
-    height: 'auto',
     cursor: 'pointer',
   }),
-  valueContainer: (base) => ({
-    ...base,
-    padding: '0',
-  }),
-  input: (base) => ({
-    ...base,
-    margin: '0',
-    padding: '0',
-    fontSize: '15px',
-    fontWeight: '500',
-    color: '#1a2c4a',
-  }),
-  singleValue: (base) => ({
-    ...base,
-    fontSize: '15px',
-    fontWeight: '500',
-    color: '#1a2c4a',
-    margin: '0',
-  }),
-  placeholder: (base) => ({
-    ...base,
-    fontSize: '15px',
-    color: '#9ca3af',
-    margin: '0',
-  }),
+  valueContainer: (base) => ({ ...base, padding: 0 }),
+  input: (base) => ({ ...base, margin: 0, padding: 0, fontSize: '15px', fontWeight: 500, color: '#1a2c4a' }),
+  singleValue: (base) => ({ ...base, fontSize: '15px', fontWeight: 500, color: '#1a2c4a', margin: 0 }),
+  placeholder: (base) => ({ ...base, fontSize: '15px', color: '#9ca3af', margin: 0 }),
   indicatorSeparator: () => ({ display: 'none' }),
-  dropdownIndicator: (base) => ({
-    ...base,
-    padding: '0',
-    color: '#0066FF',
-  }),
-  menu: (base) => ({
-    ...base,
-    zIndex: 9999,
-    borderRadius: '10px',
-    boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
-    marginTop: '6px',
-    overflow: 'hidden',
-  }),
-  menuPortal: (base) => ({
-    ...base,
-    zIndex: 9999,
-  }),
-  menuList: (base) => ({
-    ...base,
-    padding: '4px',
-    maxHeight: '260px',
-  }),
+  dropdownIndicator: (base) => ({ ...base, padding: 0, color: '#0066FF' }),
+  menu: (base) => ({ ...base, zIndex: 9999, borderRadius: '10px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', marginTop: 6, overflow: 'hidden' }),
+  menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+  menuList: (base) => ({ ...base, padding: '4px', maxHeight: 260 }),
   option: (base, state) => ({
     ...base,
     fontSize: '14px',
-    fontWeight: state.isSelected ? '600' : '400',
+    fontWeight: state.isSelected ? 600 : 400,
     color: state.isSelected ? '#0066FF' : '#1a2c4a',
     background: state.isSelected ? 'rgba(0,102,255,0.08)' : state.isFocused ? 'rgba(0,102,255,0.05)' : 'transparent',
     borderRadius: '6px',
@@ -169,33 +97,15 @@ const locationSelectStyles = {
   }),
 };
 
-function LocationField({ value, onChange }) {
-  const { t } = useTranslation();
-  const selected = LOCATION_OPTIONS.find(o => o.value === value) || null;
-  return (
-    <div className="booking-field location-field">
-      <label>
-        <MapPin size={12} />
-        {t('hero.pickupLocation')}
-      </label>
-      <Select
-        inputId="f-location"
-        options={LOCATION_OPTIONS}
-        value={selected}
-        onChange={opt => onChange(opt.value)}
-        styles={locationSelectStyles}
-        isSearchable={window.innerWidth >= 768}
-        placeholder={t('hero.searchLocation')}
-        menuPlacement="auto"
-        menuPortalTarget={document.body}
-        maxMenuHeight={200}
-        onMenuOpen={() => { if (window.innerWidth < 768) { document.activeElement?.blur(); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); } }}
-      />
-    </div>
-  );
+/* ── date formatter ────────────────────────────────────── */
+function fmt(d) {
+  if (!d) return '';
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-/* ─── HERO ─────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   1. HERO
+   ═══════════════════════════════════════════════════════════ */
 function Hero() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
@@ -204,14 +114,6 @@ function Hero() {
   const [endDate, setEndDate] = useState(null);
   const [pickupTime, setPickupTime] = useState('10:00');
   const [dropoffTime, setDropoffTime] = useState('10:00');
-
-  const fmt = (d) => {
-    if (!d) return '';
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${y}-${m}-${day}`;
-  };
 
   const handleDateChange = (dates) => {
     const [start, end] = dates;
@@ -232,59 +134,80 @@ function Hero() {
     router.push(`${localePath('/book')}?${params.toString()}`);
   };
 
-  return (
-    <section className="hero">
-      <div className="hero__content">
-        <div className="hero-fade-in">
-          <div className="hero__form-wrapper">
-          <h1 className="hero__headline">{t('hero.headline')}</h1>
-          <div className="hero__badges">
-            <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>
-            <span className="hero__badge"><ShieldCheck size={14} /> {t('hero.badges.fullInsurance')}</span>
-            <span className="hero__badge"><Clock size={14} /> {t('hero.badges.airportPickup')}</span>
-            <span className="hero__badge hero__badge--accent"><Star size={14} fill="currentColor" /> {t('hero.badges.trustpilot')}</span>
-          </div>
+  const selected = LOCATION_OPTIONS.find(o => o.value === pickup) || null;
 
-          <div className="booking-card">
-            <div className="booking-card__fields">
-              <LocationField value={pickup} onChange={setPickup} />
-              <div className="booking-field booking-field--dates">
-                <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
-                <DatePicker
-                  selectsRange
-                  startDate={startDate}
-                  endDate={endDate}
-                  onChange={handleDateChange}
-                  minDate={new Date()}
-                  monthsShown={window.innerWidth < 768 ? 1 : 2}
-                  dateFormat="dd MMM yyyy"
-                  placeholderText={t('hero.selectDates') || 'Select dates'}
-                  className="booking-field__input"
-                  calendarClassName="booking-calendar"
-                  popperPlacement="bottom-start"
-                  popperClassName="booking-datepicker-popper"
-                  popperModifiers={[{name:'flip',enabled:false},{name:'preventOverflow',enabled:false}]}
-                  onFocus={e => { if (window.innerWidth < 768) e.target.blur(); }}
-                  onCalendarOpen={() => { if (window.innerWidth < 768) setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); }}
-                />
-              </div>
-              <div className="booking-field booking-field--time">
-                <label htmlFor="f-pickup-time">{t('hero.pickupTime')}</label>
-                <select id="f-pickup-time" className="booking-field__input" value={pickupTime} onChange={e => setPickupTime(e.target.value)}>
-                  {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-                </select>
-              </div>
-              <div className="booking-field booking-field--time">
-                <label htmlFor="f-dropoff-time">{t('hero.dropoffTime')}</label>
-                <select id="f-dropoff-time" className="booking-field__input" value={dropoffTime} onChange={e => setDropoffTime(e.target.value)}>
-                  {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-                </select>
-              </div>
-              <button className="booking-card__search" onClick={handleSearch}>
-                {t('hero.search')}
-              </button>
+  return (
+    <section className="hero" style={{ backgroundImage: 'url(/hero-bg.webp)' }}>
+      <div className="hero__overlay" />
+      <div className="hero__inner">
+        <h1 className="hero__headline">{t('hero.headline')}</h1>
+        <p className="hero__sub">{t('hero.subheadline') || config.hero.subheadline}</p>
+
+        <div className="hero__badges">
+          <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>
+          <span className="hero__badge"><ShieldCheck size={14} /> {t('hero.badges.fullInsurance')}</span>
+          <span className="hero__badge"><Clock size={14} /> {t('hero.badges.airportPickup')}</span>
+          <span className="hero__badge hero__badge--gold"><Star size={14} fill="currentColor" /> {t('hero.badges.trustpilot')}</span>
+        </div>
+
+        <div className="booking-card">
+          <div className="booking-card__fields">
+            {/* Location */}
+            <div className="booking-field booking-field--location">
+              <label><MapPin size={12} /> {t('hero.pickupLocation')}</label>
+              <Select
+                inputId="f-location"
+                options={LOCATION_OPTIONS}
+                value={selected}
+                onChange={opt => setPickup(opt.value)}
+                styles={selectStyles}
+                isSearchable
+                placeholder={t('hero.searchLocation')}
+                menuPlacement="auto"
+                menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+                maxMenuHeight={200}
+              />
             </div>
-          </div>
+
+            {/* Dates */}
+            <div className="booking-field booking-field--dates">
+              <label><Calendar size={12} /> {t('hero.pickupDate')} &mdash; {t('hero.dropoffDate')}</label>
+              <DatePicker
+                selectsRange
+                startDate={startDate}
+                endDate={endDate}
+                onChange={handleDateChange}
+                minDate={new Date()}
+                monthsShown={typeof window !== 'undefined' && window.innerWidth < 768 ? 1 : 2}
+                dateFormat="dd MMM yyyy"
+                placeholderText={t('hero.selectDates') || 'Select dates'}
+                className="booking-field__input"
+                calendarClassName="booking-calendar"
+                popperPlacement="bottom-start"
+              />
+            </div>
+
+            {/* Pickup time */}
+            <div className="booking-field booking-field--time">
+              <label htmlFor="f-pickup-time">{t('hero.pickupTime')}</label>
+              <select id="f-pickup-time" className="booking-field__input" value={pickupTime} onChange={e => setPickupTime(e.target.value)}>
+                {TIME_OPTIONS.map(t => <option key={t} value={t}>{t}</option>)}
+              </select>
+            </div>
+
+            {/* Dropoff time */}
+            <div className="booking-field booking-field--time">
+              <label htmlFor="f-dropoff-time">{t('hero.dropoffTime')}</label>
+              <select id="f-dropoff-time" className="booking-field__input" value={dropoffTime} onChange={e => setDropoffTime(e.target.value)}>
+                {TIME_OPTIONS.map(t => <option key={t} value={t}>{t}</option>)}
+              </select>
+            </div>
+
+            {/* Search */}
+            <button className="booking-card__search" onClick={handleSearch}>
+              <Search size={18} />
+              <span>{t('hero.search')}</span>
+            </button>
           </div>
         </div>
       </div>
@@ -292,163 +215,73 @@ function Hero() {
   );
 }
 
-/* ─── TRUST STRIP ──────────────────────────────────────── */
-function TrustStrip() {
-  const { t } = useTranslation();
-  const items = [
-    { icon: <CheckCircle size={18} />, strong: t('trust.noHiddenFees'), text: t('trust.noHiddenFeesDesc') },
-    { icon: <ShieldCheck size={18} />, strong: t('trust.fullInsurance'), text: t('trust.fullInsuranceDesc') },
-    { icon: <Clock size={18} />, strong: t('trust.fastPickup'), text: t('trust.fastPickupDesc') },
-  ];
-
-  return (
-    <div className="trust-strip">
-      <div className="trust-strip__inner">
-        {items.map(item => (
-          <div key={item.strong} className="trust-item">
-            <div className="trust-item__icon">{item.icon}</div>
-            <div className="trust-item__text">
-              <strong>{item.strong}</strong>
-              <span>{item.text}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-/* ─── STATS BAR (below hero) ──────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   2. TRUST STATS BAR
+   ═══════════════════════════════════════════════════════════ */
 function StatsBar() {
   return (
     <div className="stats-bar">
       <div className="stats-bar__inner">
         <div className="stats-bar__item">
-          <Star size={16} fill="currentColor" />
-          <span><span className="stats-bar__value">4.8</span> Average Rating</span>
+          <Star size={18} fill="#f59e0b" color="#f59e0b" />
+          <div><span className="stats-bar__value">4.8</span> Average Rating</div>
         </div>
         <div className="stats-bar__item">
-          <Users size={16} />
-          <span><span className="stats-bar__value">12,000+</span> Bookings</span>
+          <Users size={18} />
+          <div><span className="stats-bar__value">12,000+</span> Bookings</div>
         </div>
         <div className="stats-bar__item">
-          <ShieldCheck size={16} />
-          <span>Trusted Since <span className="stats-bar__value">2019</span></span>
+          <ShieldCheck size={18} />
+          <div>Trusted Since <span className="stats-bar__value">2019</span></div>
         </div>
         <div className="stats-bar__item">
-          <CheckCircle size={16} />
-          <span><span className="stats-bar__value">28+</span> Locations</span>
+          <MapPin size={18} />
+          <div><span className="stats-bar__value">28+</span> Pickup Locations</div>
         </div>
       </div>
     </div>
   );
 }
 
-/* ─── BEACH GUIDE (BUDVA UNIQUE) ──────────────────────── */
-function BeachGuide() {
-  return (
-    <section className="section" id="beaches">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">Beach Guide</span>
-          <h2 className="section-title">Beaches Worth the Drive</h2>
-          <p className="section-subtitle">The Budva Riviera has 21 km of coastline. Here are the four beaches our customers visit most.</p>
-        </div>
-        <div className="beach-grid">
-          {[
-            { title: 'Jaz Beach', desc: 'Open sand bay 3 km north of town. Free parking in the upper lot, paid near the water. Summer music festival venue.', distance: '3 km', time: '5 min drive', image: '/img/jaz-beach.webp' },
-            { title: 'Mogren Beach', desc: 'Twin coves connected by a tunnel carved through the cliff. Walking distance from the Old Town walls. Loungers and bar May\u2013Sept.', distance: '0.5 km', time: 'Walk', image: '/img/budva-beach.webp' },
-            { title: 'Be\u010Di\u0107i Beach', desc: 'Long family-friendly sand strip with lifeguards in season. Gentle shallow entry, ideal for children. Ample paid parking.', distance: '2 km', time: '5 min', image: '/img/becici-beach.webp' },
-            { title: 'Sveti Stefan', desc: 'The iconic fortified island village. Public beach on the mainland side. Best photographed from the viewpoint above the road.', distance: '6 km', time: '10 min', image: '/img/sveti-stefan.webp' },
-          ].map((beach) => (
-            <div key={beach.title} className="beach-card reveal-item">
-              {beach.image && <img src={beach.image} alt={beach.title} className="beach-card__image" loading="lazy" />}
-              <div className="beach-card__body">
-                <h3 className="beach-card__title">{beach.title}</h3>
-                <p className="beach-card__desc">{beach.desc}</p>
-                <div className="beach-card__meta">
-                  <span><MapPin size={14} /> {beach.distance}</span>
-                  <span><Clock size={14} /> {beach.time}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── BRAND LOGOS ──────────────────────────────────────── */
-const CAR_BRANDS = [
-  { name: 'Toyota',     logo: '/img/logo-toyota.png' },
-  { name: 'Fiat',       logo: '/img/logo-fiat.png' },
-  { name: 'Volkswagen', logo: '/img/logo-volkswagen.png' },
-  { name: 'Peugeot',    logo: '/img/logo-peugeot.png' },
-  { name: 'Renault',    logo: '/img/logo-renault.png' },
-  { name: 'Hyundai',    logo: '/img/logo-hyundai.png' },
-  { name: 'Citroën',    logo: '/img/logo-citroen.png' },
-  { name: 'Suzuki',     logo: '/img/logo-suzuki.png' },
-  { name: 'Ford',       logo: '/img/logo-ford.png' },
-  { name: 'Dacia',      logo: '/img/logo-dacia.png' },
-];
-
-function BrandLogos() {
+/* ═══════════════════════════════════════════════════════════
+   3. FEATURES
+   ═══════════════════════════════════════════════════════════ */
+function Features() {
   const { t } = useTranslation();
   return (
-    <section className="brands-section">
+    <section className="features" id="features">
       <div className="container">
-        <p className="brands-label">{t("brands.label")}</p>
-        <div className="brands-row">
-          {CAR_BRANDS.map((brand) => (
-            <img key={brand.name} className="brand-logo" src={brand.logo} alt={brand.name} loading="lazy" />
-          ))}
+        <div className="section-header section-header--light">
+          <span className="section-label section-label--light">{t('features.label')}</span>
+          <h2 className="section-title section-title--light">{t('features.title')}</h2>
+          <p className="section-subtitle section-subtitle--light">{t('features.subtitle')}</p>
         </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── DESTINATIONS ──────────────────────────────────────── */
-function Destinations() {
-  const { t, localePath } = useTranslation();
-  return (
-    <section className="section section--gray" id="destinations">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t("destinations.label")}</span>
-          <h2 className="section-title">{t('destinations.title')}</h2>
-          <p className="section-subtitle">{t('destinations.subtitle')}</p>
-        </div>
-        <div className="destinations-grid">
-          {config.destinations.map((dest, i) => (
-            <a
-              key={dest.slug}
-              href={localePath(`/${dest.slug}`)}
-              className="dest-card reveal-item"
-            >
-              <div className="dest-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
-              <div className="dest-card__overlay">
-                {dest.tag && <span className="dest-card__tag">{t(`destCards.${dest.slug}.tag`) || dest.tag}</span>}
-                <h3 className="dest-card__name">{t(`destCards.${dest.slug}.name`) || dest.name}</h3>
-                <p className="dest-card__desc">{t(`destCards.${dest.slug}.desc`) || dest.desc}</p>
+        <div className="features__grid">
+          {config.features.map((f, i) => {
+            const Icon = FEATURE_ICONS[f.icon] || ShieldCheck;
+            return (
+              <div key={i} className="feature-card">
+                <div className="feature-card__icon"><Icon size={22} /></div>
+                <h3 className="feature-card__title">{f.title}</h3>
+                <p className="feature-card__desc">{f.description}</p>
               </div>
-            </a>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
   );
 }
 
-/* ─── FLEET ─────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   4. FLEET (widget iframe)
+   ═══════════════════════════════════════════════════════════ */
 function Fleet() {
   const { t, localePath } = useTranslation();
   const [iframeHeight, setIframeHeight] = useState(800);
   const [iframeSrc, setIframeSrc] = useState(null);
-  const fleetRef = useRef(null);
+  const ref = useRef(null);
 
-  // Defer iframe load until section is visible + page is idle
   useEffect(() => {
     function onMessage(e) {
       if (e.data && e.data.type === 'iframeHeight') setIframeHeight(Math.min(e.data.height, 1400));
@@ -467,131 +300,88 @@ function Fleet() {
       }
     }, { rootMargin: '200px' });
 
-    if (fleetRef.current) obs.observe(fleetRef.current);
+    if (ref.current) obs.observe(ref.current);
     return () => { obs.disconnect(); window.removeEventListener('message', onMessage); };
   }, []);
 
   return (
-    <section className="section" id="fleet" ref={fleetRef}>
+    <section className="fleet" id="fleet" ref={ref}>
       <div className="container">
         <div className="section-header">
           <span className="section-label">{t('fleet.label')}</span>
           <h2 className="section-title">{t('fleet.title')}</h2>
           <p className="section-subtitle">{t('fleet.subtitle')}</p>
         </div>
-
-        <a href={localePath('/book')} className="fleet-widget-wrap">
-          {iframeSrc && <iframe
-            src={iframeSrc}
-            title="Browse fleet"
-            frameBorder="0"
-            scrolling="no"
-            style={{ width: '100%', height: iframeHeight, border: 'none', display: 'block', pointerEvents: 'none', marginTop: '80px' }}
-          />}
-          <div className="fleet-widget-fade" />
-          <div className="fleet-widget-overlay" />
+        <a href={localePath('/book')} className="fleet__widget-link">
+          {iframeSrc && (
+            <iframe
+              src={iframeSrc}
+              title="Browse fleet"
+              frameBorder="0"
+              scrolling="no"
+              style={{ width: '100%', height: iframeHeight, border: 'none', display: 'block', pointerEvents: 'none' }}
+            />
+          )}
+          <div className="fleet__fade" />
+          <div className="fleet__overlay" />
         </a>
       </div>
     </section>
   );
 }
 
-/* ─── FEATURES ─────────────────────────────────────────── */
-function Features() {
-  const { t } = useTranslation();
+/* ═══════════════════════════════════════════════════════════
+   5. DESTINATIONS
+   ═══════════════════════════════════════════════════════════ */
+function Destinations() {
+  const { t, localePath } = useTranslation();
   return (
-    <section className="section" id="features">
+    <section className="destinations" id="destinations">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">{t("features.label")}</span>
-          <h2 className="section-title">{t("features.title")}</h2>
-          <p className="section-subtitle">{t("features.subtitle")}</p>
+          <span className="section-label">{t('destinations.label')}</span>
+          <h2 className="section-title">{t('destinations.title')}</h2>
+          <p className="section-subtitle">{t('destinations.subtitle')}</p>
         </div>
-
-        <div className="features-grid">
-          {[
-            { icon: 'map-pin', key: 'airportPickup' },
-            { icon: 'shield-check', key: 'fullInsurance' },
-            { icon: 'clock', key: 'support' },
-            { icon: 'ban', key: 'noHiddenFees' },
-            { icon: 'refresh-cw', key: 'freeCancellation' },
-            { icon: 'globe', key: 'crossBorder' },
-          ].map((f, i) => {
-            const Icon = FEATURE_ICONS[f.icon] || ShieldCheck;
-            return (
-              <div key={f.key} className="feature-card reveal-item">
-                <div className="feature-card__icon">
-                  <Icon size={20} />
-                </div>
-                <h3 className="feature-card__title">{t(`featureCards.${f.key}.title`)}</h3>
-                <p className="feature-card__desc">{t(`featureCards.${f.key}.desc`)}</p>
+        <div className="destinations__grid">
+          {config.destinations.map((dest) => (
+            <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="dest-card">
+              <div className="dest-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
+              <div className="dest-card__content">
+                {dest.tag && <span className="dest-card__tag">{dest.tag}</span>}
+                <h3 className="dest-card__name">{dest.name}</h3>
+                <p className="dest-card__desc">{dest.desc}</p>
               </div>
-            );
-          })}
+            </a>
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-/* ─── TRUSTPILOT BANNER ────────────────────────────────── */
-function TrustpilotBanner() {
-  const ref = useRef(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (window.Trustpilot && ref.current) {
-      window.Trustpilot.loadFromElement(ref.current, true);
-    }
-    // Check if the widget rendered visible content
-    const timer = setTimeout(() => {
-      const iframe = ref.current?.querySelector('iframe');
-      if (iframe && iframe.offsetHeight > 10) setVisible(true);
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <div className="trustpilot-banner" style={{ display: visible ? 'block' : 'none' }}>
-      <div className="container">
-        <div
-          ref={ref}
-          className="trustpilot-widget"
-          data-locale="en-US"
-          data-template-id="56278e9abfbbba0bdcd568bc"
-          data-businessunit-id="69cfbd3879267ca5424dbeb8"
-          data-style-height="52px"
-          data-style-width="100%"
-          data-token="048c09ab-d890-4af6-91a4-0c5532f846df"
-        >
-          <a href="https://www.trustpilot.com/review/carrentalbudva.com" target="_blank" rel="noopener">Trustpilot</a>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ─── REVIEWS ──────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   6. REVIEWS
+   ═══════════════════════════════════════════════════════════ */
 function Reviews() {
   const { t } = useTranslation();
   return (
-    <section className="section section--gray" id="reviews">
+    <section className="reviews" id="reviews">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">{t("reviews.label")}</span>
-          <h2 className="section-title">{t("reviews.title")}</h2>
-          <p className="section-subtitle">{t("reviews.subtitle")}</p>
+          <span className="section-label">{t('reviews.label')}</span>
+          <h2 className="section-title">{t('reviews.title')}</h2>
+          <p className="section-subtitle">{t('reviews.subtitle')}</p>
         </div>
-
-        <div className="reviews-grid">
+        <div className="reviews__grid">
           {config.testimonials.map((rev, i) => (
-            <div key={rev.name} className="review-card reveal-item">
+            <div key={rev.name} className="review-card">
               <div className="review-card__stars">
                 {Array.from({ length: rev.rating }).map((_, j) => (
-                  <Star key={j} size={14} fill="currentColor" />
+                  <Star key={j} size={14} fill="#f59e0b" color="#f59e0b" />
                 ))}
               </div>
-              <p className="review-card__text">{t(`testimonials.${i}.text`)}</p>
+              <p className="review-card__text">{t(`testimonials.${i}.text`) || rev.text}</p>
               <div className="review-card__author">
                 <div className="review-card__avatar">
                   {rev.avatar ? <img src={rev.avatar} alt={rev.name} /> : rev.name.charAt(0)}
@@ -609,103 +399,45 @@ function Reviews() {
   );
 }
 
-/* ─── LOCATIONS ────────────────────────────────────────── */
-function Locations() {
-  return (
-    <section className="section" id="locations">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">Pickup Points</span>
-          <h2 className="section-title">Where Can You Collect?</h2>
-          <p className="section-subtitle">Multiple locations across Montenegro for maximum convenience.</p>
-        </div>
-
-        <div className="locations-grid">
-          {config.locations.map((loc, i) => (
-            <div key={loc.name} className="location-card reveal-item">
-              <div className="location-card__icon">
-                <MapPin size={18} />
-              </div>
-              <div className="location-card__info">
-                <div className="location-card__name">{loc.name}</div>
-                {loc.tag ? <span className="location-card__tag">{loc.tag}</span> : null}
-              </div>
-              <ChevronRight size={16} className="location-card__arrow" />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── FAQ ──────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   7. FAQ
+   ═══════════════════════════════════════════════════════════ */
 function FAQ() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(null);
+  const half = Math.ceil(config.faq.length / 2);
+  const col1 = config.faq.slice(0, half);
+  const col2 = config.faq.slice(half);
 
-  return (
-    <section className="section section--gray" id="faq">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t("faq.label")}</span>
-          <h2 className="section-title">{t("faq.title")}</h2>
-          <p className="section-subtitle">{t("faq.subtitle")}</p>
-        </div>
-
-        <div className="faq-list">
-          {[0, 4].map(start => (
-            <div key={start} className="faq-column">
-              {Array.from({ length: 4 }, (_, i) => i).map(offset => {
-                const i = start + offset;
-                const isOpen = open === i;
-                return (
-                  <div key={i} className={`faq-item${isOpen ? ' faq-item--open' : ''}`}>
-                    <button
-                      className="faq-question"
-                      onClick={() => setOpen(isOpen ? null : i)}
-                      aria-expanded={isOpen}
-                    >
-                      <span>{t(`faqItems.${i}.q`)}</span>
-                      <ChevronDown
-                        size={18}
-                        className={`faq-chevron${isOpen ? ' faq-chevron--open' : ''}`}
-                      />
-                    </button>
-                    <div className={`faq-answer-wrap${isOpen ? ' open' : ''}`}>
-                      <div>
-                        <p className="faq-answer">{t(`faqItems.${i}.a`)}</p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          ))}
+  const renderItem = (item, i) => {
+    const isOpen = open === i;
+    return (
+      <div key={i} className={`faq-item${isOpen ? ' faq-item--open' : ''}`}>
+        <button className="faq-item__q" onClick={() => setOpen(isOpen ? null : i)} aria-expanded={isOpen}>
+          <span>{t(`faqItems.${i}.q`) || item.q}</span>
+          <ChevronDown size={18} className={`faq-item__chevron${isOpen ? ' faq-item__chevron--open' : ''}`} />
+        </button>
+        <div className={`faq-item__a-wrap${isOpen ? ' faq-item__a-wrap--open' : ''}`}>
+          <p className="faq-item__a">{t(`faqItems.${i}.a`) || item.a}</p>
         </div>
       </div>
-    </section>
-  );
-}
+    );
+  };
 
-/* ─── CTA BANNER ───────────────────────────────────────── */
-function CTABanner() {
-  const { t, localePath } = useTranslation();
   return (
-    <section className="cta-banner">
-      <div className="cta-banner__inner">
-        <div className="reveal-up">
-          <h2 className="cta-banner__title">{t("cta.title")}</h2>
-          <p className="cta-banner__subtitle">
-            {t('cta.subtitle')}
-          </p>
-          <div className="cta-banner__actions">
-            <a href={localePath("/book")} className="cta-btn--primary" style={{ textDecoration: 'none' }}>
-              {t('cta.browseFleet')} <ArrowRight size={16} />
-            </a>
-            <a href="mailto:info@carrentalbudva.com" className="cta-btn--outline">
-              <Mail size={15} /> info@carrentalbudva.com
-            </a>
+    <section className="faq" id="faq">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('faq.label')}</span>
+          <h2 className="section-title">{t('faq.title')}</h2>
+          <p className="section-subtitle">{t('faq.subtitle')}</p>
+        </div>
+        <div className="faq__columns">
+          <div className="faq__col">
+            {col1.map((item, i) => renderItem(item, i))}
+          </div>
+          <div className="faq__col">
+            {col2.map((item, i) => renderItem(item, i + half))}
           </div>
         </div>
       </div>
@@ -713,117 +445,47 @@ function CTABanner() {
   );
 }
 
-/* ─── STICKY MOBILE CTA ───────────────────────────────── */
-function StickyMobileCTA() {
+/* ═══════════════════════════════════════════════════════════
+   8. CTA BANNER
+   ═══════════════════════════════════════════════════════════ */
+function CTABanner() {
   const { t, localePath } = useTranslation();
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    function onScroll() {
-      setVisible(window.scrollY > 600);
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   return (
-    <div className={`sticky-cta${visible ? ' sticky-cta--visible' : ''}`}>
-      <a href={localePath("/book")} className="sticky-cta__btn">
-        {t('common.bookNow')} <ArrowRight size={16} />
-      </a>
-      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
-        <MessageCircle size={18} />
-      </a>
-    </div>
+    <section className="cta">
+      <div className="cta__inner">
+        <h2 className="cta__title">{t('cta.title')}</h2>
+        <p className="cta__subtitle">{t('cta.subtitle')}</p>
+        <div className="cta__actions">
+          <a href={localePath('/book')} className="cta__btn cta__btn--primary">
+            {t('cta.browseFleet')} <ArrowRight size={16} />
+          </a>
+          <a href={`mailto:${config.email}`} className="cta__btn cta__btn--outline">
+            <Mail size={15} /> {config.email}
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }
 
-/* ─── SCROLL TO TOP ────────────────────────────────────── */
-function WhatsAppFab() {
-  return (
-    <a
-      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva.`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="whatsapp-fab"
-      aria-label="Chat on WhatsApp"
-    >
-      <MessageCircle size={22} />
-    </a>
-  );
-}
-
-function ScrollToTop() {
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    function onScroll() { setShow(window.scrollY > 400); }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
-  if (!show) return null;
-
-  return (
-    <button
-      className="scroll-top"
-      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      aria-label="Scroll to top"
-    >
-      <ChevronRight size={20} style={{ transform: 'rotate(-90deg)' }} />
-    </button>
-  );
-}
-
-/* ─── APP ──────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   APP
+   ═══════════════════════════════════════════════════════════ */
 export default function App() {
-  useGlobalReveal();
-  const { t } = useTranslation();
-
-  // Lock hero height on mount to prevent iOS address bar scroll jump
-  useEffect(() => {
-    if (window.innerWidth <= 768) {
-      document.documentElement.style.setProperty('--hero-h', window.innerHeight + 'px');
-    }
-  }, []);
   return (
     <>
       <Nav />
       <main>
-        <div className="hero-wrapper">
-          <div className="hero-wrapper__bg">
-            {typeof navigator !== 'undefined' && (!navigator.connection || navigator.connection.effectiveType === '4g') && (
-              <video className="hero__video" autoPlay muted loop playsInline preload="auto"
-                onPlaying={e => e.target.classList.add('playing')}
-                ref={el => {
-                  if (!el) return;
-                  el.play().catch(() => {});
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 2000);
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 5000);
-                }}
-              >
-                <source src="/hero-video.mp4" type="video/mp4" />
-              </video>
-            )}
-          </div>
-          <Hero />
-          <TrustStrip />
-          <StatsBar />
-        </div>
-        <Destinations />
-        <Fleet />
-        <Reviews />
-        <TrustpilotBanner />
-        <BrandLogos />
-        <BeachGuide />
+        <Hero />
+        <StatsBar />
         <Features />
+        <Fleet />
+        <Destinations />
+        <Reviews />
         <FAQ />
         <CTABanner />
       </main>
       <Footer />
-      <WhatsAppFab />
-      <ScrollToTop />
-      <StickyMobileCTA />
     </>
   );
 }
