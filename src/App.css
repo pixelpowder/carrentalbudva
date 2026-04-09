@@ -1,15 +1,3 @@
-/* ─── VROOMVROOMVROOM DESIGN OVERRIDE ─────────────────── */
-/* Override root variables for navy/orange/blue palette */
-:root {
-  --blue: #0066cc;
-  --blue-dark: #004d99;
-  --blue-light: #e6f0ff;
-  --navy: #1e2a4a;
-  --navy-80: rgba(30, 42, 74, 0.8);
-  --orange: #ff6600;
-  --orange-dark: #e55c00;
-}
-
 /* ─── COOKIE BANNER ───────────────────────────────────── */
 .cookie-banner {
   position: fixed;
@@ -294,7 +282,7 @@
   overflow: hidden;
 }
 
-/* ─── NAV — Dark navy ─────────────────────────────────── */
+/* ─── NAV — Solid navy ───────────────────────────────── */
 .nav {
   position: fixed;
   top: 0;
@@ -338,7 +326,7 @@
 .nav__logo-icon {
   width: 34px;
   height: 34px;
-  background: var(--orange);
+  background: var(--accent);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -406,7 +394,7 @@
   left: 12px;
   right: 12px;
   height: 2px;
-  background: var(--orange);
+  background: var(--blue);
   border-radius: 1px;
   transform: scaleX(0);
   transition: transform 0.2s ease;
@@ -433,7 +421,7 @@
 }
 
 .nav__cta {
-  background: var(--orange);
+  background: var(--blue);
   color: var(--white);
   font-size: 14px;
   font-weight: 600;
@@ -447,7 +435,7 @@
 }
 
 .nav__cta:hover {
-  background: var(--orange-dark);
+  background: var(--blue-dark);
   transform: translateY(-1px);
 }
 
@@ -551,7 +539,7 @@
 
 .mobile-drawer__cta {
   margin: 16px 20px 32px;
-  background: var(--orange);
+  background: var(--blue);
   color: var(--white);
   font-size: 15px;
   font-weight: 700;
@@ -563,7 +551,7 @@
 }
 
 .mobile-drawer__cta:hover {
-  background: var(--orange-dark);
+  background: var(--blue-dark);
 }
 
 .nav__lang {
@@ -657,7 +645,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.40);
+  background: rgba(26, 44, 74, 0.70);
   z-index: 2;
 }
 
@@ -724,7 +712,7 @@
 }
 
 .hero__headline {
-  font-size: clamp(26px, 3.8vw, 44px);
+  font-size: clamp(28px, 3.8vw, 48px);
   font-weight: 800;
   color: var(--white);
   line-height: 1.1;
@@ -750,10 +738,10 @@
   font-size: 12px;
   font-weight: 600;
   color: rgba(255,255,255,0.9);
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.12);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.2);
   border-radius: 20px;
   padding: 6px 14px;
   white-space: nowrap;
@@ -794,7 +782,7 @@
   border-bottom-color: var(--blue) !important;
 }
 .featuring-cool-cars__badge {
-  background-color: rgba(0, 102, 204, 0.12) !important;
+  background-color: rgba(0, 102, 255, 0.12) !important;
   color: var(--blue) !important;
 }
 .btn-primary,
@@ -802,15 +790,15 @@
 .search-cigarette__submit,
 [class*="button--primary"],
 [class*="btn--primary"] {
-  background-color: var(--orange) !important;
-  border-color: var(--orange) !important;
+  background-color: var(--blue) !important;
+  border-color: var(--blue) !important;
 }
 [class*="button--primary"]:hover,
 [class*="btn--primary"]:hover,
 .search-form__submit:hover,
 .search-cigarette__submit:hover {
-  background-color: var(--orange-dark) !important;
-  border-color: var(--orange-dark) !important;
+  background-color: var(--blue-dark) !important;
+  border-color: var(--blue-dark) !important;
 }
 
 /* ─── HERO FORM WRAPPER — centered floating card ──────── */
@@ -862,12 +850,12 @@
 /* ─── BOOKING CARD — white floating card ──────────────── */
 .booking-card {
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 24px 28px;
   max-width: 100%;
   width: 100%;
   border: none;
-  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.22), 0 4px 20px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1009,13 +997,13 @@ select.booking-field__input {
 }
 
 .booking-card__search {
-  background: var(--orange);
+  background: var(--blue);
   color: var(--white);
   border: none;
   border-radius: 10px;
   padding: 0 32px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: inherit;
   cursor: pointer;
   display: flex;
@@ -1028,12 +1016,12 @@ select.booking-field__input {
 }
 
 .booking-card__search:hover {
-  background: var(--orange-dark);
+  background: var(--blue-dark);
 }
 
 /* ─── TRUST STRIP — semi-transparent dark bar ─────────── */
 .trust-strip {
-  background: rgba(30, 42, 74, 0.92);
+  background: rgba(26, 44, 74, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   padding: 32px 0;
@@ -1077,7 +1065,7 @@ select.booking-field__input {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--orange);
+  color: var(--accent);
   flex-shrink: 0;
 }
 
@@ -1124,7 +1112,7 @@ select.booking-field__input {
 }
 
 .stats-bar__item svg {
-  color: var(--orange);
+  color: var(--accent);
 }
 
 .stats-bar__value {
@@ -1139,7 +1127,7 @@ select.booking-field__input {
 }
 
 .section--gray {
-  background: #f5f7fa;
+  background: var(--gray-50);
 }
 
 .container {
@@ -1186,7 +1174,7 @@ select.booking-field__input {
 /* ─── STAT COUNTERS ────────────────────────────────────── */
 .stats-section {
   padding: 48px 0;
-  background: #f5f7fa;
+  background: var(--gray-50);
 }
 
 .stats-grid {
@@ -1372,7 +1360,7 @@ select.booking-field__input {
 .faq-item {
   background: #fff !important;
   border: 1px solid var(--gray-200) !important;
-  box-shadow: 0 2px 8px rgba(30, 42, 74, 0.06) !important;
+  box-shadow: 0 2px 8px rgba(26, 44, 74, 0.06) !important;
 }
 
 .step-card {
@@ -1419,7 +1407,7 @@ select.booking-field__input {
   display: block;
   text-decoration: none;
   border: 1px solid rgba(255,255,255,0.8);
-  box-shadow: 0 4px 24px rgba(30, 42, 74, 0.06), inset 0 1px 0 rgba(255,255,255,0.9);
+  box-shadow: 0 4px 24px rgba(26, 44, 74, 0.06), inset 0 1px 0 rgba(255,255,255,0.9);
 }
 
 .dest-card__img {
@@ -1437,7 +1425,7 @@ select.booking-field__input {
 .dest-card__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(30, 42, 74, 0.75) 0%, rgba(30, 42, 74, 0.05) 55%);
+  background: linear-gradient(to top, rgba(26, 44, 74, 0.75) 0%, rgba(26, 44, 74, 0.05) 55%);
   padding: 18px;
   display: flex;
   flex-direction: column;
@@ -1590,7 +1578,7 @@ select.booking-field__input {
 }
 
 .car-card__badge--popular {
-  background: var(--orange);
+  background: var(--accent);
   color: var(--white);
 }
 
@@ -1675,7 +1663,7 @@ select.booking-field__input {
 }
 
 .car-card__book {
-  background: var(--orange);
+  background: var(--blue);
   color: var(--white);
   border: none;
   border-radius: var(--radius-sm);
@@ -1691,7 +1679,7 @@ select.booking-field__input {
 }
 
 .car-card__book:hover {
-  background: var(--orange-dark);
+  background: var(--blue-dark);
 }
 
 /* ─── FEATURES — dark navy background ─────────────────── */
@@ -1721,7 +1709,7 @@ select.booking-field__input {
 }
 
 .feature-card {
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
   border-radius: var(--radius-lg);
   padding: 36px 28px;
@@ -1743,7 +1731,7 @@ select.booking-field__input {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--orange);
+  color: var(--blue);
   margin-bottom: 16px;
 }
 
@@ -1762,7 +1750,7 @@ select.booking-field__input {
 
 /* ─── FLEET section — light gray bg ───────────────────── */
 #fleet {
-  background: #f5f7fa;
+  background: var(--gray-50);
 }
 
 /* ─── REVIEWS ──────────────────────────────────────────── */
@@ -1856,7 +1844,7 @@ select.booking-field__input {
 
 .location-card:hover {
   border-color: var(--blue);
-  box-shadow: 0 0 0 3px rgba(0,102,204,0.08);
+  box-shadow: 0 0 0 3px rgba(0,102,255,0.08);
 }
 
 .location-card__icon {
@@ -1916,7 +1904,7 @@ select.booking-field__input {
 }
 
 .faq-item--open {
-  border-color: var(--blue) !important;
+  border-left: 3px solid var(--blue) !important;
 }
 
 .faq-question {
@@ -1995,7 +1983,7 @@ select.booking-field__input {
 }
 
 .cta-btn--primary {
-  background: var(--orange);
+  background: var(--blue);
   color: var(--white);
   border: none;
   border-radius: var(--radius-pill);
@@ -2011,7 +1999,7 @@ select.booking-field__input {
 }
 
 .cta-btn--primary:hover {
-  background: var(--orange-dark);
+  background: var(--blue-dark);
   transform: translateY(-1px);
 }
 
@@ -2128,7 +2116,7 @@ select.booking-field__input {
 .footer__brand-icon {
   width: 30px;
   height: 30px;
-  background: var(--orange);
+  background: var(--accent);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -2169,7 +2157,7 @@ select.booking-field__input {
 }
 
 .footer__contact-item svg {
-  color: var(--orange);
+  color: var(--accent);
   flex-shrink: 0;
 }
 
@@ -2202,7 +2190,7 @@ select.booking-field__input {
 }
 
 .footer__link:hover {
-  color: var(--white);
+  color: var(--blue);
 }
 
 .footer__bottom {
@@ -2329,7 +2317,7 @@ select.booking-field__input {
     align-items: center;
     justify-content: center;
     gap: 6px;
-    background: var(--orange);
+    background: var(--blue);
     color: #fff;
     font-size: 15px;
     font-weight: 700;
@@ -2680,7 +2668,7 @@ select.booking-field__input {
 
 .beach-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(30, 42, 74, 0.12);
+  box-shadow: 0 16px 40px rgba(26, 44, 74, 0.12);
 }
 
 .beach-card__title {

@@ -119,13 +119,13 @@ const locationSelectStyles = {
     padding: '0',
     fontSize: '15px',
     fontWeight: '500',
-    color: '#1e2a4a',
+    color: '#1a2c4a',
   }),
   singleValue: (base) => ({
     ...base,
     fontSize: '15px',
     fontWeight: '500',
-    color: '#1e2a4a',
+    color: '#1a2c4a',
     margin: '0',
   }),
   placeholder: (base) => ({
@@ -138,7 +138,7 @@ const locationSelectStyles = {
   dropdownIndicator: (base) => ({
     ...base,
     padding: '0',
-    color: '#0066cc',
+    color: '#0066FF',
   }),
   menu: (base) => ({
     ...base,
@@ -161,8 +161,8 @@ const locationSelectStyles = {
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? '#0066cc' : '#1e2a4a',
-    background: state.isSelected ? 'rgba(0,102,204,0.08)' : state.isFocused ? 'rgba(0,102,204,0.05)' : 'transparent',
+    color: state.isSelected ? '#0066FF' : '#1a2c4a',
+    background: state.isSelected ? 'rgba(0,102,255,0.08)' : state.isFocused ? 'rgba(0,102,255,0.05)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',

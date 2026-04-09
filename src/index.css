@@ -10,12 +10,14 @@
 
 :root {
   color-scheme: light only;
-  --blue: #ff6600;
-  --blue-dark: #e55a00;
-  --blue-light: #fff3e6;
-  --navy: #1e2a4a;
-  --navy-80: rgba(30, 42, 74, 0.8);
-  --gray-50: #f8f9fa;
+  --blue: #0066FF;
+  --blue-dark: #0052CC;
+  --blue-light: #E6F0FF;
+  --navy: #1a2c4a;
+  --navy-80: rgba(26, 44, 74, 0.8);
+  --accent: #FF6B35;
+  --accent-dark: #e55a00;
+  --gray-50: #F0F4F8;
   --gray-100: #f1f3f5;
   --gray-200: #e9ecef;
   --gray-300: #dee2e6;
