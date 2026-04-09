@@ -258,6 +258,7 @@ export default function App() {
         <Nav />
         <BookingForm />
         <div className="hero-wrap__bottom">
+          <div className="hero-wrap__bottom-inner">
           <h1 className="hero__tagline">
             The easiest way to search, compare<br/>and book a rental car in Montenegro
           </h1>
@@ -277,6 +278,7 @@ export default function App() {
               <span className="hero__stat-num">2019</span>
               <span className="hero__stat-sub">Trusted since</span>
             </div>
+          </div>
           </div>
         </div>
       </div>
