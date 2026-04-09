@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
   color-scheme: light only;
@@ -16,7 +10,6 @@
   --navy: #1a2c4a;
   --navy-80: rgba(26, 44, 74, 0.8);
   --accent: #FF6B35;
-  --accent-dark: #e55a00;
   --gray-50: #F0F4F8;
   --gray-100: #f1f3f5;
   --gray-200: #e9ecef;
@@ -27,59 +20,22 @@
   --gray-700: #495057;
   --gray-800: #343a40;
   --white: #ffffff;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
-  --shadow-lg: 0 12px 32px rgba(0,0,0,0.10), 0 4px 12px rgba(0,0,0,0.06);
-  --shadow-xl: 0 24px 48px rgba(0,0,0,0.12), 0 8px 20px rgba(0,0,0,0.06);
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
-  --radius-pill: 9999px;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--gray-800);
-  background: var(--white);
+  font-size: 16px; line-height: 1.6; color: #1a2c4a; background: #fff;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
+img { display: block; max-width: 100%; }
+button { font-family: inherit; cursor: pointer; border: none; outline: none; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
 
-button {
-  font-family: inherit;
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* Force light mode even when browser prefers dark */
 @media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light only;
-  }
-  body {
-    background-color: #ffffff !important;
-    color: #343a40 !important;
-  }
-}
-
-ul {
-  list-style: none;
+  :root { color-scheme: light only; }
+  body { background-color: #fff !important; color: #1a2c4a !important; }
 }
