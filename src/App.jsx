@@ -112,37 +112,6 @@ function BookingForm() {
   );
 }
 
-/* ═══ HERO — scenic image, tagline bottom-left, stats card ═══ */
-function Hero() {
-  return (
-    <section className="hero">
-      <img src="/hero-bg.webp" alt="Montenegro coastal road" className="hero__img" />
-      <div className="hero__content">
-        <h1 className="hero__tagline">
-          The easiest way to search, compare<br />and book a rental car in Montenegro
-        </h1>
-        <div className="hero__stats-card">
-          <div className="hero__stat">
-            <span className="hero__stat-num">4.8</span>
-            <span className="hero__stat-stars">★★★★★</span>
-            <span className="hero__stat-sub">From 12,000+ reviews</span>
-          </div>
-          <div className="hero__stat-sep" />
-          <div className="hero__stat">
-            <span className="hero__stat-num">85,000+</span>
-            <span className="hero__stat-sub">Bookings & counting</span>
-          </div>
-          <div className="hero__stat-sep" />
-          <div className="hero__stat">
-            <span className="hero__stat-num">2019</span>
-            <span className="hero__stat-sub">Trusted since</span>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ═══ BRANDS ═══ */
 function Brands() {
   const logos = ['logo-toyota','logo-volkswagen','logo-renault','logo-peugeot','logo-fiat',
@@ -157,23 +126,21 @@ function Brands() {
   );
 }
 
-/* ═══ INFO GRID — dark navy section, image left + 6 cards right ═══ */
+/* ═══ INFO GRID — light bg, 4-col card grid like VroomVroomVroom ═══ */
 function InfoGrid() {
   const items = [
-    {icon:<Car size={24}/>,title:'A full range of vehicles',desc:'Compare vehicles from Montenegro\'s leading rental providers.',link:'View fleet',href:'#fleet'},
-    {icon:<Shield size={24}/>,title:'Full insurance included',desc:'CDW and theft protection come standard. Zero excess upgrade available.',link:'Learn more',href:'#features'},
-    {icon:<Map size={24}/>,title:'Road trips',desc:'Coastal Route, Bay of Kotor, Durmitor — the best driving in the Balkans.',link:'View routes',href:'#destinations'},
-    {icon:<Truck size={24}/>,title:'Cross-border ready',desc:'Drive to Croatia, Albania, Serbia. Green Card handled at booking.',link:'Read more',href:'#faq'},
-    {icon:<ShieldCheck size={24}/>,title:'No hidden fees',desc:'All taxes and standard fees included. The price you see is what you pay.',link:'View pricing',href:'#faq'},
-    {icon:<Headphones size={24}/>,title:'24/7 support',desc:'Questions before, during, or after your trip? We\'re always here.',link:'Contact us',href:'/contact'},
+    {icon:<Car size={24}/>,title:'A full range of vehicles',desc:'Compare a huge range of vehicles from Montenegro\'s leading car rental providers.',link:'View fleet',href:'#fleet'},
+    {icon:<Map size={24}/>,title:'Airport rentals',desc:'Collecting your rental car from the airport is easy — your agent meets you at arrivals.',link:'Read more',href:'#destinations'},
+    {icon:<Shield size={24}/>,title:'Insurance & extras',desc:'All you need to know about coverage, zero excess, and add-ons for your rental car.',link:'Learn more',href:'#features'},
+    {icon:<Headphones size={24}/>,title:'24/7 support',desc:'If you have questions before, during, or after your trip — we\'re here to help.',link:'Contact us',href:'/contact'},
   ];
   return (
     <section className="info" id="features">
       <div className="info__inner">
-        <div className="info__left">
-          <img src={config.hero.image} alt="" className="info__img" />
-          <p className="info__caption">We provide competitive rates from Montenegro's top rental providers, making comparing rates and finding the best deals quick and easy.</p>
-        </div>
+        <h2 className="section__title" style={{textAlign:'center'}}>
+          Renting a car in Montenegro: <span style={{color:'#FF6B35'}}>A beginner's guide</span>
+        </h2>
+        <p className="info__subtitle">Make renting a car simple and stress-free. Get up to speed on topics from airport pickups and insurance, to border crossings and driving tips.</p>
         <div className="info__grid">
           {items.map((it,i)=>(
             <div key={i} className="info__card">
@@ -284,9 +251,35 @@ function CTA() {
 export default function App() {
   return (
     <>
-      <Nav />
-      <BookingForm />
-      <Hero />
+      {/* Hero wraps nav + booking form so the scenic image goes behind everything */}
+      <div className="hero-wrap">
+        <img src="/hero-bg.webp" alt="" className="hero-wrap__bg" />
+        <div className="hero-wrap__overlay" />
+        <Nav />
+        <BookingForm />
+        <div className="hero-wrap__bottom">
+          <h1 className="hero__tagline">
+            The easiest way to search, compare<br/>and book a rental car in Montenegro
+          </h1>
+          <div className="hero__stats-card">
+            <div className="hero__stat">
+              <span className="hero__stat-num">4.8</span>
+              <span className="hero__stat-stars">★★★★★</span>
+              <span className="hero__stat-sub">From 12,000+ reviews</span>
+            </div>
+            <div className="hero__stat-sep" />
+            <div className="hero__stat">
+              <span className="hero__stat-num">85,000+</span>
+              <span className="hero__stat-sub">Bookings & counting</span>
+            </div>
+            <div className="hero__stat-sep" />
+            <div className="hero__stat">
+              <span className="hero__stat-num">2019</span>
+              <span className="hero__stat-sub">Trusted since</span>
+            </div>
+          </div>
+        </div>
+      </div>
       <Brands />
       <InfoGrid />
       <Destinations />
