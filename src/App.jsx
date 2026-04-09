@@ -119,13 +119,13 @@ const locationSelectStyles = {
     padding: '0',
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(61,20,16)',
+    color: '#1e2a4a',
   }),
   singleValue: (base) => ({
     ...base,
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(61,20,16)',
+    color: '#1e2a4a',
     margin: '0',
   }),
   placeholder: (base) => ({
@@ -138,7 +138,7 @@ const locationSelectStyles = {
   dropdownIndicator: (base) => ({
     ...base,
     padding: '0',
-    color: 'rgb(232,93,74)',
+    color: '#0066cc',
   }),
   menu: (base) => ({
     ...base,
@@ -161,8 +161,8 @@ const locationSelectStyles = {
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? 'rgb(232,93,74)' : 'rgb(61,20,16)',
-    background: state.isSelected ? 'rgba(232,93,74,0.08)' : state.isFocused ? 'rgba(232,93,74,0.05)' : 'transparent',
+    color: state.isSelected ? '#0066cc' : '#1e2a4a',
+    background: state.isSelected ? 'rgba(0,102,204,0.08)' : state.isFocused ? 'rgba(0,102,204,0.05)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',
@@ -318,7 +318,32 @@ function TrustStrip() {
   );
 }
 
-/* ─── STAT COUNTERS ────────────────────────────────────── */
+/* ─── STATS BAR (below hero) ──────────────────────────── */
+function StatsBar() {
+  return (
+    <div className="stats-bar">
+      <div className="stats-bar__inner">
+        <div className="stats-bar__item">
+          <Star size={16} fill="currentColor" />
+          <span><span className="stats-bar__value">4.8</span> Average Rating</span>
+        </div>
+        <div className="stats-bar__item">
+          <Users size={16} />
+          <span><span className="stats-bar__value">12,000+</span> Bookings</span>
+        </div>
+        <div className="stats-bar__item">
+          <ShieldCheck size={16} />
+          <span>Trusted Since <span className="stats-bar__value">2019</span></span>
+        </div>
+        <div className="stats-bar__item">
+          <CheckCircle size={16} />
+          <span><span className="stats-bar__value">28+</span> Locations</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ─── BEACH GUIDE (BUDVA UNIQUE) ──────────────────────── */
 function BeachGuide() {
   return (
@@ -783,6 +808,7 @@ export default function App() {
           </div>
           <Hero />
           <TrustStrip />
+          <StatsBar />
         </div>
         <Destinations />
         <Fleet />
