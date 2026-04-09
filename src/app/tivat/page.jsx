@@ -3,7 +3,7 @@ import Tivat from '@/src/components/pages/Tivat';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'tivat.title') + ' | Budva Car Hire',
+    title: t('en', 'tivat.title') + ' | Budva Car Rental',
     description: t('en', 'tivat.seoDesc'),
     alternates: buildAlternates('tivat'),
   };

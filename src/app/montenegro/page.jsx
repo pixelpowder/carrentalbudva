@@ -3,7 +3,7 @@ import Montenegro from '@/src/components/pages/Montenegro';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'montenegro.title') + ' | Budva Car Hire',
+    title: t('en', 'montenegro.title') + ' | Budva Car Rental',
     description: t('en', 'montenegro.seoDesc'),
     alternates: buildAlternates('montenegro'),
   };

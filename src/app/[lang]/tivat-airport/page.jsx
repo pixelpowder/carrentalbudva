@@ -4,7 +4,7 @@ import TivatAirport from '@/src/components/pages/TivatAirport';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'tivat-airport.title') + ' | Budva Car Hire',
+    title: t(lang, 'tivat-airport.title') + ' | Budva Car Rental',
     description: t(lang, 'tivat-airport.seoDesc'),
     alternates: buildAlternates('tivat-airport'),
   };

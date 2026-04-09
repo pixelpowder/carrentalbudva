@@ -3,7 +3,7 @@ import CookiePolicy from '@/src/components/pages/CookiePolicy';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'cookie-policy.title') + ' | Budva Car Hire',
+    title: t('en', 'cookie-policy.title') + ' | Budva Car Rental',
     description: t('en', 'cookie-policy.seoDesc'),
     alternates: buildAlternates('cookie-policy'),
   };

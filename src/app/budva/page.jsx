@@ -3,7 +3,7 @@ import Budva from '@/src/components/pages/Budva';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'budva.title') + ' | Budva Car Hire',
+    title: t('en', 'budva.title') + ' | Budva Car Rental',
     description: t('en', 'budva.seoDesc'),
     alternates: buildAlternates('budva'),
   };

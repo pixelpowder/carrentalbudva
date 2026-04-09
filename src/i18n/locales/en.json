@@ -1,6 +1,7 @@
 {
   "nav": {
     "book": "Book",
+    "blog": "Blog",
     "destinations": "Destinations",
     "about": "About"
   },
@@ -13,7 +14,7 @@
     "emailUs": "Email Us"
   },
   "hero": {
-    "headline": "Budva Car Hire",
+    "headline": "Budva Car Rental",
     "badges": {
       "freeCancellation": "Free Cancellation",
       "fullInsurance": "Full Insurance Included",
@@ -100,11 +101,11 @@
     "seoDesc": "Compare riviera-ready cars at live prices. Lock in your beach wheels with instant confirmation and free cancellation across 17 beaches."
   },
   "footer": {
-    "brandDesc": "Budva car hire with Tivat Airport pickup, full insurance, and transparent pricing. Seventeen beaches and the entire Montenegrin Riviera at your pace.",
+    "brandDesc": "Budva car rental with Tivat Airport pickup, full insurance, and transparent pricing. Seventeen beaches and the entire Montenegrin Riviera at your pace.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
-    "carHireBooking": "Car Hire Booking",
+    "carHireBooking": "Car Rental Booking",
     "ourFleet": "Our Fleet",
     "destinations": "Destinations",
     "aboutUs": "About Us",
@@ -137,12 +138,12 @@
     "seoDesc": "Thirty minutes separates Budva's sunbeds from Kotor's medieval ramparts. Drive the tunnel north to a UNESCO bay town of cat-filled lanes and 1,200 steps."
   },
   "tivat-airport": {
-    "title": "Tivat Airport Car Hire",
+    "title": "Tivat Airport Car Rental",
     "subtitle": "Your car waits at arrivals \u2014 Budva's beaches are 22 km south.",
     "seoDesc": "Land at TIV, walk to your car, and reach Budva's coast in half an hour. No shuttle. No queue. Just riviera road from the terminal door."
   },
   "budva": {
-    "title": "Car Hire in Budva",
+    "title": "Car Rental in Budva",
     "subtitle": "Beaches by day, rooftop clubs by night, and a 2,500-year-old walled town in between.",
     "seoDesc": "Mogren cave beach, Jaz festival sand, Top Hill superclub, and the Citadela fortress \u2014 everything within 5 km of your Budva pickup. Cars from \u20ac13/day."
   },
@@ -157,12 +158,12 @@
     "seoDesc": "Swap the beach for the capital in 65 km. The Lake Skadar route passes 270 bird species, riverside restaurants, and Montenegrin wine country."
   },
   "podgorica-airport": {
-    "title": "Podgorica Airport Car Hire",
+    "title": "Podgorica Airport Car Rental",
     "subtitle": "Budget flights land here \u2014 the beach is an hour south.",
     "seoDesc": "Collect at TGD arrivals, take the scenic Lake Skadar road, and park on Budva's coast inside 60 minutes. More flight routes than Tivat year-round."
   },
   "dubrovnik-airport": {
-    "title": "Dubrovnik Airport Car Hire",
+    "title": "Dubrovnik Airport Car Rental",
     "subtitle": "Land in Croatia, cruise the Adriatic coast, arrive in Budva.",
     "seoDesc": "Two and a half hours of jaw-dropping coast road connect Dubrovnik Airport to Budva. One border stop, green card sorted, Adriatic views the whole way."
   },
@@ -184,17 +185,17 @@
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "How we handle your information.",
-    "seoDesc": "What Budva Car Hire collects during riviera rental searches, how bookings are processed, and your GDPR rights."
+    "seoDesc": "What Budva Car Rental collects during riviera rental searches, how bookings are processed, and your GDPR rights."
   },
   "terms": {
     "title": "Terms & Conditions",
     "subtitle": "Terms of use for our website.",
-    "seoDesc": "Budva Car Hire terms: riviera pickup rules, cancellation windows, damage liability, and delayed-flight policy for Tivat arrivals."
+    "seoDesc": "Budva Car Rental terms: riviera pickup rules, cancellation windows, damage liability, and delayed-flight policy for Tivat arrivals."
   },
   "cookie-policy": {
     "title": "Cookie Policy",
     "subtitle": "How we use cookies on this website.",
-    "seoDesc": "How budvacarhire.com uses cookies: booking widget data, analytics, and your one-toggle preference control."
+    "seoDesc": "How carrentalbudva.com uses cookies: booking widget data, analytics, and your one-toggle preference control."
   },
   "featureCards": {
     "airportPickup": {
@@ -310,8 +311,8 @@
     }
   },
   "aboutBody": {
-    "h1": "About Budva Car Hire",
-    "p1": "We started Budva Car Hire because we watched too many visitors land at Tivat, squeeze onto a transfer bus, and spend their whole holiday within walking distance of one hotel. Budva deserves more than that. Seventeen beaches stretch along this riviera, rooftop bars overlook a 2,500-year-old walled town, and an hour inland the mountains start. All of it is reachable \u2014 but only if you have wheels.",
+    "h1": "About Budva Car Rental",
+    "p1": "We started Budva Car Rental because we watched too many visitors land at Tivat, squeeze onto a transfer bus, and spend their whole holiday within walking distance of one hotel. Budva deserves more than that. Seventeen beaches stretch along this riviera, rooftop bars overlook a 2,500-year-old walled town, and an hour inland the mountains start. All of it is reachable \u2014 but only if you have wheels.",
     "h2": "The Budva Effect",
     "p2": "Over 800,000 visitors flood this strip of coast every summer. They come for Mogren's cliff-sheltered pebbles (0.5 km from the old town), Jaz's festival-ready sand (2.5 km west), and Be\u010di\u0107i's kilometre-long shore (3 km south). They stay for the food \u2014 grilled brancin at a waterfront konoba for under \u20ac12. They come back for Top Hill, the 3,000-capacity superclub carved into the cliffs above Budva. A rental car turns a beach holiday into an adventure.",
     "h3": "How We Work",
@@ -434,7 +435,7 @@
     "flightsTitle": "Routes and Airlines",
     "flightsText": "Daily Belgrade service runs year-round. Seasonal direct flights connect to London, Paris, Rome, Frankfurt, Vienna, Budapest, and more. Budget carriers make TGD the cheaper entry point for many riviera holidays.",
     "facilitiesTitle": "The Terminal",
-    "facilitiesText": "Eight departure gates, two arrival gates, a cafe, duty-free, and car hire desks in the arrivals hall. It is small enough that you will not get lost.",
+    "facilitiesText": "Eight departure gates, two arrival gates, a cafe, duty-free, and car rental desks in the arrivals hall. It is small enough that you will not get lost.",
     "awardText": "Despite its size, Podgorica Airport has taken home the ACI Europe award for the best airport in its category. Efficient processing and friendly staff get consistent praise.",
     "rentalTitle": "Collecting Your Car",
     "rentalText": "We meet you at the arrivals hall. No shuttle bus, no queue at a counter. Your car is in the car park right outside. Clear customs, sign the paperwork, and you are on the road. The drive to Budva passes Lake Skadar \u2014 keep an eye out for pelicans and pull over at one of the viewpoints."

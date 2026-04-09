@@ -3,7 +3,7 @@ import Kotor from '@/src/components/pages/Kotor';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'kotor.title') + ' | Budva Car Hire',
+    title: t('en', 'kotor.title') + ' | Budva Car Rental',
     description: t('en', 'kotor.seoDesc'),
     alternates: buildAlternates('kotor'),
   };

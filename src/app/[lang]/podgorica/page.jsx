@@ -4,7 +4,7 @@ import Podgorica from '@/src/components/pages/Podgorica';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'podgorica.title') + ' | Budva Car Hire',
+    title: t(lang, 'podgorica.title') + ' | Budva Car Rental',
     description: t(lang, 'podgorica.seoDesc'),
     alternates: buildAlternates('podgorica'),
   };

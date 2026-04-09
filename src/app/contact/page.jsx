@@ -3,8 +3,8 @@ import { buildAlternates } from '@/src/app/metadata';
 
 export function generateMetadata() {
   return {
-    title: 'Contact Us | Budva Car Hire',
-    description: 'Get in touch with Budva Car Hire. Email, phone, or WhatsApp — we\'re here to help you find the perfect rental car.',
+    title: 'Contact Us | Budva Car Rental',
+    description: 'Get in touch with Budva Car Rental. Email, phone, or WhatsApp — we\'re here to help you find the perfect rental car.',
     alternates: buildAlternates('contact'),
   };
 }

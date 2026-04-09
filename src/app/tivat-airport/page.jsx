@@ -3,7 +3,7 @@ import TivatAirport from '@/src/components/pages/TivatAirport';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'tivat-airport.title') + ' | Budva Car Hire',
+    title: t('en', 'tivat-airport.title') + ' | Budva Car Rental',
     description: t('en', 'tivat-airport.seoDesc'),
     alternates: buildAlternates('tivat-airport'),
   };

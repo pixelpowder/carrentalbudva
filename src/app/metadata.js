@@ -19,8 +19,8 @@ export function t(lang, key) {
   return fallback || key;
 }
 
-const SITE_NAME = 'Budva Car Hire';
-const BASE_URL = 'https://www.budvacarhire.com';
+const SITE_NAME = 'Budva Car Rental';
+const BASE_URL = 'https://www.carrentalbudva.com';
 
 export function buildAlternates(slug) {
   const path = slug ? `/${slug}` : '';

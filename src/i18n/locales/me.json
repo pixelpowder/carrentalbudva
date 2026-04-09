@@ -128,7 +128,7 @@
   "about": {
     "title": "O Nama",
     "subtitle": "Pomažemo putnicima da istraže Budvansku rivijeru i Crnu Goru.",
-    "seoDesc": "O Budva Car Hire. Pomažemo putnicima da istraže Budvu i crnogorsku rivijeru sa pouzdanim vozilima."
+    "seoDesc": "O Budva Car Rental. Pomažemo putnicima da istraže Budvu i crnogorsku rivijeru sa pouzdanim vozilima."
   },
   "kotor": {
     "title": "Rent a Car Kotor",
@@ -183,17 +183,17 @@
   "privacy": {
     "title": "Politika Privatnosti",
     "subtitle": "Kako obrađujemo vaše podatke.",
-    "seoDesc": "Politika privatnosti Crna Gora Car Hire. Kako prikupljamo, koristimo i štitimo vaše lične podatke prilikom pretrage automobila za najam."
+    "seoDesc": "Politika privatnosti Crna Gora Car Rental. Kako prikupljamo, koristimo i štitimo vaše lične podatke prilikom pretrage automobila za najam."
   },
   "terms": {
     "title": "Uslovi Korišćenja",
     "subtitle": "Uslovi korišćenja naše web stranice.",
-    "seoDesc": "Uslovi korišćenja Crna Gora Car Hire. Saznajte o procesu rezervacije, partneru za najam, cijenama i odgovornosti."
+    "seoDesc": "Uslovi korišćenja Crna Gora Car Rental. Saznajte o procesu rezervacije, partneru za najam, cijenama i odgovornosti."
   },
   "cookie-policy": {
     "title": "Politika Kolačića",
     "subtitle": "Kako koristimo kolačiće na ovom sajtu.",
-    "seoDesc": "Politika kolačića Crna Gora Car Hire. Saznajte koje kolačiće koristimo, kako widget za rezervaciju čuva postavke i kako njima upravljati."
+    "seoDesc": "Politika kolačića Crna Gora Car Rental. Saznajte koje kolačiće koristimo, kako widget za rezervaciju čuva postavke i kako njima upravljati."
   },
   "featureCards": {
     "airportPickup": {
@@ -325,8 +325,8 @@
     }
   },
   "aboutBody": {
-    "h1": "Budva Car Hire",
-    "p1": "Budva Car Hire povezuje putnike sa pouzdanim i pristupačnim vozilima u Budvi i na crnogorskoj rivijeri. Naša misija: olakšati gostima istraživanje ovog prekrasnog jadranskog primorja.",
+    "h1": "Budva Car Rental",
+    "p1": "Budva Car Rental povezuje putnike sa pouzdanim i pristupačnim vozilima u Budvi i na crnogorskoj rivijeri. Naša misija: olakšati gostima istraživanje ovog prekrasnog jadranskog primorja.",
     "h2": "Zašto Budva?",
     "p2": "Budva je najposjećenija turistička destinacija u Crnoj Gori sa preko 800.000 posjetilaca godišnje. Stari grad star 2.500 godina, plaže svjetske klase i blizina Svetog Stefana čine je idealnom bazom za putovanje.",
     "h3": "Šta nudimo",

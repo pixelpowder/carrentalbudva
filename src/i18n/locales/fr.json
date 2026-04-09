@@ -128,7 +128,7 @@
   "about": {
     "title": "À Propos",
     "subtitle": "Nous aidons les voyageurs à explorer la Riviera de Budva et le Monténégro.",
-    "seoDesc": "À propos de Budva Car Hire. Nous aidons les voyageurs à explorer Budva et la Riviera monténégrine avec des voitures fiables."
+    "seoDesc": "À propos de Budva Car Rental. Nous aidons les voyageurs à explorer Budva et la Riviera monténégrine avec des voitures fiables."
   },
   "kotor": {
     "title": "Location de Voiture à Kotor",
@@ -183,17 +183,17 @@
   "privacy": {
     "title": "Politique de Confidentialité",
     "subtitle": "Comment nous traitons vos informations.",
-    "seoDesc": "Politique de confidentialité de Budva Car Hire. Comment nous collectons, utilisons et protégeons vos données personnelles lors de la recherche de voitures de location."
+    "seoDesc": "Politique de confidentialité de Budva Car Rental. Comment nous collectons, utilisons et protégeons vos données personnelles lors de la recherche de voitures de location."
   },
   "terms": {
     "title": "Conditions Générales",
     "subtitle": "Conditions d'utilisation de notre site web.",
-    "seoDesc": "Conditions générales d'utilisation de Budva Car Hire. Découvrez notre processus de réservation, partenaire de location, tarifs et responsabilité."
+    "seoDesc": "Conditions générales d'utilisation de Budva Car Rental. Découvrez notre processus de réservation, partenaire de location, tarifs et responsabilité."
   },
   "cookie-policy": {
     "title": "Politique de Cookies",
     "subtitle": "Comment nous utilisons les cookies sur ce site.",
-    "seoDesc": "Politique de cookies de Budva Car Hire. Découvrez quels cookies nous utilisons, comment le widget de réservation stocke vos préférences et comment les gérer."
+    "seoDesc": "Politique de cookies de Budva Car Rental. Découvrez quels cookies nous utilisons, comment le widget de réservation stocke vos préférences et comment les gérer."
   },
   "featureCards": {
     "airportPickup": {
@@ -325,8 +325,8 @@
     }
   },
   "aboutBody": {
-    "h1": "Budva Car Hire",
-    "p1": "Budva Car Hire met en relation les voyageurs avec des voitures de location fiables à Budva et sur la Riviera monténégrine. Notre mission : faciliter la découverte de cette magnifique côte adriatique.",
+    "h1": "Budva Car Rental",
+    "p1": "Budva Car Rental met en relation les voyageurs avec des voitures de location fiables à Budva et sur la Riviera monténégrine. Notre mission : faciliter la découverte de cette magnifique côte adriatique.",
     "h2": "Pourquoi Budva ?",
     "p2": "Budva est la première destination touristique du Monténégro, accueillant plus de 800 000 visiteurs par an. Sa vieille ville de 2 500 ans, ses plages de classe mondiale et la proximité de Sveti Stefan en font la base idéale.",
     "h3": "Ce que nous offrons",

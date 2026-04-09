@@ -3,7 +3,7 @@ import Privacy from '@/src/components/pages/Privacy';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'privacy.title') + ' | Budva Car Hire',
+    title: t('en', 'privacy.title') + ' | Budva Car Rental',
     description: t('en', 'privacy.seoDesc'),
     alternates: buildAlternates('privacy'),
   };

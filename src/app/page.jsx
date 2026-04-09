@@ -3,7 +3,7 @@ import HomeClient from '@/src/HomeClient';
 
 export async function generateMetadata() {
   return {
-    title: 'Budva Car Hire — Budva Riviera & Tivat Airport Pickup',
+    title: 'Budva Car Rental — Budva Riviera & Tivat Airport Pickup',
     description: t('en', 'home.seoDesc'),
     alternates: buildAlternates(''),
   };

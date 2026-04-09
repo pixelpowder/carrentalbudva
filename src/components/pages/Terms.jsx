@@ -14,10 +14,10 @@ export default function Terms() {
       <p><strong>Last updated:</strong> April 2026</p>
 
       <h2>About This Website</h2>
-      <p>Budva Car Hire (budvacarhire.com) is an affiliate website that connects travellers with car rental services in Budva, Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.</p>
+      <p>Budva Car Rental (carrentalbudva.com) is an affiliate website that connects travellers with car rental services in Budva, Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.</p>
 
       <h2>Booking & Rental Terms</h2>
-      <p>All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Budva Car Hire.</p>
+      <p>All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Budva Car Rental.</p>
       <p>The rental terms, including cancellation policies, insurance coverage, age requirements, and payment conditions, are set by the vehicle supplier and displayed during the booking process. We recommend reading these terms carefully before confirming any booking.</p>
 
       <h2>Our Role</h2>
@@ -41,7 +41,7 @@ export default function Terms() {
       <p>We make every effort to ensure that information on this website is accurate and up to date. However, travel information, driving regulations, and border crossing requirements can change. We recommend verifying critical details (especially border crossing documents and driving rules) with official sources before your trip.</p>
 
       <h2>Limitation of Liability</h2>
-      <p>Budva Car Hire acts as an intermediary and is not liable for:</p>
+      <p>Budva Car Rental acts as an intermediary and is not liable for:</p>
       <ul>
         <li>The condition or availability of rental vehicles</li>
         <li>Actions or omissions by rental suppliers</li>
@@ -50,10 +50,10 @@ export default function Terms() {
       </ul>
 
       <h2>Intellectual Property</h2>
-      <p>All content on this website, including text, design, and graphics, is owned by Budva Car Hire unless otherwise credited. Stock photography is used under licence from Pexels.</p>
+      <p>All content on this website, including text, design, and graphics, is owned by Budva Car Rental unless otherwise credited. Stock photography is used under licence from Pexels.</p>
 
       <h2>Contact</h2>
-      <p>Questions about these terms? Contact us at info@budvacarhire.com.</p>
+      <p>Questions about these terms? Contact us at info@carrentalbudva.com.</p>
     </ContentPage>
   );
 }

@@ -3,7 +3,7 @@ import BorderCrossing from '@/src/components/pages/BorderCrossing';
 
 export async function generateMetadata() {
   return {
-    title: t('en', 'border-crossing.title') + ' | Budva Car Hire',
+    title: t('en', 'border-crossing.title') + ' | Budva Car Rental',
     description: t('en', 'border-crossing.seoDesc'),
     alternates: buildAlternates('border-crossing-guide'),
   };

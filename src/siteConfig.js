@@ -1,13 +1,13 @@
 const siteConfig = {
-  name: "Budva Car Hire",
+  name: "Budva Car Rental",
   tagline: "Drive the Montenegrin Riviera",
-  domain: "budvacarhire.com",
+  domain: "carrentalbudva.com",
   phone: "",
-  email: "info@budvacarhire.com",
+  email: "info@carrentalbudva.com",
   address: "Budva, Montenegro",
 
   hero: {
-    headline: "Budva Car Hire — Drive the Riviera",
+    headline: "Budva Car Rental — Drive the Riviera",
     subheadline: "Rent a car in Budva from Tivat Airport (22 km). Beaches, Old Town, Sveti Stefan — all within reach.",
     image: "/img/hero-budva.webp",
   },

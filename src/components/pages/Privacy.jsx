@@ -14,7 +14,7 @@ export default function Privacy() {
       <p><strong>Last updated:</strong> April 2026</p>
 
       <h2>Who We Are</h2>
-      <p>Budva Car Hire operates as an affiliate partner connecting travellers with car rental providers in Budva, Montenegro. Our website is located at budvacarhire.com. When you use our site, we may collect certain information as described below.</p>
+      <p>Budva Car Rental operates as an affiliate partner connecting travellers with car rental providers in Budva, Montenegro. Our website is located at carrentalbudva.com. When you use our site, we may collect certain information as described below.</p>
 
       <h2>What Information We Collect</h2>
       <h3>Information you provide</h3>
@@ -57,7 +57,7 @@ export default function Privacy() {
       </ul>
 
       <h2>Contact</h2>
-      <p>For any privacy-related questions, contact us via email at info@budvacarhire.com.</p>
+      <p>For any privacy-related questions, contact us via email at info@carrentalbudva.com.</p>
     </ContentPage>
   );
 }

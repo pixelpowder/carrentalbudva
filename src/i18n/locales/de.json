@@ -128,7 +128,7 @@
   "about": {
     "title": "Über uns",
     "subtitle": "Wir helfen Reisenden, die Budva Riviera und ganz Montenegro zu entdecken.",
-    "seoDesc": "Über Budva Car Hire. Wir helfen Reisenden, Budva und die Montenegrinische Riviera mit zuverlässigen Mietwagen und Flughafenzustellung zu entdecken."
+    "seoDesc": "Über Budva Car Rental. Wir helfen Reisenden, Budva und die Montenegrinische Riviera mit zuverlässigen Mietwagen und Flughafenzustellung zu entdecken."
   },
   "kotor": {
     "title": "Mietwagen in Kotor",
@@ -183,17 +183,17 @@
   "privacy": {
     "title": "Datenschutzrichtlinie",
     "subtitle": "Wie wir mit Ihren Daten umgehen.",
-    "seoDesc": "Datenschutzrichtlinie von Budva Car Hire. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
+    "seoDesc": "Datenschutzrichtlinie von Budva Car Rental. Wie wir Ihre personenbezogenen Daten bei der Suche nach Mietwagen erheben, verwenden und schützen."
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",
     "subtitle": "Nutzungsbedingungen für unsere Website.",
-    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Budva Car Hire. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
+    "seoDesc": "Allgemeine Geschäftsbedingungen für die Nutzung von Budva Car Rental. Erfahren Sie mehr über Buchungsprozess, Mietpartner, Preise und Haftung."
   },
   "cookie-policy": {
     "title": "Cookie-Richtlinie",
     "subtitle": "Wie wir Cookies auf dieser Website verwenden.",
-    "seoDesc": "Cookie-Richtlinie von Budva Car Hire. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
+    "seoDesc": "Cookie-Richtlinie von Budva Car Rental. Erfahren Sie, welche Cookies wir verwenden, wie das Buchungs-Widget Einstellungen speichert und wie Sie sie verwalten."
   },
   "featureCards": {
     "airportPickup": {
@@ -325,8 +325,8 @@
     }
   },
   "aboutBody": {
-    "h1": "Budva Car Hire",
-    "p1": "Budva Car Hire verbindet Reisende mit zuverlässigen und erschwinglichen Mietwagen in Budva und an der Montenegrinischen Riviera. Unsere Mission: Besuchern die Erkundung dieser atemberaubenden Adriatic-Küste auf eigene Faust zu ermöglichen.",
+    "h1": "Budva Car Rental",
+    "p1": "Budva Car Rental verbindet Reisende mit zuverlässigen und erschwinglichen Mietwagen in Budva und an der Montenegrinischen Riviera. Unsere Mission: Besuchern die Erkundung dieser atemberaubenden Adriatic-Küste auf eigene Faust zu ermöglichen.",
     "h2": "Warum Budva?",
     "p2": "Budva ist Montenegros Top-Reiseziel mit über 800.000 Besuchern pro Jahr. Die 2.500 Jahre alte Altstadt, Weltklasse-Strände wie Mogren und Jaz sowie die Nähe zu Sveti Stefan machen es zur perfekten Basis für einen Roadtrip. Aber öffentliche Verkehrsmittel bringen Sie nur bedingt weiter — ein Mietwagen erschließt die gesamte Riviera.",
     "h3": "Was wir anbieten",

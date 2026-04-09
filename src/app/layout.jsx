@@ -9,10 +9,10 @@ import { LanguageContext } from '@/src/i18n/LanguageContext';
 import { DEFAULT_LANG } from '@/src/i18n/languages';
 
 export const metadata = {
-  title: 'Budva Car Hire — Beach Capital of Montenegro',
+  title: 'Budva Car Rental — Beach Capital of Montenegro',
   description:
     'Montenegro\'s beach capital has 17 beaches and 33% of all tourism. Grab a car from €13/day and drive the riviera from Jaz to Sveti Stefan. Tivat Airport pickup, 22 km away.',
-  metadataBase: new URL('https://www.budvacarhire.com'),
+  metadataBase: new URL('https://www.carrentalbudva.com'),
 };
 
 export default function RootLayout({ children }) {
@@ -26,11 +26,11 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AutoRental",
-            "name": "Budva Car Hire",
-            "url": "https://www.budvacarhire.com",
+            "name": "Budva Car Rental",
+            "url": "https://www.carrentalbudva.com",
             "description": "Rent a car in Budva from trusted local providers with free cancellation, full insurance, and Tivat Airport pickup included with every booking.",
-            "email": "info@budvacarhire.com",
-            "image": "https://www.budvacarhire.com/img/schema-car.jpg",
+            "email": "info@carrentalbudva.com",
+            "image": "https://www.carrentalbudva.com/img/schema-car.jpg",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Tabacina BB",
