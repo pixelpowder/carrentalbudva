@@ -22,16 +22,23 @@ export function t(lang, key) {
 const SITE_NAME = 'Budva Car Rental';
 const BASE_URL = 'https://www.carrentalbudva.com';
 
-export function buildAlternates(slug) {
+// Build canonical + hreflang alternates for a page slug in the given locale.
+// `lang` defaults to 'en' (the default locale, no URL prefix).
+// Canonical includes the locale prefix when lang !== 'en' so Google treats
+// each /de, /fr, /it, /ru, /me URL as its own indexable page rather than
+// collapsing them into the English homepage.
+export function buildAlternates(slug, lang = 'en') {
   const path = slug ? `/${slug}` : '';
+  const canonicalPath = !lang || lang === 'en' ? path : `/${lang}${path}`;
   return {
-    canonical: `${BASE_URL}${path}`,
+    canonical: `${BASE_URL}${canonicalPath || '/'}`,
     languages: {
       'en': path || '/',
       'de': `/de${path || '/'}`,
       'ru': `/ru${path || '/'}`,
       'it': `/it${path || '/'}`,
       'fr': `/fr${path || '/'}`,
+      'cnr': `/me${path || '/'}`,
       'x-default': path || '/',
     },
   };
