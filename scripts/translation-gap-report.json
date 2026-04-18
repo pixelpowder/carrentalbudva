@@ -1,0 +1,41 @@
+{
+  "enKeyCount": 391,
+  "missing": {
+    "de": [],
+    "fr": [],
+    "it": [],
+    "ru": [],
+    "me": []
+  },
+  "englishCopied": {
+    "de": [
+      "featureCards.support.title",
+      "destCards.podgorica.name",
+      "tivatBody.portoTitle",
+      "podgoricaBody.danilovgradTitle",
+      "borderCrossingBody.kosovoTitle"
+    ],
+    "fr": [
+      "nav.destinations",
+      "footer.destinations",
+      "destCards.podgorica.name",
+      "tivatBody.portoTitle",
+      "podgoricaBody.danilovgradTitle"
+    ],
+    "it": [
+      "destCards.podgorica.name",
+      "tivatBody.portoTitle",
+      "podgoricaBody.danilovgradTitle",
+      "borderCrossingBody.albaniaTitle",
+      "borderCrossingBody.serbiaTitle",
+      "borderCrossingBody.kosovoTitle"
+    ],
+    "ru": [
+      "tivatBody.portoTitle"
+    ],
+    "me": [
+      "destCards.podgorica.name",
+      "podgoricaBody.danilovgradTitle"
+    ]
+  }
+}
