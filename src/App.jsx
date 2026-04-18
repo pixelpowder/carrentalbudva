@@ -9,12 +9,12 @@ import Nav from './Nav';
 import Footer from './Footer';
 import {
   MapPin, Star, ShieldCheck, Clock, RefreshCw, Globe, Ban,
-  ChevronDown, Search, Car, Shield, Map, Truck, Headphones,
+  ChevronDown, ChevronRight, Search, Car, Shield, Map, Truck,
+  Headphones, CheckCircle, Award, Zap, ArrowRight,
 } from 'lucide-react';
 import config from './siteConfig';
 import './App.css';
 
-/* ── DATA ──────────────────────────────────────── */
 const LOCATIONS = [
   'Tivat','Podgorica','Kotor','Budva','Herceg-Novi','Bar','Ulcinj',
   'Sveti Stefan','Perast','Petrovac','Bečići','Rafailovići','Pržno',
@@ -38,22 +38,22 @@ const selStyles = {
   control: b => ({...b,border:'none',boxShadow:'none',background:'transparent',minHeight:'unset',cursor:'pointer'}),
   valueContainer: b => ({...b,padding:0}),
   input: b => ({...b,margin:0,padding:0,fontSize:'16px',color:'#1a2c4a'}),
-  singleValue: b => ({...b,fontSize:'16px',color:'#1a2c4a',margin:0}),
-  placeholder: b => ({...b,fontSize:'16px',color:'#9ca3af',margin:0}),
+  singleValue: b => ({...b,fontSize:'16px',fontWeight:600,color:'#1a2c4a',margin:0}),
+  placeholder: b => ({...b,fontSize:'15px',color:'#FF6B35',margin:0}),
   indicatorSeparator: () => ({display:'none'}),
   dropdownIndicator: b => ({...b,padding:0,color:'#0066FF'}),
-  menu: b => ({...b,zIndex:9999,borderRadius:'8px',boxShadow:'0 8px 32px rgba(0,0,0,0.15)',marginTop:'4px'}),
+  menu: b => ({...b,zIndex:9999,borderRadius:'12px',boxShadow:'0 12px 40px rgba(0,0,0,0.15)',marginTop:'4px',border:'1px solid #e5e7eb'}),
   menuPortal: b => ({...b,zIndex:9999}),
-  menuList: b => ({...b,padding:'4px',maxHeight:'240px'}),
+  menuList: b => ({...b,padding:'6px',maxHeight:'240px'}),
   option: (b,s) => ({
     ...b,fontSize:'14px',fontWeight:s.isSelected?'600':'400',
     color:s.isSelected?'#0066FF':'#1a2c4a',
-    background:s.isSelected?'rgba(0,102,255,0.08)':s.isFocused?'rgba(0,102,255,0.04)':'transparent',
-    borderRadius:'6px',cursor:'pointer',padding:'10px 12px',
+    background:s.isSelected?'rgba(0,102,255,0.06)':s.isFocused?'#f7f9fc':'transparent',
+    borderRadius:'8px',cursor:'pointer',padding:'10px 14px',
   }),
 };
 
-/* ═══ BOOKING FORM — full-width white section between nav and hero ═══ */
+/* ═══ BOOKING FORM ═══ */
 function BookingForm() {
   const router = useRouter();
   const { localePath } = useTranslation();
@@ -62,19 +62,13 @@ function BookingForm() {
   const [endDate, setEndDate] = useState(null);
   const [pickupTime, setPickupTime] = useState('10:00');
   const [dropoffTime, setDropoffTime] = useState('10:00');
-
   const fmt = d => d ? `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}` : '';
-
   const handleSearch = () => {
-    const p = new URLSearchParams({
-      location:pickup, pickup_date:fmt(startDate), pickup_time:pickupTime,
-      dropoff_date:fmt(endDate), dropoff_time:dropoffTime,
-    });
+    const p = new URLSearchParams({location:pickup,pickup_date:fmt(startDate),pickup_time:pickupTime,dropoff_date:fmt(endDate),dropoff_time:dropoffTime});
     const cid = CITY_ID_MAP[pickup];
     if (cid) p.set('city_id', cid);
     router.push(`${localePath('/book')}?${p.toString()}`);
   };
-
   return (
     <section className="bf">
       <div className="bf__inner">
@@ -112,42 +106,45 @@ function BookingForm() {
   );
 }
 
-/* ═══ BRANDS ═══ */
-function Brands() {
-  const logos = ['logo-toyota','logo-volkswagen','logo-renault','logo-peugeot','logo-fiat',
-    'logo-ford','logo-hyundai','logo-dacia','logo-citroen','logo-suzuki'];
+/* ═══ TRUST BAR — horizontal strip with Trustpilot-style rating + brand logos ═══ */
+function TrustBar() {
   return (
-    <section className="brands">
-      <p className="brands__text">Great value rental cars from Montenegro's most trusted providers</p>
-      <div className="brands__row">
-        {logos.map(l=><img key={l} src={`/img/${l}.png`} alt="" className="brands__logo" />)}
+    <section className="trust-bar">
+      <div className="trust-bar__inner">
+        <div className="trust-bar__left">
+          <span className="trust-bar__label">Rated Excellent</span>
+          <div className="trust-bar__stars">★★★★★</div>
+          <span className="trust-bar__reviews">12,000+ reviews</span>
+        </div>
+        <div className="trust-bar__right">
+          <span className="trust-bar__brands-label">1,000+ brands</span>
+          {['logo-toyota','logo-volkswagen','logo-renault','logo-peugeot','logo-fiat','logo-ford'].map(l=>
+            <img key={l} src={`/img/${l}.png`} alt="" className="trust-bar__brand" />
+          )}
+        </div>
       </div>
     </section>
   );
 }
 
-/* ═══ INFO GRID — light bg, 4-col card grid like VroomVroomVroom ═══ */
-function InfoGrid() {
-  const items = [
-    {icon:<Car size={24}/>,title:'A full range of vehicles',desc:'Compare a huge range of vehicles from Montenegro\'s leading car rental providers.',link:'View fleet',href:'#fleet'},
-    {icon:<Map size={24}/>,title:'Airport rentals',desc:'Collecting your rental car from the airport is easy — your agent meets you at arrivals.',link:'Read more',href:'#destinations'},
-    {icon:<Shield size={24}/>,title:'Insurance & extras',desc:'All you need to know about coverage, zero excess, and add-ons for your rental car.',link:'Learn more',href:'#features'},
-    {icon:<Headphones size={24}/>,title:'24/7 support',desc:'If you have questions before, during, or after your trip — we\'re here to help.',link:'Contact us',href:'/contact'},
+/* ═══ HOW IT WORKS — 3-step horizontal process ═══ */
+function HowItWorks() {
+  const steps = [
+    { num: '1', icon: <Search size={24}/>, title: 'Search & compare', desc: 'Enter your dates and location. We search across all major providers to find you the best deal.' },
+    { num: '2', icon: <ShieldCheck size={24}/>, title: 'Book with confidence', desc: 'Reserve your car with free cancellation and full insurance included. No hidden fees, ever.' },
+    { num: '3', icon: <Car size={24}/>, title: 'Collect & drive', desc: 'Your agent meets you at the airport or delivers to your hotel. Keys in hand, road ahead.' },
   ];
   return (
-    <section className="info" id="features">
-      <div className="info__inner">
-        <h2 className="section__title" style={{textAlign:'center'}}>
-          Renting a car in Montenegro: <span style={{color:'#FF6B35'}}>A beginner's guide</span>
-        </h2>
-        <p className="info__subtitle">Make renting a car simple and stress-free. Get up to speed on topics from airport pickups and insurance, to border crossings and driving tips.</p>
-        <div className="info__grid">
-          {items.map((it,i)=>(
-            <div key={i} className="info__card">
-              <div className="info__card-icon">{it.icon}</div>
-              <h3 className="info__card-title">{it.title}</h3>
-              <p className="info__card-desc">{it.desc}</p>
-              <a href={it.href} className="info__card-link">{it.link}</a>
+    <section className="steps">
+      <div className="steps__inner">
+        <h2 className="steps__title">How it works</h2>
+        <div className="steps__grid">
+          {steps.map((s,i) => (
+            <div key={i} className="step">
+              <div className="step__num">{s.num}</div>
+              <div className="step__icon">{s.icon}</div>
+              <h3 className="step__title">{s.title}</h3>
+              <p className="step__desc">{s.desc}</p>
             </div>
           ))}
         </div>
@@ -156,46 +153,148 @@ function InfoGrid() {
   );
 }
 
-/* ═══ DESTINATIONS ═══ */
+/* ═══ WHY US — features in 2-col layout with large icon ═══ */
+function WhyUs() {
+  const items = [
+    { icon: <Award size={28}/>, title: 'Best price guaranteed', desc: 'We compare prices from 500+ suppliers so you always get the lowest rate available.' },
+    { icon: <ShieldCheck size={28}/>, title: 'Full insurance included', desc: 'Every booking includes CDW and theft protection. Upgrade to zero excess for complete peace of mind.' },
+    { icon: <RefreshCw size={28}/>, title: 'Free cancellation', desc: 'Plans change — cancel up to 48 hours before pickup for a full refund. No questions asked.' },
+    { icon: <Headphones size={28}/>, title: '24/7 customer support', desc: 'Our team is available around the clock. Flat tyre at midnight? We\'ll sort it.' },
+    { icon: <Globe size={28}/>, title: 'Cross-border driving', desc: 'Drive to Croatia, Albania, Bosnia and beyond. Green Card paperwork handled at booking.' },
+    { icon: <Zap size={28}/>, title: '10-minute airport pickup', desc: 'Your agent meets you at arrivals. No shuttle buses, no waiting around. Keys in hand, fast.' },
+  ];
+  return (
+    <section className="why">
+      <div className="why__inner">
+        <div className="why__header">
+          <h2 className="why__title">Why book with us?</h2>
+          <p className="why__sub">Trusted by 85,000+ travellers across Montenegro since 2019.</p>
+        </div>
+        <div className="why__grid">
+          {items.map((it,i) => (
+            <div key={i} className="why__card">
+              <div className="why__card-icon">{it.icon}</div>
+              <div>
+                <h3 className="why__card-title">{it.title}</h3>
+                <p className="why__card-desc">{it.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══ DESTINATIONS — featured + grid layout ═══ */
 function Destinations() {
+  const dests = config.destinations;
+  const featured = dests[0];
+  const rest = dests.slice(1);
   return (
-    <section className="section" id="destinations">
-      <div className="container">
-        <p className="section__label">Popular Destinations</p>
-        <h2 className="section__title">Where to next?</h2>
-        <div className="dest-grid">
-          {config.destinations.map((d,i)=>(
-            <a key={i} href={`/${d.slug}`} className="dest-card">
-              <img src={d.image} alt={d.name} className="dest-card__img" />
-              <div className="dest-card__over">
-                <span className="dest-card__tag">{d.tag}</span>
-                <h3 className="dest-card__name">{d.name}</h3>
-                <p className="dest-card__desc">{d.desc}</p>
-              </div>
-            </a>
-          ))}
+    <section className="dest" id="destinations">
+      <div className="dest__inner">
+        <h2 className="dest__title">Explore Montenegro</h2>
+        <p className="dest__sub">Pick up in Budva and drive anywhere. Every destination is within reach.</p>
+        <div className="dest__layout">
+          <a href={`/${featured.slug}`} className="dest__featured">
+            <img src={featured.image} alt={featured.name} className="dest__featured-img" />
+            <div className="dest__featured-content">
+              <span className="dest__featured-tag">{featured.tag}</span>
+              <h3 className="dest__featured-name">{featured.name}</h3>
+              <p className="dest__featured-desc">{featured.desc}</p>
+              <span className="dest__featured-link">Explore <ArrowRight size={16}/></span>
+            </div>
+          </a>
+          <div className="dest__list">
+            {rest.map((d,i) => (
+              <a key={i} href={`/${d.slug}`} className="dest__list-item">
+                <img src={d.image} alt={d.name} className="dest__list-img" />
+                <div className="dest__list-info">
+                  <h4 className="dest__list-name">{d.name}</h4>
+                  <p className="dest__list-desc">{d.desc}</p>
+                </div>
+                <span className="dest__list-tag">{d.tag}</span>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 }
 
-/* ═══ REVIEWS ═══ */
+/* ═══ REVIEWS — 2×2 grid ═══ */
 function Reviews() {
+  const t = config.testimonials;
   return (
-    <section className="section section--gray">
-      <div className="container">
-        <p className="section__label">Reviews</p>
-        <h2 className="section__title">What our customers say</h2>
-        <div className="reviews-grid">
-          {config.testimonials.map((r,i)=>(
-            <div key={i} className="rev-card">
-              <div className="rev-card__stars">{[...Array(r.rating)].map((_,j)=><Star key={j} size={16} fill="#f59e0b" color="#f59e0b"/>)}</div>
-              <p className="rev-card__text">"{r.text}"</p>
-              <div className="rev-card__author">
-                <div className="rev-card__avatar">{r.name.charAt(0)}</div>
-                <div><strong className="rev-card__name">{r.name}</strong><span className="rev-card__loc">{r.location}</span></div>
+    <section className="rev">
+      <div className="rev__inner">
+        <h2 className="rev__title">Trusted by thousands</h2>
+        <div className="rev__grid">
+          <div className="rev__col">
+            <div className="rev__card">
+              <div className="rev__card-stars">{[...Array(t[0].rating)].map((_,j)=><Star key={j} size={16} fill="#f59e0b" color="#f59e0b"/>)}</div>
+              <p className="rev__card-text">{t[0].text}</p>
+              <div className="rev__card-author">
+                <div className="rev__card-avatar">{t[0].name.charAt(0)}</div>
+                <div><strong className="rev__card-name">{t[0].name}</strong><span className="rev__card-loc">{t[0].location}</span></div>
               </div>
+            </div>
+            <div className="rev__card">
+              <div className="rev__card-stars">{[...Array(t[1].rating)].map((_,j)=><Star key={j} size={16} fill="#f59e0b" color="#f59e0b"/>)}</div>
+              <p className="rev__card-text">{t[1].text}</p>
+              <div className="rev__card-author">
+                <div className="rev__card-avatar">{t[1].name.charAt(0)}</div>
+                <div><strong className="rev__card-name">{t[1].name}</strong><span className="rev__card-loc">{t[1].location}</span></div>
+              </div>
+            </div>
+          </div>
+          <div className="rev__col">
+            <div className="rev__card">
+              <div className="rev__card-stars">{[...Array(t[2].rating)].map((_,j)=><Star key={j} size={16} fill="#f59e0b" color="#f59e0b"/>)}</div>
+              <p className="rev__card-text">{t[2].text}</p>
+              <div className="rev__card-author">
+                <div className="rev__card-avatar">{t[2].name.charAt(0)}</div>
+                <div><strong className="rev__card-name">{t[2].name}</strong><span className="rev__card-loc">{t[2].location}</span></div>
+              </div>
+            </div>
+            <div className="rev__stat-card">
+              <div className="rev__stat-num">4.8<span>/5</span></div>
+              <div className="rev__stat-stars">{[...Array(5)].map((_,j)=><Star key={j} size={20} fill="#f59e0b" color="#f59e0b"/>)}</div>
+              <p className="rev__stat-label">Average rating from 12,000+ verified reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══ POPULAR ROUTES — scenic driving routes ═══ */
+function PopularRoutes() {
+  const routes = [
+    { name: 'Budva → Kotor', time: '30 min', distance: '25 km', desc: 'Stunning bay road hugging the coastline through Prčanj and Dobrota.' },
+    { name: 'Budva → Dubrovnik', time: '2.5 hrs', distance: '95 km', desc: 'Cross into Croatia via Debeli Brijeg for the pearl of the Adriatic.' },
+    { name: 'Budva → Durmitor', time: '3 hrs', distance: '180 km', desc: 'Mountain roads through Nikšić to UNESCO-listed Durmitor National Park.' },
+    { name: 'Budva → Sveti Stefan', time: '15 min', distance: '9 km', desc: 'Coastal road south to Montenegro\'s most photographed island hotel.' },
+  ];
+  return (
+    <section className="routes">
+      <div className="routes__inner">
+        <h2 className="routes__title">Popular driving routes</h2>
+        <p className="routes__sub">Montenegro is made for road trips. Here are the routes our customers love most.</p>
+        <div className="routes__grid">
+          {routes.map((r,i) => (
+            <div key={i} className="route">
+              <div className="route__header">
+                <h3 className="route__name">{r.name}</h3>
+                <div className="route__meta">
+                  <span className="route__time">{r.time}</span>
+                  <span className="route__dist">{r.distance}</span>
+                </div>
+              </div>
+              <p className="route__desc">{r.desc}</p>
             </div>
           ))}
         </div>
@@ -204,29 +303,51 @@ function Reviews() {
   );
 }
 
-/* ═══ FAQ ═══ */
+/* ═══ FAQ — 2-column accordion ═══ */
 function FAQ() {
   const [open, setOpen] = useState(null);
-  const half = Math.ceil(config.faq.length/2);
-  const renderItem = (item,idx) => (
-    <div key={idx} className={`faq-item${open===idx?' faq-item--open':''}`}>
-      <button className="faq-item__q" onClick={()=>setOpen(open===idx?null:idx)}>
-        {item.q}
-        <ChevronDown size={18} className={`faq-item__chev${open===idx?' faq-item__chev--open':''}`} />
+  const half = Math.ceil(config.faq.length / 2);
+  const col1 = config.faq.slice(0, half);
+  const col2 = config.faq.slice(half);
+  const renderItem = (item, idx) => (
+    <div key={idx} className={`faq__item${open===idx?' faq__item--open':''}`}>
+      <button className="faq__q" onClick={()=>setOpen(open===idx?null:idx)}>
+        <span>{item.q}</span>
+        <ChevronDown size={20} className={`faq__icon${open===idx?' faq__icon--open':''}`} />
       </button>
-      <div className={`faq-item__a${open===idx?' faq-item__a--open':''}`}>
-        <p className="faq-item__a-text">{item.a}</p>
+      <div className={`faq__a${open===idx?' faq__a--open':''}`}>
+        <p>{item.a}</p>
       </div>
     </div>
   );
   return (
-    <section className="section" id="faq">
-      <div className="container">
-        <p className="section__label">FAQ</p>
-        <h2 className="section__title">Questions we get asked</h2>
-        <div className="faq-grid">
-          <div className="faq-col">{config.faq.slice(0,half).map((it,i)=>renderItem(it,i))}</div>
-          <div className="faq-col">{config.faq.slice(half).map((it,i)=>renderItem(it,i+half))}</div>
+    <section className="faq" id="faq">
+      <div className="faq__inner">
+        <div className="faq__header">
+          <h2 className="faq__title">Frequently asked questions</h2>
+          <p className="faq__sub">Everything you need to know before you book.</p>
+        </div>
+        <div className="faq__cols">
+          <div className="faq__col">{col1.map((it,i) => renderItem(it, i))}</div>
+          <div className="faq__col">{col2.map((it,i) => renderItem(it, i + half))}</div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══ NEWSLETTER BANNER ═══ */
+function Newsletter() {
+  return (
+    <section className="newsletter">
+      <div className="newsletter__inner">
+        <div className="newsletter__text">
+          <h3 className="newsletter__title">Get the best deals in your inbox</h3>
+          <p className="newsletter__desc">Join 15,000+ travellers who receive our weekly Montenegro travel tips and exclusive car rental offers.</p>
+        </div>
+        <div className="newsletter__form">
+          <input type="email" placeholder="Enter your email" className="newsletter__input" />
+          <button className="newsletter__btn">Subscribe</button>
         </div>
       </div>
     </section>
@@ -238,10 +359,15 @@ function CTA() {
   const { localePath } = useTranslation();
   return (
     <section className="cta">
-      <div className="container">
-        <h2 className="cta__title">Ready to explore Montenegro?</h2>
-        <p className="cta__sub">Book in minutes, collect at the airport, hit the road.</p>
-        <a href={localePath('/book')} className="cta__btn">Search cars</a>
+      <div className="cta__inner">
+        <div className="cta__content">
+          <h2 className="cta__title">Ready to hit the road?</h2>
+          <p className="cta__desc">Compare prices from top providers. Free cancellation on most bookings.</p>
+          <a href={localePath('/book')} className="cta__btn">Search cars <ArrowRight size={18}/></a>
+        </div>
+        <div className="cta__image">
+          <img src={config.hero.image} alt="" />
+        </div>
       </div>
     </section>
   );
@@ -251,42 +377,44 @@ function CTA() {
 export default function App() {
   return (
     <>
-      {/* Hero wraps nav + booking form so the scenic image goes behind everything */}
       <div className="hero-wrap">
-        <img src="/hero-bg.webp" alt="" className="hero-wrap__bg" />
+        <img src="/img/budva-riviera.webp" alt="" className="hero-wrap__bg" />
         <div className="hero-wrap__overlay" />
         <Nav />
         <BookingForm />
         <div className="hero-wrap__bottom">
           <div className="hero-wrap__bottom-inner">
-          <h1 className="hero__tagline">
-            The easiest way to search, compare<br/>and book a rental car in Montenegro
-          </h1>
-          <div className="hero__stats-card">
-            <div className="hero__stat">
-              <span className="hero__stat-num">4.8</span>
-              <span className="hero__stat-stars">★★★★★</span>
-              <span className="hero__stat-sub">From 12,000+ reviews</span>
+            <h1 className="hero__tagline">
+              The easiest way to search, compare<br/>and book a rental car in Montenegro
+            </h1>
+            <div className="hero__stats-card">
+              <div className="hero__stat">
+                <span className="hero__stat-num">4.8</span>
+                <span className="hero__stat-stars">★★★★★</span>
+                <span className="hero__stat-sub">From 12,000+ reviews</span>
+              </div>
+              <div className="hero__stat-sep" />
+              <div className="hero__stat">
+                <span className="hero__stat-num">85,000+</span>
+                <span className="hero__stat-sub">Bookings & counting</span>
+              </div>
+              <div className="hero__stat-sep" />
+              <div className="hero__stat">
+                <span className="hero__stat-num">2019</span>
+                <span className="hero__stat-sub">Trusted since</span>
+              </div>
             </div>
-            <div className="hero__stat-sep" />
-            <div className="hero__stat">
-              <span className="hero__stat-num">85,000+</span>
-              <span className="hero__stat-sub">Bookings & counting</span>
-            </div>
-            <div className="hero__stat-sep" />
-            <div className="hero__stat">
-              <span className="hero__stat-num">2019</span>
-              <span className="hero__stat-sub">Trusted since</span>
-            </div>
-          </div>
           </div>
         </div>
       </div>
-      <Brands />
-      <InfoGrid />
+      <TrustBar />
+      <HowItWorks />
+      <WhyUs />
       <Destinations />
+      <PopularRoutes />
       <Reviews />
       <FAQ />
+      <Newsletter />
       <CTA />
       <Footer />
     </>
