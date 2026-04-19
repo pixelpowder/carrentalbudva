@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'dubrovnik-airport.title') + ' | Budva Car Rental',
     description: t(lang, 'dubrovnik-airport.seoDesc'),
-    alternates: buildAlternates('dubrovnik-airport'),
+    alternates: buildAlternates('dubrovnik-airport', lang),
   };
 }
 

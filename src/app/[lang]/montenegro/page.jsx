@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'montenegro.title') + ' | Budva Car Rental',
     description: t(lang, 'montenegro.seoDesc'),
-    alternates: buildAlternates('montenegro'),
+    alternates: buildAlternates('montenegro', lang),
   };
 }
 
