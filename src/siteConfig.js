@@ -4,7 +4,7 @@ const siteConfig = {
   domain: "carrentalbudva.com",
   phone: "",
   email: "info@carrentalbudva.com",
-  address: "Budva, Montenegro",
+  address: "Tabacina BB, Kotor, 85330",
 
   hero: {
     headline: "Budva Car Rental — Drive the Riviera",
