@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../metadata';
 import Montenegro from '@/src/components/pages/Montenegro';
 
 export async function generateMetadata() {
+  const title = t('en', 'montenegro.title') + ' | Budva Car Rental';
+  const description = t('en', 'montenegro.seoDesc');
   return {
-    title: t('en', 'montenegro.title') + ' | Budva Car Rental',
-    description: t('en', 'montenegro.seoDesc'),
+    title: title,
+    description: description,
     alternates: buildAlternates('montenegro'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 

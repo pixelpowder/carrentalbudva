@@ -3,10 +3,13 @@ import { t, buildAlternates } from '../metadata';
 import BookPage from '@/src/BookPage';
 
 export async function generateMetadata() {
+  const title = t('en', 'book.seoTitle') + ' | Budva Car Rental';
+  const description = t('en', 'book.seoDesc');
   return {
-    title: t('en', 'book.seoTitle') + ' | Budva Car Rental',
-    description: t('en', 'book.seoDesc'),
+    title: title,
+    description: description,
     alternates: buildAlternates('book'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 
