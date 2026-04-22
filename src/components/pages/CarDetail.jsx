@@ -38,52 +38,54 @@ const INLINE_PHOTOS = {
 
 // Related cards per car — using the actual blog + destination pages that exist on kotorcarrental.
 const RELATED = {
-  'renault-clio': [
-    { href: '/blog/kotor-to-cetinje-drive',  img: '/img/blog-lovcen-road.webp',   title: 'Kotor to Cetinje drive' },
-    { href: '/perast',                        img: '/img/perast-village.webp',     title: 'Perast' },
-    { href: '/blog/dobrota-waterfront-walk', img: '/img/blog-bay-boat.webp',      title: 'Dobrota waterfront walk' },
+  'vw-polo': [
+    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
+    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
   ],
-  'peugeot-308': [
-    { href: '/border-crossing-guide',         img: '/img/dubrovnik-nearby.webp',   title: 'Border crossing guide' },
-    { href: '/podgorica',                     img: '/img/podgorica-city.webp',     title: 'Podgorica' },
-    { href: '/blog/kotor-to-cetinje-drive',  img: '/img/blog-lovcen-road.webp',   title: 'Kotor to Cetinje drive' },
+  'skoda-octavia': [
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
+    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
   ],
-  'renault-megane': [
-    { href: '/blog/kotor-food-markets',      img: '/img/blog-bay-boat.webp',      title: 'Kotor food markets' },
-    { href: '/perast',                        img: '/img/perast-village.webp',     title: 'Perast' },
-    { href: '/budva',                         img: '/img/budva-from-kotor.webp',   title: 'Budva' },
+  'toyota-corolla': [
+    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
   ],
-  'kia-stonic': [
-    { href: '/blog/vrmac-ridge-trail',       img: '/img/blog-lovcen-road.webp',   title: 'Vrmac ridge trail' },
-    { href: '/blog/stoliv-abandoned-village',img: '/img/blog-kotor-walls.webp',   title: 'Stoliv abandoned village' },
-    { href: '/blog/kotor-to-cetinje-drive',  img: '/img/blog-lovcen-road.webp',   title: 'Kotor to Cetinje drive' },
+  'mercedes-c-class': [
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
+    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
   ],
-  'vw-golf': [
-    { href: '/blog/kotor-to-cetinje-drive',  img: '/img/blog-lovcen-road.webp',   title: 'Kotor to Cetinje drive' },
-    { href: '/border-crossing-guide',         img: '/img/dubrovnik-nearby.webp',   title: 'Border crossing guide' },
-    { href: '/podgorica',                     img: '/img/podgorica-city.webp',     title: 'Podgorica' },
+  'fiat-500c': [
+    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
+    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
   ],
   'fiat-500': [
-    { href: '/kotor',                         img: '/img/kotor-old-town.webp',     title: 'Kotor Old Town' },
-    { href: '/perast',                        img: '/img/perast-village.webp',     title: 'Perast' },
-    { href: '/blog/kotor-hidden-churches',   img: '/img/blog-kotor-walls.webp',   title: 'Kotor hidden churches' },
+    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
+    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
   ],
-  'citroen-c3': [
-    { href: '/blog/dobrota-waterfront-walk', img: '/img/blog-bay-boat.webp',      title: 'Dobrota waterfront walk' },
-    { href: '/blog/kotor-spring-wildflowers',img: '/img/blog-lovcen-road.webp',   title: 'Kotor spring wildflowers' },
-    { href: '/blog/stoliv-abandoned-village',img: '/img/blog-kotor-walls.webp',   title: 'Stoliv abandoned village' },
+  'bmw-x3': [
+    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
+    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+  ],
+  'jeep-renegade': [
+    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
+    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
+    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
+  ],
+  'vw-transporter': [
+    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
+    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
   ],
 };
 
-const ARTICLE_LINKS = {
-  'renault-clio':   { paraIndex: 1, candidates: ['Cetinje', 'Njegoš', 'Njeguši', 'Risan'],                 href: '/blog/kotor-to-cetinje-drive' },
-  'peugeot-308':    { paraIndex: 1, candidates: ['Smokovac', 'motorway', 'Podgorica', 'Dubrovnik'],         href: '/border-crossing-guide' },
-  'renault-megane': { paraIndex: 1, candidates: ['Risan', 'bay road', 'Skadar', 'Njeguši'],                 href: '/blog/kotor-to-cetinje-drive' },
-  'kia-stonic':     { paraIndex: 1, candidates: ['Gornja Lastva', 'Njeguši', 'Pestingrad', 'Lovćen'],       href: '/blog/vrmac-ridge-trail' },
-  'vw-golf':        { paraIndex: 1, candidates: ['Lovćen', 'Cetinje', 'Žabljak', 'Dubrovnik'],              href: '/blog/kotor-to-cetinje-drive' },
-  'fiat-500':       { paraIndex: 1, candidates: ['Muo', 'Old Town', 'Perast', 'Prčanj'],                    href: '/kotor' },
-  'citroen-c3':     { paraIndex: 1, candidates: ['Risan', 'Perast', 'Tryphon', 'Stari Mlini'],              href: '/blog/dobrota-waterfront-walk' },
-};
+const ARTICLE_LINKS = {};
 
 function renderParagraphWithLink(paragraph, rule, localePath, linkLabel) {
   if (!rule) return paragraph;
