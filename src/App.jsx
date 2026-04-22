@@ -532,7 +532,7 @@ function Destinations() {
             {(tab === 'cities' ? cities : airports).map(dest => (
               <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="dest-image-card">
                 <div className="dest-image-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
-                <div className="dest-image-card__name">{t(`destCards.${dest.slug}.name`) || dest.name}</div>
+                <div className="dest-image-card__name">{(() => { const k = `destCards.${dest.slug}.name`; const v = t(k); return v && v !== k ? v : dest.name; })()}</div>
               </a>
             ))}
           </div>
