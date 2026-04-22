@@ -2369,7 +2369,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── FOOTER ───────────────────────────────────────────── */
 .footer {
-  background: #1f2937;
+  background: var(--black);
   border-top: 1px solid rgba(255,255,255,0.08);
   padding: 64px 0 32px;
   color: rgba(255,255,255,0.72);
