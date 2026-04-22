@@ -9,7 +9,7 @@ export default function CookiePolicy() {
       title={t("cookie-policy.title")}
       subtitle={t("cookie-policy.subtitle")}
       description={t("cookie-policy.seoDesc")}
-      image="/img/kotor-bay-aerial.webp"
+      image="/img/hero-budva.webp"
     >
       <p><strong>{t('cookieBody.lastUpdated')}</strong> April 2026</p>
 

@@ -1392,7 +1392,7 @@
         "distance": "12 km"
       },
       "1": {
-        "title": "Budva to Budva",
+        "title": "Tivat Airport to Budva",
         "desc": "Through the mountain tunnel, past Sveti Stefan viewpoint, onto the riviera.",
         "time": "30 min",
         "distance": "22 km"
@@ -1419,7 +1419,7 @@
   },
   "insiderTips": {
     "label": "Local Wisdom",
-    "title": "Three Things Budva Drivers Always Tell Us",
+    "title": "Local Tips Before You Set Off",
     "items": {
       "0": {
         "tag": "When to book",

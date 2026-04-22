@@ -1456,7 +1456,7 @@
         "distance": "12 km"
       },
       "1": {
-        "title": "Budva a Budva",
+        "title": "Aeroporto di Tivat a Budva",
         "desc": "Attraverso la galleria di montagna, passando per il belvedere di Sveti Stefan, sulla riviera.",
         "time": "30 min",
         "distance": "22 km"
@@ -1477,7 +1477,7 @@
   },
   "insiderTips": {
     "label": "Consigli da Insider",
-    "title": "Tre Cose che Ogni Conducente Deve Sapere",
+    "title": "Consigli locali prima di partire",
     "items": {
       "0": {
         "tag": "Prenotazione",

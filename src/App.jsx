@@ -577,7 +577,7 @@ const ROUTE_IMAGES = [
   { image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
   { image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
   { image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
-  { image: '/img/blog-kotor-day-trip-from-budva.webp', href: '/blog/kotor-day-trip-from-budva' },
+  { image: '/img/route-budva-to-dubrovnik.webp', href: '/blog/kotor-day-trip-from-budva' },
 ];
 
 function PopularRoutes() {

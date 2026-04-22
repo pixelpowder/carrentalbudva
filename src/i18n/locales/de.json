@@ -1488,7 +1488,7 @@
         "distance": "12 km"
       },
       "1": {
-        "title": "Budva nach Budva",
+        "title": "Flughafen Tivat nach Budva",
         "desc": "Durch den Bergtunnel, vorbei am Aussichtspunkt Sveti Stefan, zur Riviera.",
         "time": "30 min",
         "distance": "22 km"
@@ -1509,7 +1509,7 @@
   },
   "insiderTips": {
     "label": "Insider-Tipps",
-    "title": "Drei Dinge, die jeder Fahrer wissen sollte",
+    "title": "Lokale Tipps vor der Abfahrt",
     "items": {
       "0": {
         "tag": "Buchung",

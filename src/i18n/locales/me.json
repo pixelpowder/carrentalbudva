@@ -1456,7 +1456,7 @@
         "distance": "12 km"
       },
       "1": {
-        "title": "Budva do Budve",
+        "title": "Aerodrom Tivat do Budve",
         "desc": "Kroz planinski tunel, mimo Sveti Stefana, na rivijeru.",
         "time": "30 min",
         "distance": "22 km"
@@ -1477,7 +1477,7 @@
   },
   "insiderTips": {
     "label": "Uputstva od poznavalaca",
-    "title": "Tri stvari koje svaki vozač treba znati",
+    "title": "Lokalni savjeti prije polaska",
     "items": {
       "0": {
         "tag": "Rezervacija",
