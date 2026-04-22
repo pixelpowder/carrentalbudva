@@ -65,19 +65,19 @@ export default function Footer() {
           <div className="footer__col-title">Riviera Guides</div>
           <div className="footer__links">
             <a href={localePath('/blog')} className="footer__link">Blog</a>
-            <a href={localePath('/blog/sveti-stefan-photo-spots')} className="footer__link">Sveti Stefan</a>
-            <a href={localePath('/blog/budva-old-town-walls')} className="footer__link">Old Town Walls</a>
-            <a href={localePath('/blog/becici-rafailovici-promenade')} className="footer__link">Bečići Promenade</a>
+            <a href={localePath('/blog/milocer-park-villa')} className="footer__link">Miločer Park</a>
+            <a href={localePath('/blog/mogren-beach-dukley-tunnel')} className="footer__link">Mogren Beach</a>
+            <a href={localePath('/blog/drobni-pijesak-cove')} className="footer__link">Drobni Pijesak</a>
           </div>
         </div>
 
         <div>
           <div className="footer__col-title">Coast &amp; Drives</div>
           <div className="footer__links">
-            <a href={localePath('/blog/budva-to-sveti-stefan-drive')} className="footer__link">Budva → Sveti Stefan</a>
-            <a href={localePath('/blog/tivat-airport-to-budva')} className="footer__link">Tivat Airport Route</a>
-            <a href={localePath('/blog/pastrovici-highlands-drive')} className="footer__link">Paštrovići Highlands</a>
-            <a href={localePath('/blog/petrovac-quiet-alternative')} className="footer__link">Petrovac</a>
+            <a href={localePath('/blog/budva-to-lovcen-mausoleum')} className="footer__link">Lovćen Mausoleum</a>
+            <a href={localePath('/blog/kotor-day-trip-from-budva')} className="footer__link">Kotor Day Trip</a>
+            <a href={localePath('/blog/cetinje-day-trip-from-budva')} className="footer__link">Cetinje Day Trip</a>
+            <a href={localePath('/blog/rezevici-monastery')} className="footer__link">Reževići Monastery</a>
           </div>
         </div>
       </div>
