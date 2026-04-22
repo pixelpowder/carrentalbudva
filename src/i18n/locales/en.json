@@ -1418,21 +1418,21 @@
     "countriesPermitted": "Countries Permitted"
   },
   "insiderTips": {
-    "label": "Insider Tips",
-    "title": "Three Things Every Budva Driver Should Know",
+    "label": "Local Wisdom",
+    "title": "Three Things Budva Drivers Always Tell Us",
     "items": {
       "0": {
-        "tag": "Booking",
+        "tag": "When to book",
         "title": "Lock In Before Mid-June",
         "text": "Budva Riviera supply tightens from late June — rates on identical cars can climb 30-40% the week before pickup. Book early, free cancellation means no risk."
       },
       "1": {
-        "tag": "Driving",
+        "tag": "On the road",
         "title": "Fuel Up Before Lovćen",
         "text": "The Kotor-Cetinje serpentine climbs through 25 hairpins from the bay to Njeguši. No petrol stations on the climb. Top up in Budva or Tivat before you turn inland."
       },
       "2": {
-        "tag": "Borders",
+        "tag": "Crossing out",
         "title": "Green Card for Debeli Brijeg",
         "text": "Dubrovnik day trips go through the Debeli Brijeg crossing — allow 10 minutes off-peak, up to two hours on a Saturday in August. The Green Card we prepare at booking keeps the checkpoint to a 30-second nod."
       }
