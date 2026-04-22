@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import PastroviciOliveHarvest from '@/src/components/pages/blog/PastroviciOliveHarvest';
+import content from '@/src/data/blog/pastrovici-olive-harvest';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "The Paštrovići Olive Harvest — Autumn in the Hills Behind the Budva Riviera" + ' | Car Rental Budva',
-    description: "A seasonal guide to the Paštrovići olive harvest: where the old groves grow, which small mills still work, how to buy oil, and how to time a shoulder-season visit from Budva.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/pastrovici-olive-harvest'),
-    openGraph: { title: "The Paštrovići Olive Harvest — Autumn in the Hills Behind the Budva Riviera", description: "A seasonal guide to the Paštrovići olive harvest: where the old groves grow, which small mills still work, how to buy oil, and how to time a shoulder-season visit from Budva.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function PastroviciOliveHarvestRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "The Paštrovići Olive Harvest — Autumn in the Hills Behind the Budva Riviera",
-    "description": "A seasonal guide to the Paštrovići olive harvest: where the old groves grow, which small mills still work, how to buy oil, and how to time a shoulder-season visit from Budva.",
-    "image": "https://www.carrentalbudva.com/img/blog-pastrovici-olive-harvest.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

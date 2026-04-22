@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import RezeviciMonastery from '@/src/components/pages/blog/RezeviciMonastery';
+import content from '@/src/data/blog/rezevici-monastery';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "Reževići Monastery — An 800-Year-Old Nemanjić Foundation Above the Budva Riviera" + ' | Car Rental Budva',
-    description: "A visitor guide to Reževići Monastery near Petrovac: its Nemanjić-era foundation, the three churches, frescoes, and how to visit it as a short drive from Budva.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/rezevici-monastery'),
-    openGraph: { title: "Reževići Monastery — An 800-Year-Old Nemanjić Foundation Above the Budva Riviera", description: "A visitor guide to Reževići Monastery near Petrovac: its Nemanjić-era foundation, the three churches, frescoes, and how to visit it as a short drive from Budva.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function RezeviciMonasteryRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Reževići Monastery — An 800-Year-Old Nemanjić Foundation Above the Budva Riviera",
-    "description": "A visitor guide to Reževići Monastery near Petrovac: its Nemanjić-era foundation, the three churches, frescoes, and how to visit it as a short drive from Budva.",
-    "image": "https://www.carrentalbudva.com/img/blog-rezevici-monastery.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

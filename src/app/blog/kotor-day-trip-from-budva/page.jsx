@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import KotorDayTripFromBudva from '@/src/components/pages/blog/KotorDayTripFromBudva';
+import content from '@/src/data/blog/kotor-day-trip-from-budva';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "Kotor Day Trip From Budva — What to See in Four Hours Without Losing Your Afternoon" + ' | Car Rental Budva',
-    description: "A Budva-based four-hour day-trip plan to Kotor: route options, where to park, what to see inside the walls, the San Giovanni fortress climb, and how to avoid the cruise crowds.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/kotor-day-trip-from-budva'),
-    openGraph: { title: "Kotor Day Trip From Budva — What to See in Four Hours Without Losing Your Afternoon", description: "A Budva-based four-hour day-trip plan to Kotor: route options, where to park, what to see inside the walls, the San Giovanni fortress climb, and how to avoid the cruise crowds.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function KotorDayTripFromBudvaRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Kotor Day Trip From Budva — What to See in Four Hours Without Losing Your Afternoon",
-    "description": "A Budva-based four-hour day-trip plan to Kotor: route options, where to park, what to see inside the walls, the San Giovanni fortress climb, and how to avoid the cruise crowds.",
-    "image": "https://www.carrentalbudva.com/img/blog-kotor-day-trip-from-budva.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

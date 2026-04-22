@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import DrobniPijesakCove from '@/src/components/pages/blog/DrobniPijesakCove';
+import content from '@/src/data/blog/drobni-pijesak-cove';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "Drobni Pijesak — The Tiny Sand Cove Where the Paštrovići Clan Held Court" + ' | Car Rental Budva',
-    description: "A guide to Drobni Pijesak, the small sheltered cove on the Budva Riviera where the Paštrovići tribal assembly met for centuries — history, access, parking and swimming conditions.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/drobni-pijesak-cove'),
-    openGraph: { title: "Drobni Pijesak — The Tiny Sand Cove Where the Paštrovići Clan Held Court", description: "A guide to Drobni Pijesak, the small sheltered cove on the Budva Riviera where the Paštrovići tribal assembly met for centuries — history, access, parking and swimming conditions.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function DrobniPijesakCoveRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Drobni Pijesak — The Tiny Sand Cove Where the Paštrovići Clan Held Court",
-    "description": "A guide to Drobni Pijesak, the small sheltered cove on the Budva Riviera where the Paštrovići tribal assembly met for centuries — history, access, parking and swimming conditions.",
-    "image": "https://www.carrentalbudva.com/img/blog-drobni-pijesak-cove.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

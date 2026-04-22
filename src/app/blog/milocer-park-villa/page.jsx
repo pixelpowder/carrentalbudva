@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import MilocerParkVilla from '@/src/components/pages/blog/MilocerParkVilla';
+import content from '@/src/data/blog/milocer-park-villa';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "Miločer Park and Villa Miločer — The Royal Summer Retreat Next to Sveti Stefan" + ' | Car Rental Budva',
-    description: "A visitor guide to Miločer Park and Villa Miločer: royal history, walking trails, Queen's Beach and King's Beach, access and what's open to the public today.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/milocer-park-villa'),
-    openGraph: { title: "Miločer Park and Villa Miločer — The Royal Summer Retreat Next to Sveti Stefan", description: "A visitor guide to Miločer Park and Villa Miločer: royal history, walking trails, Queen's Beach and King's Beach, access and what's open to the public today.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function MilocerParkVillaRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Miločer Park and Villa Miločer — The Royal Summer Retreat Next to Sveti Stefan",
-    "description": "A visitor guide to Miločer Park and Villa Miločer: royal history, walking trails, Queen's Beach and King's Beach, access and what's open to the public today.",
-    "image": "https://www.carrentalbudva.com/img/blog-milocer-park-villa.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

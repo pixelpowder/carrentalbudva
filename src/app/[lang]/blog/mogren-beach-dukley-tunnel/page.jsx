@@ -1,23 +1,27 @@
 import { buildAlternates } from '../../../metadata';
 import MogrenBeachDukleyTunnel from '@/src/components/pages/blog/MogrenBeachDukleyTunnel';
+import content from '@/src/data/blog/mogren-beach-dukley-tunnel';
 
 export async function generateMetadata({ params }) {
   const { lang } = await params;
+  const d = content[lang] || content.en;
   return {
-    title: "Mogren Beach and the Cliff Tunnel — Two Hidden Coves Just North of Budva Old Town" + ' | Car Rental Budva',
-    description: "A guide to Mogren Beach I and II near Budva Old Town: the cliff-path approach, the short connecting tunnel, swimming conditions, and the Dukley headland above.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/mogren-beach-dukley-tunnel', lang),
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default async function LangMogrenBeachDukleyTunnelRoute({ params }) {
   const { lang } = await params;
+  const d = content[lang] || content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Mogren Beach and the Cliff Tunnel — Two Hidden Coves Just North of Budva Old Town",
-    "description": "A guide to Mogren Beach I and II near Budva Old Town: the cliff-path approach, the short connecting tunnel, swimming conditions, and the Dukley headland above.",
-    "image": "https://www.carrentalbudva.com/img/blog-mogren-beach-dukley-tunnel.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },

@@ -1,22 +1,25 @@
 import { buildAlternates } from '../../metadata';
 import BudvaToBarFerryPort from '@/src/components/pages/blog/BudvaToBarFerryPort';
+import content from '@/src/data/blog/budva-to-bar-ferry-port';
 
 export async function generateMetadata() {
+  const d = content.en;
   return {
-    title: "Budva to Bar Ferry Port — Driving Down to the Bari Ferry for the Italy Leg" + ' | Car Rental Budva',
-    description: "A practical guide from Budva to the Port of Bar: the drive via the Sozina tunnel, ferry terminal logistics, overnight crossings to Bari, and what to know before you board.",
+    title: d.title + ' | Car Rental Budva',
+    description: d.description,
     alternates: buildAlternates('blog/budva-to-bar-ferry-port'),
-    openGraph: { title: "Budva to Bar Ferry Port — Driving Down to the Bari Ferry for the Italy Leg", description: "A practical guide from Budva to the Port of Bar: the drive via the Sozina tunnel, ferry terminal logistics, overnight crossings to Bari, and what to know before you board.", type: 'website' },
+    openGraph: { title: d.title, description: d.description, type: 'website' },
   };
 }
 
 export default function BudvaToBarFerryPortRoute() {
+  const d = content.en;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Budva to Bar Ferry Port — Driving Down to the Bari Ferry for the Italy Leg",
-    "description": "A practical guide from Budva to the Port of Bar: the drive via the Sozina tunnel, ferry terminal logistics, overnight crossings to Bari, and what to know before you board.",
-    "image": "https://www.carrentalbudva.com/img/blog-budva-to-bar-ferry-port.webp",
+    "headline": d.title,
+    "description": d.description,
+    "image": "https://www.carrentalbudva.com" + d.image,
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
     "author": { "@type": "Organization", "name": "Car Rental Budva", "url": "https://www.carrentalbudva.com" },
