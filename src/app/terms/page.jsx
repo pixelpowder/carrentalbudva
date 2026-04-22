@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import Terms from '@/src/components/pages/Terms';
 
 export async function generateMetadata() {
-  const title = t('en', 'terms.title') + ' | Budva Car Rental';
+  const title = t('en', 'terms.title') + ' | Car Rental Budva';
   const description = t('en', 'terms.seoDesc');
   return {
     title: title,

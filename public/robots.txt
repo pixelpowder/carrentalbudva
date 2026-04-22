@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /widget.html
 
-Sitemap: https://www.carrentalbudva.com/sitemap.xml
+Sitemap: https://www.kotorcarrental.com/sitemap.xml

@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import { Car, Globe, ChevronDown, ChevronRight, Menu, X } from 'lucide-react';
+import { Globe, ChevronDown, ChevronRight, Menu, X, MapPin } from 'lucide-react';
 import config from './siteConfig';
 import useTranslation from './i18n/useTranslation';
 import { SUPPORTED_LANGS, LANG_LABELS, DEFAULT_LANG } from './i18n/languages';
@@ -13,18 +13,7 @@ export default function Nav({ logoHref }) {
   const router = useRouter();
   const [langOpen, setLangOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const langRef = useRef(null);
-
-  const isHome = pathname === '/' || pathname === `/${lang}`;
-
-  useEffect(() => {
-    if (!isHome) { setScrolled(true); return; }
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, [isHome]);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -36,11 +25,17 @@ export default function Nav({ logoHref }) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [langOpen]);
 
+  const tf = (key, fb) => {
+    const v = t(key);
+    return v && v !== key ? v : fb;
+  };
   const navLinks = [
-    { label: t('nav.book'), href: localePath('/book') },
-    { label: t('nav.destinations'), href: localePath('/#destinations') },
-    { label: t('nav.about'), href: localePath('/about') },
-    { label: 'Contact', href: localePath('/contact') },
+    { label: tf('nav.book', 'Book'), href: localePath('/book') },
+    { label: tf('nav.fleet', 'Fleet'), href: localePath('/cars') },
+    { label: tf('nav.blog', 'Blog'), href: localePath('/blog') },
+    { label: tf('nav.destinations', 'Destinations'), href: localePath('/#destinations') },
+    { label: tf('nav.about', 'About'), href: localePath('/about') },
+    { label: tf('nav.contact', 'Contact'), href: localePath('/contact') },
   ];
 
   function switchLang(newLang) {
@@ -60,15 +55,20 @@ export default function Nav({ logoHref }) {
 
   return (
     <>
-      <nav className={`nav${scrolled ? ' nav--scrolled' : ''}`}>
+      <div className="top-bar">
+        <div className="top-bar__inner">
+          <a href={localePath('/book')} className="top-bar__link">{t('navTop.carRental')}</a>
+          <a href={localePath('/#destinations')} className="top-bar__link">{t('navTop.destinations')}</a>
+          <a href={localePath('/blog')} className="top-bar__link">{t('navTop.travelGuides')}</a>
+        </div>
+      </div>
+      <nav className="nav">
         <div className="nav__inner">
           <a href={resolvedLogoHref} className="nav__logo">
-            <div className="nav__logo-icon">
-              <Car size={18} />
-            </div>
+            <div className="nav__logo-mark" />
             <div className="nav__logo-text">
               {config.name}
-              <span className="nav__logo-sub">Budva Riviera</span>
+              <span className="nav__logo-sub">{t('navTop.bokaBayRentals')}</span>
             </div>
           </a>
 
@@ -111,7 +111,7 @@ export default function Nav({ logoHref }) {
               <div className="mobile-drawer__header">
                 <div className="nav__logo-text">
                   {config.name}
-                  <span className="nav__logo-sub">Budva Riviera</span>
+                  <span className="nav__logo-sub">{t('navTop.bokaBayRentals')}</span>
                 </div>
                 <button className="mobile-drawer__close" onClick={() => setMenuOpen(false)} aria-label="Close menu">
                   <X size={22} />

@@ -9,51 +9,51 @@ export default function Terms() {
       title={t("terms.title")}
       subtitle={t("terms.subtitle")}
       description={t("terms.seoDesc")}
-      image="/img/budva-beach.webp"
+      image="/img/kotor-bay-aerial.webp"
     >
-      <p><strong>Last updated:</strong> April 2026</p>
+      <p><strong>{t('termsBody.lastUpdated')}</strong> April 2026</p>
 
-      <h2>About This Website</h2>
-      <p>Budva Car Rental (carrentalbudva.com) is an affiliate website that connects travellers with car rental services in Budva, Montenegro. We are not a car rental company — we partner with LocalRent to provide real-time availability and booking services.</p>
+      <h2>{t('termsBody.aboutTitle')}</h2>
+      <p>{t('termsBody.aboutText')}</p>
 
-      <h2>Booking & Rental Terms</h2>
-      <p>All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Budva Car Rental.</p>
-      <p>The rental terms, including cancellation policies, insurance coverage, age requirements, and payment conditions, are set by the vehicle supplier and displayed during the booking process. We recommend reading these terms carefully before confirming any booking.</p>
+      <h2>{t('termsBody.bookingTitle')}</h2>
+      <p>{t('termsBody.bookingP1')}</p>
+      <p>{t('termsBody.bookingP2')}</p>
 
-      <h2>Our Role</h2>
-      <p>We provide:</p>
+      <h2>{t('termsBody.roleTitle')}</h2>
+      <p>{t('termsBody.weProvide')}</p>
       <ul>
-        <li>A search interface to browse available rental vehicles</li>
-        <li>Destination and travel information about Montenegro</li>
-        <li>Customer support to help with enquiries before booking</li>
+        <li>{t('termsBody.provide1')}</li>
+        <li>{t('termsBody.provide2')}</li>
+        <li>{t('termsBody.provide3')}</li>
       </ul>
-      <p>We do not:</p>
+      <p>{t('termsBody.weDoNot')}</p>
       <ul>
-        <li>Own, operate, or maintain any rental vehicles</li>
-        <li>Process payments or handle refunds</li>
-        <li>Set rental prices, insurance terms, or cancellation policies</li>
-      </ul>
-
-      <h2>Pricing</h2>
-      <p>Prices displayed on our website are provided in real-time by our booking partner and are subject to change. The final price is confirmed at the time of booking. All prices include VAT and mandatory insurance unless otherwise stated.</p>
-
-      <h2>Website Content</h2>
-      <p>We make every effort to ensure that information on this website is accurate and up to date. However, travel information, driving regulations, and border crossing requirements can change. We recommend verifying critical details (especially border crossing documents and driving rules) with official sources before your trip.</p>
-
-      <h2>Limitation of Liability</h2>
-      <p>Budva Car Rental acts as an intermediary and is not liable for:</p>
-      <ul>
-        <li>The condition or availability of rental vehicles</li>
-        <li>Actions or omissions by rental suppliers</li>
-        <li>Losses arising from border crossing issues or documentation problems</li>
-        <li>Changes to prices after booking confirmation</li>
+        <li>{t('termsBody.doNot1')}</li>
+        <li>{t('termsBody.doNot2')}</li>
+        <li>{t('termsBody.doNot3')}</li>
       </ul>
 
-      <h2>Intellectual Property</h2>
-      <p>All content on this website, including text, design, and graphics, is owned by Budva Car Rental unless otherwise credited. Stock photography is used under licence from Pexels.</p>
+      <h2>{t('termsBody.pricingTitle')}</h2>
+      <p>{t('termsBody.pricingText')}</p>
 
-      <h2>Contact</h2>
-      <p>Questions about these terms? Contact us at info@carrentalbudva.com.</p>
+      <h2>{t('termsBody.contentTitle')}</h2>
+      <p>{t('termsBody.contentText')}</p>
+
+      <h2>{t('termsBody.liabilityTitle')}</h2>
+      <p>{t('termsBody.liabilityText')}</p>
+      <ul>
+        <li>{t('termsBody.liability1')}</li>
+        <li>{t('termsBody.liability2')}</li>
+        <li>{t('termsBody.liability3')}</li>
+        <li>{t('termsBody.liability4')}</li>
+      </ul>
+
+      <h2>{t('termsBody.ipTitle')}</h2>
+      <p>{t('termsBody.ipText')}</p>
+
+      <h2>{t('termsBody.contactTitle')}</h2>
+      <p>{t('termsBody.contactText')}</p>
     </ContentPage>
   );
 }

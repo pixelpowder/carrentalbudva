@@ -4,7 +4,7 @@ import Montenegro from '@/src/components/pages/Montenegro';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'montenegro.title') + ' | Budva Car Rental',
+    title: t(lang, 'montenegro.title') + ' | Car Rental Budva',
     description: t(lang, 'montenegro.seoDesc'),
     alternates: buildAlternates('montenegro', lang),
   };

@@ -1,50 +1,32 @@
 'use client';
-import { useState } from 'react';
-import { Car, Phone, Mail, MapPin, ChevronRight, ChevronDown } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
 import config from './siteConfig';
 import useTranslation from './i18n/useTranslation';
 import './App.css';
 
-function FooterAccordion({ title, children }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div className={`footer__accordion${open ? ' footer__accordion--open' : ''}`}>
-      <button className="footer__accordion-btn" onClick={() => setOpen(!open)}>
-        <span className="footer__col-title">{title}</span>
-        <ChevronDown size={16} className="footer__accordion-icon" />
-      </button>
-      <div className="footer__accordion-body">
-        {children}
-      </div>
-    </div>
-  );
-}
-
-function FooterColumn({ title, children }) {
-  return (
-    <div>
-      <div className="footer__col-title footer__col-title--desktop">{title}</div>
-      <FooterAccordion title={title}>
-        {children}
-      </FooterAccordion>
-      <div className="footer__links footer__links--desktop">
-        {children}
-      </div>
-    </div>
-  );
-}
+const FOOTER_FLEET_SLUGS = ['renault-clio', 'peugeot-308', 'renault-megane', 'vw-golf', 'fiat-500'];
 
 export default function Footer() {
   const { t, localePath } = useTranslation();
+  const tf = (key, fb) => {
+    const v = t(key);
+    return v && v !== key ? v : fb;
+  };
+
+  const fleetLinks = FOOTER_FLEET_SLUGS
+    .map(slug => {
+      const car = config.cars.find(c => c.slug === slug);
+      if (!car) return null;
+      const name = tf(`cars.${slug}.name`, car.name);
+      return { slug, name };
+    })
+    .filter(Boolean);
 
   return (
     <footer className="footer">
       <div className="footer__grid">
         <div>
           <div className="footer__brand-logo">
-            <div className="footer__brand-icon">
-              <Car size={16} />
-            </div>
             <span className="footer__brand-name">{config.name}</span>
           </div>
           <p className="footer__brand-desc">{t('footer.brandDesc')}</p>
@@ -58,31 +40,46 @@ export default function Footer() {
           </div>
         </div>
 
-        <FooterColumn title={t('footer.quickLinks')}>
-          <a href={localePath('/book')} className="footer__link"><ChevronRight size={12} /> {t('footer.carHireBooking')}</a>
-          <a href={localePath('/about')} className="footer__link"><ChevronRight size={12} /> {t('footer.aboutUs')}</a>
-          <a href={localePath('/#faq')} className="footer__link"><ChevronRight size={12} /> {t('footer.faqLink')}</a>
-          <a href={localePath('/#reviews')} className="footer__link"><ChevronRight size={12} /> Testimonials</a>
-        </FooterColumn>
+        <div className="footer__col--hide-mobile">
+          <div className="footer__col-title">{tf('footer.quickLinks', 'Quick Links')}</div>
+          <div className="footer__links">
+            <a href={localePath('/book')} className="footer__link">{tf('footer.carHireBooking', 'Car Hire Booking')}</a>
+            <a href={localePath('/cars')} className="footer__link">{tf('footer.ourFleet', 'Our Fleet')}</a>
+            <a href={localePath('/about')} className="footer__link">{tf('footer.aboutUs', 'About Us')}</a>
+            <a href={localePath('/#faq')} className="footer__link">{tf('footer.faqLink', 'FAQ')}</a>
+          </div>
+        </div>
 
-        <FooterColumn title={t('footer.guides')}>
-          <a href={localePath('/montenegro')} className="footer__link"><ChevronRight size={12} /> {t('footer.montenegroGuide')}</a>
-          <a href={localePath('/border-crossing-guide')} className="footer__link"><ChevronRight size={12} /> {t('footer.borderGuide')}</a>
-          <a href={localePath('/#destinations')} className="footer__link"><ChevronRight size={12} /> {t('footer.destinations')}</a>
-        </FooterColumn>
+        <div>
+          <div className="footer__col-title">{tf('footer.ourFleet', 'Our Fleet')}</div>
+          <div className="footer__links">
+            {fleetLinks.map(car => (
+              <a key={car.slug} href={localePath(`/cars/${car.slug}`)} className="footer__link">
+                {car.name}
+              </a>
+            ))}
+          </div>
+        </div>
 
-        <FooterColumn title={t('footer.locations')}>
-          {[
-            { name: 'Budva', slug: 'budva' },
-            { name: 'Tivat Airport', slug: 'tivat-airport' },
-            { name: 'Kotor', slug: 'kotor' },
-            { name: 'Podgorica Airport', slug: 'podgorica-airport' },
-          ].map(dest => (
-            <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="footer__link">
-              <MapPin size={12} /> {dest.name}
-            </a>
-          ))}
-        </FooterColumn>
+        <div>
+          <div className="footer__col-title">Riviera Guides</div>
+          <div className="footer__links">
+            <a href={localePath('/blog')} className="footer__link">Blog</a>
+            <a href={localePath('/blog/sveti-stefan-photo-spots')} className="footer__link">Sveti Stefan</a>
+            <a href={localePath('/blog/budva-old-town-walls')} className="footer__link">Old Town Walls</a>
+            <a href={localePath('/blog/becici-rafailovici-promenade')} className="footer__link">Bečići Promenade</a>
+          </div>
+        </div>
+
+        <div>
+          <div className="footer__col-title">Coast &amp; Drives</div>
+          <div className="footer__links">
+            <a href={localePath('/blog/budva-to-sveti-stefan-drive')} className="footer__link">Budva → Sveti Stefan</a>
+            <a href={localePath('/blog/tivat-airport-to-budva')} className="footer__link">Tivat Airport Route</a>
+            <a href={localePath('/blog/pastrovici-highlands-drive')} className="footer__link">Paštrovići Highlands</a>
+            <a href={localePath('/blog/petrovac-quiet-alternative')} className="footer__link">Petrovac</a>
+          </div>
+        </div>
       </div>
 
       <div className="footer__bottom">

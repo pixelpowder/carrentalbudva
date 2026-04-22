@@ -19,8 +19,17 @@ export function t(lang, key) {
   return fallback || key;
 }
 
-const SITE_NAME = 'Budva Car Rental';
+const SITE_NAME = 'Car Rental Budva';
 const BASE_URL = 'https://www.carrentalbudva.com';
+
+export const OG_LOCALE = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  it: 'it_IT',
+  ru: 'ru_RU',
+  me: 'sr_ME',
+};
 
 // Build canonical + hreflang alternates for a page slug in the given locale.
 // `lang` defaults to 'en' (the default locale, no URL prefix).
@@ -49,10 +58,17 @@ export function buildMetadata(lang, titleKey, descKey, slug) {
   const title = t(resolvedLang, titleKey);
   const desc = t(resolvedLang, descKey);
   const displayTitle = title !== titleKey ? `${title} | ${SITE_NAME}` : SITE_NAME;
+  const resolvedDesc = desc !== descKey ? desc : undefined;
 
   return {
     title: displayTitle,
-    description: desc !== descKey ? desc : undefined,
-    alternates: buildAlternates(slug),
+    description: resolvedDesc,
+    alternates: buildAlternates(slug, resolvedLang),
+    openGraph: {
+      title: displayTitle,
+      description: resolvedDesc,
+      locale: OG_LOCALE[resolvedLang] || 'en_US',
+      type: 'website',
+    },
   };
 }

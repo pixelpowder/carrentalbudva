@@ -1,7 +1,7 @@
 import NotFound from '@/src/components/pages/NotFound';
 
 export const metadata = {
-  title: 'Page Not Found | Budva Car Rental',
+  title: 'Page Not Found | Car Rental Budva',
 };
 
 export default function NotFoundPage() {

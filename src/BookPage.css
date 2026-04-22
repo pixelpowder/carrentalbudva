@@ -5,12 +5,12 @@
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 136px;
+  padding-top: 140px;
 }
 
 @media (max-width: 768px) {
   .book-page {
-    padding-top: 64px;
+    padding-top: 110px;
   }
 }
 
@@ -22,14 +22,14 @@
 .book-page__title {
   font-size: clamp(22px, 3vw, 30px);
   font-weight: 800;
-  color: rgb(61, 20, 16);
+  color: var(--black);
   margin: 0 0 8px;
   letter-spacing: -0.02em;
 }
 
 .book-page__subtitle {
   font-size: 15px;
-  color: #6b7280;
+  color: var(--text-light);
   margin: 0;
 }
 
@@ -43,14 +43,14 @@
 .book-page__summary-item {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   font-size: 14px;
   font-weight: 500;
-  color: rgb(61, 20, 16);
-  background: rgba(232, 93, 74, 0.07);
-  border: 1px solid rgba(232, 93, 74, 0.15);
-  border-radius: 20px;
-  padding: 4px 12px;
+  color: var(--black);
+  background: var(--primary-light, #FEE8EC);
+  border: 1px solid rgba(227, 25, 55, 0.15);
+  border-radius: 24px;
+  padding: 8px 16px;
 }
 
 /* ── Widget area ── */
@@ -59,7 +59,7 @@
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
-  padding: 32px 24px 60px;
+  padding: 32px 24px 64px;
   background: #fff;
 }
 

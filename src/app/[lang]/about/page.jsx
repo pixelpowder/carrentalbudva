@@ -4,7 +4,7 @@ import About from '@/src/components/pages/About';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'about.title') + ' | Budva Car Rental',
+    title: t(lang, 'about.title') + ' | Car Rental Budva',
     description: t(lang, 'about.seoDesc'),
     alternates: buildAlternates('about', lang),
   };

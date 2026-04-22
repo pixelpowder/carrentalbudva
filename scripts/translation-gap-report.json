@@ -1,5 +1,5 @@
 {
-  "enKeyCount": 391,
+  "enKeyCount": 1348,
   "missing": {
     "de": [],
     "fr": [],
@@ -9,33 +9,47 @@
   },
   "englishCopied": {
     "de": [
-      "featureCards.support.title",
+      "about.heading1",
       "destCards.podgorica.name",
-      "tivatBody.portoTitle",
-      "podgoricaBody.danilovgradTitle",
-      "borderCrossingBody.kosovoTitle"
+      "tivatBody.churchTitle",
+      "blogBayOfKotorSwimming.h2Spot3",
+      "privacyBody.third1Label",
+      "driveMap.items.2.name",
+      "driveMap.items.3.name",
+      "driveMap.items.4.name"
     ],
     "fr": [
-      "nav.destinations",
-      "footer.destinations",
+      "about.heading1",
       "destCards.podgorica.name",
-      "tivatBody.portoTitle",
-      "podgoricaBody.danilovgradTitle"
+      "tivatBody.churchTitle",
+      "blogBayOfKotorSwimming.h2Spot3",
+      "driveMap.items.2.name",
+      "driveMap.items.3.name",
+      "driveMap.items.4.name",
+      "navTop.destinations"
     ],
     "it": [
+      "about.heading1",
       "destCards.podgorica.name",
-      "tivatBody.portoTitle",
-      "podgoricaBody.danilovgradTitle",
-      "borderCrossingBody.albaniaTitle",
-      "borderCrossingBody.serbiaTitle",
-      "borderCrossingBody.kosovoTitle"
+      "tivatBody.churchTitle",
+      "blogBayOfKotorSwimming.h2Spot3",
+      "privacyBody.third1Label",
+      "driveMap.items.2.name",
+      "driveMap.items.3.name",
+      "driveMap.items.4.name"
     ],
     "ru": [
-      "tivatBody.portoTitle"
+      "about.heading1",
+      "privacyBody.third1Label"
     ],
     "me": [
+      "about.heading1",
       "destCards.podgorica.name",
-      "podgoricaBody.danilovgradTitle"
+      "blogBayOfKotorSwimming.h2Spot3",
+      "privacyBody.third1Label",
+      "driveMap.items.2.name",
+      "driveMap.items.3.name",
+      "driveMap.items.4.name"
     ]
   }
 }

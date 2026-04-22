@@ -16,24 +16,24 @@ const translations = { en, de, ru, it, fr, me };
 const BASE_AUTO_RENTAL = {
   "@context": "https://schema.org",
   "@type": "AutoRental",
-  "name": "Budva Car Rental",
+  "name": "Car Rental Budva",
   "url": "https://www.carrentalbudva.com",
   "email": "info@carrentalbudva.com",
   "image": "https://www.carrentalbudva.com/img/schema-car.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Tabacina BB",
-    "addressLocality": "Budva",
-    "postalCode": "85310",
+    "addressLocality": "Kotor",
+    "postalCode": "85330",
     "addressCountry": "ME"
   },
   "areaServed": [
     { "@type": "City", "name": "Budva" },
+    { "@type": "City", "name": "Bečići" },
+    { "@type": "City", "name": "Sveti Stefan" },
+    { "@type": "City", "name": "Petrovac" },
     { "@type": "City", "name": "Tivat" },
-    { "@type": "City", "name": "Kotor" },
-    { "@type": "City", "name": "Perast" },
-    { "@type": "City", "name": "Herceg Novi" },
-    { "@type": "City", "name": "Podgorica" }
+    { "@type": "City", "name": "Rafailovići" }
   ],
   "priceRange": "€25-€120",
   "currenciesAccepted": "EUR",
@@ -71,7 +71,7 @@ export default function LocaleAwareSchema({ lang = 'en' }) {
   const description = pick(t, 'home.seoDesc')
     || pick(t, 'meta.homeDescription')
     || pick(t, 'hero.subtitle')
-    || 'Rent a car in Budva from trusted local providers with free cancellation, full insurance, and Tivat Airport pickup included with every booking.';
+    || 'Rent a car in Budva from trusted local providers with free cancellation, full insurance, and airport pickup included with every booking.';
 
   const autoRental = { ...BASE_AUTO_RENTAL, description };
 

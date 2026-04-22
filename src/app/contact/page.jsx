@@ -2,8 +2,8 @@ import Contact from '@/src/components/pages/Contact';
 import { buildAlternates } from '@/src/app/metadata';
 
 export function generateMetadata() {
-  const title = 'Contact Us | Budva Car Rental';
-  const description = 'Get in touch with Budva Car Rental. Email, phone, or WhatsApp — we\'re here to help you find the perfect rental car.';
+  const title = 'Contact Us | Car Rental Budva';
+  const description = 'Get in touch with Car Rental Budva. Email, phone, or WhatsApp — we\'re here to help you find the perfect rental car.';
   return {
     title: title,
     description: description,
