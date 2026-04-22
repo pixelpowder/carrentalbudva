@@ -2369,12 +2369,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── FOOTER ───────────────────────────────────────────── */
 .footer {
-  background: var(--bg-alt);
+  background: var(--white);
   border-top: 1px solid var(--border);
   padding: 64px 0 32px;
-  color: var(--text);
+  color: var(--gray-600, #6c757d);
   position: relative;
 }
+.footer h3,
+.footer h4,
+.footer .footer__brand,
+.footer a { color: var(--black); }
+.footer a:hover { color: var(--primary); }
 
 .footer::before {
   content: '';
