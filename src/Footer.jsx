@@ -62,22 +62,22 @@ export default function Footer() {
         </div>
 
         <div>
-          <div className="footer__col-title">Riviera Guides</div>
+          <div className="footer__col-title">{t('footer.rivieraGuides')}</div>
           <div className="footer__links">
-            <a href={localePath('/blog')} className="footer__link">Blog</a>
-            <a href={localePath('/blog/milocer-park-villa')} className="footer__link">Miločer Park</a>
-            <a href={localePath('/blog/mogren-beach-dukley-tunnel')} className="footer__link">Mogren Beach</a>
-            <a href={localePath('/blog/drobni-pijesak-cove')} className="footer__link">Drobni Pijesak</a>
+            <a href={localePath('/blog')} className="footer__link">{t('footer.blogLink')}</a>
+            <a href={localePath('/blog/milocer-park-villa')} className="footer__link">{t('posts.milocer.short')}</a>
+            <a href={localePath('/blog/mogren-beach-dukley-tunnel')} className="footer__link">{t('posts.mogren.short')}</a>
+            <a href={localePath('/blog/drobni-pijesak-cove')} className="footer__link">{t('posts.drobniPijesak.short')}</a>
           </div>
         </div>
 
         <div>
-          <div className="footer__col-title">Coast &amp; Drives</div>
+          <div className="footer__col-title">{t('footer.coastDrives')}</div>
           <div className="footer__links">
-            <a href={localePath('/blog/budva-to-lovcen-mausoleum')} className="footer__link">Lovćen Mausoleum</a>
-            <a href={localePath('/blog/kotor-day-trip-from-budva')} className="footer__link">Kotor Day Trip</a>
-            <a href={localePath('/blog/cetinje-day-trip-from-budva')} className="footer__link">Cetinje Day Trip</a>
-            <a href={localePath('/blog/rezevici-monastery')} className="footer__link">Reževići Monastery</a>
+            <a href={localePath('/blog/budva-to-lovcen-mausoleum')} className="footer__link">{t('posts.lovcen.short')}</a>
+            <a href={localePath('/blog/kotor-day-trip-from-budva')} className="footer__link">{t('posts.kotorDay.short')}</a>
+            <a href={localePath('/blog/cetinje-day-trip-from-budva')} className="footer__link">{t('posts.cetinjeDay.short')}</a>
+            <a href={localePath('/blog/rezevici-monastery')} className="footer__link">{t('posts.rezevici.short')}</a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Footer() {
           <a href={localePath('/privacy')} className="footer__bottom-link">{t('footer.privacyPolicy')}</a>
           <a href={localePath('/terms')} className="footer__bottom-link">{t('footer.terms')}</a>
           <a href={localePath('/cookie-policy')} className="footer__bottom-link">{t('footer.cookiePolicy')}</a>
-          <a href="/sitemap.xml" className="footer__bottom-link">Sitemap</a>
+          <a href="/sitemap.xml" className="footer__bottom-link">{t('footer.sitemap')}</a>
         </div>
       </div>
     </footer>

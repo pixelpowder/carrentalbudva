@@ -110,15 +110,16 @@
     "helpText": "Il nostro team è disponibile via WhatsApp, Viber o telefono.",
     "popularDest": "Destinazioni Popolari",
     "tivatAirport": "Aeroporto di Tivat Airport",
-    "dubrovnikAirport": "Aeroporto di Dubrovnik"
+    "dubrovnikAirport": "Aeroporto di Dubrovnik",
+    "rivieraGuides": "Guide della Riviera"
   },
   "book": {
     "title": "Trova la Tua Auto",
     "seoTitle": "Prenota un’Auto a Budva",
-    "seoDesc": "Auto a noleggio settimanale e mensile a Budva e nella Budva Riviera."
+    "seoDesc": "Noleggio auto per Budva e la Budva Riviera. Assicurazione inclusa, consegna all'aeroporto di Tivat e prezzo unico per i tuoi viaggi lungo l'Adriatico."
   },
   "footer": {
-    "brandDesc": "Noleggio auto mensile a Budva con ritiro in aeroporto, assicurazione completa e prezzi fissi settimanali per soggiorni prolungati nella Budva Riviera.",
+    "brandDesc": "Noleggio auto a Budva con consegna in aeroporto, assicurazione completa e prezzi chiari per guidare lungo l'Adriatico e la Budva Riviera.",
     "quickLinks": "Link Rapidi",
     "guides": "Guide",
     "locations": "Sedi",
@@ -135,7 +136,10 @@
     "cookiePolicy": "Politica sui Cookie",
     "testimonials": "Testimonianze",
     "sitemap": "Mappa del sito",
-    "tivatAirport": "Aeroporto di Tivat Airport"
+    "tivatAirport": "Aeroporto di Tivat Airport",
+    "rivieraGuides": "Guide della Riviera",
+    "coastDrives": "Costa e percorsi",
+    "blogLink": "Blog"
   },
   "notFound": {
     "code": "404",
@@ -145,13 +149,13 @@
     "searchCars": "Cerca Auto"
   },
   "home": {
-    "seoDesc": "Noleggio auto a lungo termine a Budva con tariffe mensili, assicurazione e CDW già inclusi.",
-    "title": "Noleggio Auto a Budva. Tariffe Mensili, Assicurazione Inclusa."
+    "seoDesc": "Noleggio auto a Budva con assicurazione e CDW inclusi. Consegna all'aeroporto di Tivat a 8 km, senza costi nascosti e accesso diretto alla Budva Riviera e all'Adriatico.",
+    "title": "Noleggio auto a Budva. Assicurazione inclusa, pronti per l'Adriatico."
   },
   "about": {
     "title": "Chi Siamo",
     "subtitle": "Radicati nella Baia di Budva, forti di 15 anni di esperienza sulle strade costiere.",
-    "seoDesc": "Noleggi a Budva pensati per il lungo termine: tariffe settimanali e mensili, assicurazione inclusa, ritiro presso l'Aeroporto di Tivat Airport e supporto.",
+    "seoDesc": "Noleggi a Budva pensati per le strade adriatiche: tariffe fisse, assicurazione inclusa, ritiro all'aeroporto di Tivat e supporto locale lungo la Budva Riviera.",
     "heading1": "Car Rental Budva",
     "p1": "Dal 2007, Car Rental Budva aiuta i visitatori a esplorare le Bocche di Budva in piena libertà. Quella che è iniziata come una piccola flotta al servizio della zona portuale si è espansa in una delle operazioni di noleggio più affidabili della baia, mettendo in contatto i viaggiatori con veicoli adatti ai vicoli costieri stretti, ai tornanti di montagna e ai viaggi transfrontalieri.",
     "heading2": "Perché Abbiamo Iniziato",
@@ -184,70 +188,43 @@
   },
   "budva": {
     "title": "Noleggio Auto a Budva",
-    "subtitle": "Parcheggia sotto i bastioni della fortezza ed esplora dodici secoli di storia murata a piedi.",
-    "seoDesc": "Trascorri un mese a Budva senza calcoli su noleggi giornalieri.",
-    "heading1": "Budva, Patrimonio Mondiale UNESCO",
-    "p1": "Budva si colloca tra gli insediamenti medievali meglio conservati dell’Adriatico, posizionata nel punto più interno di un’insenatura simile a un fiordo. Il centro storico, iscritto nella lista UNESCO, è un labirinto di vicoli in pietra, palazzi veneziani, cappelle romaniche e piazze vivaci. In alto, la fortezza di San Giovanni si arrampica per 1.200 gradini fino a offrire panorami mozzafiato sull’acqua.",
-    "p2a": "Noleggiare un’auto a Budva",
-    "p2b": "apre l’intera baia e oltre. L’aeroporto di Tivat Airport dista solo 8 km, un tragitto di appena 15 minuti. Il parcheggio è disponibile fuori dalle mura del centro storico, con parcheggi più grandi lungo le strade di accesso.",
-    "landmarksTitle": "Monumenti",
-    "stJohnTitle": "Fortezza di San Giovanni",
-    "stJohnText": "Le opere difensive sopra Budva risalgono al VI secolo e furono ampiamente rafforzate sotto il dominio veneziano. La salita di 1.200 gradini premia con ampie vedute sulla baia, i tetti in terracotta del centro storico e le cime circostanti. L’ingresso è gratuito fuori dall’alta stagione.",
-    "cathedralTitle": "Cattedrale di San Trifone",
-    "cathedralText": "Eretta per la prima volta nell’809 d.C. e ricostruita nel 1124, la Cattedrale di San Trifone è uno dei monumenti romanici più notevoli della costa adriatica. Le sue due torri campanarie formano la silhouette più iconica di Budva, e l’interno custodisce un tesoro di oreficeria e argenteria medievale.",
-    "dayTripsTitle": "Gite Giornaliere da Budva",
-    "ladyOfRocksTitle": "Madonna dello Scalpello, Rafailovići",
-    "ladyOfRocksText1": "Situata vicino a",
-    "ladyOfRocksLink": "Rafailovići",
-    "ladyOfRocksText2": ", questa cappella sorge su un’isola artificiale nella baia. Dal 1452, gli abitanti gettano pietre in acqua per ampliare l’isolotto. Piccole imbarcazioni partono dal porto di Rafailovići per pochi euro. Il tragitto in auto da Budva dura circa 15 minuti lungo la strada del lungomare.",
-    "cetinjeTitle": "Monastero di Cetinje",
-    "cetinjeText": "Fondato nel 1701, il monastero custodisce reliquie tra cui la mano di Giovanni Battista. Il viaggio da Budva dura circa un’ora attraverso panoramico terreno montano, passando per il Mausoleo di Njegos e il Parco Nazionale del Lovcen.",
-    "royalCourtTitle": "Palazzo Reale di Cetinje",
-    "royalCourtText": "Residenza reale del Montenegro dal 1871, situata nell’antica capitale reale. Le esposizioni comprendono arte, reperti storici e fotografie dell’epoca reale.",
-    "routeDifficulty": "Moderata, vicoli stretti nel centro storico, strade normali in avvicinamento",
-    "routeVehicle": "Auto compatta (parcheggio più facile vicino ai bastioni del centro storico)",
-    "routeParking": "Limitato nel centro storico. Usa i parcheggi lungo le strade di accesso (€1-2/ora)",
-    "routeDistances": "Dall’aeroporto di Tivat Airport: 15 minuti · Da Budva: 30 minuti"
+    "subtitle": "Venticinque secoli di insediamento, 21 km di costa riviera e un tunnel da Budva.",
+    "seoDesc": "Noleggio da Budva lungo la Riviera: riconsegna a Sveti Stefan o Petrovac dopo un giro costiero. Assicurazione piena, km illimitati."
   },
   "tivat-airport": {
     "title": "Noleggio Auto Aeroporto di Tivat Airport",
     "subtitle": "Atterra tra montagne e baia. Ritira le chiavi prima che il nastro bagagli si fermi.",
-    "seoDesc": "Noleggio lungo termine aeroporto Tivat Airport, base a Budva a 8 km. Tariffa settimanale o mensile, assicurazione piena, passaggio Dubrovnik."
-  },
-  "budva": {
-    "title": "Noleggio Auto a Budva",
-    "subtitle": "Venticinque secoli di insediamento, 21 km di costa riviera e un tunnel da Budva.",
-    "seoDesc": "Noleggio mensile o settimanale da Budva con riconsegna Budva: chiavi a Sveti Stefan o Petrovac. Assicurazione piena, km illimitati."
+    "seoDesc": "Ritira il noleggio all'aeroporto di Tivat con base a Budva a 8 km. Tariffa fissa, assicurazione piena e passaggio al confine di Dubrovnik inclusi."
   },
   "perast": {
     "title": "Noleggio Auto a Rafailovići",
     "subtitle": "Sedici facciate di palazzi, 350 residenti tutto l’anno e un’isola ampliata a mano dal 1452.",
-    "seoDesc": "Noleggio Budva per Rafailovići: 12 km su per la baia, 15 minuti di guida. Villaggio barocco, visita all'isola Madonna dello Scarpello."
+    "seoDesc": "Noleggio da Budva per raggiungere Rafailovići: 12 km lungo la Riviera, 15 minuti di guida. Villaggio barocco e visita all'isola della Madonna dello Scarpello."
   },
   "podgorica": {
     "title": "Noleggio Auto a Podgorica",
     "subtitle": "Sei fiumi, tre epoche architettoniche e la porta verso l’entroterra montano del Montenegro.",
-    "seoDesc": "Noleggi mensili Budva per l'interno: 75 km a Podgorica via tunnel Sozina. Km illimitati, assicurazione tutte stagioni, gomme 4 stagioni."
+    "seoDesc": "Noleggio da Budva per l'entroterra: 75 km fino a Podgorica via tunnel Sozina. Km illimitati, assicurazione tutte stagioni, gomme 4 stagioni."
   },
   "podgorica-airport": {
     "title": "Noleggio Auto Aeroporto di Podgorica",
     "subtitle": "L’hub del Montenegro aperto tutto l’anno. Codice TGD, intitolato a una città che non esiste più.",
-    "seoDesc": "Noleggio Budva lungo termine, riconsegna aeroporto Podgorica: 85 km via tunnel Sozina, 80 minuti. Km illimitati, carta verde inclusa."
+    "seoDesc": "Noleggio da Budva con riconsegna all'aeroporto di Podgorica. 85 km via tunnel Sozina, 80 minuti. Km illimitati, Carta Verde inclusa."
   },
   "dubrovnik-airport": {
     "title": "Noleggio Auto Aeroporto di Dubrovnik",
     "subtitle": "Atterra in Croazia, arrivi alle porte di Budva in due ore lungo una delle grandi autostrade costiere d’Europa.",
-    "seoDesc": "Noleggio mensile Budva, riconsegna Dubrovnik: 60 km a nord via traghetto Kamenari e Debeli Brijeg. Assicurazione transfrontaliera piena."
+    "seoDesc": "Noleggio da Budva con riconsegna a Dubrovnik: 60 km a nord via traghetto Kamenari e Debeli Brijeg. Assicurazione transfrontaliera piena."
   },
   "tivat": {
     "title": "Noleggio Auto a Tivat Airport",
     "subtitle": "Da base sottomarina della Guerra Fredda a porto turistico di superyacht in due decenni.",
-    "seoDesc": "Noleggi Budva lungo termine si riconsegnano a Tivat Airport, 12 minuti su per la baia. Parcheggio Porto Montenegro, cambio settimanale possibile."
+    "seoDesc": "Riconsegna noleggio da Budva all'aeroporto di Tivat, 12 minuti lungo la Riviera. Parcheggio al Porto Montenegro, possibile cambio auto."
   },
   "montenegro": {
     "title": "Guida alla Guida in Montenegro",
     "subtitle": "Strade della baia, tornanti di montagna e attraversamenti di frontiera, da un autista che li ha percorsi tutti partendo da Budva.",
-    "seoDesc": "Noleggio Montenegro mensile base Budva: km illimitati per Durmitor, Lago Skadar, Ostrog. Assicurazione lungo termine, gomme 4 stagioni."
+    "seoDesc": "Noleggio auto Montenegro con base a Budva: km illimitati per Durmitor, Lago Skadar e Ostrog. Assicurazione piena, gomme 4 stagioni."
   },
   "border-crossing": {
     "title": "Guida Oltre Confine da Budva",
@@ -364,8 +341,8 @@
     },
     "budva": {
       "name": "Budva",
-      "tag": "Centro Storico UNESCO",
-      "desc": "Porto medievale murato in fondo alla baia."
+      "tag": "30 min da Budva",
+      "desc": "Sabbia della riviera e una cittadella antica."
     },
     "podgorica-airport": {
       "name": "Aeroporto di Podgorica",
@@ -376,11 +353,6 @@
       "name": "Rafailovići",
       "tag": "15 min da Budva",
       "desc": "Lungomare barocco e due chiese insulari."
-    },
-    "budva": {
-      "name": "Budva",
-      "tag": "30 min da Budva",
-      "desc": "Sabbia della riviera e una cittadella antica."
     },
     "dubrovnik-airport": {
       "name": "Aeroporto di Dubrovnik",
@@ -422,38 +394,6 @@
     "p7": "Lunedì mattina: ritiro all’aeroporto di Tivat Airport, guida lungo la strada della baia fino a Budva, pomeriggio dentro le mura del centro storico. Martedì: verso nord attraverso Bečići e Rafailovići, barca alla Madonna dello Scalpello, rientro passando da Risan per i mosaici romani. Mercoledì: la serpentina del Lovcen fino a Njeguski per prosciutto affumicato e formaggio di montagna, poi giù dall’altro versante fino al monastero di Cetinje. Giovedì: le spiagge della riviera di Budva attraverso il tunnel, con deviazione a Sveti Stefan per la foto da cartolina. Venerdì: attraversamento del confine a Debeli Brijeg e pomeriggio nel porto di Dubrovnik. Sabato: Lago di Skadar attraverso le strade delle vigne, gita in barca a Virpazar, rientro via tunnel Sozina. Domenica: riconsegna dell’auto a Tivat Airport. L’intero circuito copre circa 500 km. Costo carburante: circa 50-60 euro ai prezzi attuali del diesel. Nessun autobus, tour organizzato o taxi potrebbe replicarlo a qualsiasi prezzo.",
     "h8": "Consigli Stagionali dal Team",
     "p8": "L’estate porta le navi da crociera, fino a quattro navi al giorno tra giugno e settembre, e con loro circa 8.000 passeggeri che invadono il centro storico tra le 09:00 e le 14:00. Consigliamo di arrivare presto o di parcheggiare a Bečići e camminare gli 800 metri fino alla Porta del Mare. L’inverno trasforma la baia in un luogo più tranquillo: meno visitatori, tariffe più basse e strade di montagna che occasionalmente chiudono sopra i 1.200 metri per la neve. Primavera e autunno sono il periodo ideale. I fiori selvatici di aprile costeggiano la strada della baia, settembre offre ancora mari caldi senza la folla, e la strada del Lovcen è aperta e poco frequentata."
-  },
-  "budvaBody": {
-    "h1": "Dodici Secoli dentro i Bastioni",
-    "p1": "Le mura difensive sorsero per la prima volta sopra Budva nel VI secolo, ma la storia documentata della città risale ancora più indietro, insediamento romano, governo bizantino, quasi quattrocento anni sotto il dominio veneziano. L’UNESCO iscrisse la Regione Naturale e Storico-Culturale di Budva nel 1979, riconoscendo non solo il centro storico murato ma il paesaggio circostante della baia come entità culturale unitaria. Varcate la Porta del Mare (Vrata od Mora), eretta nel 1555, ed entrate in una griglia stradale medievale che è rimasta praticamente invariata da allora.",
-    "p2": "Le opzioni di parcheggio fiancheggiano l’avvicinamento dall’aeroporto di Tivat Airport, a 8 km e circa quindici minuti di distanza. Il parcheggio più grande si trova sotto i bastioni vicino alla Porta del Fiume; una seconda opzione, meno congestionata, si trova lungo la striscia di Bečići verso nord. Nei giorni in cui le navi da crociera sono in porto, a volte tre o quattro contemporaneamente tra maggio e ottobre, arrivate prima delle 07:30 o preparatevi alla lotta per i posti.",
-    "landmarksTitle": "Dentro i Bastioni e Sopra di Essi",
-    "stJohnTitle": "Fortezza di San Giovanni",
-    "stJohnText": "Esattamente 1.355 gradini salgono dal margine settentrionale del centro storico alla vetta della fortezza a 280 metri. Gli ingegneri veneziani rafforzarono le mura di cinta di 4,5 km tra il XV e il XVIII secolo. Portate acqua, indossate calzature adeguate e calcolate quarantacinque minuti per la salita. Il panorama dalla cima giustifica ogni singolo gradino. Fuori da luglio e agosto, l’ingresso è gratuito.",
-    "cathedralTitle": "Cattedrale di San Trifone (1166)",
-    "cathedralText": "Una cappella ha occupato questo sito dall’809 d.C., ma la struttura romanica attuale risale al 1166. Le due torri campanarie, ricostruite dopo il terremoto del 1667, definiscono lo skyline di Budva. All’interno, un ciborio sopra l’altare maggiore custodisce affreschi del XIV secolo, e il tesoro-reliquiario conserva pezzi d’oro e d’argento di cinque secoli.",
-    "dayTripsTitle": "Oltre i Bastioni: Gite in Auto",
-    "perastTrip": "Quindici minuti a nord lungo la strada della baia, Rafailovići riposa nel silenzio rispetto al trambusto di Budva. Parcheggiate sul lungomare, salite su una barchetta verso la Madonna dello Scalpello e tornate per un caffè in un palazzo sul porto. La guida stessa è uno dei più bei brevi tratti di strada del paese.",
-    "cetinjeTrip": "Un’ora di tornanti attraverso il Parco Nazionale del Lovcen vi porta a Cetinje, l’antica capitale reale del Montenegro. Il monastero custodisce reliquie che includerebbero la mano di Giovanni Battista. Proseguite fino al Mausoleo di Njegos, arroccato a 1.657 metri, dove in una mattina limpida sono visibili quattro paesi.",
-    "royalCourtText": "Sempre a Cetinje, il Palazzo Reale del 1871 conserva dipinti, armi e fotografie del breve periodo della monarchia montenegrina. Si trova accanto al monastero su un viale alberato nella capitale storica.",
-    "parkingTitle": "Parcheggio a Budva: Guida Dettagliata",
-    "parkingP1": "Il parcheggio è la maggiore frustrazione che i visitatori incontrano a Budva. Il parcheggio pubblico principale si trova sotto i bastioni della fortezza, adiacente alla Porta del Fiume. Costa circa 1,50 euro l’ora in estate. La capacità è limitata a circa 150 veicoli, e alle 09:00 nei giorni delle crociere è completamente pieno.",
-    "parkingP2": "Una strategia migliore nelle mattine affollate è la striscia di Bečići. Superate le mura di Budva verso nord e in due minuti raggiungete un lungo tratto di parcheggio lungo la strada che raramente si riempie del tutto. Da lì, la passeggiata fino alla Porta del Mare dura circa dieci minuti.",
-    "parkingP3": "C’è anche un grande parcheggio in ghiaia vicino al centro commerciale sulla strada di accesso da Tivat Airport, a circa 800 metri a sud del centro storico. Costa 5 euro al giorno fissi. I locali usano questo parcheggio durante il picco estivo.",
-    "whereToEatTitle": "Dove Mangiare Vicino al Centro Storico",
-    "whereToEatP1": "Dentro le mura, Konoba Scala Santa in Trg od Salate serve calamari alla griglia con blitva (bietole e patate) che rappresenta la cucina della baia nella sua forma migliore. Il ristorante tiene il menù corto, pesce fresco, insalate locali, vino della casa. Aspettatevi 12-18 euro per un piatto principale.",
-    "whereToEatP2": "Fuori dalle mura, Restoran Galion si trova su una terrazza affacciata sul centro storico dall’altra parte dell’acqua. L’ambientazione è la vera attrazione, i bastioni della fortezza riflessi nella baia, ma il risotto ai frutti di mare e l’orata alla griglia reggono il confronto.",
-    "drivingTipsTitle": "Consigli di Guida per Budva",
-    "drivingTipsP1": "La strada di accesso da Tivat Airport segue la costa orientale della baia attraverso Bečići. È ben asfaltata ma stretta in alcuni punti. In estate, aspettatevi traffico in senso contrario da pullman turistici. I limiti di velocità sono di 40 km/h, applicati da un autovelox fisso vicino al lungomare di Bečići.",
-    "drivingTipsP2": "Andando a sud verso Budva, la strada sale brevemente prima di entrare nel tunnel del Vrmac. È un tunnel a canna singola con traffico a doppio senso, quindi rimanete in corsia e tenete i fari accesi. L’intero percorso dalla Porta del Mare di Budva a Budva dura circa 25 minuti.",
-    "drivingTipsP3": "Per la serpentina del Lovcen, uscite da Budva passando per le stradine dietro il centro storico. La strada è segnalata ma i primi incroci sono facili da perdere. Suonate il clacson prima di ogni curva cieca, i locali lo fanno abitualmente.",
-    "seasonalTitle": "Budva nelle Stagioni",
-    "seasonalP1": "L’estate (giugno-settembre) è il periodo più affollato e costoso di Budva. Il centro storico pullula di visitatori delle crociere tra le 09:00 e le 16:00. La sera, però, Budva si trasforma: i turisti giornalieri se ne vanno, le piazze si svuotano, e i ristoranti apparecchiano sotto i bastioni nel caldo crepuscolo.",
-    "seasonalP2": "L’autunno porta sollievo. Ottobre e novembre offrono clima mite, strade quasi vuote e tariffe di noleggio più basse. La salita alla fortezza è molto più piacevole senza il caldo di luglio.",
-    "seasonalP3": "Budva d’inverno è tranquilla, introspettiva e suggestiva. La pioggia attraversa la baia, le cime raccolgono la neve, e i vicoli luccicano alla luce dei lampioni. Il Carnevale a febbraio riempie le piazze di cortei in maschera.",
-    "seasonalP4": "La primavera, in particolare aprile e inizio maggio, è probabilmente il periodo migliore per visitare. I fiori selvatici tappezzano le colline, i bordi della strada della baia fioriscono con iris e papaveri, e la strada del Lovcen è appena aperta dopo le chiusure invernali.",
-    "whereToEatLink": "Esplora la strada costiera verso {{link}}, 15 minuti lungo il lungomare.",
-    "perastLinkText": "Rafailovići"
   },
   "budvaBody": {
     "h1": "Dove venticinque secoli di insediamenti incontrano 21 km di sabbia",
@@ -1298,7 +1238,7 @@
     "faqSubtext": "Domande frequenti su documenti, assicurazione, frontiere e prezzi.",
     "viewFaq": "Vedi FAQ",
     "title": "Contattaci",
-    "seoDesc": "Contatta Car Rental Budva per preventivi mensili, ritiro in aeroporto o domande su trasferimenti per expat.",
+    "seoDesc": "Contatta Car Rental Budva per preventivi, ritiro in aeroporto o domande sul viaggio.",
     "heading": "Contattaci",
     "intro": "Hai una domanda sul noleggio auto a Budva? Contattaci e ti aiuteremo a trovare il veicolo perfetto per il tuo viaggio."
   },
@@ -1596,7 +1536,8 @@
   "relatedGuides": {
     "secretChurches": "Chiese Nascoste di Budva",
     "vrmacRidge": "Escursionismo sulla Cresta di Vrmac",
-    "swimmingSpots": "I Migliori Punti Balneabili"
+    "swimmingSpots": "I Migliori Punti Balneabili",
+    "title": "Potrebbe interessarti anche"
   },
   "navTop": {
     "carRental": "Noleggio Auto",
@@ -1634,5 +1575,41 @@
     "intro1": "Questa flotta è pensata per chi noleggia a Budva per più giorni — ospiti che si installano in un appartamento di Bečići o in una pensione della città vecchia per due settimane o più e prevedono giornate vere di guida tra i giorni passati in baia. È un’esigenza diversa dal noleggio di una giornata da crociera o da un semplice ritiro all’aeroporto di Tivat Airport: contano il bagagliaio per la spesa settimanale da Voli, la coppia diesel per la risalita di Sozina e una posizione di guida che tenga comode quattro persone sulle tre ore fino a Žabljak. Le sette auto qui sotto sono scelte di conseguenza.",
     "intro2": "Il mix è volutamente spostato sulla media cilindrata. Una Peugeot 308 con 1.5 BlueHDi e cambio EAT, una Renault Megane diesel con il bagagliaio più grande del segmento, una VW Golf con DSG 2.0 TDI — sono queste le auto che trasformano l’anello Budva → Cettigne → Scutari → Sozina da una fatica di cambi a una crociera rilassata. Per le tratte brevi teniamo una Renault Clio, una Citroën C3 con ammortizzatori Advanced Comfort, una Kia Stonic crossover per le strade dissestate verso Njeguši e Gornja Lastva, e una piccola Fiat 500 quando l’unico vincolo è il parcheggio sul lungomare di Muo. Niente auto monouso, niente van: ogni auto qui giustifica un noleggio di più giorni.",
     "intro3": "Una nota pratica su Budva. Il diesel resta la scelta più furba se prevedete anche un solo sconfinamento — Trebinje a 90 minuti, Dubrovnik via Debeli Brijeg altrettanto, Mostar una giornata andata e ritorno. 308 e Megane coprono tutte e tre le tratte con un pieno, la Golf è l’auto più silenziosa che abbiamo in autostrada, e la Clio a benzina fa comunque Budva–Dubrovnik andata e ritorno con mezzo pieno. Se la settimana è tutta in baia — Rafailovićio, Prčanj, Muo, Risan — la Fiat 500 o la C3 risparmiano un terzo di carburante e parcheggiano dove le altre non entrano. Scegliete sull’itinerario, non sul prezzo giornaliero."
+  },
+  "posts": {
+    "milocer": {
+      "full": "Parco e villa di Miločer",
+      "short": "Parco Miločer"
+    },
+    "drobniPijesak": {
+      "full": "Cala di Drobni Pijesak",
+      "short": "Drobni Pijesak"
+    },
+    "rezevici": {
+      "full": "Monastero di Reževići",
+      "short": "Monastero Reževići"
+    },
+    "mogren": {
+      "full": "Spiaggia e tunnel di Mogren",
+      "short": "Spiaggia di Mogren"
+    },
+    "lovcen": {
+      "full": "In auto al Mausoleo del Lovćen",
+      "short": "Mausoleo del Lovćen"
+    },
+    "kotorDay": {
+      "full": "Gita di un giorno a Cattaro",
+      "short": "Gita a Cattaro"
+    },
+    "cetinjeDay": {
+      "full": "Cetinje — antica capitale reale",
+      "short": "Gita a Cetinje"
+    },
+    "sutomore": {
+      "full": "Sutomore e Stari Bar"
+    },
+    "pastrovici": {
+      "full": "Raccolta delle olive a Paštrovići"
+    }
   }
 }

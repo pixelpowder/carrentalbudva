@@ -110,15 +110,16 @@
     "helpText": "Our team is available via WhatsApp, Viber, or phone.",
     "popularDest": "Popular Destinations",
     "tivatAirport": "Tivat Airport Airport",
-    "dubrovnikAirport": "Dubrovnik Airport"
+    "dubrovnikAirport": "Dubrovnik Airport",
+    "rivieraGuides": "Riviera Guides"
   },
   "book": {
     "title": "Find Your Car",
     "seoTitle": "Book a Car in Budva",
-    "seoDesc": "Weekly and monthly rental cars for Budva and the Budva Riviera. Insurance included, Tivat Airport Airport handover, and one flat price for the whole stay."
+    "seoDesc": "Car rental for Budva and the Budva Riviera. Insurance included, Tivat Airport handover, and all-inclusive pricing for every Adriatic coast drive."
   },
   "footer": {
-    "brandDesc": "Budva monthly car rental with airport handover, comprehensive insurance, and predictable week on week pricing for extended Budva Riviera stays.",
+    "brandDesc": "Budva car rental with airport handover, comprehensive insurance, and straightforward pricing for driving the Adriatic coast and the Budva Riviera.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -135,7 +136,10 @@
     "cookiePolicy": "Cookie Policy",
     "testimonials": "Testimonials",
     "sitemap": "Sitemap",
-    "tivatAirport": "Tivat Airport Airport"
+    "tivatAirport": "Tivat Airport Airport",
+    "rivieraGuides": "Riviera Guides",
+    "coastDrives": "Coast & Drives",
+    "blogLink": "Blog"
   },
   "notFound": {
     "code": "404",
@@ -145,13 +149,13 @@
     "searchCars": "Search Cars"
   },
   "home": {
-    "seoDesc": "Long term car rental in Budva with monthly rates, insurance and CDW already baked in. Tivat Airport Airport handover 8 km away, no daily excess deposit surprises.",
-    "title": "Car Rental in Budva. Monthly Rates, Insurance Included."
+    "seoDesc": "Car rental in Budva with insurance and CDW included. Tivat Airport handover 8 km away, no hidden fees, and easy access to the Budva Riviera and Adriatic coast.",
+    "title": "Car Rental in Budva. Insurance Included, Adriatic Coast Ready."
   },
   "about": {
     "title": "About Us",
     "subtitle": "Car rental in Budva with Tivat Airport Airport pickup",
-    "seoDesc": "Budva rentals built for the long haul: weekly and monthly rates, insurance bundled in, Tivat Airport Airport collection, and support for expats staying the season.",
+    "seoDesc": "Budva rentals made for Adriatic coast drives: fixed rates, insurance bundled in, Tivat Airport collection, and local support along the Budva Riviera.",
     "heading1": "Car Rental Budva",
     "p1": "Car Rental Budva connects travellers with reliable rental cars in the Budva Riviera. We work with trusted local operators to offer a range of vehicles, from compact city cars for old town lanes to 4x4s for the mountain road to Lovcen.",
     "heading2": "Why a Car Makes Sense in Budva",
@@ -185,42 +189,42 @@
   "budva": {
     "title": "Car Rental in Budva",
     "subtitle": "Twenty-five centuries of settlement, 21 km of riviera coastline, and a tunnel ride from Budva.",
-    "seoDesc": "Monthly or weekly rental from Budva covering Budva: drop the keys at Sveti Stefan or Petrovac after a week-long coastal loop. All insurance, no limits."
+    "seoDesc": "Budva rental covering the Riviera: drop the keys at Sveti Stefan or Petrovac after a coastal loop. Full insurance, unlimited km."
   },
   "tivat-airport": {
     "title": "Tivat Airport Airport Car Rental",
     "subtitle": "Touch down between mountains and bay. Collect your keys before the luggage belt stops.",
-    "seoDesc": "Pick up a long-term rental at Tivat Airport Airport and base in Budva 8 km away. Weekly rate, monthly rate, full insurance and Dubrovnik border included."
+    "seoDesc": "Pick up your rental at Tivat Airport and base in Budva 8 km away. Fixed rate, full insurance, and Dubrovnik border crossing included."
   },
   "perast": {
     "title": "Car Rental in Rafailovići",
     "subtitle": "Sixteen palazzo facades, 350 year-round residents, and an island enlarged by hand since 1452.",
-    "seoDesc": "Short-term or long-term Budva rental to reach Rafailovići: 12 km up the Riviera, 15 minute drive. Baroque village, the Our Lady of the Rocks island visit."
+    "seoDesc": "Budva rental to reach Rafailovići: 12 km along the Riviera, 15 minute drive. Baroque village and the Our Lady of the Rocks island visit."
   },
   "podgorica": {
     "title": "Car Rental in Podgorica",
     "subtitle": "Six rivers, three architectural eras, and the gateway to Montenegro's mountainous heartland.",
-    "seoDesc": "Monthly Budva rentals that work for inland commuting: 75 km to Podgorica via the Sozina tunnel. Unlimited km, all-weather insurance, four-season tyres."
+    "seoDesc": "Budva rental for inland drives: 75 km to Podgorica via the Sozina tunnel. Unlimited km, all-weather insurance, four-season tyres."
   },
   "podgorica-airport": {
     "title": "Podgorica Airport Car Rental",
     "subtitle": "Montenegro's year-round hub. Code TGD, named after a city that no longer exists.",
-    "seoDesc": "Long-term Budva rental with Podgorica Airport drop. 85 km through the Sozina tunnel, 80 minutes. Unlimited km, green card for onward travel."
+    "seoDesc": "Budva rental with Podgorica Airport drop. 85 km through the Sozina tunnel, 80 minutes. Unlimited km, Green Card for onward travel."
   },
   "dubrovnik-airport": {
     "title": "Dubrovnik Airport Car Rental",
     "subtitle": "Land in Croatia, arrive at Budva's gates in two hours along one of Europe's great coastal highways.",
-    "seoDesc": "Budva monthly rental and Dubrovnik drop: 60 km north via the Kamenari ferry and Debeli Brijeg. Full cross-border insurance, no youth surcharge."
+    "seoDesc": "Budva rental with Dubrovnik drop: 60 km north via the Kamenari ferry and Debeli Brijeg. Full cross-border insurance, no youth surcharge."
   },
   "tivat": {
     "title": "Car Rental in Tivat Airport",
     "subtitle": "From Cold War submarine base to Adriatic superyacht marina in two decades.",
-    "seoDesc": "Long-term Budva rentals drop smoothly in Tivat Airport, 12 minutes up the Riviera. Porto Montenegro marina parking, weekly swap option if the fleet rotates."
+    "seoDesc": "Budva rentals drop smoothly in Tivat Airport, 12 minutes up the Riviera. Porto Montenegro marina parking and weekly swap option if the fleet rotates."
   },
   "montenegro": {
     "title": "Montenegro Driving Guide",
     "subtitle": "Bay roads, mountain switchbacks, and border crossings, from a driver who has covered them all from a Budva base.",
-    "seoDesc": "Montenegro monthly car rental based in Budva: unlimited km for inland trips to Durmitor, Skadar Lake, Ostrog. Long-stay insurance, four-season tyres."
+    "seoDesc": "Montenegro car rental based in Budva: unlimited km for inland trips to Durmitor, Skadar Lake and Ostrog. Full insurance, four-season tyres."
   },
   "border-crossing": {
     "title": "Driving Across Borders from Budva",
@@ -1234,7 +1238,7 @@
     "faqSubtext": "Common questions about documents, insurance, borders, and pricing.",
     "viewFaq": "View FAQ",
     "title": "Contact Us",
-    "seoDesc": "Reach Car Rental Budva for monthly quotes, airport pickup, or expat relocation questions. Email, WhatsApp, form, replies within two hours most weekdays.",
+    "seoDesc": "Reach Car Rental Budva for quotes, airport pickup, or trip planning questions. Email, WhatsApp, form, replies within two hours most weekdays.",
     "heading": "Contact Us",
     "intro": "Have a question about renting a car in Budva? Get in touch and we'll help you find the perfect vehicle for your trip."
   },
@@ -1532,7 +1536,8 @@
   "relatedGuides": {
     "secretChurches": "Secret Churches of Budva",
     "vrmacRidge": "Hiking the Vrmac Ridge",
-    "swimmingSpots": "Best Swimming Spots"
+    "swimmingSpots": "Best Swimming Spots",
+    "title": "You might also like"
   },
   "navTop": {
     "carRental": "Car Rental",
@@ -1570,5 +1575,41 @@
     "intro1": "This fleet is built around the multi-day Budva renter — visitors who anchor themselves at a Bečići apartment or an Old Town guesthouse for a fortnight or longer, and who expect to be spending real time on the road between bay-based days. That brief is different from a cruise-day hire or a pure Tivat Airport Airport pickup: it leans on boot space for a weekly shop at Voli, diesel torque for the Sozina motorway run, and a seating position that keeps four adults comfortable on the 3-hour push to Žabljak. The seven cars below are chosen accordingly.",
     "intro2": "The mix is deliberately weighted toward mid-size. A Peugeot 308 with the 1.5 BlueHDi and the EAT auto, a Renault Megane diesel with the segment’s biggest boot, a VW Golf with the DSG 2.0 TDI — these are the cars that turn a Budva → Cetinje → Lake Skadar → Sozina loop from a gear-changing chore into a cruise. For shorter hops we keep a Renault Clio, a Citroen C3 with Advanced Comfort dampers, a Kia Stonic crossover for the rutted spur roads up to Njeguši and Gornja Lastva, and a tiny Fiat 500 for when Muo waterfront parking is the deciding constraint. No one-trick supercars, no vans; every car here justifies a multi-day hire.",
     "intro3": "A practical Budva note before you choose. Diesel remains the smarter spec for anyone planning even one cross-border run — Trebinje is 90 minutes, Dubrovnik via Debeli Brijeg is also 90 minutes, Mostar is a full day each way on a good cruise. The 308 and Megane will cover all three on a single tank, the Golf is the most refined motorway car we have, and the petrol Clio will still do a Budva → Dubrovnik return on half a tank. If your week is bay-contained — Rafailovići, Prčanj, Muo, Risan — the Fiat 500 or the C3 saves a third on weekly fuel and parks in places the rest of the fleet can’t. Pick on your itinerary, not the daily rate."
+  },
+  "posts": {
+    "milocer": {
+      "full": "Miločer Park & Villa",
+      "short": "Miločer Park"
+    },
+    "drobniPijesak": {
+      "full": "Drobni Pijesak Cove",
+      "short": "Drobni Pijesak"
+    },
+    "rezevici": {
+      "full": "Reževići Monastery",
+      "short": "Reževići Monastery"
+    },
+    "mogren": {
+      "full": "Mogren Beach & Tunnel",
+      "short": "Mogren Beach"
+    },
+    "lovcen": {
+      "full": "Lovćen Mausoleum Drive",
+      "short": "Lovćen Mausoleum"
+    },
+    "kotorDay": {
+      "full": "Kotor Day Trip",
+      "short": "Kotor Day Trip"
+    },
+    "cetinjeDay": {
+      "full": "Cetinje — Old Royal Capital",
+      "short": "Cetinje Day Trip"
+    },
+    "sutomore": {
+      "full": "Sutomore & Stari Bar"
+    },
+    "pastrovici": {
+      "full": "Paštrovići Olive Harvest"
+    }
   }
 }

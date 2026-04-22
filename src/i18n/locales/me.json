@@ -110,15 +110,16 @@
     "helpText": "Naš tim je dostupan putem WhatsApp, Viber ili telefona.",
     "popularDest": "Popularne Destinacije",
     "tivatAirport": "Aerodrom Tivat Airport",
-    "dubrovnikAirport": "Aerodrom Dubrovnik"
+    "dubrovnikAirport": "Aerodrom Dubrovnik",
+    "rivieraGuides": "Vodiči po Rivijeri"
   },
   "book": {
     "title": "Pronađite Vaš Auto",
     "seoTitle": "Rezervišite Auto",
-    "seoDesc": "Tjedni i mjesečni najam automobila za Budva i zaljev Boka. Osiguranje uključeno, preuzimanje na Aerodromu Tivat Airport, i jedna fiksna cijena za cijeli boravak."
+    "seoDesc": "Najam automobila za Budvu i Budva Rivijeru. Osiguranje uključeno, preuzimanje na Aerodromu Tivat i jedna cijena za vožnje duž jadranske obale."
   },
   "footer": {
-    "brandDesc": "Mjesečni najam automobila u Budvau s preuzimanjem na aerodromu, sveobuhvatnim osiguranjem i predvidivim tjednim tarifama za duže boravke u zaljevu Boka.",
+    "brandDesc": "Najam automobila u Budvi s preuzimanjem na aerodromu, punim osiguranjem i jasnim cijenama za vožnju duž jadranske obale i Budva Rivijere.",
     "quickLinks": "Brzi Linkovi",
     "guides": "Vodiči",
     "locations": "Lokacije",
@@ -134,8 +135,11 @@
     "terms": "Uslovi Korišćenja",
     "cookiePolicy": "Politika Kolačića",
     "testimonials": "Iskustva gostiju",
-    "sitemap": "Mapa stranice",
-    "tivatAirport": "Aerodrom Tivat Airport"
+    "sitemap": "Mapa sajta",
+    "tivatAirport": "Aerodrom Tivat Airport",
+    "rivieraGuides": "Vodiči po Rivijeri",
+    "coastDrives": "Obala i rute",
+    "blogLink": "Blog"
   },
   "notFound": {
     "code": "404",
@@ -145,13 +149,13 @@
     "searchCars": "Pretraži Auta"
   },
   "home": {
-    "seoDesc": "Dugoročni najam automobila u Budvau sa mjesečnim tarifama, osiguranjem i CDW-om već uključenim.",
-    "title": "Najam Automobila u Budvau. Mjesečne Tarife, Osiguranje Uključeno."
+    "seoDesc": "Najam automobila u Budvi s osiguranjem i CDW-om u cijeni. Preuzimanje na Aerodromu Tivat 8 km dalje, bez skrivenih troškova, lak izlazak na Budva Rivijeru i Jadran.",
+    "title": "Najam automobila u Budvi. Osiguranje uključeno, spremni za Jadran."
   },
   "about": {
     "title": "O Nama",
     "subtitle": "Pomažemo putnicima da istraže Crnu Goru od 2007.",
-    "seoDesc": "Najam automobila u Budvau za duže periode: tjedne i mjesečne tarife, osiguranje uključeno, preuzimanje na Aerodromu Tivat Airport, i podrška za iseljenike.",
+    "seoDesc": "Najam u Budvi napravljen za jadranske vožnje: fiksne tarife, osiguranje uključeno, preuzimanje na Aerodromu Tivat i lokalna podrška duž Budva Rivijere.",
     "heading1": "Car Rental Budva",
     "p1": "Od 2007. godine, Car Rental Budva pomaze posjetiocima da istraze Bokobudvaski zaliv pod sopstvenim uslovima. Ono sto je pocelo kao skromna flota koja je opsluzivala lucko podrucje preraslo je u jednu od najpouzdanijih operacija iznajmljivanja na zalivu, povezujuci putnike sa vozilima prilagodenim uskim obalnim trakama, planinskim serpentinama i prekogranicnim putovanjima.",
     "heading2": "Zasto Smo Poceli",
@@ -184,70 +188,43 @@
   },
   "budva": {
     "title": "Rent a Car Budva",
-    "subtitle": "Istražite UNESCO dragulj Crne Gore sopstvenim tempom.",
-    "seoDesc": "Postavite bazu u Budvau bez kalkulacije dnevnih tarifa. Mjesečne tarife, osiguranje uključeno, preuzimanje na Aerodromu Tivat Airport, i dovoljno prostora.",
-    "heading1": "Budva, Lokalitet Svjetske Bastine UNESCO-a",
-    "p1": "Budva se ubraja medu najocuvanija srednjovjekovna naselja na Jadranu, smjesten na najdubljem dijelu dramaticnog zaliva nalik fjordu. UNESCO-om zasticen Stari grad je lavirint kamenih ulica, venecijanskih palata, romanickih kapela i zivopisnih trgova. Iznad se uzdize tvrdava San Giovanni sa 1.200 stepenika koje vode do panoramskog pogleda na vodu.",
-    "p2a": "Iznajmljivanje automobila u Budvau",
-    "p2b": "otvara citav zaliv i sire. Aerodrom Tivat Airport je udaljen samo 8 km, kratko putovanje od 15 minuta. Parking je dostupan van bedema Starog grada, sa vecim parkiralistima duz prilaznih puteva.",
-    "landmarksTitle": "Znamenitosti",
-    "stJohnTitle": "Tvrdava San Giovanni",
-    "stJohnText": "Odbrambeni radovi iznad Budvaa datiraju iz 6. vijeka i znacajno su ojacani pod venecijanskom vladavinom. Uspon od 1.200 stepenika nagraduje sirokim pogledima na zaliv, krovove Starog grada od cigle i okolne vrhove. Ulaz je besplatan van glavne sezone.",
-    "cathedralTitle": "Katedrala Sv. Tripuna",
-    "cathedralText": "Prvobitno podignuta 809. godine i ponovo izgradena 1124., Katedrala Sv. Tripuna stoji kao jedan od izuzetnih romanickih spomenika jadranske obale. Njeni dvostruki zvonici cine najikonicniju siluetu Budvaa, a unutrasnjost cuva riznicu srednjovjekovnog zlata i srebra.",
-    "dayTripsTitle": "Jednodnevni Izleti iz Budvaa",
-    "ladyOfRocksTitle": "Gospa od Skrpjela, Rafailovići",
-    "ladyOfRocksText1": "U blizini",
-    "ladyOfRocksLink": "Rafailovićia",
-    "ladyOfRocksText2": ", ova kapela pociva na vjestackom ostrvu u zalivu. Od 1452. godine, stanovnici bacaju kamenje u vodu da prosire ostrvce. Mali camci polaze iz peraske luke za nekoliko eura. Voznja iz Budvaa traje oko 15 minuta obalnim putem.",
-    "cetinjeTitle": "Cetinjski Manastir",
-    "cetinjeText": "Osnovan 1701. godine, manastir cuva relikvije ukljucujuci ruku Jovana Krstitelja. Putovanje iz Budvaa traje otprilike sat vremena kroz slikovit planinski teren preko Njegosevog mauzoleja i Nacionalnog parka Lovcen.",
-    "royalCourtTitle": "Kraljevski Dvor na Cetinju",
-    "royalCourtText": "Crnogorska kraljevska rezidencija iz 1871. godine, smjestena u nekadanjoj kraljevskoj prijestonici. Izlozbe obuhvataju umjetnost, istorijske artefakte i fotografije iz kraljevskog perioda.",
-    "routeDifficulty": "Umjereno, uske trake u Starom gradu, standardni putevi na prilazu",
-    "routeVehicle": "Kompaktan auto (lakse parkiranje kod bedema Starog grada)",
-    "routeParking": "Ogranicen u Starom gradu. Koristite parkiralista duz prilaznih puteva (€1-2/sat)",
-    "routeDistances": "Od aerodroma Tivat Airport: 15 minuta · Od Budve: 30 minuta"
+    "subtitle": "Rivijera Crne Gore, plaže, noćni život i šarm starog grada.",
+    "seoDesc": "Najam iz Budve duž Rivijere: ključevi se mogu vratiti u Sveti Stefan ili Petrovac nakon obalne ture. Puno osiguranje, neograničeni km."
   },
   "tivat-airport": {
     "title": "Rent a Car Aerodrom Tivat Airport",
     "subtitle": "Preuzmite vaš auto na izlazu iz zone dolaska.",
-    "seoDesc": "Preuzmite dugoročni najam na Aerodromu Tivat Airport, baza u Budvau 8 km dalje. Sedmična ili mjesečna tarifa, puno osiguranje, prelaz u Dubrovnik."
-  },
-  "budva": {
-    "title": "Rent a Car Budva",
-    "subtitle": "Rivijera Crne Gore, plaže, noćni život i šarm starog grada.",
-    "seoDesc": "Mjesečni ili sedmični najam iz Budvaa sa vraćanjem u Budvi: ključevi u Sveti Stefanu ili Petrovcu. Puno osiguranje, bez ograničenja km."
+    "seoDesc": "Preuzmite najam na Aerodromu Tivat, baza u Budvi 8 km dalje. Fiksna tarifa, puno osiguranje i prelaz granice Dubrovnik uključen."
   },
   "perast": {
     "title": "Rent a Car Rafailovići",
     "subtitle": "Barokni dragulj na Bokobudvaskom zalivu.",
-    "seoDesc": "Kratkoročni ili dugoročni Budva najam do Rafailovićia: 12 km uz zaliv, 15 minuta vožnje. Barokno selo, posjeta ostrvu Gospe od Škrpjela."
+    "seoDesc": "Najam iz Budve do Rafailovića: 12 km duž Rivijere, 15 minuta vožnje. Barokno selo i posjeta ostrvu Gospe od Škrpjela."
   },
   "podgorica": {
     "title": "Rent a Car Podgorica",
     "subtitle": "Glavni grad Crne Gore, kultura, rijeke i moderni šarm.",
-    "seoDesc": "Mjesečni Budva najam za unutrašnje putovanje: 75 km do Podgorice kroz tunel Sozina. Neograničeni km, osiguranje za sva godišnja doba, sve-sezonske gume."
+    "seoDesc": "Najam iz Budve za unutrašnjost: 75 km do Podgorice kroz tunel Sozina. Neograničeni km, osiguranje za sve sezone, cjelogodišnje gume."
   },
   "podgorica-airport": {
     "title": "Rent a Car Aerodrom Podgorica",
     "subtitle": "Glavna međunarodna kapija Crne Gore.",
-    "seoDesc": "Dugoročni Budva najam sa vraćanjem na Aerodromu Podgorica. 85 km kroz tunel Sozina, 80 minuta. Neograničeni km, zelena karta za dalja putovanja."
+    "seoDesc": "Najam iz Budve s povratom na Aerodromu Podgorica. 85 km kroz tunel Sozina, 80 minuta. Neograničeni km, Zelena karta uključena."
   },
   "dubrovnik-airport": {
     "title": "Rent a Car Aerodrom Dubrovnik",
     "subtitle": "Doletite u Hrvatsku, odvezite se u Crnu Goru.",
-    "seoDesc": "Mjesečni Budva najam, vraćanje u Dubrovniku: 60 km sjeverno preko trajekta Kamenari i Debelog Brijega. Puno pogransko osiguranje."
+    "seoDesc": "Najam iz Budve s povratom u Dubrovnik: 60 km sjeverno preko trajekta Kamenari i Debelog Brijega. Puno prekogranično osiguranje."
   },
   "tivat": {
     "title": "Rent a Car Tivat Airport",
     "subtitle": "Grad marina Crne Gore na Bokobudvaskom zalivu.",
-    "seoDesc": "Dugoročni Budva najam lako se vraća u Tivtu, 12 minuta uz zaliv. Parking u Porto Montenegru, sedmična zamjena ako flota rotira."
+    "seoDesc": "Povrat najma iz Budve na Aerodromu Tivat jednostavan, 12 minuta uz Rivijeru. Parking u Porto Montenegro marini, moguća zamjena vozila."
   },
   "montenegro": {
     "title": "Rent a Car i Vodič za Crnu Goru",
     "subtitle": "Sve što treba da znate o vožnji u Crnoj Gori.",
-    "seoDesc": "Mjesečni crnogorski najam sa bazom u Budvau: neograničeni km za putovanja u Durmitor, Skadarsko jezero, Ostrog. Dugoročno osiguranje, sve-sezonske gume."
+    "seoDesc": "Najam automobila u Crnoj Gori iz Budve: neograničeni km za Durmitor, Skadarsko jezero i Ostrog. Puno osiguranje, cjelogodišnje gume."
   },
   "border-crossing": {
     "title": "Vodič za Prelazak Granica na Balkanu",
@@ -364,8 +341,8 @@
     },
     "budva": {
       "name": "Budva",
-      "tag": "UNESCO Stari Grad",
-      "desc": "Srednjovjekovni utvrđeni grad i kruzerska luka."
+      "tag": "30 min od Budvaa",
+      "desc": "Plaže Rivijere i živahan stari grad."
     },
     "podgorica-airport": {
       "name": "Aerodrom Podgorica",
@@ -376,11 +353,6 @@
       "name": "Rafailovići",
       "tag": "15 min od Budvaa",
       "desc": "Barokno selo i Gospa od Škrpjela."
-    },
-    "budva": {
-      "name": "Budva",
-      "tag": "30 min od Budvaa",
-      "desc": "Plaže Rivijere i živahan stari grad."
     },
     "dubrovnik-airport": {
       "name": "Aerodrom Dubrovnik",
@@ -422,38 +394,6 @@
     "p7": "Ponedjeljak ujutro: preuzimanje na aerodromu Tivat Airport, voznja putem uz zaliv do Budvaa, popodne unutar zidina Starog grada. Utorak: na sjever kroz Dobrotu i Rafailovići, camac do Gospe od Skrpjela, povratak kroz Risan do rimskih mozaika. Srijeda: lovcenska serpentina do Njegusa po dimljeni prsut i planinski sir, zatim spust do cetinjskog manastira. Cetvrtak: budvanske plaze rivijere kroz tunel, sa skretanjem do Svetog Stefana za razglednicku fotografiju. Petak: prelazak granice na Debelom Brijegu i popodne u dubrovackoj luci. Subota: Skadarsko jezero vinogradarskim putevima, voznja camcem kod Virpazara, povratak kroz Sozina tunel. Nedjelja: vracanje auta na Tivtu. Citav krug pokriva otprilike 500 km. Trosak goriva: priblizno 50 do 60 eura po trenutnim cijenama dizela. Nijedan autobus, turisticka grupa niti taksi to ne moze ponoviti ni po kojoj cijeni.",
     "h8": "Sezonski Savjeti od Tima",
     "p8": "Ljeto donosi kruzere, do cetiri broda dnevno izmedu juna i septembra, a sa njima otprilike 8.000 putnika koji prelave Stari grad izmedu 09:00 i 14:00. Savjetujemo da stignete rano ili parkirate u Dobroti i pjesacite 800 metara do Morskih vrata. Zima pretvara zaliv u mirnije mjesto: manje posjetilaca, nize cijene i planinski putevi koji se povremeno zatvaraju iznad 1.200 metara zbog snijega. Proljece i jesen su idealno vrijeme. Aprila divlje cvijece oivicava put uz zaliv, septembar jos nudi toplo more bez guzvi, a lovcenski put je otvoren i nenapucen."
-  },
-  "budvaBody": {
-    "h1": "Budva -- Lokalitet pod Zastitom UNESCO-a",
-    "p1": "Budva je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom UNESCO-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
-    "p2": "Iznajmljivanje automobila u Budvau daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru, ali postoje veća parkirališta na prilaznim putevima.",
-    "landmarksTitle": "Znamenitosti",
-    "stJohnTitle": "Tvrđava Sv. Ivana",
-    "stJohnText": "Impozantna građevina koja je istorijski štitila grad od gusarskih napada. Značajne karakteristike uključuju Kulu Contarini i Crkvu Gospe od Zdravlja, koja pruža zapanjujuće poglede na Stari grad i Bokobudvaski zaliv.",
-    "cathedralTitle": "Katedrala Sv. Tripuna",
-    "cathedralText": "Sagrađena 809. godine i obnovljena 1124. godine, ova katedrala sadrži izuzetnu vizantijsku arhitekturu i umjetnost koja odražava bogatu istoriju regiona.",
-    "dayTripsTitle": "Jednodnevni Izleti iz Budvaa",
-    "perastTrip": "Smještena u obližnjem Rafailovićiu, ova crkva se nalazi na vještačkom ostrvu u Bokobudvaskom zalivu. Ribari tamo bacaju kamenje svake godine od 1452., postepeno proširujući ostrvo. Prevoz trajektom košta oko 1 Euro; privatni čamci koštaju oko 5 Eura. Vožnja iz Budvaa traje manje od 30 minuta putem E65/E80 na sjever.",
-    "cetinjeTrip": "Sagrađen 1701. godine, manastir čuva ruku Jovana Krstitelja. Odlikuje se bogatom dekoracijom i pravoslavnom umjetnošću. Vožnja iz Budvaa traje približno jedan sat kroz slikovite planinske puteve.",
-    "royalCourtText": "Crnogorska kraljevska palata iz 1871. godine, u kojoj su izloženi umjetnički predmeti, artefakti i fotografije iz kraljevske istorije zemlje. Nalazi se pored manastira u nekadašnjoj kraljevskoj prijestonici.",
-    "parkingTitle": "Parkiranje u Budvau: Detaljan Vodic",
-    "parkingP1": "Parkiranje je najveca frustracija sa kojom se posjetioci susrecu u Budvau, a razumijevanje sistema stedi znacajno vrijeme. Glavni javni parking se nalazi direktno ispod bedema tvrdave, uz Rijeka kapiju. Naplacuje se oko 1,50 eura po satu ljeti i nesto manje od oktobra do aprila. Kapacitet je ogranicen na otprilike 150 vozila, a do 09:00 na dan kruzera potpuno je pun.",
-    "parkingP2": "Bolja strategija prometnih jutara je traka u Dobroti. Provezite se pored budvaskih zidina iduci na sjever putem uz zaliv i za dvije minute stizete do duge trake parkinga uz put koja se rijetko potpuno napuni. Odatle, setnja nazad do Morskih vrata traje oko deset minuta ravnom obalnom setnicom. Mjesta najbliza Budvau se prva pune, pa idite 500 metara dalje i gotovo uvijek cete naci mjesto.",
-    "parkingP3": "Postoji i veliko sljuncano parkiraliste kod trznog centra na prilazu iz Tivta, otprilike 800 metara juzno od Starog grada. Kosta pausalnih 5 eura dnevno i radi sa cuvanom kabinom. Mjestani koriste ovo parkiraliste tokom ljetnjeg vrhunca i hodaju po glavnom putu.",
-    "whereToEatTitle": "Gdje Jesti Blizu Starog Grada",
-    "whereToEatP1": "Unutar zidina, Konoba Scala Santa na Trgu od Salate sluzi tanjir grilovanih lignji sa blitvom koji predstavlja kuhinju zaliva u njenom najjednostavnijem i najboljem izdanju. Restoran zauzima prizemlje prenamijenjene kamene kuce i drzi jelovnik kratkim, riba sa jutarnje pijace, lokalne salate, kucno vino u karafama. Ocekujte 12 do 18 eura za glavno jelo. Stignite do 12:30 za sto bez cekanja, jer putnici sa kruzera pune starogradske restorane izmedu 13:00 i 15:00.",
-    "whereToEatP2": "Van zidina, Restoran Galion sjedi na terasi koja gleda direktno na Stari grad preko vode. Ambijent je prava atrakcija, bedemi tvrdave koji se ogledaju u mirnom zalivu, ali rizoto od morskih plodova i grilovani orada drze korak. Udaljen je 5 minuta voznje od parkinga kod Rijeka kapije, ili 15 minuta setnje obalnom setnicom u Dobroti.",
-    "drivingTipsTitle": "Savjeti za Voznju oko Budvaa",
-    "drivingTipsP1": "Prilazni put iz Tivta prati istocnu obalu zaliva kroz Dobrotu. Dobro je asfaltiran ali mjestimicno uzak, sa kamenim zidovima koji pritiskaju s obje strane. Ljeti ocekujte suprotni saobracaj od turistickih autobusa i dostavnih kombija, sklonite se u najblize prosirenje i propustite ih. Ogranicenje brzine duz ove dionice je 40 km/h, kontrolisano fiksnom kamerom kod dobrotske obale.",
-    "drivingTipsP2": "Iduci na jug od Budvaa ka Budvi, put se kratko penje prije ulaska u Vrmacki tunel. Ovo je jednocijevni tunel sa dvosmijernim saobracajem, pa ostanite u svojoj traci i drzite upaljena svjetla. Iza tunela, put vijuga do obilaznice Budve. Citavo putovanje od budvaskih Morskih vrata do starogradskog parkinga u Budvi traje oko 25 minuta van spica.",
-    "drivingTipsP3": "Za lovcensku serpentinu, napustite Budva sporednim ulicama iza Starog grada. Put je oznacen, ali prvih nekoliko raskrsnica je lako propustiti medu stambenim zgradama. Kada prodete posljednje kuce, serpentine pocinju ozbiljno. Potrubite prije svake nepregledne krivine, mjestani to rutinski rade i to je najefikasnija sigurnosna mjera na ovom putu.",
-    "seasonalTitle": "Budva Kroz Sezone",
-    "seasonalP1": "Ljeto (jun do septembar) je najprometnije i najskuplje doba Budvaa. Stari grad vrvi putnicima sa kruzera izmedu 09:00 i 16:00, a put uz zaliv moze se usporiti do minimuma kada se autobusi skupe na obali. Vecer je, medutim, kada se Budva transformise: dnevni izletnici odlaze, trgovi se isprazne, a restorani postavljaju stolove pod bedemima u toplom sumraku. Ako mozete tempirati posjetu za kasno popodne nadalje, ljetnji Budva je carolban.",
-    "seasonalP2": "Jesen donosi olaksanje. Oktobar i novembar nude blago vrijeme, gotovo prazne ulice i nize cijene iznajmljivanja automobila. Uspon na tvrdavu je daleko prijatniji bez julske vrucine. Mnogi restorani ostaju otvoreni do novembra, mada se neki zatvaraju nakon odlaska posljednjih kruzera sezone krajem oktobra.",
-    "seasonalP3": "Zimski Budva je miran, introspektivan i iznenadujuce atmosferican. Kisa prolazi kroz zaliv, planinski vrhovi skupljaju snijeg, a kamene ulice Starog grada blistaju u svjetlu lampi. Karnevalska sezona u februaru ispunjava trgove maskiranim procesijama i zivom muzikom, lokalna tradicija stara vijekovima. Parkiranje je bez napora zimi, a cijene iznajmljivanja automobila su na najnizem nivou.",
-    "seasonalP4": "Proljece, posebno april i pocetak maja, je mozda najljepse doba za posjet. Divlje cvijece prekriva padine brda, put uz zaliv oivicen je perunikama i makovima, a vazduh ima bistrinu koja cini da planine izgledaju dovoljno blizu da ih dotaknete. Broj turista je jos uvijek nizak, a lovcenski put je svjeze otvoren nakon zimskog zatvaranja.",
-    "whereToEatLink": "Istražite put uz zaliv do {{link}}, 15 minuta duž obale.",
-    "perastLinkText": "Rafailovićia"
   },
   "budvaBody": {
     "h1": "Budva -- Srce Crnogorske Rivijere",
@@ -1298,7 +1238,7 @@
     "faqSubtext": "Česta pitanja o dokumentima, osiguranju, granicama i cijenama.",
     "viewFaq": "Pogledaj FAQ",
     "title": "Kontaktirajte nas",
-    "seoDesc": "Kontaktirajte Najam Automobila Budva za mjesečne ponude, preuzimanje na aerodromu ili pitanja vezana uz preseljenje iseljenika.",
+    "seoDesc": "Kontaktirajte Car Rental Budva za ponude, preuzimanje na aerodromu ili pitanja o putovanju.",
     "heading": "Kontaktirajte nas",
     "intro": "Imate pitanje o iznajmljivanju automobila u Budvau? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
   },
@@ -1596,7 +1536,8 @@
   "relatedGuides": {
     "secretChurches": "Tajne crkve Budvaa",
     "vrmacRidge": "Planinarenje po grebenu Vrmca",
-    "swimmingSpots": "Najbolja mjesta za plivanje"
+    "swimmingSpots": "Najbolja mjesta za plivanje",
+    "title": "Moglo bi vam se svidjeti"
   },
   "navTop": {
     "carRental": "Iznajmljivanje automobila",
@@ -1634,5 +1575,41 @@
     "intro1": "Ova flota napravljena je za gosta koji iznajmljuje u Budvau na više dana — ljude koji se ukopaju u stan u Dobroti ili pansion u Starom gradu na dvije sedmice ili više, i koji znaju da će pravo vrijeme provesti na putu između dana u zalivu. To je drugačiji zadatak od jednodnevnog najma sa krstarenja ili prostog preuzimanja auta na tivatskom aerodromu: traži prtljažnik za sedmičnu kupovinu u Voliju, dizel moment za uspon Sozine i sedeću poziciju u kojoj četvoro odraslih izdrži trosatnu vožnju do Žabljaka. Sedam auta ispod izabrani su baš po toj mjeri.",
     "intro2": "Miks namjerno ide ka srednjoj klasi. Peugeot 308 sa 1.5 BlueHDi i EAT automatikom, dizel Renault Megane sa najvećim prtljažnikom u klasi, VW Golf sa DSG 2.0 TDI — ta kola pretvaraju petlju Budva → Cetinje → Skadarsko jezero → Sozina iz posla sa mjenjačem u mirno krstarenje. Za kraće skokove držimo Renault Clio, Citroën C3 sa Advanced Comfort vješanjem, krosover Kia Stonic za razvaljene odvojke ka Njegušima i Gornjoj Lastvi, i sitan Fiat 500 kada je jedino ograničenje parkiranje na mulu u Muu. Bez monotonaca i bez kombija — svaki auto ovdje opravdava višednevni najam.",
     "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja — Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva — Rafailovići, Prčanj, Muo, Risan — Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni."
+  },
+  "posts": {
+    "milocer": {
+      "full": "Park i vila Miločer",
+      "short": "Park Miločer"
+    },
+    "drobniPijesak": {
+      "full": "Uvala Drobni Pijesak",
+      "short": "Drobni Pijesak"
+    },
+    "rezevici": {
+      "full": "Manastir Reževići",
+      "short": "Manastir Reževići"
+    },
+    "mogren": {
+      "full": "Plaža Mogren i tunel",
+      "short": "Plaža Mogren"
+    },
+    "lovcen": {
+      "full": "Vožnja do Mauzoleja na Lovćenu",
+      "short": "Mauzolej na Lovćenu"
+    },
+    "kotorDay": {
+      "full": "Jednodnevni izlet u Kotor",
+      "short": "Kotor na dan"
+    },
+    "cetinjeDay": {
+      "full": "Cetinje — stara kraljevska prijestonica",
+      "short": "Cetinje na dan"
+    },
+    "sutomore": {
+      "full": "Sutomore i Stari Bar"
+    },
+    "pastrovici": {
+      "full": "Berba maslina u Paštrovićima"
+    }
   }
 }
