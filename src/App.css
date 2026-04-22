@@ -2369,17 +2369,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── FOOTER ───────────────────────────────────────────── */
 .footer {
-  background: var(--white);
-  border-top: 1px solid var(--border);
+  background: #1f2937;
+  border-top: 1px solid rgba(255,255,255,0.08);
   padding: 64px 0 32px;
-  color: var(--gray-600, #6c757d);
+  color: rgba(255,255,255,0.72);
   position: relative;
 }
 .footer h3,
 .footer h4,
-.footer .footer__brand,
-.footer a { color: var(--black); }
-.footer a:hover { color: var(--primary); }
+.footer .footer__brand { color: #fff; }
+.footer a { color: rgba(255,255,255,0.78); }
+.footer a:hover { color: #fff; }
 
 .footer::before {
   content: '';
