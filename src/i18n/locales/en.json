@@ -184,40 +184,13 @@
   },
   "budva": {
     "title": "Car Rental in Budva",
-    "subtitle": "Park beneath the fortress ramparts and explore twelve centuries of walled history on foot.",
-    "seoDesc": "Base your month in Budva without the daily rental maths. Monthly rates, insurance bundled, Tivat Airport Airport collection, and space enough for a Boka.",
-    "heading1": "Budva, UNESCO World Heritage Site",
-    "p1": "Budva ranks among the finest preserved medieval settlements on the Adriatic, positioned at the innermost point of a dramatic fjord-like inlet. The UNESCO-inscribed Old Town is a labyrinth of stone lanes, Venetian mansions, Romanesque chapels, and bustling piazzas. Looming above, the fortress of San Giovanni ascends 1,200 steps to deliver sweeping panoramas across the water.",
-    "p2a": "Renting a car in Budva",
-    "p2b": "opens up the entire bay and beyond. Tivat Airport Airport sits just 8 km away, a brief 15-minute journey. Parking is available outside the Old Town ramparts, with larger car parks along the approach roads.",
-    "landmarksTitle": "Landmarks",
-    "stJohnTitle": "San Giovanni Fortress",
-    "stJohnText": "Defensive works above Budva date to the 6th century and were reinforced extensively under Venetian rule. The 1,200-step ascent rewards with expansive views of the Riviera, Old Town terracotta rooftops, and encircling peaks. Entry is free outside the peak season.",
-    "cathedralTitle": "St. Tryphon Cathedral",
-    "cathedralText": "First raised in 809 AD and rebuilt in 1124, the Cathedral of St. Tryphon stands as one of the Adriatic coast's outstanding Romanesque monuments. Its twin bell towers form Budva's most iconic silhouette, and the interior safeguards a treasury of medieval gold and silverwork.",
-    "dayTripsTitle": "Day Trips from Budva",
-    "ladyOfRocksTitle": "Our Lady of the Rocks, Rafailovići",
-    "ladyOfRocksText1": "Situated near",
-    "ladyOfRocksLink": "Rafailovići",
-    "ladyOfRocksText2": ", this chapel rests on an artificial island in the Riviera. Since 1452, residents have cast stones into the water to extend the islet. Small boats depart from Rafailovići harbour for a few euros. The drive from Budva takes about 15 minutes along the waterfront road.",
-    "cetinjeTitle": "Cetinje Monastery",
-    "cetinjeText": "Established in 1701, the monastery safeguards relics including the hand of John the Baptist. The journey from Budva takes roughly an hour through scenic mountain terrain via the Njegos Mausoleum and Lovcen National Park.",
-    "royalCourtTitle": "Royal Court in Cetinje",
-    "royalCourtText": "Montenegro's royal residence from 1871, located in the former royal capital. Exhibits span art, historical artefacts, and royal-era photography.",
-    "routeDifficulty": "Moderate, narrow lanes in Old Town, standard roads on approach",
-    "routeVehicle": "Compact car (simpler parking near Old Town ramparts)",
-    "routeParking": "Limited in Old Town. Use car parks along approach roads (€1-2/hour)",
-    "routeDistances": "From Tivat Airport Airport: 15 minutes · From Budva: 30 minutes"
+    "subtitle": "Twenty-five centuries of settlement, 21 km of riviera coastline, and a tunnel ride from Budva.",
+    "seoDesc": "Monthly or weekly rental from Budva covering Budva: drop the keys at Sveti Stefan or Petrovac after a week-long coastal loop. All insurance, no limits."
   },
   "tivat-airport": {
     "title": "Tivat Airport Airport Car Rental",
     "subtitle": "Touch down between mountains and bay. Collect your keys before the luggage belt stops.",
     "seoDesc": "Pick up a long-term rental at Tivat Airport Airport and base in Budva 8 km away. Weekly rate, monthly rate, full insurance and Dubrovnik border included."
-  },
-  "budva": {
-    "title": "Car Rental in Budva",
-    "subtitle": "Twenty-five centuries of settlement, 21 km of riviera coastline, and a tunnel ride from Budva.",
-    "seoDesc": "Monthly or weekly rental from Budva covering Budva: drop the keys at Sveti Stefan or Petrovac after a week-long coastal loop. All insurance, no limits."
   },
   "perast": {
     "title": "Car Rental in Rafailovići",
@@ -364,8 +337,8 @@
     },
     "budva": {
       "name": "Budva",
-      "tag": "UNESCO Old Town",
-      "desc": "Walled medieval port at the head of the Riviera."
+      "tag": "30 min from Budva",
+      "desc": "Riviera sand and an ancient citadel."
     },
     "podgorica-airport": {
       "name": "Podgorica Airport",
@@ -376,11 +349,6 @@
       "name": "Rafailovići",
       "tag": "15 min from Budva",
       "desc": "Baroque waterfront and two island churches."
-    },
-    "budva": {
-      "name": "Budva",
-      "tag": "30 min from Budva",
-      "desc": "Riviera sand and an ancient citadel."
     },
     "dubrovnik-airport": {
       "name": "Dubrovnik Airport",
@@ -422,38 +390,6 @@
     "p7": "Monday morning: collect at Tivat Airport Airport, drive the Riviera road to Budva, spend the afternoon inside the Old Town walls. Tuesday: head north through Bečići and Rafailovići, take the boat to Our Lady of the Rocks, loop back through Risan for the Roman mosaics. Wednesday: the Lovcen serpentine to Njeguski for smoked ham and mountain cheese, then down the far side to Cetinje's monastery. Thursday: Budva's riviera beaches via the tunnel, with a detour to Sveti Stefan for the postcard photograph. Friday: cross the border at Debeli Brijeg and spend the afternoon in Dubrovnik's harbour. Saturday: Lake Skadar through the vineyard roads, Virpazar boat ride, return via the Sozina tunnel. Sunday: return the car at Tivat Airport. That entire circuit covers roughly 500 km. Fuel cost: approximately 50 to 60 euros at current diesel prices. No bus, tour group, or taxi could replicate it at any price.",
     "h8": "Seasonal Advice from the Team",
     "p8": "Summer brings the cruise ships, up to four vessels per day between June and September, and with them roughly 8,000 passengers flooding the Old Town between 09:00 and 14:00. We advise arriving early or parking in Bečići and walking the 800 metres to the Sea Gate. Winter transforms the Riviera into a quieter place: fewer visitors, lower rates, and mountain roads that occasionally close above 1,200 metres due to snow. Spring and autumn are the sweet spot. April wildflowers line the Riviera road, September still offers warm seas without the crowds, and the Lovcen road is open and uncrowded."
-  },
-  "budvaBody": {
-    "h1": "Twelve Centuries Within the Ramparts",
-    "p1": "Defensive walls first rose above Budva in the 6th century, but the town's recorded history extends further still, Roman settlement, Byzantine governance, nearly four hundred years under Venetian dominion. UNESCO inscribed the Natural and Culturo-Historical Region of Budva in 1979, recognising not merely the walled Old Town but the surrounding bay landscape as a unified cultural entity. Pass through the Sea Gate (Vrata od Mora), erected in 1555, and you enter a medieval street grid that has scarcely altered since.",
-    "p2": "Parking options flank the approach from Tivat Airport Airport, 8 km and roughly fifteen minutes distant. The largest lot lies beneath the ramparts near the River Gate; a second, less congested option runs along the Bečići strip heading north. On days when cruise liners are in port, sometimes three or four simultaneously between May and October, arrive before 07:30 or prepare for a scramble for spaces.",
-    "landmarksTitle": "Inside the Ramparts and Above Them",
-    "stJohnTitle": "San Giovanni Fortress",
-    "stJohnText": "Exactly 1,355 steps climb from the Old Town's northern margin to the fortress summit at 280 metres. Venetian engineers reinforced the 4.5 km curtain wall between the 15th and 18th centuries, stitching earlier Byzantine stonework to their own bastions. Carry water, wear proper footwear, and budget forty-five minutes for the ascent. The panorama from the peak, the inner bay splitting into two channels around the Vrmac peninsula, justifies every step. Outside July and August, entry is free of charge.",
-    "cathedralTitle": "Cathedral of St Tryphon (1166)",
-    "cathedralText": "A chapel has occupied this site since 809 AD, but the present Romanesque structure dates from 1166, placing it among two Roman Catholic cathedrals in Montenegro. The twin bell towers, reconstructed following the 1667 earthquake, define Budva's skyline. Inside, a ciborium over the main altar shelters 14th-century frescoes, and the reliquary treasury holds gold and silver pieces spanning five centuries. St Tryphon, the city's patron saint, is honoured each 3 February with processions through the squares.",
-    "dayTripsTitle": "Beyond the Ramparts: Day Drives",
-    "perastTrip": "Fifteen minutes north along the Riviera road, Rafailovići rests in silence compared to Budva's bustle. Park on the waterfront, board a skiff to Our Lady of the Rocks, the island locals have been enlarging with thrown stones since 1452, and return for coffee at a harbourside palazzo. The drive itself ranks among the finest short stretches of road in the country, tracing the waterline beneath karst cliffs.",
-    "cetinjeTrip": "An hour of switchbacks through Lovcen National Park delivers you to Cetinje, Montenegro's former royal capital. The monastery shelters relics said to include the hand of John the Baptist. Continue upward to the Njegos Mausoleum, perched at 1,657 metres, where four countries are visible on a clear morning.",
-    "royalCourtText": "Also in Cetinje, the 1871 Royal Court, once the palace of King Nikola I, preserves paintings, weapons, and photographs from the brief era of Montenegrin monarchy. It stands beside the monastery on a tree-lined boulevard in the historic capital.",
-    "parkingTitle": "Parking in Budva: A Detailed Guide",
-    "parkingP1": "Parking is the single biggest frustration visitors encounter in Budva, and understanding the system saves considerable time. The main public car park sits directly below the fortress ramparts, adjacent to the River Gate. It charges around 1.50 euros per hour in summer and slightly less from October to April. Capacity is limited to roughly 150 vehicles, and by 09:00 on a cruise-ship day it is completely full.",
-    "parkingP2": "A better strategy on busy mornings is the Bečići strip. Drive past Budva's walls heading north along the Riviera road, and within two minutes you reach a long stretch of roadside parking that rarely fills entirely. From there, the walk back to the Sea Gate takes about ten minutes along a flat waterfront promenade. The spots closest to Budva fill first, so head 500 metres further and you will almost always find space.",
-    "parkingP3": "There is also a large gravel lot near the shopping centre on the approach from Tivat Airport, roughly 800 metres south of the Old Town. It costs a flat 5 euros per day and operates from a manned booth. Locals use this lot during the summer peak and walk in along the main road.",
-    "whereToEatTitle": "Where to Eat Near the Old Town",
-    "whereToEatP1": "Inside the walls, Konoba Scala Santa on Trg od Salate serves a grilled squid plate with blitva (chard and potatoes) that represents the Riviera's kitchen at its simplest and best. The restaurant occupies a converted stone ground floor and keeps its menu short, fish from the morning market, local salads, house wine by the carafe. Expect to pay 12 to 18 euros for a main course. Arrive by 12:30 for a table without waiting, as cruise-ship passengers fill the Old Town restaurants between 13:00 and 15:00.",
-    "whereToEatP2": "Outside the walls, Restoran Galion sits on a terrace directly facing the Old Town across the water. The setting is the real attraction, fortress ramparts reflected in the still bay, but the seafood risotto and grilled sea bream hold their own. It is a 5-minute drive from the River Gate car park, or a 15-minute walk along the Bečići waterfront.",
-    "drivingTipsTitle": "Driving Tips Around Budva",
-    "drivingTipsP1": "The approach road from Tivat Airport follows the Riviera's eastern shoreline through Bečići. It is well-paved but narrow in places, with stone walls pressing close on both sides. In summer, expect oncoming traffic from tour coaches and delivery vans, pull into the nearest widened section and let them pass. Speed limits along this stretch are 40 km/h, enforced by a fixed camera near the Bečići waterfront.",
-    "drivingTipsP2": "Heading south from Budva toward Budva, the road climbs briefly before entering the Vrmac tunnel. This is a single-bore tunnel with two-way traffic, so stay in your lane and keep headlights on. Beyond the tunnel, the road winds through to the Budva bypass. The entire journey from Budva's Sea Gate to Budva's Old Town car park takes about 25 minutes outside peak hours.",
-    "drivingTipsP3": "For the Lovcen serpentine, leave Budva via the back streets behind the Old Town. The road is signed but the first few junctions are easy to miss among residential buildings. Once you pass the last houses, the switchbacks begin in earnest. Honk your horn before each blind bend, locals do this routinely, and it is the single most effective safety measure on this road.",
-    "seasonalTitle": "Budva Through the Seasons",
-    "seasonalP1": "Summer (June to September) is Budva's busiest and most expensive period. The Old Town teems with cruise-ship visitors between 09:00 and 16:00, and the Riviera road can slow to a crawl when coaches converge on the waterfront. Evening, however, is when Budva transforms: the day-trippers depart, the piazzas empty, and the restaurants set tables beneath the ramparts in the warm twilight. If you can time your visit for late afternoon onward, summer Budva is magical.",
-    "seasonalP2": "Autumn brings relief. October and November offer mild weather, near-empty streets, and lower car rental rates. The fortress climb is far more pleasant without the July heat. Many restaurants stay open until November, though a few close after the last cruise ships of the season depart in late October.",
-    "seasonalP3": "Winter Budva is quiet, introspective, and surprisingly atmospheric. Rain sweeps through the Riviera, the mountain peaks collect snow, and the Old Town's stone lanes glisten in the lamplight. Carnival season in February fills the squares with masked processions and live music, a local tradition dating back centuries. Parking is effortless in winter, and rates for car hire are at their lowest.",
-    "seasonalP4": "Spring, particularly April and early May, is arguably the finest time to visit. Wildflowers carpet the hillsides, the Riviera road verges bloom with iris and poppies, and the air has a clarity that makes the mountains appear close enough to touch. Tourist numbers are still low, and the Lovcen road is freshly open after winter closures.",
-    "whereToEatLink": "Explore the Riviera road to {{link}}, 15 minutes along the waterfront.",
-    "perastLinkText": "Rafailovići"
   },
   "budvaBody": {
     "h1": "Where Twenty-Five Centuries of Settlement Meet 21 km of Sand",
@@ -1483,22 +1419,22 @@
   },
   "insiderTips": {
     "label": "Insider Tips",
-    "title": "Three Things Every Driver Should Know",
+    "title": "Three Things Every Budva Driver Should Know",
     "items": {
       "0": {
         "tag": "Booking",
-        "title": "Book 2-3 Weeks Ahead",
-        "text": "Prices jump 40% in the final week before summer pickup. Lock in your rate early, free cancellation means no risk."
+        "title": "Lock In Before Mid-June",
+        "text": "Budva Riviera supply tightens from late June — rates on identical cars can climb 30-40% the week before pickup. Book early, free cancellation means no risk."
       },
       "1": {
         "tag": "Driving",
-        "title": "Fill Up Before the Mountains",
-        "text": "The last petrol station before Kosmač is in Budva. The serpentine has 25 hairpins and zero fuel stops. Top up at the Tabacina station."
+        "title": "Fuel Up Before Lovćen",
+        "text": "The Kotor-Cetinje serpentine climbs through 25 hairpins from the bay to Njeguši. No petrol stations on the climb. Top up in Budva or Tivat before you turn inland."
       },
       "2": {
         "tag": "Borders",
-        "title": "Green Card = No Stress at Debeli Brijeg",
-        "text": "The Croatia crossing takes 5 minutes with paperwork ready. Without it, you turn around. We prepare the Green Card at booking, always check it's in the glovebox."
+        "title": "Green Card for Debeli Brijeg",
+        "text": "Dubrovnik day trips go through the Debeli Brijeg crossing — allow 10 minutes off-peak, up to two hours on a Saturday in August. The Green Card we prepare at booking keeps the checkpoint to a 30-second nod."
       }
     }
   },
