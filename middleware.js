@@ -9,8 +9,10 @@ import { NextResponse } from 'next/server';
 
 const RETIRED_CARS = {
   'skoda-octavia':    'peugeot-308',      // mid-size diesel auto → closest
-  'toyota-corolla':   'renault-clio',     // retired economy → Clio
+  'toyota-corolla':   'renault-megane',   // retired mid-size petrol → Megane
   'mercedes-c-class': 'peugeot-308',      // premium mid-size → best mid-size we have
+  'fiat-500c':        'vw-polo',          // compact convertible gone → Polo
+  'fiat-500':         'vw-polo',          // tiny city gone → Polo
   'jeep-renegade':    'kia-stonic',       // crossover → Stonic
   'bmw-x3':           'kia-stonic',       // no SUV in fleet → Stonic
   'vw-transporter':   '/cars',            // van — no van, go to fleet index

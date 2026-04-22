@@ -24,64 +24,54 @@ import {
   Droplet, Package,
 } from 'lucide-react';
 
-// Kotor-rental inline photo per car — bay road, Lovćen, motorway, cross-border feel.
+// Budva multi-day rental inline photo per car — Riviera road, Paštrovići serpentine, motorway.
 const INLINE_PHOTOS = {
-  'renault-clio':   { src: '/img/fleet-inline/coastal-road.jpg',      alt: 'Bay of Kotor coastal road near Dobrota',       caption: 'The Dobrota–Prčanj stretch at a steady 50 km/h — the Clio\u2019s natural cruising pace on a multi-day bay stay.' },
-  'peugeot-308':    { src: '/img/fleet-inline/mountain-highway.jpg',  alt: 'Smokovac–Mateševo motorway inland from Kotor',  caption: 'The Smokovac motorway toward Podgorica — the 308\u2019s BlueHDi settles into a steady 1,800 rpm cruise here.' },
-  'renault-megane': { src: '/img/fleet-inline/sea-road.jpg',          alt: 'Old bay road from Kotor toward Risan',          caption: 'The patched tarmac out to Risan\u2019s Roman mosaics — where the Megane\u2019s soft damping actually earns its rental premium.' },
-  'kia-stonic':     { src: '/img/fleet-inline/rocky-road.jpg',        alt: 'Rutted spur road up to Njeguši above Kotor',    caption: 'The Njeguši approach above the bay — a little extra ground clearance keeps the Stonic composed where a Clio scrapes.' },
-  'vw-golf':        { src: '/img/fleet-inline/forest-road.jpg',       alt: 'Wooded Lovćen serpentine above Kotor',          caption: 'The Kotor–Cetinje climb in third gear — the DSG reads the hairpins, the cabin stays silent.' },
-  'fiat-500':       { src: '/img/fleet-inline/seaside-road.jpg',      alt: 'Narrow Muo waterfront lane in Kotor',           caption: 'The Muo waterfront past the ferry dock — the 500 slots into gaps the rest of the fleet drives past.' },
-  'citroen-c3':     { src: '/img/fleet-inline/village-trees.jpg',     alt: 'Back road through Gornja Lastva above Tivat',   caption: 'The Gornja Lastva spur above the bay — the C3\u2019s Advanced Comfort turns the patched bitumen into distant thumps.' },
-  _default:         { src: '/img/fleet-inline/kotor-bay.jpg',         alt: 'Aerial view of the Bay of Kotor',               caption: 'A week based in Kotor puts Cetinje, Njeguši, Risan, Skadar Lake and Dubrovnik all inside day-trip range.' },
+  'vw-polo':        { src: '/img/fleet-inline/seaside-road.jpg',      alt: 'Budva Riviera coast road near Bečići',          caption: 'The coast road between Budva and Sveti Stefan — the Polo\u2019s natural cruise on a week on the Riviera.' },
+  'renault-clio':   { src: '/img/fleet-inline/coastal-road.jpg',      alt: 'Budva Riviera E65 toward Sveti Stefan',         caption: 'The E65 stretch past Rafailovići at a steady 60 km/h — the Clio\u2019s natural tempo on a multi-day Budva stay.' },
+  'citroen-c3':     { src: '/img/fleet-inline/village-trees.jpg',     alt: 'Back road through Paštrovići above Petrovac',   caption: 'The Paštrovići back lanes above Petrovac — the C3\u2019s Advanced Comfort turns patched bitumen into distant thumps.' },
+  'peugeot-308':    { src: '/img/fleet-inline/mountain-highway.jpg',  alt: 'Smokovac–Mateševo motorway inland from Budva',  caption: 'The Smokovac motorway toward Podgorica — the 308\u2019s BlueHDi settles into a steady 1,800 rpm cruise here.' },
+  'renault-megane': { src: '/img/fleet-inline/sea-road.jpg',          alt: 'Riviera coast road from Budva toward Bar',      caption: 'The coastal run south of Petrovac — where the Megane\u2019s soft damping actually earns its rental premium.' },
+  'kia-stonic':     { src: '/img/fleet-inline/rocky-road.jpg',        alt: 'Rutted spur road up to Kosmač Fortress',        caption: 'The Kosmač Fortress approach above the Riviera — a little extra ground clearance keeps the Stonic composed where a Clio scrapes.' },
+  'vw-golf':        { src: '/img/fleet-inline/forest-road.jpg',       alt: 'Wooded Paštrovići ridge road above Budva',      caption: 'The climb from Petrovac toward Cetinje in third gear — the DSG reads the hairpins, the cabin stays silent.' },
+  _default:         { src: '/img/fleet-inline/kotor-bay.jpg',         alt: 'Aerial view of the Budva Riviera',              caption: 'A week based in Budva puts Sveti Stefan, Petrovac, Cetinje, Skadar Lake and Dubrovnik all inside day-trip range.' },
 };
 
-// Related cards per car — using the actual blog + destination pages that exist on kotorcarrental.
+// Related cards per car — using actual blog pages that exist on carrentalbudva.
 const RELATED = {
   'vw-polo': [
     { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
     { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
     { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
   ],
-  'skoda-octavia': [
+  'renault-clio': [
     { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
-    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
-  ],
-  'toyota-corolla': [
-    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
-    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
-  ],
-  'mercedes-c-class': [
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
-    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
-  ],
-  'fiat-500c': [
-    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
     { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
-    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
-  ],
-  'fiat-500': [
     { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
-    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
-    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
   ],
-  'bmw-x3': [
+  'citroen-c3': [
     { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
     { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
   ],
-  'jeep-renegade': [
-    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
+  'peugeot-308': [
     { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
-    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
+    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
   ],
-  'vw-transporter': [
-    { href: '/blog/sveti-nikola-hawaii', img: '/img/blog-sveti-nikola-hawaii.webp', title: 'Sveti Nikola (Hawaii) island' },
-    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+  'renault-megane': [
+    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
+    { href: '/blog/budva-to-sveti-stefan-drive', img: '/img/blog-budva-to-sveti-stefan-drive.webp', title: 'Budva → Sveti Stefan drive' },
     { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
+  ],
+  'kia-stonic': [
+    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
+    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
+    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+  ],
+  'vw-golf': [
+    { href: '/blog/budva-to-sveti-stefan-drive', img: '/img/blog-budva-to-sveti-stefan-drive.webp', title: 'Budva → Sveti Stefan drive' },
+    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
+    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
   ],
 };
 
