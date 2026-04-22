@@ -528,13 +528,26 @@ function Destinations() {
         </div>
 
         {tab !== 'drives' ? (
-          <div className="dest-card-scroll">
-            {(tab === 'cities' ? cities : airports).map(dest => (
-              <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="dest-image-card">
-                <div className="dest-image-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
-                <div className="dest-image-card__name">{(() => { const k = `destCards.${dest.slug}.name`; const v = t(k); return v && v !== k ? v : dest.name; })()}</div>
-              </a>
-            ))}
+          <div className="routes-grid">
+            {(tab === 'cities' ? cities : airports).map(dest => {
+              const nk = `destCards.${dest.slug}.name`;
+              const nv = t(nk);
+              const name = nv && nv !== nk ? nv : dest.name;
+              const dk = `destCards.${dest.slug}.desc`;
+              const dv = t(dk);
+              const desc = dv && dv !== dk ? dv : dest.desc;
+              return (
+                <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="route-card">
+                  <div className="route-card__img" style={{ backgroundImage: `url(${dest.image})` }}>
+                    {dest.tag && <div className="route-card__badge">{dest.tag}</div>}
+                  </div>
+                  <div className="route-card__body">
+                    <h3 className="route-card__title">{name}</h3>
+                    {desc && <p className="route-card__desc">{desc}</p>}
+                  </div>
+                </a>
+              );
+            })}
           </div>
         ) : (
           <div className="routes-grid">
