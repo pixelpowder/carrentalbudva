@@ -41,12 +41,12 @@ export default function ContentPage({ title, subtitle, image, description, child
           <div className="sidebar-card">
             <h3 className="sidebar-card__title">Riviera Guides</h3>
             <ul className="sidebar-links">
-              <li><a href={localePath('/blog/sveti-stefan-photo-spots')}>Sveti Stefan Photo Spots</a></li>
-              <li><a href={localePath('/blog/budva-old-town-walls')}>Budva Old Town Walls</a></li>
-              <li><a href={localePath('/blog/becici-rafailovici-promenade')}>Bečići & Rafailovići Promenade</a></li>
-              <li><a href={localePath('/blog/sveti-nikola-hawaii')}>Sveti Nikola (Hawaii)</a></li>
-              <li><a href={localePath('/blog/jaz-beach-festivals')}>Jaz Beach Festivals</a></li>
-              <li><a href={localePath('/blog/petrovac-quiet-alternative')}>Petrovac Alternative</a></li>
+              <li><a href={localePath('/blog/milocer-park-villa')}>Miločer Park & Villa</a></li>
+              <li><a href={localePath('/blog/drobni-pijesak-cove')}>Drobni Pijesak Cove</a></li>
+              <li><a href={localePath('/blog/rezevici-monastery')}>Reževići Monastery</a></li>
+              <li><a href={localePath('/blog/mogren-beach-dukley-tunnel')}>Mogren Beach & Tunnel</a></li>
+              <li><a href={localePath('/blog/budva-to-lovcen-mausoleum')}>Lovćen Mausoleum Drive</a></li>
+              <li><a href={localePath('/blog/kotor-day-trip-from-budva')}>Kotor Day Trip</a></li>
             </ul>
           </div>
         </aside>
@@ -56,17 +56,17 @@ export default function ContentPage({ title, subtitle, image, description, child
         <div className="related-guides__inner">
           <h2 className="related-guides__title">You might also like</h2>
           <div className="related-guides__cards">
-            <a href={localePath('/blog/pastrovici-highlands-drive')} className="related-card">
-              <img src="/img/blog-pastrovici.webp" alt="Paštrovići highlands drive" loading="lazy" />
-              <span>Paštrovići Highlands Drive</span>
+            <a href={localePath('/blog/cetinje-day-trip-from-budva')} className="related-card">
+              <img src="/img/blog-cetinje-day-trip-from-budva.webp" alt="Cetinje day trip from Budva" loading="lazy" />
+              <span>Cetinje — Old Royal Capital</span>
             </a>
-            <a href={localePath('/blog/budva-to-sveti-stefan-drive')} className="related-card">
-              <img src="/img/blog-budva-svetistefan.webp" alt="Budva to Sveti Stefan coast drive" loading="lazy" />
-              <span>Budva to Sveti Stefan Drive</span>
+            <a href={localePath('/blog/sutomore-stari-bar-ruins')} className="related-card">
+              <img src="/img/blog-sutomore-stari-bar-ruins.webp" alt="Stari Bar ruins" loading="lazy" />
+              <span>Sutomore & Stari Bar</span>
             </a>
-            <a href={localePath('/blog/tivat-airport-to-budva')} className="related-card">
-              <img src="/img/blog-tivat-arrival.webp" alt="Tivat Airport to Budva" loading="lazy" />
-              <span>Tivat Airport to Budva</span>
+            <a href={localePath('/blog/pastrovici-olive-harvest')} className="related-card">
+              <img src="/img/blog-pastrovici-olive-harvest.webp" alt="Paštrovići olive harvest" loading="lazy" />
+              <span>Paštrovići Olive Harvest</span>
             </a>
           </div>
         </div>

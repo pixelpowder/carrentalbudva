@@ -87,7 +87,7 @@ export const carMetas = {
   },
   'vw-golf': {
     en: { title: 'VW Golf Rental Budva | DSG Diesel for Multi-Day Riviera',
-          desc: 'Rent a VW Golf in Budva — 2.0 TDI 150 hp DSG, 4.3 L/100 km. The quietest cabin in the Budva fleet for Sozina motorway and Cetinje loops.' },
+          desc: 'Rent a VW Golf in Budva — 2.0 TDI 150 hp DSG, 4.3 L/100 km. The quietest cabin in the Budva fleet for Sozina tunnel runs and Cetinje loops.' },
     de: { title: 'VW Golf Mieten in Budva | DSG-Diesel Komfort',
           desc: 'Mieten Sie einen VW Golf in Budva — 2.0 TDI 150 PS DSG, 4,3 L/100 km. Leiseste Kabine der Flotte für Sozina-Autobahn und Cetinje-Runden.' },
     ru: { title: 'Аренда VW Golf в Будве | Дизель DSG комфорт',

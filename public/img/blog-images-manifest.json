@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "drobni-pijesak-cove",
+    "pexels_id": 17491225,
+    "photographer": "DeLuca G",
+    "query": "adriatic sand cove",
+    "source": "https://www.pexels.com/photo/bay-on-rocky-sea-shore-17491225/",
+    "file": "/img/blog-drobni-pijesak-cove.webp"
+  },
+  {
+    "slug": "milocer-park-villa",
+    "pexels_id": 29942620,
+    "photographer": "AXP Photography",
+    "query": "mediterranean pine park sea",
+    "source": "https://www.pexels.com/photo/scenic-view-of-porquerolles-island-in-france-29942620/",
+    "file": "/img/blog-milocer-park-villa.webp"
+  },
+  {
+    "slug": "rezevici-monastery",
+    "pexels_id": 35548927,
+    "photographer": "Adem Percem",
+    "query": "orthodox monastery stone",
+    "source": "https://www.pexels.com/photo/historic-sumela-monastery-nestled-in-cliffs-35548927/",
+    "file": "/img/blog-rezevici-monastery.webp"
+  },
+  {
+    "slug": "budva-to-lovcen-mausoleum",
+    "pexels_id": 17373414,
+    "photographer": "Diana ✨",
+    "query": "mountain serpentine road",
+    "source": "https://www.pexels.com/photo/aerial-view-of-an-asphalt-road-between-grass-fields-17373414/",
+    "file": "/img/blog-budva-to-lovcen-mausoleum.webp"
+  },
+  {
+    "slug": "sutomore-stari-bar-ruins",
+    "pexels_id": 13480478,
+    "photographer": "Antonio  Tose",
+    "query": "stari bar ruins",
+    "source": "https://www.pexels.com/photo/ruins-of-a-castle-near-mountains-13480478/",
+    "file": "/img/blog-sutomore-stari-bar-ruins.webp"
+  },
+  {
+    "slug": "mogren-beach-dukley-tunnel",
+    "pexels_id": 28352759,
+    "photographer": "Francesco Ungaro",
+    "query": "adriatic cliff beach",
+    "source": "https://www.pexels.com/photo/aerial-view-of-the-coast-of-the-island-of-zante-28352759/",
+    "file": "/img/blog-mogren-beach-dukley-tunnel.webp"
+  },
+  {
+    "slug": "budva-to-bar-ferry-port",
+    "pexels_id": 27518985,
+    "photographer": "Vladimir Srajber",
+    "query": "adriatic ferry port",
+    "source": "https://www.pexels.com/photo/people-walking-on-the-dock-near-a-cruise-ship-27518985/",
+    "file": "/img/blog-budva-to-bar-ferry-port.webp"
+  },
+  {
+    "slug": "cetinje-day-trip-from-budva",
+    "pexels_id": 3260012,
+    "photographer": "Vito Vidović",
+    "query": "cetinje montenegro",
+    "source": "https://www.pexels.com/photo/photo-of-mountains-during-daytime-3260012/",
+    "file": "/img/blog-cetinje-day-trip-from-budva.webp"
+  },
+  {
+    "slug": "pastrovici-olive-harvest",
+    "pexels_id": 36038673,
+    "photographer": "Hosny salah",
+    "query": "olive harvest basket",
+    "source": "https://www.pexels.com/photo/young-girl-harvesting-olives-in-traditional-palestinian-dress-36038673/",
+    "file": "/img/blog-pastrovici-olive-harvest.webp"
+  },
+  {
+    "slug": "kotor-day-trip-from-budva",
+    "pexels_id": 32460774,
+    "photographer": "Muhammed Fatih Beki",
+    "query": "kotor old town",
+    "source": "https://www.pexels.com/photo/historic-square-in-kotor-montenegro-32460774/",
+    "file": "/img/blog-kotor-day-trip-from-budva.webp"
+  }
+]

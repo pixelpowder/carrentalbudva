@@ -39,39 +39,39 @@ const INLINE_PHOTOS = {
 // Related cards per car — using actual blog pages that exist on carrentalbudva.
 const RELATED = {
   'vw-polo': [
-    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
-    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/mogren-beach-dukley-tunnel', img: '/img/blog-mogren-beach-dukley-tunnel.webp', title: 'Mogren Beach & cliff tunnel' },
+    { href: '/blog/milocer-park-villa', img: '/img/blog-milocer-park-villa.webp', title: 'Miločer Park & royal villa' },
+    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
   ],
   'renault-clio': [
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
-    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
-    { href: '/blog/jaz-beach-festivals', img: '/img/blog-jaz-beach-festivals.webp', title: 'Jaz Beach & festivals' },
+    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
+    { href: '/blog/milocer-park-villa', img: '/img/blog-milocer-park-villa.webp', title: 'Miločer Park & royal villa' },
+    { href: '/blog/mogren-beach-dukley-tunnel', img: '/img/blog-mogren-beach-dukley-tunnel.webp', title: 'Mogren Beach & cliff tunnel' },
   ],
   'citroen-c3': [
-    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
-    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/becici-rafailovici-promenade', img: '/img/blog-becici-rafailovici-promenade.webp', title: 'Bečići–Rafailovići promenade' },
+    { href: '/blog/rezevici-monastery', img: '/img/blog-rezevici-monastery.webp', title: 'Reževići Monastery (1226)' },
+    { href: '/blog/pastrovici-olive-harvest', img: '/img/blog-pastrovici-olive-harvest.webp', title: 'Paštrovići olive harvest' },
+    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
   ],
   'peugeot-308': [
-    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
-    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/kotor-day-trip-from-budva', img: '/img/blog-kotor-day-trip-from-budva.webp', title: 'Kotor day trip from Budva' },
+    { href: '/blog/cetinje-day-trip-from-budva', img: '/img/blog-cetinje-day-trip-from-budva.webp', title: 'Cetinje — old royal capital' },
+    { href: '/blog/rezevici-monastery', img: '/img/blog-rezevici-monastery.webp', title: 'Reževići Monastery (1226)' },
   ],
   'renault-megane': [
-    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/budva-to-sveti-stefan-drive', img: '/img/blog-budva-to-sveti-stefan-drive.webp', title: 'Budva → Sveti Stefan drive' },
-    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
+    { href: '/blog/sutomore-stari-bar-ruins', img: '/img/blog-sutomore-stari-bar-ruins.webp', title: 'Sutomore & Stari Bar ruins' },
+    { href: '/blog/budva-to-bar-ferry-port', img: '/img/blog-budva-to-bar-ferry-port.webp', title: 'Budva to Bar ferry port' },
+    { href: '/blog/cetinje-day-trip-from-budva', img: '/img/blog-cetinje-day-trip-from-budva.webp', title: 'Cetinje day trip' },
   ],
   'kia-stonic': [
-    { href: '/blog/pastrovici-highlands-drive', img: '/img/blog-pastrovici-highlands-drive.webp', title: 'Paštrovići highlands drive' },
-    { href: '/blog/petrovac-quiet-alternative', img: '/img/blog-petrovac-quiet-alternative.webp', title: 'Petrovac — the quiet alternative' },
-    { href: '/blog/sveti-stefan-photo-spots', img: '/img/blog-sveti-stefan-photo-spots.webp', title: 'Sveti Stefan photo spots' },
+    { href: '/blog/budva-to-lovcen-mausoleum', img: '/img/blog-budva-to-lovcen-mausoleum.webp', title: 'Budva to Lovćen Mausoleum' },
+    { href: '/blog/cetinje-day-trip-from-budva', img: '/img/blog-cetinje-day-trip-from-budva.webp', title: 'Cetinje day trip' },
+    { href: '/blog/rezevici-monastery', img: '/img/blog-rezevici-monastery.webp', title: 'Reževići Monastery (1226)' },
   ],
   'vw-golf': [
-    { href: '/blog/budva-to-sveti-stefan-drive', img: '/img/blog-budva-to-sveti-stefan-drive.webp', title: 'Budva → Sveti Stefan drive' },
-    { href: '/blog/tivat-airport-to-budva', img: '/img/blog-tivat-airport-to-budva.webp', title: 'Tivat Airport to Budva' },
-    { href: '/blog/budva-old-town-walls', img: '/img/blog-budva-old-town-walls.webp', title: 'Budva Old Town walls' },
+    { href: '/blog/budva-to-lovcen-mausoleum', img: '/img/blog-budva-to-lovcen-mausoleum.webp', title: 'Budva to Lovćen Mausoleum' },
+    { href: '/blog/kotor-day-trip-from-budva', img: '/img/blog-kotor-day-trip-from-budva.webp', title: 'Kotor day trip from Budva' },
+    { href: '/blog/sutomore-stari-bar-ruins', img: '/img/blog-sutomore-stari-bar-ruins.webp', title: 'Sutomore & Stari Bar ruins' },
   ],
 };
 

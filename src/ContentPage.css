@@ -142,7 +142,7 @@
   color: var(--black);
 }
 
-.content-body__inner img {
+.content-body__inner > img {
   width: 100%;
   border-radius: 12px;
   margin: 24px 0;

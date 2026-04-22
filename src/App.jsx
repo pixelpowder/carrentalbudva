@@ -574,10 +574,10 @@ function Destinations() {
    ═══════════════════════════════════════════════════════════ */
 // Images + hrefs stay in code; title/desc/time/distance come from translations.
 const ROUTE_IMAGES = [
-  { image: '/img/blog-sveti-nikola.webp', href: '/blog/sveti-nikola-hawaii' },
-  { image: '/img/blog-budva-svetistefan.webp', href: '/budva' },
-  { image: '/img/blog-pastrovici.webp', href: '/blog/budva-to-sveti-stefan-drive' },
-  { image: '/img/blog-tivat-arrival.webp', href: '/blog/tivat-airport-to-budva' },
+  { image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
+  { image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
+  { image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
+  { image: '/img/blog-kotor-day-trip-from-budva.webp', href: '/blog/kotor-day-trip-from-budva' },
 ];
 
 function PopularRoutes() {
@@ -698,7 +698,7 @@ function Stats() {
    SECTION: INSIDER TIPS — photo cards with travel advice
    ═══════════════════════════════════════════════════════════ */
 // Images stay in code; tag/title/text come from translations.
-const TIP_IMAGES = ['/img/blog-tivat-arrival.webp', '/img/blog-pastrovici.webp', '/img/blog-tivat-arrival.webp'];
+const TIP_IMAGES = ['/img/blog-cetinje-day-trip-from-budva.webp', '/img/blog-pastrovici-olive-harvest.webp', '/img/blog-budva-to-bar-ferry-port.webp'];
 
 function InsiderTips() {
   const { t } = useTranslation();
@@ -731,9 +731,9 @@ function InsiderTips() {
    SECTION 8: BLOG CARDS
    ═══════════════════════════════════════════════════════════ */
 const blogPosts = [
-  { key: 'churches', image: '/img/blog-budva-oldtown.webp', href: '/blog/pastrovici-highlands-drive' },
-  { key: 'vrmac', image: '/img/blog-budva-svetistefan.webp', href: '/blog/jaz-beach-festivals' },
-  { key: 'swimming', image: '/img/blog-sveti-nikola.webp', href: '/blog/sveti-nikola-hawaii' },
+  { key: 'churches', image: '/img/blog-rezevici-monastery.webp', href: '/blog/rezevici-monastery' },
+  { key: 'vrmac', image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
+  { key: 'swimming', image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
 ];
 
 function BlogCards() {
@@ -770,10 +770,10 @@ function BlogCards() {
    ═══════════════════════════════════════════════════════════ */
 // Images + hrefs stay in code; title/location come from translations.
 const EXPERIENCE_SLOTS = [
-  { image: '/img/blog-sveti-nikola.webp', href: '/blog/sveti-nikola-hawaii' },
-  { image: '/img/blog-pastrovici.webp', href: '/blog/budva-to-sveti-stefan-drive' },
-  { image: '/img/blog-budva-svetistefan.webp', href: '/budva' },
-  { image: '/img/blog-tivat-arrival.webp', href: '/blog/tivat-airport-to-budva' },
+  { image: '/img/blog-drobni-pijesak-cove.webp', href: '/blog/drobni-pijesak-cove' },
+  { image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
+  { image: '/img/blog-sutomore-stari-bar-ruins.webp', href: '/blog/sutomore-stari-bar-ruins' },
+  { image: '/img/blog-cetinje-day-trip-from-budva.webp', href: '/blog/cetinje-day-trip-from-budva' },
 ];
 
 function Experiences() {
@@ -819,11 +819,11 @@ function RoadTripPromo() {
             <p className="affiliate-promo__desc">{t('roadTripPlanner.desc') || 'Scenic routes, hidden viewpoints, fuel stops, parking tips, and border crossing advice, written by drivers who know every hairpin on these roads.'}</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <a href={localePath('/blog')} className="affiliate-promo__btn">{t('roadTripPlanner.browseAll')}</a>
-              <a href={localePath('/blog/budva-to-sveti-stefan-drive')} className="aff-outline-btn">{t('roadTripPlanner.lovcenGuide')}</a>
+              <a href={localePath('/blog/budva-to-lovcen-mausoleum')} className="aff-outline-btn">{t('roadTripPlanner.lovcenGuide')}</a>
             </div>
           </div>
           <div className="affiliate-promo__image">
-            <img src="/img/blog-pastrovici.webp" alt="Winding mountain road in Montenegro" loading="lazy" />
+            <img src="/img/blog-budva-to-lovcen-mausoleum.webp" alt="Winding mountain road in Montenegro" loading="lazy" />
           </div>
         </div>
       </div>
@@ -940,7 +940,7 @@ function PricingComparison() {
    ═══════════════════════════════════════════════════════════ */
 function DriveTimesMap() {
   const { t, localePath } = useTranslation();
-  const hrefs = ['/blog/tivat-airport-to-budva', '/blog/budva-old-town-walls', '/blog/sveti-stefan-photo-spots', '/blog/petrovac-quiet-alternative', '/blog/pastrovici-highlands-drive'];
+  const hrefs = ['/blog/kotor-day-trip-from-budva', '/blog/mogren-beach-dukley-tunnel', '/blog/milocer-park-villa', '/blog/rezevici-monastery', '/blog/cetinje-day-trip-from-budva'];
   return (
     <section className="section" id="drive-times">
       <div className="container">

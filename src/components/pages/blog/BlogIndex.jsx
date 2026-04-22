@@ -12,16 +12,16 @@ const cardExcerptStyle = { fontSize: '15px', color: 'var(--gray-600, #6c757d)', 
 const cardLinkStyle = { fontSize: '14px', fontWeight: 700, color: '#E31937', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '4px' };
 
 const articles = [
-  { title: 'Sveti Stefan — The Best Photo Spots (And How to Reach Them)', excerpt: "Every angle on Montenegro's most-photographed island: the St Sava lookout, the coastal pull-offs, kayak hire, and the aerial shot from Đenaši village.", image: '/img/blog-sveti-stefan.webp', href: '/blog/sveti-stefan-photo-spots' },
-  { title: 'Budva Old Town Walls — A 2,500-Year Fortress on the Adriatic', excerpt: "Venetian walls, the Citadel, the Illyrian helmets in the town museum, and the Roman villa the 1979 earthquake uncovered.", image: '/img/blog-budva-oldtown.webp', href: '/blog/budva-old-town-walls' },
-  { title: 'Bečići & Rafailovići — The Seafront Promenade Walk from Budva', excerpt: "Two kilometres of sand, a cliffside promenade with two tunnels, and the seafood restaurants at the far end (Tri Ribara, Porat).", image: '/img/blog-becici.webp', href: '/blog/becici-rafailovici-promenade' },
-  { title: 'Sveti Nikola (Hawaii) — The Island Off Budva Old Town', excerpt: "Montenegro's largest island, 15 minutes by boat from Slovenska Plaza. Three beaches, deer in pine forest, water so clear they call it Hawaii.", image: '/img/blog-sveti-nikola.webp', href: '/blog/sveti-nikola-hawaii' },
-  { title: 'Jaz Beach — The Rolling Stones Beach and Festival Logistics', excerpt: "The beach that hosted the Stones in 2007, Madonna in 2008, and Sea Dance 2014-2017. Swimming the other 11 months of the year.", image: '/img/blog-jaz.webp', href: '/blog/jaz-beach-festivals' },
-  { title: 'The Paštrovići Highlands Drive — Inland from Budva', excerpt: "Praskvica Monastery (founded c.1050), Kosmač Fortress at 800m, and the empty hill villages of the old Paštrovići clan.", image: '/img/blog-pastrovici.webp', href: '/blog/pastrovici-highlands-drive' },
-  { title: 'Petrovac — The Quiet Alternative to Budva', excerpt: "Twenty minutes south: a 600m beach, a 16th-century Venetian fortress, and no coach-tour crowds.", image: '/img/blog-petrovac.webp', href: '/blog/petrovac-quiet-alternative' },
-  { title: 'Tivat Airport to Budva — The 25-Minute Drive and Route Options', excerpt: "20 km direct, 25-30 minutes. Plus the Kotor detour and the Lovćen serpentine scenic route.", image: '/img/blog-tivat-arrival.webp', href: '/blog/tivat-airport-to-budva' },
-  { title: 'Budva to Sveti Stefan — The Short Coastal Drive with All the Stops', excerpt: "Ten minutes on paper, half a day in practice. Stop-by-stop guide to Bečići, Kamenovo, Pržno and Miločer.", image: '/img/blog-budva-svetistefan.webp', href: '/blog/budva-to-sveti-stefan-drive' },
-  { title: "Budva Nightlife — The Riviera's Club Strip and Where to Park", excerpt: "Top Hill club, the Slovenska Plaza strip, Old Town lounges, drink-drive law and overnight parking strategy.", image: '/img/blog-budva-nightlife.webp', href: '/blog/budva-nightlife' },
+  { title: "Drobni Pijesak — The Tiny Sand Cove Where the Paštrovići Clan Held Court", excerpt: "A 250-metre crescent of fine sand halfway between Sveti Stefan and Petrovac — and the open-air parliament that once met on it.", image: '/img/blog-drobni-pijesak-cove.webp', href: '/blog/drobni-pijesak-cove' },
+  { title: "Miločer Park and Villa Miločer — The Royal Summer Retreat Next to Sveti Stefan", excerpt: "Eighteen hectares of Mediterranean park, a 1930s villa built for Queen Marija, and the beach the Yugoslav royals kept for themselves.", image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
+  { title: "Reževići Monastery — An 800-Year-Old Nemanjić Foundation Above the Budva Riviera", excerpt: "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea.", image: '/img/blog-rezevici-monastery.webp', href: '/blog/rezevici-monastery' },
+  { title: "Budva to Lovćen Mausoleum — The Serpentine Drive to Njegoš's Tomb at 1,657 m", excerpt: "Out of Budva, up the old Austrian road, through Njeguši, onto the summit of the mountain that gives Montenegro its name.", image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
+  { title: "Sutomore and Stari Bar — A Day Trip South Through the Sozina Tunnel", excerpt: "Forty minutes from Budva: a long family beach town and a medieval ruined city on a hillside.", image: '/img/blog-sutomore-stari-bar-ruins.webp', href: '/blog/sutomore-stari-bar-ruins' },
+  { title: "Mogren Beach and the Cliff Tunnel — Two Hidden Coves North of Budva Old Town", excerpt: "Five minutes on foot from the Old Town gate: two small beaches joined by a stone tunnel cut through the headland.", image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
+  { title: "Budva to Bar Ferry Port — Driving Down to the Bari Ferry for the Italy Leg", excerpt: "An hour south to the Port of Bar, Montenegro's main sea gateway, and the overnight crossing to southern Italy.", image: '/img/blog-budva-to-bar-ferry-port.webp', href: '/blog/budva-to-bar-ferry-port' },
+  { title: "Cetinje Day Trip From Budva — The Old Royal Capital Over Lovćen", excerpt: "An hour inland from the coast: palaces, an active monastery, and the museum cluster that anchors Montenegrin national history.", image: '/img/blog-cetinje-day-trip-from-budva.webp', href: '/blog/cetinje-day-trip-from-budva' },
+  { title: "The Paštrovići Olive Harvest — Autumn in the Hills Behind the Budva Riviera", excerpt: "October into November, family-run mills still pressing the groves that have fed the coast for centuries.", image: '/img/blog-pastrovici-olive-harvest.webp', href: '/blog/pastrovici-olive-harvest' },
+  { title: "Kotor Day Trip From Budva — What to See in Four Hours", excerpt: "A thirty-minute coast drive: walled old town, the climb to San Giovanni fortress, and back to a Budva beach by sunset.", image: '/img/blog-kotor-day-trip-from-budva.webp', href: '/blog/kotor-day-trip-from-budva' },
 ];
 
 export default function BlogIndex() {
@@ -29,7 +29,7 @@ export default function BlogIndex() {
   return (
     <div className="content-page">
       <Nav />
-      <div className="content-hero" style={{ backgroundImage: 'url(/img/blog-budva-oldtown.webp)' }}>
+      <div className="content-hero" style={{ backgroundImage: 'url(/img/blog-budva-to-lovcen-mausoleum.webp)' }}>
         <div className="content-hero__overlay" />
         <div className="content-hero__text">
           <nav className="breadcrumbs">
@@ -38,7 +38,7 @@ export default function BlogIndex() {
             <span>Blog</span>
           </nav>
           <h1 className="content-hero__title">Driving the Budva Riviera</h1>
-          <p className="content-hero__subtitle">Researched guides to the beaches, old towns, coastal drives and hidden inland corners of the Budva Riviera.</p>
+          <p className="content-hero__subtitle">Researched guides to the lesser-covered corners of the Budva region — royal parks, mountain drives, old monasteries, ferry routes and the cliffside coves behind the Old Town.</p>
         </div>
       </div>
       <div style={{ maxWidth: '1220px', margin: '0 auto', padding: '48px 24px 80px', width: '100%' }}>
