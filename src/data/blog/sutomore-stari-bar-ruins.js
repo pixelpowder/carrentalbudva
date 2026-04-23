@@ -1,4 +1,4 @@
-const image = "/img/blog-sutomore-stari-bar-ruins.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg";
 
 const content = {
   en: {
