@@ -1,4 +1,4 @@
-const image = "/img/blog-pastrovici-olive-harvest.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg";
 
 const content = {
   en: {
