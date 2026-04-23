@@ -1,4 +1,4 @@
-const image = "/img/blog-milocer-park-villa.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg";
 
 const content = {
   en: {
