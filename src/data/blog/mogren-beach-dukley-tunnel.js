@@ -1,4 +1,4 @@
-const image = "/img/blog-mogren-beach-dukley-tunnel.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg";
 
 const content = {
   en: {
