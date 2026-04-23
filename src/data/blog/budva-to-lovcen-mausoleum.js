@@ -1,4 +1,4 @@
-const image = "/img/blog-budva-to-lovcen-mausoleum.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg";
 
 const content = {
   en: {
