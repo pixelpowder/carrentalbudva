@@ -574,9 +574,9 @@ function Destinations() {
    ═══════════════════════════════════════════════════════════ */
 // Images + hrefs stay in code; title/desc/time/distance come from translations.
 const ROUTE_IMAGES = [
-  { image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
-  { image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
-  { image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg', href: '/blog/mogren-beach-dukley-tunnel' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', href: '/blog/milocer-park-villa' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg', href: '/blog/budva-to-lovcen-mausoleum' },
   { image: '/img/route-budva-to-dubrovnik.webp', href: '/blog/kotor-day-trip-from-budva' },
 ];
 
@@ -698,7 +698,7 @@ function Stats() {
    SECTION: INSIDER TIPS — photo cards with travel advice
    ═══════════════════════════════════════════════════════════ */
 // Images stay in code; tag/title/text come from translations.
-const TIP_IMAGES = ['/img/blog-cetinje-day-trip-from-budva.webp', '/img/blog-pastrovici-olive-harvest.webp', '/img/blog-budva-to-bar-ferry-port.webp'];
+const TIP_IMAGES = ['https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg', '/img/blog-budva-to-bar-ferry-port.webp'];
 
 function InsiderTips() {
   const { t } = useTranslation();
@@ -732,8 +732,8 @@ function InsiderTips() {
    ═══════════════════════════════════════════════════════════ */
 const blogPosts = [
   { key: 'churches', image: '/img/blog-rezevici-monastery.webp', href: '/blog/rezevici-monastery' },
-  { key: 'vrmac', image: '/img/blog-budva-to-lovcen-mausoleum.webp', href: '/blog/budva-to-lovcen-mausoleum' },
-  { key: 'swimming', image: '/img/blog-mogren-beach-dukley-tunnel.webp', href: '/blog/mogren-beach-dukley-tunnel' },
+  { key: 'vrmac', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg', href: '/blog/budva-to-lovcen-mausoleum' },
+  { key: 'swimming', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg', href: '/blog/mogren-beach-dukley-tunnel' },
 ];
 
 function BlogCards() {
@@ -771,9 +771,9 @@ function BlogCards() {
 // Images + hrefs stay in code; title/location come from translations.
 const EXPERIENCE_SLOTS = [
   { image: '/img/blog-drobni-pijesak-cove.webp', href: '/blog/drobni-pijesak-cove' },
-  { image: '/img/blog-milocer-park-villa.webp', href: '/blog/milocer-park-villa' },
-  { image: '/img/blog-sutomore-stari-bar-ruins.webp', href: '/blog/sutomore-stari-bar-ruins' },
-  { image: '/img/blog-cetinje-day-trip-from-budva.webp', href: '/blog/cetinje-day-trip-from-budva' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', href: '/blog/milocer-park-villa' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg', href: '/blog/sutomore-stari-bar-ruins' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', href: '/blog/cetinje-day-trip-from-budva' },
 ];
 
 function Experiences() {
@@ -823,7 +823,7 @@ function RoadTripPromo() {
             </div>
           </div>
           <div className="affiliate-promo__image">
-            <img src="/img/blog-budva-to-lovcen-mausoleum.webp" alt="Winding mountain road in Montenegro" loading="lazy" />
+            <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg" alt="Winding mountain road in Montenegro" loading="lazy" />
           </div>
         </div>
       </div>

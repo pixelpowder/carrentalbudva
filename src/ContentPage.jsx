@@ -57,15 +57,15 @@ export default function ContentPage({ title, subtitle, image, description, child
           <h2 className="related-guides__title">{t('relatedGuides.title')}</h2>
           <div className="related-guides__cards">
             <a href={localePath('/blog/cetinje-day-trip-from-budva')} className="related-card">
-              <img src="/img/blog-cetinje-day-trip-from-budva.webp" alt={t('posts.cetinjeDay.full')} loading="lazy" />
+              <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg" alt={t('posts.cetinjeDay.full')} loading="lazy" />
               <span>{t('posts.cetinjeDay.full')}</span>
             </a>
             <a href={localePath('/blog/sutomore-stari-bar-ruins')} className="related-card">
-              <img src="/img/blog-sutomore-stari-bar-ruins.webp" alt={t('posts.sutomore.full')} loading="lazy" />
+              <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg" alt={t('posts.sutomore.full')} loading="lazy" />
               <span>{t('posts.sutomore.full')}</span>
             </a>
             <a href={localePath('/blog/pastrovici-olive-harvest')} className="related-card">
-              <img src="/img/blog-pastrovici-olive-harvest.webp" alt={t('posts.pastrovici.full')} loading="lazy" />
+              <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg" alt={t('posts.pastrovici.full')} loading="lazy" />
               <span>{t('posts.pastrovici.full')}</span>
             </a>
           </div>
