@@ -1,4 +1,4 @@
-const image = "/img/blog-cetinje-day-trip-from-budva.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg";
 
 const content = {
   en: {
