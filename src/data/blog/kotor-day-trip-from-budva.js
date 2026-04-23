@@ -1,4 +1,4 @@
-const image = "/img/blog-kotor-day-trip-from-budva.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776969307/budva/guides/kotor-lake-mountains.jpg";
 
 const content = {
   en: {
