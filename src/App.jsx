@@ -770,7 +770,7 @@ function BlogCards() {
    ═══════════════════════════════════════════════════════════ */
 // Images + hrefs stay in code; title/location come from translations.
 const EXPERIENCE_SLOTS = [
-  { image: '/img/blog-drobni-pijesak-cove.webp', href: '/blog/drobni-pijesak-cove' },
+  { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg', href: '/blog/drobni-pijesak-cove' },
   { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', href: '/blog/milocer-park-villa' },
   { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg', href: '/blog/sutomore-stari-bar-ruins' },
   { image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', href: '/blog/cetinje-day-trip-from-budva' },

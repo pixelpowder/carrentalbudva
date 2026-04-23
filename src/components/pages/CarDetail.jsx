@@ -41,17 +41,17 @@ const RELATED = {
   'vw-polo': [
     { href: '/blog/mogren-beach-dukley-tunnel', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg', title: 'Mogren Beach & cliff tunnel' },
     { href: '/blog/milocer-park-villa', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', title: 'Miločer Park & royal villa' },
-    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
+    { href: '/blog/drobni-pijesak-cove', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg', title: 'Drobni Pijesak cove' },
   ],
   'renault-clio': [
-    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
+    { href: '/blog/drobni-pijesak-cove', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg', title: 'Drobni Pijesak cove' },
     { href: '/blog/milocer-park-villa', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', title: 'Miločer Park & royal villa' },
     { href: '/blog/mogren-beach-dukley-tunnel', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg', title: 'Mogren Beach & cliff tunnel' },
   ],
   'citroen-c3': [
     { href: '/blog/rezevici-monastery', img: '/img/blog-rezevici-monastery.webp', title: 'Reževići Monastery (1226)' },
     { href: '/blog/pastrovici-olive-harvest', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg', title: 'Paštrovići olive harvest' },
-    { href: '/blog/drobni-pijesak-cove', img: '/img/blog-drobni-pijesak-cove.webp', title: 'Drobni Pijesak cove' },
+    { href: '/blog/drobni-pijesak-cove', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg', title: 'Drobni Pijesak cove' },
   ],
   'peugeot-308': [
     { href: '/blog/kotor-day-trip-from-budva', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969307/budva/guides/kotor-lake-mountains.jpg', title: 'Kotor day trip from Budva' },

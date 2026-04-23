@@ -1,4 +1,4 @@
-const image = "/img/blog-drobni-pijesak-cove.webp";
+const image = "https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg";
 
 const content = {
   en: {
