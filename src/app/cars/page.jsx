@@ -4,10 +4,10 @@ import FleetIndex from '@/src/components/pages/FleetIndex';
 const SITE = 'https://www.carrentalbudva.com';
 
 export async function generateMetadata() {
-  const title = 'Our Fleet — 7 Cars for Multi-Day Budva Rentals | Car Rental Budva';
+  const title = 'Our Fleet, 7 Cars for Multi-Day Budva Rentals | Car Rental Budva';
   const description = (t('en', 'fleetIndex.seoDesc') !== 'fleetIndex.seoDesc'
     ? t('en', 'fleetIndex.seoDesc')
-    : 'Seven multi-day rental cars for Budva — mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips along the Riviera.');
+    : 'Seven multi-day rental cars for Budva, mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips along the Riviera.');
   return {
     title,
     description,

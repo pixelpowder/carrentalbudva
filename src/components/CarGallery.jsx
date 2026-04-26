@@ -38,7 +38,7 @@ export default function CarGallery({ images, alt }) {
             <img
               key={src}
               src={src}
-              alt={`${alt} — photo ${i + 1}`}
+              alt={`${alt}, photo ${i + 1}`}
               loading={i === 0 ? 'eager' : 'lazy'}
               className={`car-gallery__img${i === active ? ' car-gallery__img--active' : ''}`}
             />
@@ -80,7 +80,7 @@ export default function CarGallery({ images, alt }) {
               className={`car-gallery__thumb${i === active ? ' car-gallery__thumb--active' : ''}`}
               aria-label={`Go to photo ${i + 1}`}
             >
-              <img src={src} alt={`${alt} — photo ${i + 1}`} loading="lazy" />
+              <img src={src} alt={`${alt}, photo ${i + 1}`} loading="lazy" />
             </button>
           ))}
         </div>

@@ -1557,7 +1557,7 @@
   "fleetShowcase": {
     "label": "Upoznaj svoj auto",
     "title": "Vodiči za svaki auto naše budvaske flote",
-    "subtitle": "Specifikacije, domet, prtljažnik — i koji auto se zaista pokaže na putu oko zaliva, lovćenskim serpentinama i autoputu Smokovac.",
+    "subtitle": "Specifikacije, domet, prtljažnik, i koji auto se zaista pokaže na putu oko zaliva, lovćenskim serpentinama i autoputu Smokovac.",
     "viewAll": "Pogledaj sve vodiče flote",
     "tabs": {
       "all": "Svi",
@@ -1571,10 +1571,10 @@
   "fleetIndex": {
     "title": "Naša flota za iznajmljivanje u Budvau",
     "subtitle": "Sedam auta odabranih za višednevnu bazu u Budvau, sa izletima ka Cetinju, Skadarskom jezeru, Durmitoru i preko granice.",
-    "seoDesc": "Sedam auta za višednevni najam u Budvau — srednja klasa za teret, dizel krstarice i jedan gradski Fiat. Specifikacije, domet i koji auto odgovara kom izletu iz zaliva.",
-    "intro1": "Ova flota napravljena je za gosta koji iznajmljuje u Budvau na više dana — ljude koji se ukopaju u stan u Dobroti ili pansion u Starom gradu na dvije sedmice ili više, i koji znaju da će pravo vrijeme provesti na putu između dana u zalivu. To je drugačiji zadatak od jednodnevnog najma sa krstarenja ili prostog preuzimanja auta na tivatskom aerodromu: traži prtljažnik za sedmičnu kupovinu u Voliju, dizel moment za uspon Sozine i sedeću poziciju u kojoj četvoro odraslih izdrži trosatnu vožnju do Žabljaka. Sedam auta ispod izabrani su baš po toj mjeri.",
-    "intro2": "Miks namjerno ide ka srednjoj klasi. Peugeot 308 sa 1.5 BlueHDi i EAT automatikom, dizel Renault Megane sa najvećim prtljažnikom u klasi, VW Golf sa DSG 2.0 TDI — ta kola pretvaraju petlju Budva → Cetinje → Skadarsko jezero → Sozina iz posla sa mjenjačem u mirno krstarenje. Za kraće skokove držimo Renault Clio, Citroën C3 sa Advanced Comfort vješanjem, krosover Kia Stonic za razvaljene odvojke ka Njegušima i Gornjoj Lastvi, i sitan Fiat 500 kada je jedino ograničenje parkiranje na mulu u Muu. Bez monotonaca i bez kombija — svaki auto ovdje opravdava višednevni najam.",
-    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja — Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva — Rafailovići, Prčanj, Muo, Risan — Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni."
+    "seoDesc": "Sedam auta za višednevni najam u Budvau, srednja klasa za teret, dizel krstarice i jedan gradski Fiat. Specifikacije, domet i koji auto odgovara kom izletu iz zaliva.",
+    "intro1": "Ova flota napravljena je za gosta koji iznajmljuje u Budvau na više dana, ljude koji se ukopaju u stan u Dobroti ili pansion u Starom gradu na dvije sedmice ili više, i koji znaju da će pravo vrijeme provesti na putu između dana u zalivu. To je drugačiji zadatak od jednodnevnog najma sa krstarenja ili prostog preuzimanja auta na tivatskom aerodromu: traži prtljažnik za sedmičnu kupovinu u Voliju, dizel moment za uspon Sozine i sedeću poziciju u kojoj četvoro odraslih izdrži trosatnu vožnju do Žabljaka. Sedam auta ispod izabrani su baš po toj mjeri.",
+    "intro2": "Miks namjerno ide ka srednjoj klasi. Peugeot 308 sa 1.5 BlueHDi i EAT automatikom, dizel Renault Megane sa najvećim prtljažnikom u klasi, VW Golf sa DSG 2.0 TDI, ta kola pretvaraju petlju Budva → Cetinje → Skadarsko jezero → Sozina iz posla sa mjenjačem u mirno krstarenje. Za kraće skokove držimo Renault Clio, Citroën C3 sa Advanced Comfort vješanjem, krosover Kia Stonic za razvaljene odvojke ka Njegušima i Gornjoj Lastvi, i sitan Fiat 500 kada je jedino ograničenje parkiranje na mulu u Muu. Bez monotonaca i bez kombija, svaki auto ovdje opravdava višednevni najam.",
+    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja, Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva, Rafailovići, Prčanj, Muo, Risan, Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni."
   },
   "posts": {
     "milocer": {
@@ -1602,7 +1602,7 @@
       "short": "Kotor na dan"
     },
     "cetinjeDay": {
-      "full": "Cetinje — stara kraljevska prijestonica",
+      "full": "Cetinje, stara kraljevska prijestonica",
       "short": "Cetinje na dan"
     },
     "sutomore": {

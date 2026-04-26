@@ -6,7 +6,7 @@ export default function Montenegro() {
   const { localePath } = useTranslation();
   return (
     <ContentPage
-      title="Driving the Adriatic Coast — A Montenegro Overview"
+      title="Driving the Adriatic Coast, A Montenegro Overview"
       subtitle="The country is small, the coast is dense. What you can reasonably cover by car with Budva as a base."
       description="A practical overview of Montenegro for Budva-based self-drive visitors: coastal towns, inland detours, typical drive times, and border crossings."
       image="/img/blog-budva-to-lovcen-mausoleum.webp"
@@ -20,11 +20,11 @@ export default function Montenegro() {
 
       <h2>Within 60 minutes by car</h2>
       <ul>
-        <li>Tivat Airport — 25 min (main gateway)</li>
-        <li><a href={localePath('/blog/kotor-day-trip-from-budva')}>Kotor Bay and Old Town</a> — 30 min</li>
-        <li><a href={localePath('/blog/rezevici-monastery')}>Reževići Monastery</a> — 20 min south</li>
-        <li><a href={localePath('/blog/cetinje-day-trip-from-budva')}>Cetinje royal capital</a> — 1 hr via Lovćen</li>
-        <li>Herceg Novi — 50 min to the west</li>
+        <li>Tivat Airport, 25 min (main gateway)</li>
+        <li><a href={localePath('/blog/kotor-day-trip-from-budva')}>Kotor Bay and Old Town</a>, 30 min</li>
+        <li><a href={localePath('/blog/rezevici-monastery')}>Reževići Monastery</a>, 20 min south</li>
+        <li><a href={localePath('/blog/cetinje-day-trip-from-budva')}>Cetinje royal capital</a>, 1 hr via Lovćen</li>
+        <li>Herceg Novi, 50 min to the west</li>
         <li><a href={localePath('/blog/budva-to-bar-ferry-port')}>Bar port</a> — 60 min south</li>
       </ul>
 

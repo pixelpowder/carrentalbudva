@@ -1557,7 +1557,7 @@
   "fleetShowcase": {
     "label": "Conosci la tua auto",
     "title": "Guide a ogni auto della nostra flotta di Budva",
-    "subtitle": "Specifiche, autonomia, bagagliaio — e quale auto si comporta meglio sulla strada della baia, sui tornanti del Kosmač e sull’autostrada di Smokovac.",
+    "subtitle": "Specifiche, autonomia, bagagliaio, e quale auto si comporta meglio sulla strada della baia, sui tornanti del Kosmač e sull’autostrada di Smokovac.",
     "viewAll": "Vedi tutte le guide della flotta",
     "tabs": {
       "all": "Tutte",
@@ -1571,10 +1571,10 @@
   "fleetIndex": {
     "title": "La nostra flotta di noleggio a Budva",
     "subtitle": "Sette auto pensate per un soggiorno di più giorni a Budva, con gite a Cettigne, al lago di Scutari, a Durmitor e oltre confine.",
-    "seoDesc": "Sette auto a noleggio di più giorni a Budva — medie da carico, diesel da lunga distanza e una Fiat cittadina. Specifiche, autonomia e quale auto serve per le gite fuori baia.",
-    "intro1": "Questa flotta è pensata per chi noleggia a Budva per più giorni — ospiti che si installano in un appartamento di Bečići o in una pensione della città vecchia per due settimane o più e prevedono giornate vere di guida tra i giorni passati in baia. È un’esigenza diversa dal noleggio di una giornata da crociera o da un semplice ritiro all’aeroporto di Tivat Airport: contano il bagagliaio per la spesa settimanale da Voli, la coppia diesel per la risalita di Sozina e una posizione di guida che tenga comode quattro persone sulle tre ore fino a Žabljak. Le sette auto qui sotto sono scelte di conseguenza.",
-    "intro2": "Il mix è volutamente spostato sulla media cilindrata. Una Peugeot 308 con 1.5 BlueHDi e cambio EAT, una Renault Megane diesel con il bagagliaio più grande del segmento, una VW Golf con DSG 2.0 TDI — sono queste le auto che trasformano l’anello Budva → Cettigne → Scutari → Sozina da una fatica di cambi a una crociera rilassata. Per le tratte brevi teniamo una Renault Clio, una Citroën C3 con ammortizzatori Advanced Comfort, una Kia Stonic crossover per le strade dissestate verso Njeguši e Gornja Lastva, e una piccola Fiat 500 quando l’unico vincolo è il parcheggio sul lungomare di Muo. Niente auto monouso, niente van: ogni auto qui giustifica un noleggio di più giorni.",
-    "intro3": "Una nota pratica su Budva. Il diesel resta la scelta più furba se prevedete anche un solo sconfinamento — Trebinje a 90 minuti, Dubrovnik via Debeli Brijeg altrettanto, Mostar una giornata andata e ritorno. 308 e Megane coprono tutte e tre le tratte con un pieno, la Golf è l’auto più silenziosa che abbiamo in autostrada, e la Clio a benzina fa comunque Budva–Dubrovnik andata e ritorno con mezzo pieno. Se la settimana è tutta in baia — Rafailovićio, Prčanj, Muo, Risan — la Fiat 500 o la C3 risparmiano un terzo di carburante e parcheggiano dove le altre non entrano. Scegliete sull’itinerario, non sul prezzo giornaliero."
+    "seoDesc": "Sette auto a noleggio di più giorni a Budva, medie da carico, diesel da lunga distanza e una Fiat cittadina. Specifiche, autonomia e quale auto serve per le gite fuori baia.",
+    "intro1": "Questa flotta è pensata per chi noleggia a Budva per più giorni, ospiti che si installano in un appartamento di Bečići o in una pensione della città vecchia per due settimane o più e prevedono giornate vere di guida tra i giorni passati in baia. È un’esigenza diversa dal noleggio di una giornata da crociera o da un semplice ritiro all’aeroporto di Tivat Airport: contano il bagagliaio per la spesa settimanale da Voli, la coppia diesel per la risalita di Sozina e una posizione di guida che tenga comode quattro persone sulle tre ore fino a Žabljak. Le sette auto qui sotto sono scelte di conseguenza.",
+    "intro2": "Il mix è volutamente spostato sulla media cilindrata. Una Peugeot 308 con 1.5 BlueHDi e cambio EAT, una Renault Megane diesel con il bagagliaio più grande del segmento, una VW Golf con DSG 2.0 TDI, sono queste le auto che trasformano l’anello Budva → Cettigne → Scutari → Sozina da una fatica di cambi a una crociera rilassata. Per le tratte brevi teniamo una Renault Clio, una Citroën C3 con ammortizzatori Advanced Comfort, una Kia Stonic crossover per le strade dissestate verso Njeguši e Gornja Lastva, e una piccola Fiat 500 quando l’unico vincolo è il parcheggio sul lungomare di Muo. Niente auto monouso, niente van: ogni auto qui giustifica un noleggio di più giorni.",
+    "intro3": "Una nota pratica su Budva. Il diesel resta la scelta più furba se prevedete anche un solo sconfinamento, Trebinje a 90 minuti, Dubrovnik via Debeli Brijeg altrettanto, Mostar una giornata andata e ritorno. 308 e Megane coprono tutte e tre le tratte con un pieno, la Golf è l’auto più silenziosa che abbiamo in autostrada, e la Clio a benzina fa comunque Budva–Dubrovnik andata e ritorno con mezzo pieno. Se la settimana è tutta in baia, Rafailovićio, Prčanj, Muo, Risan, la Fiat 500 o la C3 risparmiano un terzo di carburante e parcheggiano dove le altre non entrano. Scegliete sull’itinerario, non sul prezzo giornaliero."
   },
   "posts": {
     "milocer": {
@@ -1602,7 +1602,7 @@
       "short": "Gita a Cattaro"
     },
     "cetinjeDay": {
-      "full": "Cetinje — antica capitale reale",
+      "full": "Cetinje, antica capitale reale",
       "short": "Gita a Cetinje"
     },
     "sutomore": {

@@ -1589,7 +1589,7 @@
   "fleetShowcase": {
     "label": "Kenne dein Auto",
     "title": "Ratgeber zu jedem Auto in unserer Budva-Flotte",
-    "subtitle": "Daten, Reichweite, Kofferraum — und welches Auto sich auf der Buchtstraße, den Kosmač-Serpentinen und der Smokovac-Autobahn bewährt.",
+    "subtitle": "Daten, Reichweite, Kofferraum, und welches Auto sich auf der Buchtstraße, den Kosmač-Serpentinen und der Smokovac-Autobahn bewährt.",
     "viewAll": "Alle Flotten-Ratgeber ansehen",
     "tabs": {
       "all": "Alle",
@@ -1603,10 +1603,10 @@
   "fleetIndex": {
     "title": "Unsere Budva-Mietwagenflotte",
     "subtitle": "Sieben Autos für einen mehrtägigen Aufenthalt in Budva, mit Tagesausflügen nach Cetinje, zum Skutarisee, ins Durmitor-Gebirge und über die Grenze.",
-    "seoDesc": "Sieben Mehrtages-Mietwagen für Budva — Mittelklasse-Kombis, Diesel-Reisewagen und ein Stadt-Fiat. Daten, Reichweite und welches Auto sich für Tagesausflüge aus der Bucht eignet.",
-    "intro1": "Diese Flotte ist auf den mehrtägigen Budva-Mieter zugeschnitten — Gäste, die sich für zwei Wochen oder länger in einer Bečići-Wohnung oder einer Altstadt-Pension einrichten und mit echten Fahrstrecken zwischen den buchtbasierten Tagen rechnen. Das ist etwas anderes als eine Kreuzfahrt-Tagesmiete oder ein reiner Tivat Airport-Flughafen-Pickup: Es zählen Kofferraum für den Wocheneinkauf bei Voli, Dieseldrehmoment für die Sozina-Autobahn und eine Sitzposition, die vier Erwachsene auf der dreistündigen Fahrt nach Žabljak bequem hält. Die sieben Autos unten sind entsprechend ausgewählt.",
-    "intro2": "Der Mix betont bewusst die Mittelklasse. Ein Peugeot 308 mit 1.5 BlueHDi und EAT-Automatik, ein Renault Megane Diesel mit dem größten Kofferraum der Klasse, ein VW Golf mit DSG 2.0 TDI — diese Autos machen aus der Schleife Budva → Cetinje → Skutarisee → Sozina aus einer Schalt-Pflichtübung eine entspannte Reise. Für kürzere Strecken halten wir einen Renault Clio, einen Citroën C3 mit Advanced-Comfort-Fahrwerk, einen Kia Stonic-Crossover für die ausgewaschenen Stichstraßen nach Njeguši und Gornja Lastva, und einen winzigen Fiat 500 für Muo-Uferparkplätze. Keine Einzelkämpfer, keine Vans — jedes Auto hier rechtfertigt eine Mehrtagesmiete.",
-    "intro3": "Ein praktischer Budva-Hinweis vorab. Diesel bleibt die klügere Wahl für jeden, der auch nur einmal grenzüberschreitend fährt — Trebinje sind 90 Minuten, Dubrovnik über Debeli Brijeg ebenfalls 90, Mostar ein voller Tag hin und zurück. 308 und Megane schaffen alle drei auf einer Tankfüllung, der Golf ist der komfortabelste Autobahnwagen in unserer Flotte, und der Benzin-Clio macht die Hin- und Rückfahrt Budva–Dubrovnik mit einem halben Tank. Wenn Ihre Woche auf die Bucht beschränkt ist — Rafailovići, Prčanj, Muo, Risan — sparen Fiat 500 oder C3 ein Drittel Treibstoff und parken, wo die anderen nicht hinkommen. Wählen Sie nach Ihrer Route, nicht nach dem Tagespreis."
+    "seoDesc": "Sieben Mehrtages-Mietwagen für Budva, Mittelklasse-Kombis, Diesel-Reisewagen und ein Stadt-Fiat. Daten, Reichweite und welches Auto sich für Tagesausflüge aus der Bucht eignet.",
+    "intro1": "Diese Flotte ist auf den mehrtägigen Budva-Mieter zugeschnitten, Gäste, die sich für zwei Wochen oder länger in einer Bečići-Wohnung oder einer Altstadt-Pension einrichten und mit echten Fahrstrecken zwischen den buchtbasierten Tagen rechnen. Das ist etwas anderes als eine Kreuzfahrt-Tagesmiete oder ein reiner Tivat Airport-Flughafen-Pickup: Es zählen Kofferraum für den Wocheneinkauf bei Voli, Dieseldrehmoment für die Sozina-Autobahn und eine Sitzposition, die vier Erwachsene auf der dreistündigen Fahrt nach Žabljak bequem hält. Die sieben Autos unten sind entsprechend ausgewählt.",
+    "intro2": "Der Mix betont bewusst die Mittelklasse. Ein Peugeot 308 mit 1.5 BlueHDi und EAT-Automatik, ein Renault Megane Diesel mit dem größten Kofferraum der Klasse, ein VW Golf mit DSG 2.0 TDI, diese Autos machen aus der Schleife Budva → Cetinje → Skutarisee → Sozina aus einer Schalt-Pflichtübung eine entspannte Reise. Für kürzere Strecken halten wir einen Renault Clio, einen Citroën C3 mit Advanced-Comfort-Fahrwerk, einen Kia Stonic-Crossover für die ausgewaschenen Stichstraßen nach Njeguši und Gornja Lastva, und einen winzigen Fiat 500 für Muo-Uferparkplätze. Keine Einzelkämpfer, keine Vans, jedes Auto hier rechtfertigt eine Mehrtagesmiete.",
+    "intro3": "Ein praktischer Budva-Hinweis vorab. Diesel bleibt die klügere Wahl für jeden, der auch nur einmal grenzüberschreitend fährt, Trebinje sind 90 Minuten, Dubrovnik über Debeli Brijeg ebenfalls 90, Mostar ein voller Tag hin und zurück. 308 und Megane schaffen alle drei auf einer Tankfüllung, der Golf ist der komfortabelste Autobahnwagen in unserer Flotte, und der Benzin-Clio macht die Hin- und Rückfahrt Budva–Dubrovnik mit einem halben Tank. Wenn Ihre Woche auf die Bucht beschränkt ist, Rafailovići, Prčanj, Muo, Risan, sparen Fiat 500 oder C3 ein Drittel Treibstoff und parken, wo die anderen nicht hinkommen. Wählen Sie nach Ihrer Route, nicht nach dem Tagespreis."
   },
   "posts": {
     "milocer": {
@@ -1634,7 +1634,7 @@
       "short": "Kotor-Tagestour"
     },
     "cetinjeDay": {
-      "full": "Cetinje — alte Königsstadt",
+      "full": "Cetinje, alte Königsstadt",
       "short": "Cetinje-Tagestour"
     },
     "sutomore": {

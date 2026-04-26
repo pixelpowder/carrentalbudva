@@ -12,7 +12,7 @@ export default function About() {
       image="/img/blog-mogren-beach-dukley-tunnel.webp"
     >
       <h2>Who we are</h2>
-      <p>Car Rental Budva is a booking platform that partners with small and mid-sized Montenegrin rental operators along the Budva Riviera. We're not a franchised airport desk — we're a local team who handle pickups, paperwork, and the phone call when something goes wrong on the road.</p>
+      <p>Car Rental Budva is a booking platform that partners with small and mid-sized Montenegrin rental operators along the Budva Riviera. We're not a franchised airport desk, we're a local team who handle pickups, paperwork, and the phone call when something goes wrong on the road.</p>
       <p>The operators we work with run clean, modern fleets with full insurance and enough cars to keep availability up through peak season. We do the comparison work so you get the right vehicle at the right price.</p>
 
       <h2>Why Budva as a base</h2>
@@ -23,11 +23,11 @@ export default function About() {
       <p>Every rental includes CDW insurance, third-party liability, VAT, unlimited mileage on most categories, and 24/7 roadside support. Zero-excess insurance upgrade available. Cross-border cover (Croatia, Albania, Bosnia, Serbia, Kosovo) added on request with the Green Card paperwork prepared at booking time.</p>
 
       <h2>Pickup and drop-off</h2>
-      <p>We meet every arriving flight at Tivat Airport (TIV) — 20 km from Budva, 25-30 minutes drive. Late-night arrivals included, no surcharge. Alternatively we can deliver to your Budva hotel, or the Old Town pedestrian entrance for easy meet-up on arrival day.</p>
+      <p>We meet every arriving flight at Tivat Airport (TIV), 20 km from Budva, 25-30 minutes drive. Late-night arrivals included, no surcharge. Alternatively we can deliver to your Budva hotel, or the Old Town pedestrian entrance for easy meet-up on arrival day.</p>
       <p>One-way rentals to Herceg Novi, Bar, Ulcinj or Podgorica are supported. Cross-border drop-off available to Dubrovnik Airport with advance notice.</p>
 
       <h2>Pricing</h2>
-      <p>No summer premium baked into the confirmation. The rate you book is the rate you pay — taxes, airport fees and standard mileage already included. The only extras are optional zero-excess insurance and one-way fees.</p>
+      <p>No summer premium baked into the confirmation. The rate you book is the rate you pay, taxes, airport fees and standard mileage already included. The only extras are optional zero-excess insurance and one-way fees.</p>
 
       <h2>Contact us</h2>
       <p>For bookings or questions, the <a href={localePath('/contact')}>contact page</a> has the form, email and WhatsApp number. We reply within two hours during business hours, next morning for overnight enquiries.</p>

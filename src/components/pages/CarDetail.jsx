@@ -26,13 +26,13 @@ import {
 
 // Budva multi-day rental inline photo per car — Riviera road, Paštrovići serpentine, motorway.
 const INLINE_PHOTOS = {
-  'vw-polo':        { src: '/img/fleet-inline/seaside-road.jpg',      alt: 'Budva Riviera coast road near Bečići',          caption: 'The coast road between Budva and Sveti Stefan — the Polo\u2019s natural cruise on a week on the Riviera.' },
-  'renault-clio':   { src: '/img/fleet-inline/coastal-road.jpg',      alt: 'Budva Riviera E65 toward Sveti Stefan',         caption: 'The E65 stretch past Rafailovići at a steady 60 km/h — the Clio\u2019s natural tempo on a multi-day Budva stay.' },
-  'citroen-c3':     { src: '/img/fleet-inline/village-trees.jpg',     alt: 'Back road through Paštrovići above Petrovac',   caption: 'The Paštrovići back lanes above Petrovac — the C3\u2019s Advanced Comfort turns patched bitumen into distant thumps.' },
-  'peugeot-308':    { src: '/img/fleet-inline/mountain-highway.jpg',  alt: 'Smokovac–Mateševo motorway inland from Budva',  caption: 'The Smokovac motorway toward Podgorica — the 308\u2019s BlueHDi settles into a steady 1,800 rpm cruise here.' },
-  'renault-megane': { src: '/img/fleet-inline/sea-road.jpg',          alt: 'Riviera coast road from Budva toward Bar',      caption: 'The coastal run south of Petrovac — where the Megane\u2019s soft damping actually earns its rental premium.' },
-  'kia-stonic':     { src: '/img/fleet-inline/rocky-road.jpg',        alt: 'Rutted spur road up to Kosmač Fortress',        caption: 'The Kosmač Fortress approach above the Riviera — a little extra ground clearance keeps the Stonic composed where a Clio scrapes.' },
-  'vw-golf':        { src: '/img/fleet-inline/forest-road.jpg',       alt: 'Wooded Paštrovići ridge road above Budva',      caption: 'The climb from Petrovac toward Cetinje in third gear — the DSG reads the hairpins, the cabin stays silent.' },
+  'vw-polo':        { src: '/img/fleet-inline/seaside-road.jpg',      alt: 'Budva Riviera coast road near Bečići',          caption: 'The coast road between Budva and Sveti Stefan, the Polo\u2019s natural cruise on a week on the Riviera.' },
+  'renault-clio':   { src: '/img/fleet-inline/coastal-road.jpg',      alt: 'Budva Riviera E65 toward Sveti Stefan',         caption: 'The E65 stretch past Rafailovići at a steady 60 km/h, the Clio\u2019s natural tempo on a multi-day Budva stay.' },
+  'citroen-c3':     { src: '/img/fleet-inline/village-trees.jpg',     alt: 'Back road through Paštrovići above Petrovac',   caption: 'The Paštrovići back lanes above Petrovac, the C3\u2019s Advanced Comfort turns patched bitumen into distant thumps.' },
+  'peugeot-308':    { src: '/img/fleet-inline/mountain-highway.jpg',  alt: 'Smokovac–Mateševo motorway inland from Budva',  caption: 'The Smokovac motorway toward Podgorica, the 308\u2019s BlueHDi settles into a steady 1,800 rpm cruise here.' },
+  'renault-megane': { src: '/img/fleet-inline/sea-road.jpg',          alt: 'Riviera coast road from Budva toward Bar',      caption: 'The coastal run south of Petrovac, where the Megane\u2019s soft damping actually earns its rental premium.' },
+  'kia-stonic':     { src: '/img/fleet-inline/rocky-road.jpg',        alt: 'Rutted spur road up to Kosmač Fortress',        caption: 'The Kosmač Fortress approach above the Riviera, a little extra ground clearance keeps the Stonic composed where a Clio scrapes.' },
+  'vw-golf':        { src: '/img/fleet-inline/forest-road.jpg',       alt: 'Wooded Paštrovići ridge road above Budva',      caption: 'The climb from Petrovac toward Cetinje in third gear, the DSG reads the hairpins, the cabin stays silent.' },
   _default:         { src: '/img/fleet-inline/kotor-bay.jpg',         alt: 'Aerial view of the Budva Riviera',              caption: 'A week based in Budva puts Sveti Stefan, Petrovac, Cetinje, Skadar Lake and Dubrovnik all inside day-trip range.' },
 };
 
@@ -55,7 +55,7 @@ const RELATED = {
   ],
   'peugeot-308': [
     { href: '/blog/kotor-day-trip-from-budva', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969307/budva/guides/kotor-lake-mountains.jpg', title: 'Kotor day trip from Budva' },
-    { href: '/blog/cetinje-day-trip-from-budva', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', title: 'Cetinje — old royal capital' },
+    { href: '/blog/cetinje-day-trip-from-budva', img: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', title: 'Cetinje, old royal capital' },
     { href: '/blog/rezevici-monastery', img: '/img/blog-rezevici-monastery.webp', title: 'Reževići Monastery (1226)' },
   ],
   'renault-megane': [
