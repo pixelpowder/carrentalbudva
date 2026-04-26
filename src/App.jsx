@@ -189,12 +189,15 @@ function Hero() {
       </div>
 
       {/* Image section with overlaid search form */}
-      <div className="hero__image-section">
+      <div
+        className="hero__image-section"
+        style={{ backgroundImage: `url(${config.hero.image})` }}
+      >
         <div className="booking-card">
           <div className="booking-card__fields">
             <LocationField value={pickup} onChange={setPickup} />
             <div className="booking-field booking-field--dates">
-              <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
+              <label>{t('hero.pickupDate')} - {t('hero.dropoffDate')}</label>
               <DatePicker
                 selectsRange startDate={startDate} endDate={endDate}
                 onChange={handleDateChange} minDate={new Date()}
@@ -823,7 +826,7 @@ function RoadTripPromo() {
             </div>
           </div>
           <div className="affiliate-promo__image">
-            <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg" alt="Winding mountain road in Montenegro" loading="lazy" />
+            <img src="https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg" alt={t('roadTripPlanner.imageAlt')} loading="lazy" />
           </div>
         </div>
       </div>
@@ -1008,14 +1011,16 @@ function StickyMobileCTA() {
 }
 
 function WhatsAppFab() {
+  const { t } = useTranslation();
   return (
-    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label={t('a11y.chatWhatsApp')}>
       <MessageCircle size={22} />
     </a>
   );
 }
 
 function ScrollToTop() {
+  const { t } = useTranslation();
   const [show, setShow] = useState(false);
   useEffect(() => {
     const onScroll = () => setShow(window.scrollY > 400);
@@ -1024,7 +1029,7 @@ function ScrollToTop() {
   }, []);
   if (!show) return null;
   return (
-    <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Scroll to top">
+    <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label={t('a11y.scrollTop')}>
       <ChevronRight size={20} style={{ transform: 'rotate(-90deg)' }} />
     </button>
   );

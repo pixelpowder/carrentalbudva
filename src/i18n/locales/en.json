@@ -116,7 +116,8 @@
   "book": {
     "title": "Find Your Car",
     "seoTitle": "Book a Car in Budva",
-    "seoDesc": "Car rental for Budva and the Budva Riviera. Insurance included, Tivat Airport handover, and all-inclusive pricing for every Adriatic coast drive."
+    "seoDesc": "Car rental for Budva and the Budva Riviera. Insurance included, Tivat Airport handover, and all-inclusive pricing for every Adriatic coast drive.",
+    "iframeTitle": "Car rental booking"
   },
   "footer": {
     "brandDesc": "Budva car rental with airport handover, comprehensive insurance, and straightforward pricing for driving the Adriatic coast and the Budva Riviera.",
@@ -143,7 +144,7 @@
   },
   "notFound": {
     "code": "404",
-    "title": "Wrong Turn",
+    "title": "Page Not Found | Car Rental Budva",
     "text": "This road leads nowhere, but the Budva Riviera's finest driving routes are just a click away.",
     "backHome": "Back to Home",
     "searchCars": "Search Cars"
@@ -244,7 +245,7 @@
   "cookie-policy": {
     "title": "Cookie Policy",
     "subtitle": "How we use cookies on this website.",
-    "seoDesc": "Cookies on budvacarrental.com: what the booking widget stores, which analytics we run, and how to change your preferences in one click."
+    "seoDesc": "Cookies on carrentalbudva.com: what the booking widget stores, which analytics we run, and how to change your preferences in one click."
   },
   "featureCards": {
     "airportPickup": {
@@ -305,8 +306,8 @@
       "a": "A representative meets you inside the Tivat Airport arrivals area with a name board. Your car is in the terminal car park, steps away. The drive to Budva Old Town is around fifteen minutes."
     },
     "5": {
-      "q": "Is one-way rental possible?",
-      "a": "Yes, all rentals are round-trip. Collect and return at the same pickup point. One-way drop-offs are not currently offered; plan your route to loop back to the pickup location."
+      "q": "Where can I park in Budva Old Town?",
+      "a": "Cars are not allowed inside the Old Town walls. Use the underground TQ Plaza car park (5-minute walk to the Citadel) or the Slovenska Plaza street zones. Most Riviera hotels include guest parking, confirm at booking."
     },
     "6": {
       "q": "What if I need to cancel?",
@@ -368,6 +369,46 @@
       "name": "Podgorica",
       "tag": "Capital City",
       "desc": "Montenegro's capital, gateway to the interior."
+    },
+    "blog/mogren-beach-dukley-tunnel": {
+      "name": "Mogren Beach",
+      "tag": "5 min walk",
+      "desc": "Two hidden coves joined by a cliff tunnel, just north of the Old Town."
+    },
+    "blog/milocer-park-villa": {
+      "name": "Miločer Park",
+      "tag": "10 min drive",
+      "desc": "Royal summer park with umbrella pines and views of Sveti Stefan."
+    },
+    "blog/drobni-pijesak-cove": {
+      "name": "Drobni Pijesak",
+      "tag": "15 min drive",
+      "desc": "A fine-sand cove with a Paštrovići assembly history."
+    },
+    "blog/rezevici-monastery": {
+      "name": "Reževići Monastery",
+      "tag": "20 min drive",
+      "desc": "An 800-year-old Nemanjić foundation above the Riviera."
+    },
+    "blog/budva-to-lovcen-mausoleum": {
+      "name": "Lovćen Mausoleum",
+      "tag": "90 min drive",
+      "desc": "The tomb of Njegoš at 1,657 m on the summit of Mount Lovćen."
+    },
+    "blog/cetinje-day-trip-from-budva": {
+      "name": "Cetinje",
+      "tag": "1 hr inland",
+      "desc": "The old royal capital of Montenegro, palaces, museums, monastery."
+    },
+    "blog/sutomore-stari-bar-ruins": {
+      "name": "Stari Bar",
+      "tag": "50 min south",
+      "desc": "A medieval ruined city on a hillside above Bar."
+    },
+    "blog/kotor-day-trip-from-budva": {
+      "name": "Kotor",
+      "tag": "30 min drive",
+      "desc": "The walled UNESCO old town and the climb to San Giovanni fortress."
     }
   },
   "aboutBody": {
@@ -736,28 +777,80 @@
     "dubrovnikAirportLink": "Dubrovnik Airport"
   },
   "blogIndex": {
-    "breadcrumbBlog": "Blog",
-    "heroTitle": "Budva Driving Guides",
-    "heroSubtitle": "Road routes, local secrets, and quiet corners of the Budva Riviera, from people who drive these roads daily.",
+    "crumb": "Blog",
+    "heroTitle": "Driving the Budva Riviera",
+    "heroSubtitle": "Researched guides to the lesser-covered corners of the Budva region: royal parks, mountain drives, old monasteries, ferry routes and the cliffside coves behind the Old Town.",
     "readGuide": "Read guide",
-    "card_churches_title": "Secret Churches and Chapels of Budva's Old Town",
-    "card_churches_excerpt": "Beyond St Tryphon Cathedral, the Old Town hides a dozen smaller chapels tucked into back lanes and behind unmarked doorways. A walking route through the quietest sacred spaces.",
-    "card_vrmac_title": "Driving and Hiking the Vrmac Ridge",
-    "card_vrmac_excerpt": "The forested ridge between Budva and Tivat Airport offers panoramic views of both sides of the Riviera. Park at the trailhead and walk to the Austro-Hungarian fortress at the summit.",
-    "card_markets_title": "Market Day in Budva: Fish, Cheese, and Wine",
-    "card_markets_excerpt": "Where locals shop for fresh bay fish, Njeguski cheese, and Crmnica valley wine. A morning guide to the Green Market and waterfront stalls.",
-    "card_swimming_title": "Best Swimming Spots Around the Bay",
-    "card_swimming_excerpt": "From pebble beaches beneath fig trees to concrete platforms with ladders into deep blue water. Nine places to swim that most visitors never find.",
-    "card_cetinje_title": "Budva to Cetinje via the Old Mountain Road",
-    "card_cetinje_excerpt": "Skip the highway and take the original mountain road through Njeguski village and over the Lovcen shoulder. Smoked ham, monastery relics, and the former royal capital.",
-    "card_dobrota_title": "Bečići: The Quiet Village Next to Budva",
-    "card_dobrota_excerpt": "A 10-minute drive from the Old Town walls, Bečići's waterfront has stone palazzi, wine bars, and some of the Riviera's best sunset views.",
-    "card_kayak_title": "Kayaking the Bay from the Coastal Road",
-    "card_kayak_excerpt": "Where to launch a kayak around Budva Riviera, what to see from the water, and how to combine paddling with a driving day trip.",
-    "card_stoliv_title": "Gornji Stoliv: Budva's Abandoned Cliff Village",
-    "card_stoliv_excerpt": "A narrow road climbs 400 metres above the Riviera to a stone village abandoned in the 1979 earthquake. The views and the silence are extraordinary.",
-    "card_wildflowers_title": "Spring Wildflower Drives: March to May",
-    "card_wildflowers_excerpt": "The bay bursts into colour between March and May. Orchids, iris, and rockrose line the roads from Budva to Risan and up toward the Lovcen foothills."
+    "articles": {
+      "drobni-pijesak-cove": {
+        "title": "Drobni Pijesak, The Tiny Sand Cove Where the Paštrovići Clan Held Court",
+        "excerpt": "A 250-metre crescent of fine sand halfway between Sveti Stefan and Petrovac, and the open-air parliament that once met on it."
+      },
+      "milocer-park-villa": {
+        "title": "Miločer Park and Villa Miločer, The Royal Summer Retreat Next to Sveti Stefan",
+        "excerpt": "Eighteen hectares of Mediterranean park, a 1930s villa built for Queen Marija, and the beach the Yugoslav royals kept for themselves."
+      },
+      "rezevici-monastery": {
+        "title": "Reževići Monastery, An 800-Year-Old Nemanjić Foundation Above the Budva Riviera",
+        "excerpt": "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea."
+      },
+      "budva-to-lovcen-mausoleum": {
+        "title": "Budva to Lovćen Mausoleum, The Serpentine Drive to Njegoš's Tomb at 1,657 m",
+        "excerpt": "Out of Budva, up the old Austrian road, through Njeguši, onto the summit of the mountain that gives Montenegro its name."
+      },
+      "sutomore-stari-bar-ruins": {
+        "title": "Sutomore and Stari Bar, A Day Trip South Through the Sozina Tunnel",
+        "excerpt": "Forty minutes from Budva: a long family beach town and a medieval ruined city on a hillside."
+      },
+      "mogren-beach-dukley-tunnel": {
+        "title": "Mogren Beach and the Cliff Tunnel, Two Hidden Coves North of Budva Old Town",
+        "excerpt": "Five minutes on foot from the Old Town gate: two small beaches joined by a stone tunnel cut through the headland."
+      },
+      "budva-to-bar-ferry-port": {
+        "title": "Budva to Bar Ferry Port, Driving Down to the Bari Ferry for the Italy Leg",
+        "excerpt": "An hour south to the Port of Bar, Montenegro's main sea gateway, and the overnight crossing to southern Italy."
+      },
+      "cetinje-day-trip-from-budva": {
+        "title": "Cetinje Day Trip From Budva, The Old Royal Capital Over Lovćen",
+        "excerpt": "An hour inland from the coast: palaces, an active monastery, and the museum cluster that anchors Montenegrin national history."
+      },
+      "pastrovici-olive-harvest": {
+        "title": "The Paštrovići Olive Harvest, Autumn in the Hills Behind the Budva Riviera",
+        "excerpt": "October into November, family-run mills still pressing the groves that have fed the coast for centuries."
+      },
+      "kotor-day-trip-from-budva": {
+        "title": "Kotor Day Trip From Budva, What to See in Four Hours",
+        "excerpt": "A thirty-minute coast drive: walled old town, the climb to San Giovanni fortress, and back to a Budva beach by sunset."
+      }
+    },
+    "card_budvatobarferryport_title": "Budva to Bar Ferry Port, Driving Down to the Bari Ferry for the Italy Leg",
+    "card_budvatobarferryport_excerpt": "An hour south to the Port of Bar, Montenegro's main sea gateway, and the overnight crossing to southern Italy.",
+    "card_budvatolovcenmausoleum_title": "Budva to Lovćen Mausoleum, The Serpentine Drive to Njegoš's Tomb at 1,657 m",
+    "card_budvatolovcenmausoleum_excerpt": "Out of Budva, up the old Austrian road, through Njeguši, onto the summit of the mountain that gives Montenegro its name.",
+    "card_cetinjedaytripfrombudva_title": "Cetinje Day Trip From Budva, The Old Royal Capital Over Lovćen",
+    "card_cetinjedaytripfrombudva_excerpt": "An hour inland from the coast: palaces, an active monastery, and the museum cluster that anchors Montenegrin national history.",
+    "card_drobnipijesakcove_title": "Drobni Pijesak, The Tiny Sand Cove Where the Paštrovići Clan Held Court",
+    "card_drobnipijesakcove_excerpt": "A 250-metre crescent of fine sand halfway between Sveti Stefan and Petrovac, and the open-air parliament that once met on it.",
+    "card_kotordaytripfrombudva_title": "Kotor Day Trip From Budva, What to See in Four Hours",
+    "card_kotordaytripfrombudva_excerpt": "A thirty-minute coast drive: walled old town, the climb to San Giovanni fortress, and back to a Budva beach by sunset.",
+    "card_milocerparkvilla_title": "Miločer Park and Villa Miločer, The Royal Summer Retreat Next to Sveti Stefan",
+    "card_milocerparkvilla_excerpt": "Eighteen hectares of Mediterranean park, a 1930s villa built for Queen Marija, and the beach the Yugoslav royals kept for themselves.",
+    "card_mogrenbeachdukleytunnel_title": "Mogren Beach and the Cliff Tunnel, Two Hidden Coves North of Budva Old Town",
+    "card_mogrenbeachdukleytunnel_excerpt": "Five minutes on foot from the Old Town gate: two small beaches joined by a stone tunnel cut through the headland.",
+    "card_pastrovicioliveharvest_title": "The Paštrovići Olive Harvest, Autumn in the Hills Behind the Budva Riviera",
+    "card_pastrovicioliveharvest_excerpt": "October into November, family-run mills still pressing the groves that have fed the coast for centuries.",
+    "card_rezevicimonastery_title": "Reževići Monastery, An 800-Year-Old Nemanjić Foundation Above the Budva Riviera",
+    "card_rezevicimonastery_excerpt": "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea.",
+    "card_sutomorestaribarruins_title": "Sutomore and Stari Bar, A Day Trip South Through the Sozina Tunnel",
+    "card_sutomorestaribarruins_excerpt": "Forty minutes from Budva: a long family beach town and a medieval ruined city on a hillside.",
+    "card_renderer_title": "Reževići Monastery, An 800-Year-Old Nemanjić Foundation Above the Budva Riviera",
+    "card_renderer_excerpt": "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea.",
+    "card_churches_title": "Reževići Monastery, An 800-Year-Old Nemanjić Foundation Above the Budva Riviera",
+    "card_churches_excerpt": "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea.",
+    "card_vrmac_title": "Budva to Lovćen Mausoleum, The Serpentine Drive to Njegoš's Tomb at 1,657 m",
+    "card_vrmac_excerpt": "Out of Budva, up the old Austrian road, through Njeguši, onto the summit of the mountain that gives Montenegro its name.",
+    "card_swimming_title": "Mogren Beach and the Cliff Tunnel, Two Hidden Coves North of Budva Old Town",
+    "card_swimming_excerpt": "Five minutes on foot from the Old Town gate: two small beaches joined by a stone tunnel cut through the headland."
   },
   "blogHiddenChurches": {
     "title": "Secret Churches and Chapels of Budva's Old Town",
@@ -1240,7 +1333,9 @@
     "title": "Contact Us",
     "seoDesc": "Reach Car Rental Budva for quotes, airport pickup, or trip planning questions. Email, WhatsApp, form, replies within two hours most weekdays.",
     "heading": "Contact Us",
-    "intro": "Have a question about renting a car in Budva? Get in touch and we'll help you find the perfect vehicle for your trip."
+    "intro": "Have a question about renting a car in Budva? Get in touch and we'll help you find the perfect vehicle for your trip.",
+    "successTitle": "Message sent!",
+    "successBody": "Thanks for getting in touch, we'll reply within a few hours."
   },
   "cookieBody": {
     "lastUpdated": "Last updated:",
@@ -1267,12 +1362,12 @@
     "manage4": "Block all third-party cookies",
     "managingNote": "Note that blocking essential cookies may affect the functionality of the booking widget.",
     "contactTitle": "Contact",
-    "contactText": "Questions about our use of cookies? Contact us at info@budvacarrental.com."
+    "contactText": "Questions about our use of cookies? Contact us at info@carrentalbudva.com."
   },
   "privacyBody": {
     "lastUpdated": "Last updated:",
     "whoTitle": "Who We Are",
-    "whoText": "Car Rental Budva operates as an affiliate partner connecting travellers with car rental providers in and around Budva, Montenegro. Our website is located at budvacarrental.com. When you use our site, we may collect certain information as described below.",
+    "whoText": "Car Rental Budva operates as an affiliate partner connecting travellers with car rental providers in and around Budva, Montenegro. Our website is located at carrentalbudva.com. When you use our site, we may collect certain information as described below.",
     "collectTitle": "What Information We Collect",
     "provideTitle": "Information you provide",
     "provideText": "When you use our booking search form, we collect the pickup location, dates, and times you enter in order to find available vehicles. This information is passed to our partner (LocalRent) to generate search results. We do not collect or store payment details, all payments are processed directly by the rental provider.",
@@ -1292,9 +1387,9 @@
     "thirdText": "Our website uses the following third-party services:",
     "third1Label": "LocalRent:",
     "third1": "car rental booking widget, processes your search queries and handles all booking and payment",
-    "third2Label": "Vercel:",
+    "third2Label": "Hosting Provider:",
     "third2": "website hosting",
-    "third3Label": "Pexels:",
+    "third3Label": "Stock Photography:",
     "third3": "stock photography",
     "thirdNote": "Each of these services has their own privacy policy governing how they handle data.",
     "cookiesTitle": "Cookies",
@@ -1307,12 +1402,12 @@
     "right3": "Withdraw consent for data processing",
     "right4": "Lodge a complaint with a data protection authority",
     "contactTitle": "Contact",
-    "contactText": "For any privacy-related questions, contact us via email at info@budvacarrental.com."
+    "contactText": "For any privacy-related questions, contact us via email at info@carrentalbudva.com."
   },
   "termsBody": {
     "lastUpdated": "Last updated:",
     "aboutTitle": "About This Website",
-    "aboutText": "Car Rental Budva (budvacarrental.com) is an affiliate website that connects travellers with car rental services in and around Budva, Montenegro. We are not a car rental company, we partner with LocalRent to provide real-time availability and booking services.",
+    "aboutText": "Car Rental Budva (carrentalbudva.com) is an affiliate website that connects travellers with car rental services in and around Budva, Montenegro. We are not a car rental company, we partner with LocalRent to provide real-time availability and booking services.",
     "bookingTitle": "Booking & Rental Terms",
     "bookingP1": "All car rental bookings made through our website are processed and fulfilled by our partner, LocalRent. When you complete a booking, you enter into a rental agreement directly with the vehicle supplier, not with Car Rental Budva.",
     "bookingP2": "The rental terms, including cancellation policies, insurance coverage, age requirements, and payment conditions, are set by the vehicle supplier and displayed during the booking process. We recommend reading these terms carefully before confirming any booking.",
@@ -1336,9 +1431,9 @@
     "liability3": "Losses arising from border crossing issues or documentation problems",
     "liability4": "Changes to prices after booking confirmation",
     "ipTitle": "Intellectual Property",
-    "ipText": "All content on this website, including text, design, and graphics, is owned by Car Rental Budva unless otherwise credited. Stock photography is used under licence from Pexels.",
+    "ipText": "All content on this website, including text, design, and graphics, is owned by Car Rental Budva unless otherwise credited. Stock photography is used under licence from a stock photo library.",
     "contactTitle": "Contact",
-    "contactText": "Questions about these terms? Contact us at info@budvacarrental.com."
+    "contactText": "Questions about these terms? Contact us at info@carrentalbudva.com."
   },
   "affiliate": {
     "heroTitle": "Earn 50% Commission on Every Booking",
@@ -1471,7 +1566,8 @@
     "title": "Planning a Budva Riviera Road Trip?",
     "browseAll": "Browse all guides",
     "lovcenGuide": "Kosmač drive guide",
-    "desc": "Scenic routes, hidden viewpoints, fuel stops, parking tips, and border crossing advice, written by drivers who know every hairpin on these roads."
+    "desc": "Scenic routes, hidden viewpoints, fuel stops, parking tips, and border crossing advice, written by drivers who know every hairpin on these roads.",
+    "imageAlt": "Winding mountain road in Montenegro"
   },
   "compare": {
     "label": "Why Rent?",
@@ -1552,7 +1648,156 @@
     "decline": "Decline"
   },
   "cars": {
-    "readGuide": "Read guide"
+    "readGuide": "Read guide",
+    "overviewTitle": "At a glance",
+    "whoForTitle": "Who is this car for?",
+    "regionalTitle": "Best regional use",
+    "articleTitle": "This car on Budva roads",
+    "featuresTitle": "Inside the car",
+    "relatedTitle": "Where this car takes you",
+    "checkAvailability": "Check availability and live pricing",
+    "nextBtn": "Next in fleet",
+    "sections": {
+      "behindWheel": "Behind the wheel",
+      "onRoads": "On Budva roads",
+      "spaceLoad": "Space and load",
+      "bestFor": "Best journeys for this car",
+      "practical": "Practical notes",
+      "verdict": "The verdict"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Economy",
+      "tagline": "Compact German hatch for Old Town parking and Riviera day-hops",
+      "lede": "Turning circle made for Slovenska pay-bays, five seats, 351 L boot, calm on the coast road.",
+      "suitability": "Two travellers with cabin bags anchored in Budva for five to ten days, Polo parks everywhere, costs little to fuel, and handles the coast road comfortably.",
+      "regional": "Slips into the Slovenska Plaža street zones that cost €1 to 2/h in summer, threads the narrow access road to Kamenovo, and sits at 110 km/h on the E80 toward Bar without complaint.",
+      "bestFor": [
+        "Couples on a week-long Riviera stay",
+        "Solo travellers",
+        "Short Sveti Stefan day-trips"
+      ],
+      "features": [
+        "Air Conditioning",
+        "Bluetooth Audio",
+        "USB Charging",
+        "Central Locking"
+      ]
+    },
+    "renault-clio": {
+      "name": "Renault Clio",
+      "category": "Economy",
+      "tagline": "The default Budva Riviera multi-day hatch, cheap to fuel, easy on summer parking",
+      "lede": "Most common Riviera rental. Five doors, 391 L boot, built for the Jaz to Petrovac week.",
+      "suitability": "Two travellers working a ten-day Budva base with daily hops to Sveti Stefan, Petrovac, Bečići and a Kotor side-trip mid-week.",
+      "regional": "Fits the TQ Plaza underground and Slovenska hour-pay zones, threads the single-lane run down to Pržno, and holds cruise at 110 km/h on the Sozina approach without drama.",
+      "bestFor": [
+        "First-time Riviera visitors",
+        "Couples",
+        "Week-long coastal stays"
+      ],
+      "features": [
+        "Bluetooth Audio",
+        "USB Charging",
+        "Central Locking",
+        "Touchscreen Display"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Economy",
+      "tagline": "Softest-riding supermini in the Budva fleet, the patched-tarmac absorber",
+      "lede": "Advanced Comfort suspension and padded seats, the small car that smothers the Paštrovići back road.",
+      "suitability": "A couple on a two-week Riviera stay who would rather cruise than carve, the C3 is the gentlest small car for the mixed tarmac above Petrovac and Paštrovići.",
+      "regional": "The soft damping flatters the cracked bitumen on the spur to Kosmač Fortress and the loop up to Praskvica Monastery, a little underpowered on the long climb to Cetinje but unruffled at riviera cruise speeds.",
+      "bestFor": [
+        "Comfort-first long-stay renters",
+        "Older travellers",
+        "Inland back-road cruisers"
+      ],
+      "features": [
+        "Advanced Comfort Seats",
+        "Bluetooth Audio",
+        "USB Charging",
+        "Lane Departure Warning"
+      ]
+    },
+    "peugeot-308": {
+      "name": "Peugeot 308",
+      "category": "Mid-Size",
+      "tagline": "Diesel auto mid-size for the multi-day Riviera-to-Dubrovnik loop",
+      "lede": "Quiet BlueHDi, 412 L boot, 8-speed EAT auto, the family-of-four default for distance weeks.",
+      "suitability": "Four adults or a family of four anchoring in Budva and running a Dubrovnik side-trip, a day at Skadar and a Durmitor weekend from the same base.",
+      "regional": "Settles at 1,800 rpm on the Sozina tunnel climb, cruises the E65 past Sveti Stefan without breaking sweat, and covers the 90-minute Debeli Brijeg run to Dubrovnik on a fraction of a tank.",
+      "bestFor": [
+        "Families of four on ten-day Riviera stays",
+        "Cross-border drivers",
+        "Airport-to-coast transfers"
+      ],
+      "features": [
+        "Automatic Transmission",
+        "Adaptive Cruise",
+        "Dual-Zone Climate",
+        "Large Boot"
+      ]
+    },
+    "renault-megane": {
+      "name": "Renault Megane",
+      "category": "Mid-Size",
+      "tagline": "Biggest-boot mid-size, wagon-of-luggage room for a fortnight in Bečići",
+      "lede": "434-litre square boot and a quiet 1.5 dCi diesel, distance-eater tuned for soft ride.",
+      "suitability": "Four travellers on a two-week Budva base who want the biggest boot in the mid-size class for beach gear, pushchair and a weekly Voli shop all loaded at once.",
+      "regional": "The 434 L boot swallows beach umbrella, two folding chairs, snorkel kit and the airport cases for four on the Tivat run, 6th-gear diesel cruise at 100 km/h is unfussed on the long push to Skadar Lake.",
+      "bestFor": [
+        "Families with full-size cases",
+        "Long Riviera stays",
+        "Multi-stop coast itineraries"
+      ],
+      "features": [
+        "Large Boot",
+        "Bluetooth Audio",
+        "Cruise Control",
+        "Parking Sensors"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Compact Crossover",
+      "tagline": "Raised-ride compact for Paštrovići back roads and inland day-trips",
+      "lede": "Higher hip-point than a hatch, 352 L boot, 1.0 turbo petrol, the in-between spec for mixed weeks.",
+      "suitability": "A couple on a seven-to-ten-day Riviera base who plan at least two inland day-trips, Cetinje, Ostrog via Sozina, or the Paštrovići highlands, and want a higher driving position than a hatch.",
+      "regional": "The higher ride helps on the broken bitumen between Petrovac and Buljarica, the gravel spur to Kosmač viewpoint, and the patched sections of the old road above Rafailovići that a Clio crashes through.",
+      "bestFor": [
+        "Couples heading inland",
+        "Mixed coast-and-mountain weeks",
+        "Budget crossover renters"
+      ],
+      "features": [
+        "Raised Ride Height",
+        "Apple CarPlay",
+        "Reversing Camera",
+        "Lane Keep Assist"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Mid-Size",
+      "tagline": "DSG diesel benchmark, the quietest long-drive cruiser in the Budva fleet",
+      "lede": "150 hp 2.0 TDI with 7-spd DSG, 381 L boot, the rational default for mixed coast and inland weeks.",
+      "suitability": "Two or three adults who want Polo-grade city agility and long-drive refinement in the same car, for a ten-day Budva stay that mixes Riviera days with Cetinje, Ostrog and a Dubrovnik run.",
+      "regional": "Threads the Budva ring-road at school-run pace and settles at 120 km/h on the Sozina tunnel approach to Bar, the DSG picks the right ratio on the Cetinje switchbacks before you think about it.",
+      "bestFor": [
+        "Couples on mixed coast and inland weeks",
+        "Quiet-cabin seekers",
+        "Tivat Airport arrivals"
+      ],
+      "features": [
+        "DSG Automatic",
+        "Adaptive Cruise",
+        "Digital Cockpit",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Know your car",
@@ -1574,7 +1819,8 @@
     "seoDesc": "Seven multi-day rental cars for Budva, mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips out of the Riviera.",
     "intro1": "This fleet is built around the multi-day Budva renter, visitors who anchor themselves at a Bečići apartment or an Old Town guesthouse for a fortnight or longer, and who expect to be spending real time on the road between bay-based days. That brief is different from a cruise-day hire or a pure Tivat Airport Airport pickup: it leans on boot space for a weekly shop at Voli, diesel torque for the Sozina motorway run, and a seating position that keeps four adults comfortable on the 3-hour push to Žabljak. The seven cars below are chosen accordingly.",
     "intro2": "The mix is deliberately weighted toward mid-size. A Peugeot 308 with the 1.5 BlueHDi and the EAT auto, a Renault Megane diesel with the segment’s biggest boot, a VW Golf with the DSG 2.0 TDI, these are the cars that turn a Budva → Cetinje → Lake Skadar → Sozina loop from a gear-changing chore into a cruise. For shorter hops we keep a Renault Clio, a Citroen C3 with Advanced Comfort dampers, a Kia Stonic crossover for the rutted spur roads up to Njeguši and Gornja Lastva, and a tiny Fiat 500 for when Muo waterfront parking is the deciding constraint. No one-trick supercars, no vans; every car here justifies a multi-day hire.",
-    "intro3": "A practical Budva note before you choose. Diesel remains the smarter spec for anyone planning even one cross-border run, Trebinje is 90 minutes, Dubrovnik via Debeli Brijeg is also 90 minutes, Mostar is a full day each way on a good cruise. The 308 and Megane will cover all three on a single tank, the Golf is the most refined motorway car we have, and the petrol Clio will still do a Budva → Dubrovnik return on half a tank. If your week is bay-contained, Rafailovići, Prčanj, Muo, Risan, the Fiat 500 or the C3 saves a third on weekly fuel and parks in places the rest of the fleet can’t. Pick on your itinerary, not the daily rate."
+    "intro3": "A practical Budva note before you choose. Diesel remains the smarter spec for anyone planning even one cross-border run, Trebinje is 90 minutes, Dubrovnik via Debeli Brijeg is also 90 minutes, Mostar is a full day each way on a good cruise. The 308 and Megane will cover all three on a single tank, the Golf is the most refined motorway car we have, and the petrol Clio will still do a Budva → Dubrovnik return on half a tank. If your week is bay-contained, Rafailovići, Prčanj, Muo, Risan, the Fiat 500 or the C3 saves a third on weekly fuel and parks in places the rest of the fleet can’t. Pick on your itinerary, not the daily rate.",
+    "ogImageAlt": "Car Rental Budva fleet"
   },
   "posts": {
     "milocer": {
@@ -1611,5 +1857,161 @@
     "pastrovici": {
       "full": "Paštrovići Olive Harvest"
     }
+  },
+  "a11y": {
+    "chatWhatsApp": "Chat on WhatsApp",
+    "scrollTop": "Scroll to top"
+  },
+  "aboutPage": {
+    "title": "About Car Rental Budva",
+    "subtitle": "A local Riviera-based booking partner for vetted car rental operators along the Budva coast",
+    "description": "Car Rental Budva is an independent booking partner for rental vehicles along the Budva Riviera, specialising in Tivat Airport pickup and coastal road trips.",
+    "whoTitle": "Who we are",
+    "whoP1": "Car Rental Budva is a booking platform that partners with small and mid-sized Montenegrin rental operators along the Budva Riviera. We're not a franchised airport desk, we're a local team who handle pickups, paperwork, and the phone call when something goes wrong on the road.",
+    "whoP2": "The operators we work with run clean, modern fleets with full insurance and enough cars to keep availability up through peak season. We do the comparison work so you get the right vehicle at the right price.",
+    "whyTitle": "Why Budva as a base",
+    "whyP1Pre": "Budva sits in the middle of the Montenegrin coast. From here, ",
+    "whyP1Link1": "Miločer Park and Sveti Stefan",
+    "whyP1Mid": " are 10 minutes south, Bečići is 5 minutes round the headland, Petrovac is 20 minutes further. The Bay of Boka is 30 minutes. Tivat Airport is 25 minutes. The whole Budva Riviera (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) is accessible on a single tank.",
+    "whyP2Pre": "The Riviera is also the base for inland drives: the ",
+    "whyP2Link1": "Reževići Monastery",
+    "whyP2Mid": " and the ",
+    "whyP2Link2": "Lovćen serpentine",
+    "whyP2End": " via Njeguši toward Cetinje.",
+    "includedTitle": "What's included",
+    "includedP1": "Every rental includes CDW insurance, third-party liability, VAT, unlimited mileage on most categories, and 24/7 roadside support. Zero-excess insurance upgrade available. Cross-border cover (Croatia, Albania, Bosnia, Serbia, Kosovo) added on request with the Green Card paperwork prepared at booking time.",
+    "pickupTitle": "Pickup and drop-off",
+    "pickupP1": "We meet every arriving flight at Tivat Airport (TIV), 20 km from Budva, 25 to 30 minutes drive. Late-night arrivals included, no surcharge. Alternatively we can deliver to your Budva hotel, or the Old Town pedestrian entrance for easy meet-up on arrival day.",
+    "pickupP2": "Cross-border drop-off available to Dubrovnik Airport with advance notice.",
+    "pricingTitle": "Pricing",
+    "pricingP1": "No summer premium baked into the confirmation. The rate you book is the rate you pay, taxes, airport fees and standard mileage already included. The only extras are optional zero-excess insurance and cross-border fees.",
+    "contactTitle": "Contact us",
+    "contactPre": "For bookings or questions, the ",
+    "contactLink": "contact page",
+    "contactEnd": " has the form, email and WhatsApp number. We reply within two hours during business hours, next morning for overnight enquiries."
+  },
+  "montenegroPage": {
+    "title": "Driving the Adriatic Coast, A Montenegro Overview",
+    "subtitle": "The country is small, the coast is dense. What you can reasonably cover by car with Budva as a base.",
+    "description": "A practical overview of Montenegro for Budva-based self-drive visitors: coastal towns, inland detours, typical drive times, and border crossings.",
+    "numbersTitle": "Montenegro in rough numbers",
+    "numbersP1": "Montenegro is under 14,000 square kilometres, roughly the size of Northern Ireland. Population 620,000. About 290 km of Adriatic coastline, of which the most concentrated resort strip (the Budva Riviera) is 25 km. The interior is dominated by limestone mountains rising to over 2,500 metres within 30 km of the sea.",
+    "numbersP2": "For a Budva-based visitor, that means an hour's drive brings you to dramatically different terrain: coastal towns, high mountain passes, lake country, or into Albania.",
+    "rivieraTitle": "The Budva Riviera (your home strip)",
+    "rivieraP1Pre": "Jaz Beach, Budva Old Town, Slovenska Plaza, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km end-to-end, covered by the coastal E65. See our guide to ",
+    "rivieraP1Link1": "Miločer Park",
+    "rivieraP1Mid": " and the ",
+    "rivieraP1Link2": "Drobni Pijesak cove",
+    "rivieraP1End": ".",
+    "within60Title": "Within 60 minutes by car",
+    "within60Item1": "Tivat Airport, 25 min (main gateway)",
+    "within60Item2Link": "Kotor Bay and Old Town",
+    "within60Item2End": ", 30 min",
+    "within60Item3Link": "Reževići Monastery",
+    "within60Item3End": ", 20 min south",
+    "within60Item4Link": "Cetinje royal capital",
+    "within60Item4End": ", 1 hr via Lovćen",
+    "within60Item5": "Herceg Novi, 50 min to the west",
+    "within60Item6Link": "Bar port",
+    "within60Item6End": ", 60 min south",
+    "longerTitle": "Longer trips from Budva",
+    "longerItem1": "Podgorica (capital), 65 min",
+    "longerItem2": "Lake Skadar (Virpazar), 75 min",
+    "longerItem3": "Ulcinj (southernmost coast), 75 min",
+    "longerItem4": "Ostrog Monastery, 2 hr",
+    "longerItem5": "Shkodër, Albania, 2 hr (border at Božaj)",
+    "longerItem6": "Dubrovnik, Croatia, 2 hr (border at Debeli Brijeg)",
+    "longerItem7": "Tara Canyon / Žabljak, 3.5 hr",
+    "bordersTitle": "Borders and cross-country driving",
+    "bordersP1": "Montenegro borders Albania, Kosovo, Serbia, Bosnia and Herzegovina, and Croatia. All five are reachable by car from Budva. Most EU/UK/US/Australian passports enter visa-free. Rental cars need a Green Card for cross-border, we include it by default when you tell us your plans at booking.",
+    "bordersP2": "The two most-used crossings from Budva: Debeli Brijeg for Croatia (Dubrovnik 2 hr), Božaj for Albania (Shkodër 2 hr).",
+    "whenTitle": "When to visit",
+    "whenSpringLabel": "May to June: ",
+    "whenSpringText": "mild coast, warm sea by late May, thin coastal crowds, wildflower interior. Best overall.",
+    "whenSummerLabel": "July to August: ",
+    "whenSummerText": "hot, crowded, festival season at Jaz Beach. The classic Riviera experience, at peak prices.",
+    "whenSeptemberLabel": "September: ",
+    "whenSeptemberText": "the sweet spot. Warm water, calmer beaches, wine harvest inland.",
+    "whenWinterLabel": "October to April: ",
+    "whenWinterText": "coast quiet and cheap. Most beach bars closed. Interior can get serious winter snow from December."
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Budva Riviera coast road near Bečići",
+      "caption": "The coast road between Budva and Sveti Stefan, the Polo's natural cruise on a week on the Riviera."
+    },
+    "renault-clio": {
+      "alt": "Budva Riviera E65 toward Sveti Stefan",
+      "caption": "The E65 stretch past Rafailovići at a steady 60 km/h, the Clio's natural tempo on a multi-day Budva stay."
+    },
+    "citroen-c3": {
+      "alt": "Back road through Paštrovići above Petrovac",
+      "caption": "The Paštrovići back lanes above Petrovac, the C3's Advanced Comfort turns patched bitumen into distant thumps."
+    },
+    "peugeot-308": {
+      "alt": "Smokovac to Mateševo motorway inland from Budva",
+      "caption": "The Smokovac motorway toward Podgorica, the 308's BlueHDi settles into a steady 1,800 rpm cruise here."
+    },
+    "renault-megane": {
+      "alt": "Riviera coast road from Budva toward Bar",
+      "caption": "The coastal run south of Petrovac, where the Megane's soft damping actually earns its rental premium."
+    },
+    "kia-stonic": {
+      "alt": "Rutted spur road up to Kosmač Fortress",
+      "caption": "The Kosmač Fortress approach above the Riviera, a little extra ground clearance keeps the Stonic composed where a Clio scrapes."
+    },
+    "vw-golf": {
+      "alt": "Wooded Paštrovići ridge road above Budva",
+      "caption": "The climb from Petrovac toward Cetinje in third gear, the DSG reads the hairpins, the cabin stays silent."
+    },
+    "_default": {
+      "alt": "Aerial view of the Budva Riviera",
+      "caption": "A week based in Budva puts Sveti Stefan, Petrovac, Cetinje, Skadar Lake and Dubrovnik all inside day-trip range."
+    }
+  },
+  "carRelated": {
+    "vw-polo": {
+      "0": "Mogren Beach and cliff tunnel",
+      "1": "Miločer Park and royal villa",
+      "2": "Drobni Pijesak cove"
+    },
+    "renault-clio": {
+      "0": "Drobni Pijesak cove",
+      "1": "Miločer Park and royal villa",
+      "2": "Mogren Beach and cliff tunnel"
+    },
+    "citroen-c3": {
+      "0": "Reževići Monastery (1226)",
+      "1": "Paštrovići olive harvest",
+      "2": "Drobni Pijesak cove"
+    },
+    "peugeot-308": {
+      "0": "Kotor day trip from Budva",
+      "1": "Cetinje, old royal capital",
+      "2": "Reževići Monastery (1226)"
+    },
+    "renault-megane": {
+      "0": "Sutomore and Stari Bar ruins",
+      "1": "Budva to Bar ferry port",
+      "2": "Cetinje day trip"
+    },
+    "kia-stonic": {
+      "0": "Budva to Lovćen Mausoleum",
+      "1": "Cetinje day trip",
+      "2": "Reževići Monastery (1226)"
+    },
+    "vw-golf": {
+      "0": "Budva to Lovćen Mausoleum",
+      "1": "Kotor day trip from Budva",
+      "2": "Sutomore and Stari Bar ruins"
+    }
+  },
+  "carSpecs": {
+    "seats": "Seats",
+    "transmission": "Gearbox",
+    "fuel": "Fuel",
+    "luggage": "Luggage",
+    "bootSize": "Boot",
+    "mpg": "Economy"
   }
 }

@@ -17,7 +17,7 @@ export async function generateMetadata() {
       description,
       url: `${SITE}/cars`,
       type: 'website',
-      images: [{ url: `${SITE}/img/fleet/renault-megane.jpg`, width: 1200, height: 800, alt: 'Car Rental Budva fleet' }],
+      images: [{ url: `${SITE}/img/fleet/renault-megane.jpg`, width: 1200, height: 800, alt: t('en', 'fleetIndex.ogImageAlt') }],
     },
   };
 }

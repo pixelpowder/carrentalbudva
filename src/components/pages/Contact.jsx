@@ -126,8 +126,8 @@ export default function Contact() {
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', padding: '20px', background: '#e8f6ef', border: '1px solid #a8d8bd', borderRadius: '12px' }}>
             <CheckCircle2 size={24} style={{ color: '#0f7a3c', flexShrink: 0, marginTop: '2px' }} />
             <div>
-              <div style={{ fontWeight: 700, color: '#0f7a3c', marginBottom: '4px' }}>Message sent!</div>
-              <div style={{ fontSize: '14px', color: '#495057', lineHeight: 1.5 }}>Thanks for getting in touch — we'll reply within a few hours.</div>
+              <div style={{ fontWeight: 700, color: '#0f7a3c', marginBottom: '4px' }}>{t('contact.successTitle')}</div>
+              <div style={{ fontSize: '14px', color: '#495057', lineHeight: 1.5 }}>{t('contact.successBody')}</div>
             </div>
           </div>
         ) : (

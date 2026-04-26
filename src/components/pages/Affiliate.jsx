@@ -136,7 +136,7 @@ export default function Affiliate() {
             <a href="https://localrent.com/en/partners/" target="_blank" rel="noopener noreferrer nofollow sponsored" className="aff-hero__btn">
               {t('affiliate.signUp')}
             </a>
-            <a href="mailto:info@kotorcarrental.com" className="aff-outline-btn">
+            <a href="mailto:info@carrentalbudva.com" className="aff-outline-btn">
               <Mail size={16} /> {t('affiliate.questionsEmail')}
             </a>
           </div>

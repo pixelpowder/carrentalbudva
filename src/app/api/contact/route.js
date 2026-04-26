@@ -30,9 +30,9 @@ export async function POST(request) {
       return Response.json({ error: 'Message too long' }, { status: 400 });
     }
 
-    const sitePrefix = process.env.SITE_PREFIX || 'MNE';
-    const fromName = process.env.MAIL_FROM_NAME || 'Montenegro Car Hire';
-    const fromAddress = process.env.MAIL_FROM || 'noreply@montenegrocarhire.com';
+    const sitePrefix = process.env.SITE_PREFIX || 'BUD';
+    const fromName = process.env.MAIL_FROM_NAME || 'Car Rental Budva';
+    const fromAddress = process.env.MAIL_FROM || 'noreply@carrentalbudva.com';
     const to = process.env.CONTACT_TO_EMAIL;
 
     if (!to) {

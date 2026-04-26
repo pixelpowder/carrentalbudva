@@ -256,7 +256,7 @@ const siteConfig = {
 
   faq: [
     { q: "What do I bring to pick up the car?", a: "A valid driving licence, passport or ID, and a credit card in the lead driver's name. Non-Latin-script licences need an International Driving Permit alongside." },
-    { q: "Can I drop off in Tivat or Kotor?", a: "Yes, one-way rentals to Tivat Airport (20 km) and Kotor (22 km) are standard. A small one-way fee applies." },
+    { q: "Where can I park in Budva Old Town?", a: "Cars are not allowed inside the Old Town walls. Use the underground TQ Plaza car park (5-minute walk to the Citadel) or the Slovenska Plaza street zones. Most Riviera hotels include guest parking, confirm at booking." },
     { q: "How old do I need to be?", a: "21 years with at least two years of driving experience. Drivers 21-24 pay a young-driver surcharge that varies by car class." },
     { q: "Is beach parking included?", a: "Rental includes the car and the usual taxes, not parking. Budva has metered street zones and some paid beach car parks (€1-3/hour). We'll brief you on what to expect at pickup." },
     { q: "What about cross-border driving?", a: "Croatia, Albania, Bosnia, Serbia and Kosovo are all supported with Green Card insurance. Let us know at booking which countries you plan to cross." },

@@ -11,17 +11,17 @@ const cardTitleStyle = { fontSize: '18px', fontWeight: 800, color: 'var(--navy, 
 const cardExcerptStyle = { fontSize: '15px', color: 'var(--gray-600, #6c757d)', lineHeight: 1.65, marginBottom: '20px', flex: 1 };
 const cardLinkStyle = { fontSize: '14px', fontWeight: 700, color: '#E31937', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '4px' };
 
-const articles = [
-  { title: "Drobni Pijesak, The Tiny Sand Cove Where the Paštrovići Clan Held Court", excerpt: "A 250-metre crescent of fine sand halfway between Sveti Stefan and Petrovac, and the open-air parliament that once met on it.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg', href: '/blog/drobni-pijesak-cove' },
-  { title: "Miločer Park and Villa Miločer, The Royal Summer Retreat Next to Sveti Stefan", excerpt: "Eighteen hectares of Mediterranean park, a 1930s villa built for Queen Marija, and the beach the Yugoslav royals kept for themselves.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg', href: '/blog/milocer-park-villa' },
-  { title: "Reževići Monastery, An 800-Year-Old Nemanjić Foundation Above the Budva Riviera", excerpt: "Founded in 1226 by Stefan the First-Crowned, rebuilt repeatedly, still a working Orthodox community above the sea.", image: '/img/blog-rezevici-monastery.webp', href: '/blog/rezevici-monastery' },
-  { title: "Budva to Lovćen Mausoleum, The Serpentine Drive to Njegoš's Tomb at 1,657 m", excerpt: "Out of Budva, up the old Austrian road, through Njeguši, onto the summit of the mountain that gives Montenegro its name.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg', href: '/blog/budva-to-lovcen-mausoleum' },
-  { title: "Sutomore and Stari Bar, A Day Trip South Through the Sozina Tunnel", excerpt: "Forty minutes from Budva: a long family beach town and a medieval ruined city on a hillside.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg', href: '/blog/sutomore-stari-bar-ruins' },
-  { title: "Mogren Beach and the Cliff Tunnel, Two Hidden Coves North of Budva Old Town", excerpt: "Five minutes on foot from the Old Town gate: two small beaches joined by a stone tunnel cut through the headland.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg', href: '/blog/mogren-beach-dukley-tunnel' },
-  { title: "Budva to Bar Ferry Port, Driving Down to the Bari Ferry for the Italy Leg", excerpt: "An hour south to the Port of Bar, Montenegro's main sea gateway, and the overnight crossing to southern Italy.", image: '/img/blog-budva-to-bar-ferry-port.webp', href: '/blog/budva-to-bar-ferry-port' },
-  { title: "Cetinje Day Trip From Budva, The Old Royal Capital Over Lovćen", excerpt: "An hour inland from the coast: palaces, an active monastery, and the museum cluster that anchors Montenegrin national history.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg', href: '/blog/cetinje-day-trip-from-budva' },
-  { title: "The Paštrovići Olive Harvest, Autumn in the Hills Behind the Budva Riviera", excerpt: "October into November, family-run mills still pressing the groves that have fed the coast for centuries.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg', href: '/blog/pastrovici-olive-harvest' },
-  { title: "Kotor Day Trip From Budva, What to See in Four Hours", excerpt: "A thirty-minute coast drive: walled old town, the climb to San Giovanni fortress, and back to a Budva beach by sunset.", image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969307/budva/guides/kotor-lake-mountains.jpg', href: '/blog/kotor-day-trip-from-budva' },
+const articleSlugs = [
+  { slug: 'drobni-pijesak-cove', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776970436/budva/guides/drobni-pijesak-aerial-beach.jpg' },
+  { slug: 'milocer-park-villa', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969140/budva/guides/sveti-stefan-island.jpg' },
+  { slug: 'rezevici-monastery', image: '/img/blog-rezevici-monastery.webp' },
+  { slug: 'budva-to-lovcen-mausoleum', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968348/budva/guides/lovcen-mountain-footpath.jpg' },
+  { slug: 'sutomore-stari-bar-ruins', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968516/budva/guides/stari-bar-ancient-tower.jpg' },
+  { slug: 'mogren-beach-dukley-tunnel', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968935/budva/guides/mogren-coastal-sunset.jpg' },
+  { slug: 'budva-to-bar-ferry-port', image: '/img/blog-budva-to-bar-ferry-port.webp' },
+  { slug: 'cetinje-day-trip-from-budva', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968390/budva/guides/cetinje-lovcen-gloomy-sky.jpg' },
+  { slug: 'pastrovici-olive-harvest', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776968617/budva/guides/pastrovici-olive-tree.jpg' },
+  { slug: 'kotor-day-trip-from-budva', image: 'https://res.cloudinary.com/dz11ztynf/image/upload/v1776969307/budva/guides/kotor-lake-mountains.jpg' },
 ];
 
 export default function BlogIndex() {
@@ -35,26 +35,32 @@ export default function BlogIndex() {
           <nav className="breadcrumbs">
             <a href={localePath('/')}>{t('common.home')}</a>
             <span className="breadcrumbs__sep">/</span>
-            <span>Blog</span>
+            <span>{t('blogIndex.crumb')}</span>
           </nav>
-          <h1 className="content-hero__title">Driving the Budva Riviera</h1>
-          <p className="content-hero__subtitle">Researched guides to the lesser-covered corners of the Budva region — royal parks, mountain drives, old monasteries, ferry routes and the cliffside coves behind the Old Town.</p>
+          <h1 className="content-hero__title">{t('blogIndex.heroTitle')}</h1>
+          <p className="content-hero__subtitle">{t('blogIndex.heroSubtitle')}</p>
         </div>
       </div>
       <div style={{ maxWidth: '1220px', margin: '0 auto', padding: '48px 24px 80px', width: '100%' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '28px' }}>
-          {articles.map((article) => (
-            <a key={article.href} href={localePath(article.href)} style={{ ...cardStyle, textDecoration: 'none', color: 'inherit' }}
-              onMouseEnter={(e) => { e.currentTarget.style.boxShadow = 'var(--shadow-md)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'var(--shadow-sm)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
-              <img src={article.image} alt={article.title} style={cardImageStyle} loading="lazy" />
-              <div style={cardBodyStyle}>
-                <h2 style={cardTitleStyle}>{article.title}</h2>
-                <p style={cardExcerptStyle}>{article.excerpt}</p>
-                <span style={cardLinkStyle}>Read guide &rarr;</span>
-              </div>
-            </a>
-          ))}
+          {articleSlugs.map((articleEntry) => {
+            const articleKey = articleEntry.slug;
+            const articleImg = articleEntry.image;
+            const title = t(`blogIndex.articles.${articleKey}.title`);
+            const excerpt = t(`blogIndex.articles.${articleKey}.excerpt`);
+            return (
+              <a key={articleKey} href={localePath(`/blog/${articleKey}`)} style={{ ...cardStyle, textDecoration: 'none', color: 'inherit' }}
+                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = 'var(--shadow-md)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'var(--shadow-sm)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+                <img src={articleImg} alt={title} style={cardImageStyle} loading="lazy" />
+                <div style={cardBodyStyle}>
+                  <h2 style={cardTitleStyle}>{title}</h2>
+                  <p style={cardExcerptStyle}>{excerpt}</p>
+                  <span style={cardLinkStyle}>{t('blogIndex.readGuide')} &rarr;</span>
+                </div>
+              </a>
+            );
+          })}
         </div>
       </div>
       <Footer />

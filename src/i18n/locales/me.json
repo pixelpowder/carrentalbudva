@@ -116,7 +116,8 @@
   "book": {
     "title": "Pronađite Vaš Auto",
     "seoTitle": "Rezervišite Auto",
-    "seoDesc": "Najam automobila za Budvu i Budva Rivijeru. Osiguranje uključeno, preuzimanje na Aerodromu Tivat i jedna cijena za vožnje duž jadranske obale."
+    "seoDesc": "Najam automobila za Budvu i Budva Rivijeru. Osiguranje uključeno, preuzimanje na Aerodromu Tivat i jedna cijena za vožnje duž jadranske obale.",
+    "iframeTitle": "Rezervacija najma automobila"
   },
   "footer": {
     "brandDesc": "Najam automobila u Budvi s preuzimanjem na aerodromu, punim osiguranjem i jasnim cijenama za vožnju duž jadranske obale i Budva Rivijere.",
@@ -143,7 +144,7 @@
   },
   "notFound": {
     "code": "404",
-    "title": "Pogrešno Skretanje",
+    "title": "Stranica nije pronađena | Car Rental Budva",
     "text": "Ovaj put ne vodi nikuda, ali najljepše rute Bokobudvaskog zaliva su samo jedan klik daleko.",
     "backHome": "Nazad na Početnu",
     "searchCars": "Pretraži Auta"
@@ -305,8 +306,8 @@
       "a": "Vaš agent čeka vas u holu dolazaka aerodroma Tivat Airport s tablom na kojoj piše vaše ime. Auto je parkiran odmah ispred. Od terminala do zidina Starog grada Budvaa traje oko 15 minuta putem uz zaliv. Alternativno, možemo organizovati preuzimanje na parkingu Tabacina, na ulazu u Stari grad."
     },
     "5": {
-      "q": "Mogu li vratiti vozilo na drugoj lokaciji?",
-      "a": "Jednosmjerno iznajmljivanje dostupno je u 28 mjesta za preuzimanje i vraćanje u Crnoj Gori. Izaberite različite lokacije u fazi rezervacije, naknada za jednosmjerni povratak može se primijeniti ovisno o udaljenosti."
+      "q": "Gdje mogu parkirati u Starom gradu Budve?",
+      "a": "Automobili nisu dozvoljeni unutar zidina Starog grada. Koristite podzemni parking TQ Plaza (5 minuta hoda do Citadele) ili ulične zone na Slovenskoj Plaži. Većina hotela na Rivijeri uključuje parking za goste, potvrdite prilikom rezervacije."
     },
     "6": {
       "q": "Koja je politika otkazivanja?",
@@ -368,6 +369,46 @@
       "name": "Podgorica",
       "tag": "Glavni grad",
       "desc": "Prijestonica Crna Gora, vrata ka unutrašnjosti."
+    },
+    "blog/mogren-beach-dukley-tunnel": {
+      "name": "Plaža Mogren",
+      "tag": "5 min hoda",
+      "desc": "Dvije skrivene uvale povezane tunelom u stijeni, odmah sjeverno od Starog grada."
+    },
+    "blog/milocer-park-villa": {
+      "name": "Park Miločer",
+      "tag": "10 min vožnje",
+      "desc": "Kraljevski ljetni park sa kišobranskim borovima i pogledom na Sveti Stefan."
+    },
+    "blog/drobni-pijesak-cove": {
+      "name": "Drobni Pijesak",
+      "tag": "15 min vožnje",
+      "desc": "Uvala sa sitnim pijeskom i istorijom paštrovskog zbora."
+    },
+    "blog/rezevici-monastery": {
+      "name": "Manastir Reževići",
+      "tag": "20 min vožnje",
+      "desc": "Nemanjićka zadužbina stara 800 godina iznad Rivijere."
+    },
+    "blog/budva-to-lovcen-mausoleum": {
+      "name": "Mauzolej na Lovćenu",
+      "tag": "90 min vožnje",
+      "desc": "Grobnica Njegoša na 1.657 m na vrhu planine Lovćen."
+    },
+    "blog/cetinje-day-trip-from-budva": {
+      "name": "Cetinje",
+      "tag": "1 sat u unutrašnjosti",
+      "desc": "Stara kraljevska prijestonica Crne Gore, palate, muzeji, manastir."
+    },
+    "blog/sutomore-stari-bar-ruins": {
+      "name": "Stari Bar",
+      "tag": "50 min ka jugu",
+      "desc": "Srednjovjekovni grad u ruševinama na padini iznad Bara."
+    },
+    "blog/kotor-day-trip-from-budva": {
+      "name": "Kotor",
+      "tag": "30 min vožnje",
+      "desc": "UNESCO Stari grad sa zidinama i uspon do tvrđave Sveti Ivan."
     }
   },
   "aboutBody": {
@@ -736,28 +777,80 @@
     "dubrovnikAirportLink": "aerodroma Dubrovnik"
   },
   "blogIndex": {
-    "breadcrumbBlog": "Blog",
-    "heroTitle": "Vodič za Putovanja po Budvau",
-    "heroSubtitle": "Rute za vožnju, lokalni savjeti i skrivena zaustavljanja oko Bokobudvaskog zaliva, pisali ljudi koji ovdje žive.",
+    "crumb": "Blog",
+    "heroTitle": "Vožnja Budvanskom rivijerom",
+    "heroSubtitle": "Istraženi vodiči o manje poznatim kutcima budvanskog kraja: kraljevski parkovi, planinske ceste, stari manastiri, trajektne rute i uvale u stijenama iza Starog grada.",
     "readGuide": "Pročitaj vodič",
-    "card_churches_title": "Tajne Crkve i Kapele Budvaskog Starog Grada",
-    "card_churches_excerpt": "Iza Katedrale Sv. Tripuna, Stari grad krije desetak manjih kapela skrivenih u sporednim ulicama i iza neobilježenih vrata. Setnja kroz najtiše svete prostore.",
-    "card_vrmac_title": "Voznja i Pjesacenje Vrmackim Grebenom",
-    "card_vrmac_excerpt": "Sumoviti greben izmedu Budvaa i Tivta nudi panoramske poglede na obje strane zaliva. Parkirajte kod pocetka staze i hodajte do austrougarske tvrdave na vrhu.",
-    "card_markets_title": "Pijacni Dan u Budvau: Riba, Sir i Vino",
-    "card_markets_excerpt": "Gdje mjestani kupuju svjezu ribu iz zaliva, njeguski sir i vino iz Crmnicke doline. Jutarnji vodic za Zelenu pijacu i tezge na obali.",
-    "card_swimming_title": "Najbolja Kupalista oko Zaliva",
-    "card_swimming_excerpt": "Od sljunčanih plaza ispod smokava do betonskih platformi sa merdevinama u duboku plavu vodu. Devet mjesta za kupanje koja vecina posjetilaca nikad ne pronade.",
-    "card_cetinje_title": "Budva do Cetinja Starim Planinskim Putem",
-    "card_cetinje_excerpt": "Zaobidjite autoput i uzmite originalni planinski put kroz selo Njeguši i preko lovcenskog ramena. Dimljeni prsut, manastirske relikvije i nekadanja kraljevska prijestonica.",
-    "card_dobrota_title": "Bečići: Mirno Selo Pored Budvaa",
-    "card_dobrota_excerpt": "Deset minuta voznje od zidina Starog grada, dobrotska obala ima kamene palate, vinarske barove i neke od najljepših pogleda na zalazak sunca na zalivu.",
-    "card_kayak_title": "Kajak po Zalivu sa Obalnog Puta",
-    "card_kayak_excerpt": "Gdje spustiti kajak na Bokobudvaskom zalivu, sta vidjeti sa vode i kako kombinovati veslanje sa dnevnim izletom automobilom.",
-    "card_stoliv_title": "Gornji Stoliv: Napusteno Selo na Litici Budvaa",
-    "card_stoliv_excerpt": "Uzak put se penje 400 metara iznad zaliva do kamenog sela napustenog nakon zemljotresa 1979. Pogledi i tisina su izvanredni.",
-    "card_wildflowers_title": "Proljecne Voznje Divljim Cvijecem: Mart do Maj",
-    "card_wildflowers_excerpt": "Zaliv buja bojama izmedu marta i maja. Orhideje, perunike i cistus oivicavaju puteve od Budvaa do Risna i prema lovcenskim padinama."
+    "articles": {
+      "drobni-pijesak-cove": {
+        "title": "Drobni Pijesak, mala pješčana uvala paštrovskog plemena",
+        "excerpt": "Polumjesec sitnog pijeska dug 250 metara između Svetog Stefana i Petrovca, i otvoreni zbor koji se nekada tu sastajao."
+      },
+      "milocer-park-villa": {
+        "title": "Park i vila Miločer, kraljevsko ljetnje utočište pored Svetog Stefana",
+        "excerpt": "Osamnaest hektara mediteranskog parka, vila iz 1930-ih sagrađena za kraljicu Mariju, i plaža koju je jugoslovenska kraljevska porodica zadržala za sebe."
+      },
+      "rezevici-monastery": {
+        "title": "Manastir Reževići, nemanjićka zadužbina stara 800 godina iznad Budvanske rivijere",
+        "excerpt": "Osnovan 1226. od strane Stefana Prvovjenčanog, više puta obnavljan, još uvijek aktivna pravoslavna zajednica nad morem."
+      },
+      "budva-to-lovcen-mausoleum": {
+        "title": "Od Budve do Mauzoleja na Lovćenu, serpentinska vožnja do Njegoševog groba na 1.657 m",
+        "excerpt": "Iz Budve, starom austrijskom cestom, kroz Njeguše, do vrha planine koja daje ime Crnoj Gori."
+      },
+      "sutomore-stari-bar-ruins": {
+        "title": "Sutomore i Stari Bar, jednodnevni izlet na jug kroz tunel Sozina",
+        "excerpt": "Četrdeset minuta od Budve: dugačko porodično primorsko mjesto i srednjovjekovni grad u ruševinama na padini."
+      },
+      "mogren-beach-dukley-tunnel": {
+        "title": "Plaža Mogren i tunel u stijeni, dvije skrivene uvale sjeverno od Starog grada Budve",
+        "excerpt": "Pet minuta hoda od kapije Starog grada: dvije male plaže povezane kamenim tunelom kroz rt."
+      },
+      "budva-to-bar-ferry-port": {
+        "title": "Od Budve do barske luke, vožnja do trajekta za Bari na italijanskom dijelu puta",
+        "excerpt": "Sat vremena ka jugu do Luke Bar, glavne morske kapije Crne Gore, i noćne plovidbe ka južnoj Italiji."
+      },
+      "cetinje-day-trip-from-budva": {
+        "title": "Jednodnevni izlet na Cetinje iz Budve, stara kraljevska prijestonica preko Lovćena",
+        "excerpt": "Sat vremena u unutrašnjosti: palate, aktivni manastir i muzejski kompleks koji utemeljuje crnogorsku nacionalnu istoriju."
+      },
+      "pastrovici-olive-harvest": {
+        "title": "Paštrovska berba maslina, jesen u brdima iza Budvanske rivijere",
+        "excerpt": "Od oktobra do novembra, porodični mlinovi i dalje cijede maslinjake koji vjekovima hrane primorje."
+      },
+      "kotor-day-trip-from-budva": {
+        "title": "Jednodnevni izlet u Kotor iz Budve, šta vidjeti za četiri sata",
+        "excerpt": "Tridesetominutna vožnja obalom: Stari grad pod zidinama, uspon do tvrđave Sveti Ivan, i povratak na budvansku plažu u smiraj dana."
+      }
+    },
+    "card_budvatobarferryport_title": "Od Budve do barske luke, vožnja do trajekta za Bari na italijanskom dijelu puta",
+    "card_budvatobarferryport_excerpt": "Sat vremena ka jugu do Luke Bar, glavne morske kapije Crne Gore, i noćne plovidbe ka južnoj Italiji.",
+    "card_budvatolovcenmausoleum_title": "Od Budve do Mauzoleja na Lovćenu, serpentinska vožnja do Njegoševog groba na 1.657 m",
+    "card_budvatolovcenmausoleum_excerpt": "Iz Budve, starom austrijskom cestom, kroz Njeguše, do vrha planine koja daje ime Crnoj Gori.",
+    "card_cetinjedaytripfrombudva_title": "Jednodnevni izlet na Cetinje iz Budve, stara kraljevska prijestonica preko Lovćena",
+    "card_cetinjedaytripfrombudva_excerpt": "Sat vremena u unutrašnjosti: palate, aktivni manastir i muzejski kompleks koji utemeljuje crnogorsku nacionalnu istoriju.",
+    "card_drobnipijesakcove_title": "Drobni Pijesak, mala pješčana uvala paštrovskog plemena",
+    "card_drobnipijesakcove_excerpt": "Polumjesec sitnog pijeska dug 250 metara između Svetog Stefana i Petrovca, i otvoreni zbor koji se nekada tu sastajao.",
+    "card_kotordaytripfrombudva_title": "Jednodnevni izlet u Kotor iz Budve, šta vidjeti za četiri sata",
+    "card_kotordaytripfrombudva_excerpt": "Tridesetominutna vožnja obalom: Stari grad pod zidinama, uspon do tvrđave Sveti Ivan, i povratak na budvansku plažu u smiraj dana.",
+    "card_milocerparkvilla_title": "Park i vila Miločer, kraljevsko ljetnje utočište pored Svetog Stefana",
+    "card_milocerparkvilla_excerpt": "Osamnaest hektara mediteranskog parka, vila iz 1930-ih sagrađena za kraljicu Mariju, i plaža koju je jugoslovenska kraljevska porodica zadržala za sebe.",
+    "card_mogrenbeachdukleytunnel_title": "Plaža Mogren i tunel u stijeni, dvije skrivene uvale sjeverno od Starog grada Budve",
+    "card_mogrenbeachdukleytunnel_excerpt": "Pet minuta hoda od kapije Starog grada: dvije male plaže povezane kamenim tunelom kroz rt.",
+    "card_pastrovicioliveharvest_title": "Paštrovska berba maslina, jesen u brdima iza Budvanske rivijere",
+    "card_pastrovicioliveharvest_excerpt": "Od oktobra do novembra, porodični mlinovi i dalje cijede maslinjake koji vjekovima hrane primorje.",
+    "card_rezevicimonastery_title": "Manastir Reževići, nemanjićka zadužbina stara 800 godina iznad Budvanske rivijere",
+    "card_rezevicimonastery_excerpt": "Osnovan 1226. od strane Stefana Prvovjenčanog, više puta obnavljan, još uvijek aktivna pravoslavna zajednica nad morem.",
+    "card_sutomorestaribarruins_title": "Sutomore i Stari Bar, jednodnevni izlet na jug kroz tunel Sozina",
+    "card_sutomorestaribarruins_excerpt": "Četrdeset minuta od Budve: dugačko porodično primorsko mjesto i srednjovjekovni grad u ruševinama na padini.",
+    "card_renderer_title": "Manastir Reževići, nemanjićka zadužbina stara 800 godina iznad Budvanske rivijere",
+    "card_renderer_excerpt": "Osnovan 1226. od strane Stefana Prvovjenčanog, više puta obnavljan, još uvijek aktivna pravoslavna zajednica nad morem.",
+    "card_churches_title": "Manastir Reževići, nemanjićka zadužbina stara 800 godina iznad Budvanske rivijere",
+    "card_churches_excerpt": "Osnovan 1226. od strane Stefana Prvovjenčanog, više puta obnavljan, još uvijek aktivna pravoslavna zajednica nad morem.",
+    "card_vrmac_title": "Od Budve do Mauzoleja na Lovćenu, serpentinska vožnja do Njegoševog groba na 1.657 m",
+    "card_vrmac_excerpt": "Iz Budve, starom austrijskom cestom, kroz Njeguše, do vrha planine koja daje ime Crnoj Gori.",
+    "card_swimming_title": "Plaža Mogren i tunel u stijeni, dvije skrivene uvale sjeverno od Starog grada Budve",
+    "card_swimming_excerpt": "Pet minuta hoda od kapije Starog grada: dvije male plaže povezane kamenim tunelom kroz rt."
   },
   "blogHiddenChurches": {
     "title": "Tajne Crkve i Kapele Budvaskog Starog Grada",
@@ -928,7 +1021,7 @@
     "altSwim": "Cista voda i kamenita obala na kupalistu na Bokobudvaskom zalivu",
     "h2Spot2": "2. Markov Rt (blizu Dobrote)",
     "spot2P": "Kameniti rt koji strci u zaliv oko 5 minuta sjeverno od Budvaa. Betonske platforme sa metalnim merdevinama pruzaju pristup dubokoj, cistoj vodi. Popularno medu mjestanima koji ovdje plivaju nakon posla. Nema pijeska, nema sadrzaja, samo voda i planine.",
-    "h2Spot3": "3. Bajova Kula (Rafailovići)",
+    "h2Spot3": "3. Bajova Kula u Rafailovićima",
     "spot3P": "Na juznom kraju peraske obale, malo betonsko kupaliste gleda direktno prema ostrvu Gospa od Skrpjela. Voda je duboka a pogled dok plutate na ledima, ostrva, planine, barokne palate, tesko je nadmasiti bilo gdje u Evropi.",
     "h2Spot4": "4. Plaza Plavi Horizonti (Poluostrvo Lustica)",
     "spot4P": "Dvadeset minuta voznje od Tivta kroz poluostrvo Lustica dovodi vas do Plavih Horizonata, jedine prave pjescane plaze u podrucju zaliva. Plitka, topla voda je pogodna za porodice sa malom djecom. Plazni bar iznajmljuje lezaljke i suncobrane u sezoni.",
@@ -1240,7 +1333,9 @@
     "title": "Kontaktirajte nas",
     "seoDesc": "Kontaktirajte Car Rental Budva za ponude, preuzimanje na aerodromu ili pitanja o putovanju.",
     "heading": "Kontaktirajte nas",
-    "intro": "Imate pitanje o iznajmljivanju automobila u Budvau? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje."
+    "intro": "Imate pitanje o iznajmljivanju automobila u Budvau? Javite nam se i pomoći ćemo vam pronaći savršeno vozilo za vaše putovanje.",
+    "successTitle": "Poruka poslata!",
+    "successBody": "Hvala na javljanju, odgovorićemo u roku od nekoliko sati."
   },
   "cookieBody": {
     "lastUpdated": "Posljednje ažuriranje:",
@@ -1267,12 +1362,12 @@
     "manage4": "Blokirate sve kolačiće trećih strana",
     "managingNote": "Imajte na umu da blokiranje neophodnih kolačića može uticati na funkcionalnost widgeta za rezervaciju.",
     "contactTitle": "Kontakt",
-    "contactText": "Pitanja o našem korišćenju kolačića? Kontaktirajte nas na info@budvacarrental.com."
+    "contactText": "Pitanja o našem korišćenju kolačića? Kontaktirajte nas na info@carrentalbudva.com."
   },
   "privacyBody": {
     "lastUpdated": "Posljednje ažuriranje:",
     "whoTitle": "Ko smo mi",
-    "whoText": "Car Rental Budva funkcioniše kao partnerski posrednik koji povezuje putnika s pružaocima usluga najma automobila u Budvau i okolini, Crna Gora. Naša web stranica se nalazi na budvacarrental.com. Kada koristite našu stranicu, možemo prikupljati određene informacije kako je opisano u nastavku.",
+    "whoText": "Car Rental Budva funkcioniše kao partnerski posrednik koji povezuje putnika s pružaocima usluga najma automobila u Budvau i okolini, Crna Gora. Naša web stranica se nalazi na carrentalbudva.com. Kada koristite našu stranicu, možemo prikupljati određene informacije kako je opisano u nastavku.",
     "collectTitle": "Koje informacije prikupljamo",
     "provideTitle": "Informacije koje vi pružate",
     "provideText": "Kada koristite naš obrazac za pretragu rezervacija, prikupljamo lokaciju preuzimanja, datume i vrijeme koje unesete kako bismo pronašli dostupna vozila. Ove informacije se prosleđuju našem partneru (LocalRent) za generisanje rezultata pretrage. Ne prikupljamo niti čuvamo podatke o plaćanju, sva plaćanja se obrađuju direktno od strane pružaoca najma.",
@@ -1292,9 +1387,9 @@
     "thirdText": "Naša web stranica koristi sljedeće usluge trećih strana:",
     "third1Label": "LocalRent:",
     "third1": "widget za rezervaciju najma automobila, obrađuje vaše pretrage i upravlja svim rezervacijama i plaćanjima",
-    "third2Label": "Vercel:",
+    "third2Label": "Pružalac hostinga:",
     "third2": "hosting web stranice",
-    "third3Label": "Pexels:",
+    "third3Label": "Stok fotografija:",
     "third3": "stock fotografija",
     "thirdNote": "Svaka od ovih usluga ima vlastitu politiku privatnosti koja reguliše kako obrađuju podatke.",
     "cookiesTitle": "Kolačići",
@@ -1307,12 +1402,12 @@
     "right3": "Povučete saglasnost za obradu podataka",
     "right4": "Podnesete žalbu nadležnom organu za zaštitu podataka",
     "contactTitle": "Kontakt",
-    "contactText": "Za sva pitanja vezana za privatnost, kontaktirajte nas putem emaila na info@budvacarrental.com."
+    "contactText": "Za sva pitanja vezana za privatnost, kontaktirajte nas putem emaila na info@carrentalbudva.com."
   },
   "termsBody": {
     "lastUpdated": "Posljednje ažuriranje:",
     "aboutTitle": "O ovoj web stranici",
-    "aboutText": "Car Rental Budva (budvacarrental.com) je partnerska web stranica koja povezuje putnike s uslugama najma automobila u Budvau i okolini, Crna Gora. Mi nismo kompanija za najam automobila, sarađujemo s LocalRent-om za pružanje dostupnosti u realnom vremenu i usluga rezervacije.",
+    "aboutText": "Car Rental Budva (carrentalbudva.com) je partnerska web stranica koja povezuje putnike s uslugama najma automobila u Budvau i okolini, Crna Gora. Mi nismo kompanija za najam automobila, sarađujemo s LocalRent-om za pružanje dostupnosti u realnom vremenu i usluga rezervacije.",
     "bookingTitle": "Uslovi rezervacije i najma",
     "bookingP1": "Sve rezervacije najma automobila izvršene preko naše web stranice obrađuje i ispunjava naš partner LocalRent. Kada završite rezervaciju, sklapate ugovor o najmu direktno s dobavljačem vozila, a ne s Car Rental Budva.",
     "bookingP2": "Uslovi najma, uključujući politike otkazivanja, osiguranje, starosne uslove i uslove plaćanja, određuje dobavljač vozila i prikazuju se tokom procesa rezervacije. Preporučujemo da pažljivo pročitate ove uslove prije potvrde bilo koje rezervacije.",
@@ -1336,9 +1431,9 @@
     "liability3": "Gubitke nastale zbog problema pri prelasku granice ili problema s dokumentacijom",
     "liability4": "Promjene cijena nakon potvrde rezervacije",
     "ipTitle": "Intelektualna svojina",
-    "ipText": "Sav sadržaj na ovoj web stranici, uključujući tekst, dizajn i grafiku, vlasništvo je Car Rental Budva osim ako nije drugačije navedeno. Stock fotografija se koristi pod licencom od Pexels.",
+    "ipText": "Sav sadržaj na ovoj web stranici, uključujući tekst, dizajn i grafiku, vlasništvo je Car Rental Budva osim ako nije drugačije navedeno. Stok fotografija se koristi pod licencom iz biblioteke stok fotografija.",
     "contactTitle": "Kontakt",
-    "contactText": "Pitanja o ovim uslovima? Kontaktirajte nas na info@budvacarrental.com."
+    "contactText": "Pitanja o ovim uslovima? Kontaktirajte nas na info@carrentalbudva.com."
   },
   "affiliate": {
     "heroTitle": "Zaradite 50% provizije na svaku rezervaciju",
@@ -1465,7 +1560,8 @@
     "title": "Planiraš putovanje kroz Zaliv od Budvaa?",
     "browseAll": "Pregledaj sve vodiče",
     "lovcenGuide": "Vodič za vožnju Kosmača",
-    "desc": "Scenski putevi, skrivene gledne tačke, stanice za gorivo, saveti za parkiranje i informacije o prelascima granice, napisano od strane vozača koji poznaju svaki serpentin na ovim putevima."
+    "desc": "Scenski putevi, skrivene gledne tačke, stanice za gorivo, saveti za parkiranje i informacije o prelascima granice, napisano od strane vozača koji poznaju svaki serpentin na ovim putevima.",
+    "imageAlt": "Krivudava planinska cesta u Crnoj Gori"
   },
   "compare": {
     "label": "Zašto iznajmiti?",
@@ -1552,7 +1648,156 @@
     "decline": "Odbij"
   },
   "cars": {
-    "readGuide": "Pročitaj vodič"
+    "readGuide": "Pročitaj vodič",
+    "overviewTitle": "Na prvi pogled",
+    "whoForTitle": "Za koga je ovaj automobil?",
+    "regionalTitle": "Najbolja regionalna upotreba",
+    "articleTitle": "Ovaj automobil na budvanskim cestama",
+    "featuresTitle": "U vozilu",
+    "relatedTitle": "Gdje vas vodi ovaj auto",
+    "checkAvailability": "Provjerite dostupnost i cijene uživo",
+    "nextBtn": "Sljedeći u floti",
+    "sections": {
+      "behindWheel": "Za volanom",
+      "onRoads": "Na budvanskim cestama",
+      "spaceLoad": "Prostor i prtljag",
+      "bestFor": "Najbolja putovanja za ovaj auto",
+      "practical": "Praktične napomene",
+      "verdict": "Konačna ocjena"
+    },
+    "vw-polo": {
+      "name": "VW Polo",
+      "category": "Ekonomska klasa",
+      "tagline": "Kompaktni njemački hečbek za parkiranje u Starom gradu i jednodnevne izlete po Rivijeri",
+      "lede": "Krug okretanja krojen za parking-zone Slovenska, pet sjedišta, gepek 351 L, miran na primorskoj cesti.",
+      "suitability": "Dva putnika sa kabinskom prtljagom u Budvi pet do deset dana, Polo se parkira svuda, malo troši i komotno se nosi sa primorskom cestom.",
+      "regional": "Uklapa se u ulične zone Slovenske Plaže koje koštaju 1-2 €/h ljeti, provlači se uskim prilazom Kamenovu i bez problema drži 110 km/h na E80 prema Baru.",
+      "bestFor": [
+        "Parovi na sedmodnevnom boravku na Rivijeri",
+        "Putnici solo",
+        "Kratki izleti na Sveti Stefan"
+      ],
+      "features": [
+        "Klima uređaj",
+        "Bluetooth audio",
+        "USB punjenje",
+        "Centralno zaključavanje"
+      ]
+    },
+    "renault-clio": {
+      "name": "Renault Clio",
+      "category": "Ekonomska klasa",
+      "tagline": "Standardni budvanski rivijerski hečbek za više dana, jeftin za gorivo i lak za ljetnje parkiranje",
+      "lede": "Najčešći iznajmljivani auto na Rivijeri. Pet vrata, gepek 391 L, građen za sedmicu Jaz-Petrovac.",
+      "suitability": "Dva putnika na desetodnevnoj bazi u Budvi sa svakodnevnim skokovima do Svetog Stefana, Petrovca, Bečića i izletom u Kotor sredinom sedmice.",
+      "regional": "Uklapa se u podzemnu garažu TQ Plaze i u satne zone Slovenske, provlači se jednosmjernom uličicom prema Pržnu i drži krstarenje 110 km/h na prilazu Sozini bez muke.",
+      "bestFor": [
+        "Posjetioci Rivijere po prvi put",
+        "Parovi",
+        "Sedmodnevni boravci na obali"
+      ],
+      "features": [
+        "Bluetooth audio",
+        "USB punjenje",
+        "Centralno zaključavanje",
+        "Ekran osjetljiv na dodir"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Ekonomska klasa",
+      "tagline": "Najmekše amortizovani gradski automobil u budvanskoj floti, upijač zakrpljenog asfalta",
+      "lede": "Advanced Comfort vješanje i mekana sjedišta, mali auto koji guši paštrovsku sporednu cestu.",
+      "suitability": "Par na dvosedmičnom boravku na Rivijeri koji više voli krstarenje nego oštru vožnju, C3 je najnježniji mali auto za miješani asfalt iznad Petrovca i Paštrovića.",
+      "regional": "Mekana amortizacija godi ispucalom asfaltu na odvojku ka tvrđavi Kosmač i petlji ka manastiru Praskvica, malo slabiji na dugom usponu prema Cetinju, ali nenarušen na rivijerskim brzinama krstarenja.",
+      "bestFor": [
+        "Komforu naklonjeni iznajmljivači na duži period",
+        "Stariji putnici",
+        "Vozači sporednih puteva u unutrašnjosti"
+      ],
+      "features": [
+        "Sjedišta Advanced Comfort",
+        "Bluetooth audio",
+        "USB punjenje",
+        "Upozorenje na napuštanje trake"
+      ]
+    },
+    "peugeot-308": {
+      "name": "Peugeot 308",
+      "category": "Srednja klasa",
+      "tagline": "Dizel automatik srednje klase za višednevnu petlju Rivijera-Dubrovnik",
+      "lede": "Tiha BlueHDi, gepek 412 L, 8-stepena EAT automatika, podrazumijevana opcija za porodicu od četiri člana na dužim sedmicama.",
+      "suitability": "Četiri odrasla ili porodica od četiri člana sa bazom u Budvi koji rade izlet u Dubrovnik, dan na Skadarskom jezeru i Durmitorski vikend iz iste baze.",
+      "regional": "Smiruje se na 1.800 obrtaja/min na usponu kroz tunel Sozina, krstari E65 pored Svetog Stefana bez znojenja, i prelazi 90 minuta od Debelog Brijega do Dubrovnika na djeliću rezervoara.",
+      "bestFor": [
+        "Porodice od četiri člana na desetodnevnim boravcima na Rivijeri",
+        "Vozači preko granice",
+        "Transferi od aerodroma do obale"
+      ],
+      "features": [
+        "Automatski mjenjač",
+        "Adaptivni tempomat",
+        "Dvozonska klima",
+        "Veliki gepek"
+      ]
+    },
+    "renault-megane": {
+      "name": "Renault Megane",
+      "category": "Srednja klasa",
+      "tagline": "Srednja klasa sa najvećim gepekom, prostor za prtljag za dvije sedmice u Bečićima",
+      "lede": "Kvadratni gepek od 434 litra i tihi 1.5 dCi dizel, gutač kilometara podešen za mekanu vožnju.",
+      "suitability": "Četiri putnika na dvosedmičnoj bazi u Budvi koji žele najveći gepek u srednjoj klasi za plažnu opremu, kolica za bebu i sedmičnu kupovinu u Voliju, sve ukrcano odjednom.",
+      "regional": "Gepek od 434 L guta plažni suncobran, dvije sklopive stolice, opremu za ronjenje i aerodromske kofere za četvoro na ruti za Tivat; krstarenje u šestoj brzini na 100 km/h, bez napora na dugom putu do Skadarskog jezera.",
+      "bestFor": [
+        "Porodice sa koferima pune veličine",
+        "Duži boravci na Rivijeri",
+        "Višeetapne primorske ture"
+      ],
+      "features": [
+        "Veliki gepek",
+        "Bluetooth audio",
+        "Tempomat",
+        "Senzori za parkiranje"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Kompaktni krosover",
+      "tagline": "Kompaktni sa povišenim klirensom za paštrovske sporedne ceste i jednodnevne izlete u unutrašnjost",
+      "lede": "Viša pozicija sjedenja od hečbeka, gepek 352 L, 1.0 turbo benzin, srednja specifikacija za miješane sedmice.",
+      "suitability": "Par na 7-10 dnevnoj rivijerskoj bazi koji planira najmanje dva jednodnevna izleta u unutrašnjost, Cetinje, Ostrog preko Sozine ili paštrovsko brdsko područje, i želi viši položaj vožnje od hečbeka.",
+      "regional": "Viši klirens pomaže na razbijenom asfaltu između Petrovca i Buljarice, šljunčanom odvojku do vidikovca Kosmač i zakrpljenim dionicama stare ceste iznad Rafailovića, gdje Clio struže.",
+      "bestFor": [
+        "Parovi koji idu u unutrašnjost",
+        "Miješane primorsko-planinske sedmice",
+        "Budžetski iznajmljivači krosovera"
+      ],
+      "features": [
+        "Povišen klirens",
+        "Apple CarPlay",
+        "Kamera za parkiranje",
+        "Asistent zadržavanja u traci"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Srednja klasa",
+      "tagline": "DSG dizel mjerilo, najtiši krstaš dugih relacija u budvanskoj floti",
+      "lede": "150 KS 2.0 TDI sa 7-stepenim DSG-om, gepek 381 L, racionalna opcija za miješane primorsko-unutrašnjičke sedmice.",
+      "suitability": "Dva ili tri odrasla koji žele Polo-vsku gradsku okretnost i rafinman dugih relacija u istom autu, za desetodnevni boravak u Budvi koji miješa rivijerske dane sa Cetinjem, Ostrogom i odlaskom u Dubrovnik.",
+      "regional": "Provlači se budvanskim obilaznicom tempom polaska u školu i smiruje se na 120 km/h na prilazu tunelu Sozina prema Baru, DSG bira pravi prenos na cetinjskim serpentinama prije nego što stignete pomisliti.",
+      "bestFor": [
+        "Parovi na miješanim primorsko-unutrašnjičkim sedmicama",
+        "Tragači za tihim kabinama",
+        "Dolasci na aerodrom Tivat"
+      ],
+      "features": [
+        "DSG automatik",
+        "Adaptivni tempomat",
+        "Digitalna instrument tabla",
+        "Apple CarPlay"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Upoznaj svoj auto",
@@ -1574,7 +1819,8 @@
     "seoDesc": "Sedam auta za višednevni najam u Budvau, srednja klasa za teret, dizel krstarice i jedan gradski Fiat. Specifikacije, domet i koji auto odgovara kom izletu iz zaliva.",
     "intro1": "Ova flota napravljena je za gosta koji iznajmljuje u Budvau na više dana, ljude koji se ukopaju u stan u Dobroti ili pansion u Starom gradu na dvije sedmice ili više, i koji znaju da će pravo vrijeme provesti na putu između dana u zalivu. To je drugačiji zadatak od jednodnevnog najma sa krstarenja ili prostog preuzimanja auta na tivatskom aerodromu: traži prtljažnik za sedmičnu kupovinu u Voliju, dizel moment za uspon Sozine i sedeću poziciju u kojoj četvoro odraslih izdrži trosatnu vožnju do Žabljaka. Sedam auta ispod izabrani su baš po toj mjeri.",
     "intro2": "Miks namjerno ide ka srednjoj klasi. Peugeot 308 sa 1.5 BlueHDi i EAT automatikom, dizel Renault Megane sa najvećim prtljažnikom u klasi, VW Golf sa DSG 2.0 TDI, ta kola pretvaraju petlju Budva → Cetinje → Skadarsko jezero → Sozina iz posla sa mjenjačem u mirno krstarenje. Za kraće skokove držimo Renault Clio, Citroën C3 sa Advanced Comfort vješanjem, krosover Kia Stonic za razvaljene odvojke ka Njegušima i Gornjoj Lastvi, i sitan Fiat 500 kada je jedino ograničenje parkiranje na mulu u Muu. Bez monotonaca i bez kombija, svaki auto ovdje opravdava višednevni najam.",
-    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja, Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva, Rafailovići, Prčanj, Muo, Risan, Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni."
+    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja, Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva, Rafailovići, Prčanj, Muo, Risan, Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni.",
+    "ogImageAlt": "Flota Car Rental Budva"
   },
   "posts": {
     "milocer": {
@@ -1611,5 +1857,161 @@
     "pastrovici": {
       "full": "Berba maslina u Paštrovićima"
     }
+  },
+  "a11y": {
+    "chatWhatsApp": "Razgovaraj na WhatsAppu",
+    "scrollTop": "Idi na vrh"
+  },
+  "aboutPage": {
+    "title": "O nama, Car Rental Budva",
+    "subtitle": "Lokalni partner za rezervacije sa Rivijere, za provjerene operatore rent-a-cara duž budvanske obale",
+    "description": "Car Rental Budva je nezavisni partner za rezervacije najma vozila na Budvanskoj rivijeri, specijalizovan za preuzimanje na aerodromu Tivat i obalska putovanja.",
+    "whoTitle": "Ko smo mi",
+    "whoP1": "Car Rental Budva je platforma za rezervacije koja sarađuje sa malim i srednjim crnogorskim rent-a-car operaterima duž Budvanske rivijere. Nismo aerodromski franšizni šalter, mi smo lokalni tim koji se bavi preuzimanjima, papirologijom i telefonskim pozivom kada nešto pođe po zlu na putu.",
+    "whoP2": "Operateri sa kojima radimo imaju čiste, savremene flote sa potpunim osiguranjem i dovoljno automobila za održavanje dostupnosti u špicu sezone. Mi radimo posao poređenja kako biste dobili pravo vozilo po pravoj cijeni.",
+    "whyTitle": "Zašto Budva kao baza",
+    "whyP1Pre": "Budva se nalazi u sredini crnogorske obale. Odavde su ",
+    "whyP1Link1": "Park Miločer i Sveti Stefan",
+    "whyP1Mid": " 10 minuta južno, Bečići 5 minuta oko rta, Petrovac dodatnih 20 minuta. Bokokotorski zaliv je 30 minuta. Aerodrom Tivat je 25 minuta. Cijela Budvanska rivijera (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) dostupna je sa jednim punim rezervoarom.",
+    "whyP2Pre": "Rivijera je i baza za vožnje u unutrašnjost: ",
+    "whyP2Link1": "Manastir Reževići",
+    "whyP2Mid": " i ",
+    "whyP2Link2": "lovćenske serpentine",
+    "whyP2End": " preko Njeguša prema Cetinju.",
+    "includedTitle": "Šta je uključeno",
+    "includedP1": "Svaki najam uključuje CDW osiguranje, odgovornost prema trećim licima, PDV, neograničenu kilometražu u većini kategorija i pomoć na putu 24/7. Dostupna je nadogradnja osiguranja bez učešća. Prekogranična pokrivenost (Hrvatska, Albanija, Bosna, Srbija, Kosovo) dodaje se na zahtjev uz Zelenu kartu pripremljenu u trenutku rezervacije.",
+    "pickupTitle": "Preuzimanje i vraćanje",
+    "pickupP1": "Dočekujemo svaki let na aerodromu Tivat (TIV), 20 km od Budve, 25 do 30 minuta vožnje. Kasni dolasci uključeni, bez doplate. Alternativno, dostavljamo do vašeg hotela u Budvi ili pješačkog ulaza u Stari grad za lak susret na dan dolaska.",
+    "pickupP2": "Prekogranično vraćanje dostupno na aerodrom Dubrovnik uz najavu.",
+    "pricingTitle": "Cijene",
+    "pricingP1": "Bez ljetnje doplate u potvrdi. Cijena koju rezervišete je cijena koju plaćate, porezi, aerodromske takse i standardna kilometraža već uključeni. Jedini dodaci su opciono osiguranje bez učešća i prekogranične takse.",
+    "contactTitle": "Kontakt",
+    "contactPre": "Za rezervacije ili pitanja, ",
+    "contactLink": "kontakt strana",
+    "contactEnd": " sadrži formular, email i WhatsApp broj. Odgovaramo u roku od dva sata tokom radnog vremena, sljedećeg jutra za noćne upite."
+  },
+  "montenegroPage": {
+    "title": "Vožnja jadranskom obalom, pregled Crne Gore",
+    "subtitle": "Zemlja je mala, obala gusta. Šta možete razumno obići automobilom sa Budvom kao bazom.",
+    "description": "Praktičan pregled Crne Gore za posjetioce koji sami voze sa bazom u Budvi: primorski gradovi, izleti u unutrašnjost, tipična vremena vožnje i granični prelazi.",
+    "numbersTitle": "Crna Gora u grubim ciframa",
+    "numbersP1": "Crna Gora ima manje od 14.000 kvadratnih kilometara, otprilike veličine Sjeverne Irske. Stanovništvo 620.000. Oko 290 km jadranske obale, od čega je najgušća turistička dionica (Budvanska rivijera) duga 25 km. Unutrašnjošću dominiraju krečnjačke planine koje se uzdižu preko 2.500 metara unutar 30 km od mora.",
+    "numbersP2": "Za posjetioca sa bazom u Budvi to znači da vas sat vožnje vodi do dramatično drugačijeg terena: primorski gradovi, visoki planinski prevoji, jezerski kraj ili u Albaniju.",
+    "rivieraTitle": "Budvanska rivijera (vaša domaća dionica)",
+    "rivieraP1Pre": "Plaža Jaz, Stari grad Budva, Slovenska plaža, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km od kraja do kraja, pokriveni primorskom E65. Pogledajte naš vodič o ",
+    "rivieraP1Link1": "Parku Miločer",
+    "rivieraP1Mid": " i ",
+    "rivieraP1Link2": "uvali Drobni Pijesak",
+    "rivieraP1End": ".",
+    "within60Title": "Unutar 60 minuta automobilom",
+    "within60Item1": "Aerodrom Tivat, 25 min (glavni ulaz)",
+    "within60Item2Link": "Bokokotorski zaliv i Stari grad",
+    "within60Item2End": ", 30 min",
+    "within60Item3Link": "Manastir Reževići",
+    "within60Item3End": ", 20 min južno",
+    "within60Item4Link": "kraljevska prijestonica Cetinje",
+    "within60Item4End": ", 1 sat preko Lovćena",
+    "within60Item5": "Herceg Novi, 50 min zapadno",
+    "within60Item6Link": "Luka Bar",
+    "within60Item6End": ", 60 min južno",
+    "longerTitle": "Duža putovanja iz Budve",
+    "longerItem1": "Podgorica (glavni grad), 65 min",
+    "longerItem2": "Skadarsko jezero (Virpazar), 75 min",
+    "longerItem3": "Ulcinj (najjužnija obala), 75 min",
+    "longerItem4": "Manastir Ostrog, 2 sata",
+    "longerItem5": "Skadar, Albanija, 2 sata (granica na Božaju)",
+    "longerItem6": "Dubrovnik, Hrvatska, 2 sata (granica na Debelom Brijegu)",
+    "longerItem7": "Kanjon Tare / Žabljak, 3,5 sata",
+    "bordersTitle": "Granice i vožnja između država",
+    "bordersP1": "Crna Gora se graniči sa Albanijom, Kosovom, Srbijom, Bosnom i Hercegovinom i Hrvatskom. Sve pet su dostupne automobilom iz Budve. Većina EU/UK/US/AU pasoša ulazi bez vize. Iznajmljeni automobili trebaju Zelenu kartu za prelazak granice, podrazumijevano je uključujemo kada nam kažete svoje planove pri rezervaciji.",
+    "bordersP2": "Dva najkorišćenija prelaza iz Budve: Debeli Brijeg za Hrvatsku (Dubrovnik 2 sata), Božaj za Albaniju (Skadar 2 sata).",
+    "whenTitle": "Kada posjetiti",
+    "whenSpringLabel": "Maj do juna: ",
+    "whenSpringText": "blago primorje, toplo more do kraja maja, malo gužve na obali, divlje cvijeće u unutrašnjosti. Najbolje sveukupno.",
+    "whenSummerLabel": "Jul do avgusta: ",
+    "whenSummerText": "vruće, gužva, sezona festivala na plaži Jaz. Klasično rivijersko iskustvo, po vršnim cijenama.",
+    "whenSeptemberLabel": "Septembar: ",
+    "whenSeptemberText": "idealan period. Topla voda, mirnije plaže, berba grožđa u unutrašnjosti.",
+    "whenWinterLabel": "Oktobar do aprila: ",
+    "whenWinterText": "obala mirna i jeftina. Većina plažnih barova zatvorena. Unutrašnjost može dobiti ozbiljan zimski snijeg od decembra."
+  },
+  "carInline": {
+    "vw-polo": {
+      "alt": "Primorska cesta Budvanske rivijere blizu Bečića",
+      "caption": "Primorska cesta između Budve i Svetog Stefana, prirodni ritam Pola tokom sedmice na Rivijeri."
+    },
+    "renault-clio": {
+      "alt": "Budvanska rivijera E65 prema Svetom Stefanu",
+      "caption": "Dionica E65 pored Rafailovića u stalnoj brzini 60 km/h, prirodni tempo Clia tokom višednevnog boravka u Budvi."
+    },
+    "citroen-c3": {
+      "alt": "Sporedna cesta kroz Paštroviće iznad Petrovca",
+      "caption": "Paštrovske sporedne ceste iznad Petrovca, Advanced Comfort C3 pretvara zakrpljen asfalt u daleke udarce."
+    },
+    "peugeot-308": {
+      "alt": "Autoput Smokovac do Mateševa u unutrašnjosti od Budve",
+      "caption": "Autoput Smokovac prema Podgorici, BlueHDi 308 ovdje radi u stalnih 1.800 obrtaja u minuti."
+    },
+    "renault-megane": {
+      "alt": "Primorska cesta Rivijere od Budve prema Baru",
+      "caption": "Primorska dionica južno od Petrovca, gdje meka amortizacija Megana zapravo opravdava cijenu najma."
+    },
+    "kia-stonic": {
+      "alt": "Razrovana sporedna cesta do tvrđave Kosmač",
+      "caption": "Prilaz tvrđavi Kosmač iznad Rivijere, malo veći klirens drži Stonic mirnim gdje Clio struže."
+    },
+    "vw-golf": {
+      "alt": "Šumovita planinska cesta Paštrovića iznad Budve",
+      "caption": "Uspon od Petrovca prema Cetinju u trećoj brzini, DSG čita serpentine, kabina ostaje tiha."
+    },
+    "_default": {
+      "alt": "Vazdušni pogled na Budvansku rivijeru",
+      "caption": "Sedmica sa bazom u Budvi smješta Sveti Stefan, Petrovac, Cetinje, Skadarsko jezero i Dubrovnik unutar dometa jednodnevnih izleta."
+    }
+  },
+  "carRelated": {
+    "vw-polo": {
+      "0": "Plaža Mogren i tunel u stijeni",
+      "1": "Park Miločer i kraljevska vila",
+      "2": "Uvala Drobni Pijesak"
+    },
+    "renault-clio": {
+      "0": "Uvala Drobni Pijesak",
+      "1": "Park Miločer i kraljevska vila",
+      "2": "Plaža Mogren i tunel u stijeni"
+    },
+    "citroen-c3": {
+      "0": "Manastir Reževići (1226)",
+      "1": "Paštrovska berba maslina",
+      "2": "Uvala Drobni Pijesak"
+    },
+    "peugeot-308": {
+      "0": "Jednodnevni izlet u Kotor iz Budve",
+      "1": "Cetinje, stara kraljevska prijestonica",
+      "2": "Manastir Reževići (1226)"
+    },
+    "renault-megane": {
+      "0": "Sutomore i ruševine Starog Bara",
+      "1": "Od Budve do barske luke",
+      "2": "Jednodnevni izlet na Cetinje"
+    },
+    "kia-stonic": {
+      "0": "Od Budve do Mauzoleja na Lovćenu",
+      "1": "Jednodnevni izlet na Cetinje",
+      "2": "Manastir Reževići (1226)"
+    },
+    "vw-golf": {
+      "0": "Od Budve do Mauzoleja na Lovćenu",
+      "1": "Jednodnevni izlet u Kotor iz Budve",
+      "2": "Sutomore i ruševine Starog Bara"
+    }
+  },
+  "carSpecs": {
+    "seats": "Sjedišta",
+    "transmission": "Mjenjač",
+    "fuel": "Gorivo",
+    "luggage": "Prtljag",
+    "bootSize": "Gepek",
+    "mpg": "Potrošnja"
   }
 }
