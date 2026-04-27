@@ -286,7 +286,7 @@ const siteConfig = {
     { name: "Lovćen Mausoleum", slug: "blog/budva-to-lovcen-mausoleum", tag: "90 min drive", desc: "Njegoš's tomb at 1,657 m on the summit of Mount Lovćen.", image: "/img/blog-budva-to-lovcen-mausoleum.webp" },
     { name: "Cetinje", slug: "blog/cetinje-day-trip-from-budva", tag: "1 hr inland", desc: "Montenegro's old royal capital, palaces, museums, monastery.", image: "/img/blog-cetinje-day-trip-from-budva.webp" },
     { name: "Stari Bar", slug: "blog/sutomore-stari-bar-ruins", tag: "50 min south", desc: "A medieval ruined city on a hillside above Bar.", image: "/img/blog-sutomore-stari-bar-ruins.webp" },
-    { name: "Kotor", slug: "blog/kotor-day-trip-from-budva", tag: "30 min drive", desc: "The walled UNESCO old town and the climb to San Giovanni fortress.", image: "/img/blog-kotor-day-trip-from-budva.webp" },
+    { name: "Kotor", slug: "blog/kotor-day-trip-from-budva", tag: "30 min drive", desc: "The walled old town and the climb to San Giovanni fortress.", image: "/img/blog-kotor-day-trip-from-budva.webp" },
   ],
 };
 

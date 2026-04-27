@@ -81,7 +81,7 @@
   "destinations": {
     "label": "Top Destinations",
     "title": "Explore from Budva",
-    "subtitle": "From the UNESCO Old Town to Rafailovići, Budva, and the mountains, everything is within easy reach."
+    "subtitle": "From the Old Town to Rafailovići, Budva, and the mountains, everything is within easy reach."
   },
   "features": {
     "label": "Why Choose Us",
@@ -408,7 +408,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Kotor",
       "tag": "30 min drive",
-      "desc": "The walled UNESCO old town and the climb to San Giovanni fortress."
+      "desc": "The walled old town and the climb to San Giovanni fortress."
     }
   },
   "aboutBody": {
@@ -450,7 +450,7 @@
     "oldTownText": "Budva's Stari Grad occupies a compact peninsula fortified since antiquity. Cobbled lanes barely two metres wide wind between Venetian-era townhouses, 7th-century churches, and a scatter of restaurants that spill chairs onto every spare paving stone. At the southern tip, the Citadela fortress, now a summer events venue, commands views along the coast in both directions. A small library inside holds editions in a dozen languages, left behind by visiting sailors over the centuries.",
     "dayTripsTitle": "Roads Leading Out",
     "svetiStefanTrip": "Six kilometres south on the highway, the road above Sveti Stefan provides the camera angle that has sold a million postcards. Below, the mainland beach is free and accessible to all. A car lets you arrive early, before tour coaches from Budva claim every parking space.",
-    "budvaTrip": "North through the tunnel: Budva's UNESCO-listed Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have stayed in Budva instead, a strong argument for having a car.",
+    "budvaTrip": "North through the tunnel: Budva's historic Old Town in thirty minutes. Most visitors to Budva make this trip at least once, and many decide they should have stayed in Budva instead, a strong argument for having a car.",
     "lovcenTrip": "Inland from the coast, the road corkscrews upward through Lovcen National Park to the Njegos Mausoleum at 1,657 metres. On a clear afternoon, the panorama from the summit terrace takes in four countries. Budget three hours for the round trip, longer if the switchbacks slow you down.",
     "gettingAroundTitle": "Parking and Practicalities",
     "gettingAroundText": "Budva's Old Town is pedestrianised, but the car parks lining the approach road fill rapidly between June and September. Arrive before 09:00 in high summer or try the less obvious lots south of the main strip near Becici. A car is essential for beach-hopping, the riviera's finest sand is scattered across fifteen kilometres, and local buses run infrequently.",
@@ -589,7 +589,7 @@
     "skadarText": "Thirty minutes south of Podgorica, the largest lake in the Balkans straddles the Albanian border. Pelicans, cormorants, and herons crowd the wetlands. Hire a small boat at Virpazar village, paddle among the water lilies, and return for grilled carp at one of the lakeside restaurants. In spring, the lake level rises by several metres and entire meadows vanish underwater.",
     "danilovgradTitle": "Danilovgrad and the Zeta Valley",
     "danilovgradText": "Half an hour west along the Zeta river, Danilovgrad is a small town known for riverside swimming spots, kayak rentals, and the 13th-century Zdrebaonik Monastery tucked into the hillside above. Combine it with a stop at one of the valley's family-run wineries.",
-    "zabljak": "The mountain town of Zabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a UNESCO-protected alpine plateau.",
+    "zabljak": "The mountain town of Zabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a historic alpine plateau.",
     "parkingTitle": "Parking in Podgorica",
     "parkingP1": "Podgorica presents none of the parking headaches that plague the coastal towns. Street parking in the city centre operates on a zone system: Zone 1 (around Republika Square and Sloboda) charges 0.50 euros per hour, Zone 2 further out is 0.30 euros. Payment is by SMS or at kiosk machines on the pavement. Most streets outside the centre are free and unrestricted.",
     "parkingP2": "Shopping centres like Delta City and Mall of Montenegro offer free underground parking for customers. If you are exploring the Stara Varos quarter, there is a small lot on Bulevar Svetog Petra Cetinjskog, a two-minute walk from the clock tower, that rarely fills even on market days.",
@@ -644,7 +644,7 @@
     "returnTitle": "Returning Your Car at Podgorica Airport",
     "returnP": "The return process mirrors the pickup. Drive to the terminal car park, call your representative, and complete a brief vehicle inspection. The car park is directly adjacent to the terminal, no shuttle needed. Refuel before arriving at the station 3 km from the airport on the main road. Allow 2 hours before your flight for the combined drop-off and check-in process. The terminal is small and efficient, so this is generous, but it accounts for any unexpected delays on the mountain road from Budva.",
     "rentalLink": "Drive to {{link}} in 90 minutes through mountain scenery.",
-    "budvaUnescoLinkText": "Budva's UNESCO Old Town",
+    "budvaUnescoLinkText": "Budva's Old Town",
     "winterLink": "Compare with {{link}} for summer arrivals.",
     "tivatAirportLinkText": "Tivat Airport Airport"
   },
@@ -855,7 +855,7 @@
   "blogHiddenChurches": {
     "title": "Secret Churches and Chapels of Budva's Old Town",
     "subtitle": "Beyond the cathedral, the medieval lanes conceal a dozen smaller sanctuaries, some unlocked, some behind unmarked doors, all worth finding.",
-    "description": "A walking guide to the hidden churches and chapels inside Budva's UNESCO Old Town. Locations, opening hours, and the stories behind each sacred space.",
+    "description": "A walking guide to the hidden churches and chapels inside Budva's Old Town. Locations, opening hours, and the stories behind each sacred space.",
     "h2Intro": "A Town Built on Faith and Stone",
     "introP1": "Budva's Old Town measures barely 600 metres from gate to gate, yet it holds more than twenty churches and chapels within its walls. Visitors flock to the Cathedral of St Tryphon, photograph its twin towers, and move on. Meanwhile, a dozen smaller sanctuaries sit unlocked in quiet lanes, their frescoed interiors seen by almost nobody.",
     "introP2": "This guide covers six of the most rewarding. All are within the Old Town walls, all are free to enter (donations welcomed), and none appear on the standard cruise-ship walking tour.",

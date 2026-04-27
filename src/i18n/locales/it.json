@@ -81,7 +81,7 @@
   "destinations": {
     "label": "Destinazioni Principali",
     "title": "Esplora da Budva",
-    "subtitle": "Dal centro storico UNESCO a Rafailovići, Budva e le montagne, tutto è a portata di mano."
+    "subtitle": "Dal centro storico a Rafailovići, Budva e le montagne, tutto è a portata di mano."
   },
   "features": {
     "label": "Perché Sceglierci",
@@ -100,7 +100,7 @@
   },
   "cta": {
     "title": "Pronto a Esplorare le Bocche di Budva?",
-    "subtitle": "Prenota in pochi minuti. Ritira all’aeroporto di Tivat Airport o al centro storico di Budva. Percorri la baia UNESCO, Rafailovići e la costa adriatica al tuo ritmo.",
+    "subtitle": "Prenota in pochi minuti. Ritira all’aeroporto di Tivat Airport o al centro storico di Budva. Percorri la baia, Rafailovići e la costa adriatica al tuo ritmo.",
     "browseFleet": "Sfoglia la Flotta"
   },
   "sidebar": {
@@ -408,7 +408,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Cattaro",
       "tag": "30 min in auto",
-      "desc": "Il centro storico fortificato UNESCO e la salita alla fortezza di San Giovanni."
+      "desc": "Il centro storico fortificato e la salita alla fortezza di San Giovanni."
     }
   },
   "aboutBody": {
@@ -450,7 +450,7 @@
     "oldTownText": "Lo Stari Grad di Budva occupa una penisola compatta fortificata dall'antichità. Vicoli acciottolati larghi a malapena due metri si snodano tra case signorili dall'era veneziana, chiese del VII secolo, e una manciata di ristoranti che spargono sedie su ogni paving stone disponibile. Alla punta meridionale, la fortezza Citadela, ora luogo di eventi estivi, comanda le vedute lungo la costa in entrambe le direzioni. Una piccola biblioteca all'interno contiene edizioni in una dozzina di lingue, lasciate da navigatori visitatori nel corso dei secoli.",
     "dayTripsTitle": "Strade che Conducono Fuori",
     "svetiStefanTrip": "Sei chilometri a sud sulla strada principale, la strada sopra Sveti Stefan fornisce l'angolo fotografico che ha venduto un milione di cartoline. Sotto, la spiaggia sulla terraferma è gratuita e accessibile a tutti. Un'auto ti permette di arrivare presto, prima che i pullman turistici da Budva si impadroniscono di ogni parcheggio.",
-    "budvaTrip": "Nord attraverso il tunnel: lo Stari Grad UNESCO di Budva in trenta minuti. La maggior parte dei visitatori di Budva fanno questo viaggio almeno una volta, e molti decidono che avrebbero dovuto restare a Budva, un forte argomento per avere un'auto.",
+    "budvaTrip": "Nord attraverso il tunnel: lo Stari Grad di Budva in trenta minuti. La maggior parte dei visitatori di Budva fanno questo viaggio almeno una volta, e molti decidono che avrebbero dovuto restare a Budva, un forte argomento per avere un'auto.",
     "lovcenTrip": "Dall'interno della costa, la strada si arriccia verso l'alto attraverso il Parco Nazionale del Lovcen al Mausoleo di Njegos a 1.657 metri. In un pomeriggio sereno, il panorama dalla terrazza della vetta abbraccia quattro paesi. Prevedi tre ore per l'andata e ritorno, più a lungo se i tornanti ti rallentano.",
     "gettingAroundTitle": "Parcheggio e Pratiche",
     "gettingAroundText": "Lo Stari Grad di Budva è pedonalizzato, ma i parcheggi che costeggiano la strada di accesso si riempiono rapidamente tra giugno e settembre. Arriva prima delle 09:00 in piena estate o prova i lotti meno evidenti a sud della zona principale vicino a Becici. Un'auto è essenziale per saltare da una spiaggia all'altra, la sabbia più fine della riviera è sparsa su quindici chilometri e gli autobus locali sono infrequenti.",
@@ -644,7 +644,7 @@
     "returnTitle": "Restituzione dell'Auto all'Aeroporto di Podgorica",
     "returnP": "Il processo di restituzione rispecchia il ritiro. Guidate al parcheggio del terminal, chiamate il vostro rappresentante e completate una breve ispezione del veicolo. Il parcheggio è direttamente adiacente al terminal, nessuna navetta necessaria. Fate rifornimento prima di arrivare alla stazione 3 km dall'aeroporto sulla strada principale. Consentite 2 ore prima del vostro volo per il processo combinato di consegna e check-in. Il terminal è piccolo ed efficiente, quindi questo è generoso, ma tiene conto di eventuali ritardi inaspettati sulla strada di montagna da Budva.",
     "rentalLink": "Raggiungi {{link}} in 90 minuti attraverso paesaggi montani.",
-    "budvaUnescoLinkText": "Città Vecchia di Budva (UNESCO)",
+    "budvaUnescoLinkText": "Città Vecchia di Budva",
     "winterLink": "Confronta con {{link}} per gli arrivi estivi.",
     "tivatAirportLinkText": "Aeroporto di Tivat Airport"
   },
@@ -855,7 +855,7 @@
   "blogHiddenChurches": {
     "title": "Chiese e Cappelle Segrete del Centro Storico di Budva",
     "subtitle": "Oltre la cattedrale, i vicoli medievali nascondono una dozzina di santuari più piccoli, alcuni aperti, altri dietro porte senza insegna, tutti da scoprire.",
-    "description": "Una guida a piedi alle chiese e cappelle nascoste all'interno della UNESCO Old Town di Budva. Ubicazioni, orari di apertura e le storie dietro ogni luogo sacro.",
+    "description": "Una guida a piedi alle chiese e cappelle nascoste all'interno della Old Town di Budva. Ubicazioni, orari di apertura e le storie dietro ogni luogo sacro.",
     "h2Intro": "Una città costruita sulla fede e la pietra",
     "introP1": "La Old Town di Budva misura appena 600 metri da porta a porta, eppure contiene più di venti chiese e cappelle entro le sue mura. I visitatori affollano la Cattedrale di San Trifone, fotografano le sue torri gemelle, e proseguono. Nel frattempo, una dozzina di santuari più piccoli rimangono aperti negli angoli tranquilli, i loro interni affrescati visti da quasi nessuno.",
     "introP2": "Questa guida copre sei tra i più gratificanti. Tutti si trovano entro le mura della Old Town, tutti sono liberi da visitare (i contributi sono benvenuti), e nessuno appare nel tour standard delle navi da crociera.",

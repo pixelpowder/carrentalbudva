@@ -81,7 +81,7 @@
   "destinations": {
     "label": "Top Destinacije",
     "title": "Istražite Crnu Goru",
-    "subtitle": "Od starog grada pod zaštitom UNESCO-a do Rafailovićia, Budve i planina, sve je nadohvat ruke."
+    "subtitle": "Od starog grada pod zaštitom-a do Rafailovićia, Budve i planina, sve je nadohvat ruke."
   },
   "features": {
     "label": "Zašto Mi",
@@ -100,7 +100,7 @@
   },
   "cta": {
     "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Tivat Airport ili u budvaskom Starom gradu. Vozite UNESCO zalivom, Rafailovićiom i Jadranom svojim tempom.",
+    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Tivat Airport ili u budvaskom Starom gradu. Vozite zalivom, Rafailovićiom i Jadranom svojim tempom.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {
@@ -408,7 +408,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Kotor",
       "tag": "30 min vožnje",
-      "desc": "UNESCO Stari grad sa zidinama i uspon do tvrđave Sveti Ivan."
+      "desc": "Stari grad sa zidinama i uspon do tvrđave Sveti Ivan."
     }
   },
   "aboutBody": {
@@ -450,7 +450,7 @@
     "oldTownText": "Budvanski Stari Grad je kompaktna utvrđena citadela na malom poluostrvu. Unutar zidina naći ćete uske popločane ulice, venecijansku arhitekturu, male crkve koje datiraju iz 7. vijeka, te živahnu mješavinu restorana, galerija i butika. Tvrđava Citadela na južnom vrhu nudi panoramske poglede na obalu i obližnja ostrva.",
     "dayTripsTitle": "Jednodnevni Izleti iz Budve",
     "svetiStefanTrip": "Samo 6 km južno, ovo fotogenično utvrđeno ostrvsko selo sada je luksuzni hotel, ali pogledi sa puta iznad su spektakularni i besplatni. Plaža na kopnenoj strani je otvorena za sve.",
-    "budvaTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokobudvaskog zaliva i njegovog Starog grada pod zaštitom UNESCO-a.",
+    "budvaTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokobudvaskog zaliva i njegovog Starog grada pod zaštitom-a.",
     "lovcenTrip": "Uputite se u unutrašnjost ka planinskim pejzažima i Njegoševom mauzoleju, smještenom na 1.657 metara nadmorske visine, sa pogledom na četiri zemlje po vedrom danu. Vijugavi put od obale je doživljaj sam po sebi.",
     "gettingAroundTitle": "Kretanje",
     "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta.",
@@ -644,7 +644,7 @@
     "returnTitle": "Vracanje Automobila na Aerodrom Podgorica",
     "returnP": "Proces vracanja je ogledalska slika preuzimanja. Dovezite se do aerodromskog parkinga, pozovite agenta, i on dolazi do vas. Brzi pregled, predaja kljuceva, i slobodni ste. Ostavite 15 minuta za proces plus vrijeme voznje od Budvaa (90 minuta standardnom rutom, 2 sata preko serpentine).",
     "rentalLink": "Dovezite se do {{link}} za 90 minuta kroz planinske pejzaže.",
-    "budvaUnescoLinkText": "UNESCO Starog grada Budvaa",
+    "budvaUnescoLinkText": "Starog grada Budvaa",
     "winterLink": "Uporedite s {{link}} za ljetnje dolaske.",
     "tivatAirportLinkText": "aerodromom Tivat Airport"
   },
@@ -855,7 +855,7 @@
   "blogHiddenChurches": {
     "title": "Tajne Crkve i Kapele Budvaskog Starog Grada",
     "subtitle": "Iza katedrale, srednjovjekovne ulice kriju desetak manjih svetilista, neke otkljucane, neke iza neobilježenih vrata, sve vrijedi pronaci.",
-    "description": "Vodic za setnju skrivenim crkvama i kapelama unutar budvaskog UNESCO Starog grada. Lokacije, radno vrijeme i price iza svakog svetog prostora.",
+    "description": "Vodic za setnju skrivenim crkvama i kapelama unutar budvaskog Starog grada. Lokacije, radno vrijeme i price iza svakog svetog prostora.",
     "h2Intro": "Grad Izgraden na Vjeri i Kamenu",
     "introP1": "Budvaski Stari grad mjeri jedva 600 metara od kapije do kapije, a ipak sadrzi vise od dvadeset crkava i kapela unutar zidina. Posjetioci hrle u Katedralu Sv. Tripuna, fotografisu njene dvostruke zvonikove i nastavljaju dalje. U meduvremenu, desetak manjih svetilista sjedi otkljucano u mirnim ulicama, njihove oslikane unutrasnjosti vidjene gotovo ni od koga.",
     "introP2": "Ovaj vodic pokriva sest najvrednijih. Sve su unutar zidina Starog grada, sve su besplatne za ulaz (donacije dobrodosle), i nijedna se ne pojavljuje na standardnom pjesackom obilasku za putnike sa kruzera.",

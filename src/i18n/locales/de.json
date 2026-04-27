@@ -81,7 +81,7 @@
   "destinations": {
     "label": "Top-Reiseziele",
     "title": "Entdecken Sie die Region ab Budva",
-    "subtitle": "Von der UNESCO-Altstadt bis nach Rafailovići, Budva und in die Berge, alles ist bequem erreichbar."
+    "subtitle": "Von der Altstadt bis nach Rafailovići, Budva und in die Berge, alles ist bequem erreichbar."
   },
   "features": {
     "label": "Warum wir",
@@ -100,7 +100,7 @@
   },
   "cta": {
     "title": "Bereit, die Bucht von Budva zu erkunden?",
-    "subtitle": "In Minuten buchen. Abholung am Flughafen Tivat Airport oder in der Altstadt von Budva. Fahren Sie entlang der UNESCO-Bucht, nach Rafailovići und an der Adriaküste in Ihrem eigenen Tempo.",
+    "subtitle": "In Minuten buchen. Abholung am Flughafen Tivat Airport oder in der Altstadt von Budva. Fahren Sie entlang der Bucht von Kotor, nach Rafailovići und an der Adriaküste in Ihrem eigenen Tempo.",
     "browseFleet": "Flotte durchsuchen"
   },
   "sidebar": {
@@ -408,7 +408,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Kotor",
       "tag": "30 Min Fahrt",
-      "desc": "Die ummauerte UNESCO-Altstadt und der Aufstieg zur Festung San Giovanni."
+      "desc": "Die ummauerte Altstadt und der Aufstieg zur Festung San Giovanni."
     }
   },
   "aboutBody": {
@@ -450,7 +450,7 @@
     "oldTownText": "Budvas Stari Grad nimmt eine kompakte Halbinsel ein, die seit der Antike befestigt ist. Kopfsteinpflastergassen, kaum zwei Meter breit, winden sich zwischen venezianischen Stadthäusern, Kirchen aus dem 7. Jahrhundert und Restaurants. Am Südende bietet die Zitadelle, heute Sommerveranstaltungsort, Ausblicke entlang der Küste. Eine kleine Bibliothek enthält Ausgaben in einem Dutzend Sprachen, hinterlassen von Seeleuten über die Jahrhunderte.",
     "dayTripsTitle": "Ausflüge von Budva",
     "svetiStefanTrip": "Sechs Kilometer südlich bietet die Straße über Sveti Stefan den Kamerawinkel, der eine Million Postkarten verkauft hat. Der Festlandstrand ist kostenlos. Mit dem Auto kommen Sie früh an, bevor Reisebusse aus Budva jeden Parkplatz beanspruchen.",
-    "budvaTrip": "Nördlich durch den Tunnel: Budvas UNESCO-geschützte Altstadt in dreißig Minuten. Die meisten Budva-Besucher unternehmen diese Fahrt mindestens einmal, ein starkes Argument für ein eigenes Auto.",
+    "budvaTrip": "Nördlich durch den Tunnel: Budvas historische Altstadt in dreißig Minuten. Die meisten Budva-Besucher unternehmen diese Fahrt mindestens einmal, ein starkes Argument für ein eigenes Auto.",
     "lovcenTrip": "Landeinwärts schraubt sich die Straße durch den Nationalpark Kosmač zum Njegos-Mausoleum auf 1.657 Metern. An einem klaren Nachmittag umfasst das Panorama vier Länder. Planen Sie drei Stunden für den Hin- und Rückweg ein.",
     "gettingAroundTitle": "Parken und Praktisches",
     "gettingAroundText": "Budvas Altstadt ist Fußgängerzone, aber die Parkplätze an den Zufahrtsstraßen füllen sich zwischen Juni und September schnell. Im Hochsommer vor 09:00 ankommen oder die weniger offensichtlichen Parkplätze südlich nahe Bečići versuchen. Ein Auto ist unerlässlich zum Strandhüpfen, der feinste Sand verteilt sich über fünfzehn Kilometer.",
@@ -589,7 +589,7 @@
     "skadarText": "Dreißig Minuten südlich von Podgorica, der größte See des Balkans an der albanischen Grenze. Pelikane, Kormorane und Reiher. Boot in Virpazar mieten, zwischen Seerosen paddeln und gegrillten Karpfen genießen. Im Frühling steigt der Seespiegel um mehrere Meter.",
     "danilovgradTitle": "Danilovgrad und das Zeta-Tal",
     "danilovgradText": "Eine halbe Stunde westlich. Bekannt für Flussbadestellen, Kajakverleih und das Kloster Zdrebaonik aus dem 13. Jahrhundert. Kombinieren mit einem Weingutstopp im Tal.",
-    "zabljak": "Žabljak auf 1.456 Metern im Durmitor-Massiv, 170 km nördlich. Winter: Skifahren. Sommer: Tara-Flussschlucht (1.300 m tief), Schwarzer See und Wanderwege über UNESCO-geschütztes Hochplateau.",
+    "zabljak": "Žabljak auf 1.456 Metern im Durmitor-Massiv, 170 km nördlich. Winter: Skifahren. Sommer: Tara-Flussschlucht (1.300 m tief), Schwarzer See und Wanderwege über-geschütztes Hochplateau.",
     "parkingTitle": "Parken in Podgorica",
     "parkingP1": "Podgorica hat keines der Parkprobleme, die die Küstenstädte plagen. Straßenparken im Stadtzentrum funktioniert nach einem Zonensystem: Zone 1 (rund um den Platz der Republik und Sloboda) kostet 0,50 Euro pro Stunde, Zone 2 weiter außen 0,30 Euro. Bezahlt wird per SMS oder an Kiosk-Automaten auf dem Gehweg. Die meisten Straßen außerhalb des Zentrums sind kostenlos und unbeschränkt.",
     "parkingP2": "Einkaufszentren wie Delta City und Mall of Montenegro bieten kostenlose Tiefgaragenplätze für Kunden. Wenn Sie das Stara-Varoš-Viertel erkunden, gibt es einen kleinen Parkplatz am Bulevar Svetog Petra Cetinjskog, zwei Gehminuten vom Uhrenturm entfernt, der selbst an Markttagen selten voll wird.",
@@ -644,7 +644,7 @@
     "returnTitle": "Rückgabe Ihres Wagens am Flughafen Podgorica",
     "returnP": "Der Rückgabeprozess entspricht der Abholung. Fahren Sie zum Terminalparkplatz, rufen Sie Ihren Vertreter an und führen Sie eine kurze Fahrzeuginspektion durch. Der Parkplatz liegt direkt neben dem Terminal, kein Shuttle nötig. Tanken Sie vor der Ankunft an der Station 3 km vom Flughafen an der Hauptstraße. Planen Sie 2 Stunden vor Ihrem Flug für den kombinierten Abgabe- und Check-in-Prozess. Das Terminal ist klein und effizient, diese Zeit ist also großzügig bemessen, aber sie berücksichtigt unerwartete Verzögerungen auf der Bergstraße von Budva.",
     "rentalLink": "Fahren Sie in 90 Minuten durch Berglandschaft nach {{link}}.",
-    "budvaUnescoLinkText": "Budvas UNESCO-Altstadt",
+    "budvaUnescoLinkText": "Budvas Altstadt",
     "winterLink": "Vergleichen Sie mit {{link}} für Sommeranreisen.",
     "tivatAirportLinkText": "Flughafen Tivat Airport"
   },
@@ -855,7 +855,7 @@
   "blogHiddenChurches": {
     "title": "Geheime Kirchen und Kapellen in Budvas Altstadt",
     "subtitle": "Jenseits der Kathedrale verbergen die mittelalterlichen Gassen ein Dutzend kleinerer Heiligtümer, einige unverschlossen, einige hinter unmarkierten Türen, alle einen Besuch wert.",
-    "description": "Spaziergang zu den versteckten Kirchen und Kapellen in Budvas UNESCO-Altstadt. Standorte, Öffnungszeiten und die Geschichten hinter jedem sakralen Raum.",
+    "description": "Spaziergang zu den versteckten Kirchen und Kapellen in Budvas Altstadt. Standorte, Öffnungszeiten und die Geschichten hinter jedem sakralen Raum.",
     "h2Intro": "Eine Stadt aus Glauben und Stein",
     "introP1": "Budvas Altstadt misst kaum 600 Meter von Tor zu Tor, beherbergt aber über zwanzig Kirchen und Kapellen. Besucher strömen zu St. Tryphon, fotografieren die Doppeltürme und ziehen weiter. Währenddessen stehen ein Dutzend kleinere Heiligtümer in ruhigen Gassen unverschlossen, von fast niemandem beachtet.",
     "introP2": "Dieser Guide deckt sechs der lohnendsten ab. Alle innerhalb der Altstadtmauern, alle kostenlos zugänglich (Spenden willkommen), keine auf der Standard-Kreuzfahrt-Stadtführung.",

@@ -51,7 +51,7 @@
   },
   "cta": {
     "title": "Prêt à Explorer le Monténégro ?",
-    "subtitle": "Réservez en quelques minutes. Récupérez votre véhicule à l'aéroport de Tivat Airport ou dans la vieille ville de Budva. Parcourez la baie classée UNESCO, Rafailovići et la côte adriatique à votre rythme.",
+    "subtitle": "Réservez en quelques minutes. Récupérez votre véhicule à l'aéroport de Tivat Airport ou dans la vieille ville de Budva. Parcourez la baie classée, Rafailovići et la côte adriatique à votre rythme.",
     "browseFleet": "Parcourir la Flotte"
   },
   "sidebar": {
@@ -280,7 +280,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Kotor",
       "tag": "30 min en voiture",
-      "desc": "La vieille ville fortifiée classée UNESCO et la montée à la forteresse San Giovanni."
+      "desc": "La vieille ville fortifiée classée et la montée à la forteresse San Giovanni."
     }
   },
   "hero": {
@@ -322,7 +322,7 @@
   "destinations": {
     "label": "Destinations Phares",
     "title": "Explorez le Monténégro",
-    "subtitle": "De la vieille ville classée UNESCO à Rafailovići, Budva et les montagnes, tout est facilement accessible."
+    "subtitle": "De la vieille ville classée à Rafailovići, Budva et les montagnes, tout est facilement accessible."
   },
   "about": {
     "title": "À Propos",
@@ -442,7 +442,7 @@
     "oldTownText": "Le Stari Grad de Budva occupe une presqu'île compacte fortifiée depuis l'Antiquité. Des ruelles pavées de deux mètres de large serpentent entre des maisons vénitiennes, des églises du VIIe siècle et des restaurants qui débordent de chaises sur chaque pavé disponible. À la pointe sud, la forteresse Citadela, désormais lieu d'événements estivaux, offre des vues le long de la côte.",
     "dayTripsTitle": "Routes vers l'Extérieur",
     "svetiStefanTrip": "À six kilomètres au sud, la route surplombant Sveti Stefan offre l'angle photo d'un million de cartes postales. La plage côté continent est gratuite et accessible à tous. Une voiture permet d'arriver tôt, avant que les autocars de Budva ne prennent toutes les places.",
-    "budvaTrip": "Direction nord à travers le tunnel : la vieille ville UNESCO de Budva en trente minutes. La plupart des visiteurs de Budva font ce trajet au moins une fois, et beaucoup décident qu'ils auraient dû rester à Budva, un bon argument pour avoir une voiture.",
+    "budvaTrip": "Direction nord à travers le tunnel: la vieille ville de Budva en trente minutes. La plupart des visiteurs de Budva font ce trajet au moins une fois, et beaucoup décident qu'ils auraient dû rester à Budva, un bon argument pour avoir une voiture.",
     "lovcenTrip": "Depuis la côte, la route grimpe en lacets à travers le parc national du Lovcen jusqu'au mausolée de Njegos à 1 657 mètres. Par temps clair, le panorama s'étend sur quatre pays. Prévoyez trois heures pour l'aller-retour.",
     "gettingAroundTitle": "Stationnement et Pratique",
     "gettingAroundText": "La vieille ville de Budva est piétonne, mais les parkings le long de la route d'accès se remplissent rapidement entre juin et septembre. Arrivez avant 09h00 en plein été ou essayez les parkings moins connus au sud près de Becici. Une voiture est indispensable pour explorer les plages, les meilleurs sables sont dispersés sur quinze kilomètres.",
@@ -581,7 +581,7 @@
     "skadarText": "À trente minutes au sud de Podgorica, le plus grand lac des Balkans chevauche la frontière albanaise. Pélicans, cormorans et hérons peuplent les zones humides. Louez un petit bateau à Virpazar, pagayez parmi les nénuphars, et revenez pour une carpe grillée dans un des restaurants au bord du lac.",
     "danilovgradTitle": "Danilovgrad et la Vallée de la Zeta",
     "danilovgradText": "À une demi-heure à l'ouest le long de la rivière Zeta, Danilovgrad est une petite ville connue pour ses spots de baignade en rivière, ses locations de kayak et le monastère de Zdrebaonik du XIIIe siècle niché dans la colline au-dessus.",
-    "zabljak": "La ville de montagne de Zabljak, à 1 456 mètres dans le massif du Durmitor, est à 170 km et environ 2h30 au nord. En hiver : ski. En été : le canyon de la Tara (1 300 mètres de profondeur), le Lac Noir et des sentiers de randonnée sur un plateau alpin protégé par l'UNESCO.",
+    "zabljak": "La ville de montagne de Zabljak, à 1 456 mètres dans le massif du Durmitor, est à 170 km et environ 2h30 au nord. En hiver: ski. En été: le canyon de la Tara (1 300 mètres de profondeur), le Lac Noir et des sentiers de randonnée sur un plateau alpin protégé par l'UNESCO.",
     "parkingTitle": "Stationnement à Podgorica",
     "parkingP1": "Podgorica ne présente aucun des maux de tête qui affligent les villes côtières. Le stationnement en centre-ville fonctionne par zones : Zone 1 à 0,50 euro de l'heure, Zone 2 à 0,30 euro. Paiement par SMS ou aux bornes. La plupart des rues hors centre sont gratuites et sans restriction.",
     "parkingP2": "Les centres commerciaux comme Delta City offrent un parking souterrain gratuit pour les clients. Pour le quartier Stara Varos, un petit parking sur Bulevar Svetog Petra Cetinjskog, à deux minutes de la tour de l'horloge, se remplit rarement.",
@@ -636,7 +636,7 @@
     "returnTitle": "Restitution à l'Aéroport de Podgorica",
     "returnP": "Le processus de retour est le même qu'à la prise en charge. Conduisez au parking du terminal, appelez le représentant et faites une brève inspection. Faites le plein à la station à 3 km. Prévoyez 2 heures avant votre vol pour la restitution et l'enregistrement.",
     "rentalLink": "Rejoignez {{link}} en 90 minutes à travers des paysages de montagne.",
-    "budvaUnescoLinkText": "la vieille ville de Budva (UNESCO)",
+    "budvaUnescoLinkText": "la vieille ville de Budva",
     "winterLink": "Comparez avec {{link}} pour les arrivées estivales.",
     "tivatAirportLinkText": "l'aéroport de Tivat Airport"
   },
@@ -847,7 +847,7 @@
   "blogHiddenChurches": {
     "title": "Églises et Chapelles Secrètes de la Vieille Ville de Budva",
     "subtitle": "Au-delà de la cathédrale, les ruelles médiévales cachent une douzaine de sanctuaires plus petits, certains ouverts, d'autres derrière des portes anonymes, tous dignes d'être découverts.",
-    "description": "Un guide pédestre des églises et chapelles cachées dans la vieille ville UNESCO de Budva. Emplacements, horaires d'ouverture et histoires derrière chaque espace sacré.",
+    "description": "Un guide pédestre des églises et chapelles cachées dans la vieille ville de Budva. Emplacements, horaires d'ouverture et histoires derrière chaque espace sacré.",
     "h2Intro": "Une Ville Bâtie sur la Foi et la Pierre",
     "introP1": "La vieille ville de Budva mesure à peine 600 mètres d'une porte à l'autre, pourtant elle abrite plus de vingt églises et chapelles dans ses murs. Les visiteurs affluent à la cathédrale Saint-Tryphon, photographient ses deux tours et passent à autre chose. Pendant ce temps, une douzaine de sanctuaires plus petits restent ouverts dans des ruelles tranquilles, leurs intérieurs ornés de fresques vus par presque personne.",
     "introP2": "Ce guide couvre six des plus remarquables. Tous sont dans la vieille ville, tous sont gratuits (dons bienvenus), et aucun n'apparaît dans la visite standard des croisiéristes.",
