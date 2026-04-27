@@ -344,7 +344,7 @@ function Fleet() {
   const [iframeHeight, setIframeHeight] = useState(3650);
 
   useEffect(() => {
-    if (window.innerWidth > 768) setIframeHeight(2530);
+    if (window.innerWidth > 768) setIframeHeight(2525);
   }, []);
   const [iframeSrc, setIframeSrc] = useState(null);
   const fleetRef = useRef(null);
