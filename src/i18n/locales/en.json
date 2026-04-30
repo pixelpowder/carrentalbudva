@@ -291,7 +291,7 @@
     },
     "1": {
       "q": "Can I cross into Croatia or other countries?",
-      "a": "Absolutely. Croatia is about two hours via the Debeli Brijeg checkpoint, we include the Green Card at booking. Bosnia, Albania, Serbia, and Kosovo are also available with advance notice."
+      "a": "Yes, with the Green Card costed in three transparent tiers at booking time. The first tier suits a coastal hop to Trebinje or a Dubrovnik day, neighbouring countries minus Albania and Kosovo. The second tier opens up Albania and Kosovo for the Lake Skadar to Shkodër run or the inland Rožaje crossing. The third tier is built for the longer Balkans loop, Mostar one day and Belgrade the next, and stretches well past the immediate neighbours. Pick the tier that matches your itinerary and the documentation lands in the glovebox at handover."
     },
     "2": {
       "q": "What age do I need to be?",
@@ -332,6 +332,10 @@
     "11": {
       "q": "Can I rent without a credit card?",
       "a": "A handful of vehicles are available without a credit card requirement. Look for the no-deposit filter when searching by pickup location."
+    },
+    "12": {
+      "q": "What add-ons can I tick at booking?",
+      "a": "Plenty, and most are picked by Riviera-based renters for very specific reasons. Theft Protection is the one Bečići and Jaz beach-day renters reach for when the car sits unattended in a public lot. Personal Accident Insurance covers the driver and passengers on the Lovćen switchbacks. The Winter Pack pairs with a ski rack or snowboard rack for the Žabljak and Durmitor runs, and a roof rack handles the bulkier kit. Child seats come in three sizes, under-1, regular, and booster, fitted before you collect. A pre-loaded Montenegrin SIM card or a portable wireless hotspot is the favourite of digital-nomad guests staying a week or longer in Petrovac and Sveti Stefan apartments. There is even an electric scooter with charger, handy for the short hop into Budva Old Town when you would rather leave the rental in the apartment garage."
     }
   },
   "destCards": {
@@ -417,7 +421,7 @@
     "h2": "Why a Car Changes Everything Here",
     "p2": "Scheduled buses follow the main highway and stop. That is the extent of public transport. They will not detour to the unmarked layby above Rafailovići where the Riviera splits into two glistening arms. They cannot pause beside the Roman villa in Risan or navigate the single-track road to Gornji Stoliv, the ghost village clinging to the cliffs 400 metres above the waterline. Only your own wheels and a willingness to explore unlock Budva Riviera properly.",
     "h3": "Fleet and Collection Points",
-    "p3": "We offer collection across the Riviera: Tivat Airport Airport (8 km from Budva's ramparts), directly outside the River Gate lot, and at more than 28 towns from Herceg Novi to Ulcinj. Economy hatchbacks thread through Old Town approach roads effortlessly. SUVs handle the Lovcen switchbacks without breaking stride. Every vehicle carries full insurance, and cross-border documentation for Croatia, Bosnia, Albania, Serbia, and Kosovo is arranged at the time of booking.",
+    "p3": "We offer collection across the Riviera: Tivat Airport Airport (8 km from Budva's ramparts), directly outside the River Gate lot, and at more than 28 towns from Herceg Novi to Ulcinj. Economy hatchbacks thread through Old Town approach roads effortlessly. SUVs handle the Lovcen switchbacks without breaking stride. Add a Montenegrin SIM card or a wireless hotspot at booking and you land already connected, the favourite tweak of guests basing themselves in Petrovac apartments for a week of remote work between drives. Every vehicle carries full insurance, and cross-border documentation for Croatia, Bosnia, Albania, Serbia, and Kosovo is arranged at the time of booking, with three tiers to match how far you plan to roam.",
     "promiseTitle": "What We Stand Behind",
     "promise1": "Full insurance with a zero-excess upgrade on every reservation",
     "promise2": "A named representative at Tivat Airport arrivals, sign in hand, vehicle parked outside",
@@ -434,7 +438,7 @@
     "h7": "A Typical Week Behind the Wheel",
     "p7": "Monday morning: collect at Tivat Airport Airport, drive the Riviera road to Budva, spend the afternoon inside the Old Town walls. Tuesday: head north through Bečići and Rafailovići, take the boat to Our Lady of the Rocks, loop back through Risan for the Roman mosaics. Wednesday: the Lovcen serpentine to Njeguski for smoked ham and mountain cheese, then down the far side to Cetinje's monastery. Thursday: Budva's riviera beaches via the tunnel, with a detour to Sveti Stefan for the postcard photograph. Friday: cross the border at Debeli Brijeg and spend the afternoon in Dubrovnik's harbour. Saturday: Lake Skadar through the vineyard roads, Virpazar boat ride, return via the Sozina tunnel. Sunday: return the car at Tivat Airport. That entire circuit covers roughly 500 km. Fuel cost: approximately 50 to 60 euros at current diesel prices. No bus, tour group, or taxi could replicate it at any price.",
     "h8": "Seasonal Advice from the Team",
-    "p8": "Summer brings the cruise ships, up to four vessels per day between June and September, and with them roughly 8,000 passengers flooding the Old Town between 09:00 and 14:00. We advise arriving early or parking in Bečići and walking the 800 metres to the Sea Gate. Winter transforms the Riviera into a quieter place: fewer visitors, lower rates, and mountain roads that occasionally close above 1,200 metres due to snow. Spring and autumn are the sweet spot. April wildflowers line the Riviera road, September still offers warm seas without the crowds, and the Lovcen road is open and uncrowded."
+    "p8": "Summer brings the cruise ships, up to four vessels per day between June and September, and with them roughly 8,000 passengers flooding the Old Town between 09:00 and 14:00. We advise arriving early or parking in Bečići and walking the 800 metres to the Sea Gate. For the long beach days that follow, Theft Protection is the add-on Riviera regulars tick most often, the rental sits in a public lot from 09:00 till sundown and the cover takes the worry off the table. Winter transforms the Riviera into a quieter place: fewer visitors, lower rates, and a steady stream of guests heading north for Durmitor weekends, the Winter Pack and a ski or snowboard rack go on at booking and the kit is fitted before you collect. Spring and autumn are the sweet spot. April wildflowers line the Riviera road, September still offers warm seas without the crowds, and the Lovcen road is open and uncrowded."
   },
   "budvaBody": {
     "h1": "Where Twenty-Five Centuries of Settlement Meet 21 km of Sand",
@@ -1879,7 +1883,7 @@
     "whyP2Link2": "Lovćen serpentine",
     "whyP2End": " via Njeguši toward Cetinje.",
     "includedTitle": "What's included",
-    "includedP1": "Every rental includes CDW insurance, third-party liability, VAT, unlimited mileage on most categories, and support. Zero-excess insurance upgrade available. Cross-border cover (Croatia, Albania, Bosnia, Serbia, Kosovo) added on request with the Green Card paperwork prepared at booking time.",
+    "includedP1": "Every rental includes CDW insurance, third-party liability, VAT, unlimited mileage on most categories, and support. Zero-excess insurance upgrade available, and Theft Protection or Personal Accident cover ticks on at booking for the unattended-car beach days and the Lovćen mountain runs. Optional add-ons cover most realities of a Riviera stay: under-1, regular and booster child seats fitted before handover, a Winter Pack with ski rack, snowboard rack or a roof rack for Durmitor weekends, a portable wireless hotspot or a Montenegrin SIM card for guests working remotely from Sveti Stefan apartments, and an electric scooter with charger for the short hops into Old Town when the rental can stay parked. Cross-border cover for Croatia, Albania, Bosnia, Serbia and Kosovo is priced in three tiers, the third tier the one a Mostar-then-Belgrade Balkans-loop renter wants on the booking, and the Green Card paperwork is prepared at the time you confirm.",
     "pickupTitle": "Pickup and drop-off",
     "pickupP1": "We meet every arriving flight at Tivat Airport (TIV), 20 km from Budva, 25 to 30 minutes drive. Late-night arrivals included, no surcharge. Alternatively we can deliver to your Budva hotel, or the Old Town pedestrian entrance for easy meet-up on arrival day.",
     "pickupP2": "Cross-border drop-off available to Dubrovnik Airport with advance notice.",
