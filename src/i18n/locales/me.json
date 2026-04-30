@@ -291,7 +291,7 @@
     },
     "1": {
       "q": "Mogu li voziti do Hrvatske ili Albanije?",
-      "a": "Hrvatska je 2 sata vožnje preko graničnog prelaza Debeli Brijeg, Zelenu kartu pripremamo pri rezervaciji. Albanija zahtijeva zasebnu dokumentaciju za Zelenu kartu, pa nas obavijestite unaprijed. Bosna, Srbija i Kosovo su takođe dozvoljeni."
+      "a": "Da, sa Zelenom kartom obračunatom u tri transparentne tarifne kategorije pri rezervaciji. Prva kategorija odgovara primorskom skoku do Trebinja ili dnevnom izletu u Dubrovnik, susjedne zemlje bez Albanije i Kosova. Druga kategorija otvara Albaniju i Kosovo za rutu od Skadarskog jezera do Šokdre ili unutrašnji prelaz Rožaje. Treća kategorija pravljena je za duži balkanski krug, jedan dan Mostar i sljedeći Beograd, i seže daleko izvan neposrednih susjeda. Odaberite kategoriju koja odgovara vašem itinereru, a dokumentacija pri primopredaji već je u pretincu za rukavice."
     },
     "2": {
       "q": "Postoji li minimalna starosna granica?",
@@ -332,6 +332,10 @@
     "11": {
       "q": "Mogu li iznajmiti bez kreditne kartice?",
       "a": "Mali broj vozila u floti dostupan je bez kreditne kartice. Te opcije su jasno označene u rezultatima pretrage kada filtrirate prema lokaciji preuzimanja."
+    },
+    "12": {
+      "q": "Koje dodatke mogu označiti pri rezervaciji?",
+      "a": "Mnogo, a većinu biraju gosti sa Rivijere iz vrlo konkretnih razloga. Theft Protection je dodatak za koji se odlučuju gosti koji provode plažne dane u Bečićima i Jazu, kada auto ostaje bez nadzora na javnom parkingu. PAI pokriva vozača i putnike na lovćenskim serpentinama. Winter Pack se kombinuje sa nosačem za skije ili snowboard za izlete u Žabljak i Durmitor, a krovni nosač prima glomaznu opremu. Dječija sjedišta dostupna su u tri veličine, do 1 godine, standardno i bustersko, montiraju se prije preuzimanja. Predpunjena crnogorska SIM kartica ili prenosivi wifi hotspot omiljeni su izbor digital-nomad gostiju koji ostaju nedjelju ili duže u apartmanima u Petrovcu i Svetom Stefanu. Tu je i električni trotinet sa punjačem, zgodan za kratki skok do Budva Old Town kada auto radije ostaje u garaži apartmana."
     }
   },
   "destCards": {
@@ -417,7 +421,7 @@
     "h2": "Zašto smo počeli",
     "p2": "Redovni autobusi prate glavnu magistralu i tu se zaustavljaju. To je cjelokupan obim javnog prevoza. Neće skrenuti do neoznačenog vidikovca iznad Rafailovićia gdje se zaliv dijeli na dva svjetlucava kraka. Ne mogu zastati pored rimske vile u Risnu niti savladati jednotračni put do Gornjeg Stoliva, napuštenog sela koje se drži litica 400 metara iznad vodene linije. Samo sopstveni točkovi i spremnost na istraživanje zaista otključavaju Bokobudvaski zaliv.",
     "h3": "Šta nudimo",
-    "p3": "Nudimo preuzimanje širom zaliva: aerodrom Tivat Airport (8 km od bedema Budvaa), direktno ispred parkinga kod Riječnih vrata, kao i u više od 28 gradova od Herceg Novog do Ulcinja. Ekonomična hečbek vozila s lakoćom prolaze prilaznim putevima starom gradu. SUV modeli bez napora savladavaju Kosmačske serpentine. Svako vozilo ima puno osiguranje, a prekogranična dokumentacija za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo organizuje se u trenutku rezervacije.",
+    "p3": "Nudimo preuzimanje širom zaliva: aerodrom Tivat Airport (8 km od bedema Budvaa), direktno ispred parkinga kod Riječnih vrata, kao i u više od 28 gradova od Herceg Novog do Ulcinja. Ekonomična hečbek vozila s lakoćom prolaze prilaznim putevima starom gradu. SUV modeli bez napora savladavaju lovćenske serpentine. Dodajte crnogorsku SIM karticu ili wifi hotspot pri rezervaciji i stižete već povezani, omiljeno podešavanje gostiju koji se baziraju u apartmanima u Petrovcu zbog nedelju dana rada na daljinu između izleta. Svako vozilo ima puno osiguranje, a prekogranična dokumentacija za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo organizuje se u trenutku rezervacije, sa tri tarifne kategorije zavisno od toga koliko daleko planirate da idete.",
     "promiseTitle": "Naše obećanje",
     "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
     "promise2": "Imenovani predstavnik na dolascima u Tivtu, sa natpisom u ruci, vozilo parkirano ispred",
@@ -434,7 +438,7 @@
     "h7": "Tipicna Sedmica za Volanom",
     "p7": "Ponedjeljak ujutro: preuzimanje na aerodromu Tivat Airport, voznja putem uz zaliv do Budvaa, popodne unutar zidina Starog grada. Utorak: na sjever kroz Dobrotu i Rafailovići, camac do Gospe od Skrpjela, povratak kroz Risan do rimskih mozaika. Srijeda: lovcenska serpentina do Njegusa po dimljeni prsut i planinski sir, zatim spust do cetinjskog manastira. Cetvrtak: budvanske plaze rivijere kroz tunel, sa skretanjem do Svetog Stefana za razglednicku fotografiju. Petak: prelazak granice na Debelom Brijegu i popodne u dubrovackoj luci. Subota: Skadarsko jezero vinogradarskim putevima, voznja camcem kod Virpazara, povratak kroz Sozina tunel. Nedjelja: vracanje auta na Tivtu. Citav krug pokriva otprilike 500 km. Trosak goriva: priblizno 50 do 60 eura po trenutnim cijenama dizela. Nijedan autobus, turisticka grupa niti taksi to ne moze ponoviti ni po kojoj cijeni.",
     "h8": "Sezonski Savjeti od Tima",
-    "p8": "Ljeto donosi kruzere, do cetiri broda dnevno izmedu juna i septembra, a sa njima otprilike 8.000 putnika koji prelave Stari grad izmedu 09:00 i 14:00. Savjetujemo da stignete rano ili parkirate u Dobroti i pjesacite 800 metara do Morskih vrata. Zima pretvara zaliv u mirnije mjesto: manje posjetilaca, nize cijene i planinski putevi koji se povremeno zatvaraju iznad 1.200 metara zbog snijega. Proljece i jesen su idealno vrijeme. Aprila divlje cvijece oivicava put uz zaliv, septembar jos nudi toplo more bez guzvi, a lovcenski put je otvoren i nenapucen."
+    "p8": "Ljeto donosi kruzere, do cetiri broda dnevno izmedu juna i septembra, a sa njima otprilike 8.000 putnika koji prelave Stari grad izmedu 09:00 i 14:00. Savjetujemo da stignete rano ili parkirate u Dobroti i pjesacite 800 metara do Morskih vrata. Za duge plazne dane koji slijede, Theft Protection je dodatak koji redovni gosti Rivijere najcesce oznacavaju, vozilo stoji na javnom parkingu od 09:00 do zalaska sunca, a osiguranje skida brigu sa stola. Zima pretvara zaliv u mirnije mjesto: manje posjetilaca, nize cijene i stalan tok gostiju koji idu na sjever na vikende u Durmitoru, Winter Pack i nosač za skije ili snowboard ukljucuju se pri rezervaciji, a oprema se montira prije preuzimanja. Proljece i jesen su idealno vrijeme. Aprila divlje cvijece oivicava put uz zaliv, septembar jos nudi toplo more bez guzvi, a lovcenski put je otvoren i nenapucen."
   },
   "budvaBody": {
     "h1": "Budva -- Srce Crnogorske Rivijere",
@@ -1879,7 +1883,7 @@
     "whyP2Link2": "lovćenske serpentine",
     "whyP2End": " preko Njeguša prema Cetinju.",
     "includedTitle": "Šta je uključeno",
-    "includedP1": "Svaki najam uključuje CDW osiguranje, odgovornost prema trećim licima, PDV, neograničenu kilometražu u većini kategorija i podršku. Dostupna je nadogradnja osiguranja bez učešća. Prekogranična pokrivenost (Hrvatska, Albanija, Bosna, Srbija, Kosovo) dodaje se na zahtjev uz Zelenu kartu pripremljenu u trenutku rezervacije.",
+    "includedP1": "Svaki najam uključuje CDW osiguranje, odgovornost prema trećim licima, PDV, neograničenu kilometražu u većini kategorija i podršku. Dostupna je nadogradnja osiguranja bez učešća, a Theft Protection ili PAI pokriće označava se pri rezervaciji za plažne dane sa autom bez nadzora i za planinske vožnje na Lovćenu. Opcioni dodaci pokrivaju većinu situacija tokom boravka na Rivijeri: dječija sjedišta do 1 godine, standardna i busterska, montirana prije primopredaje, Winter Pack sa nosačem za skije, snowboard ili krovnim nosačem za vikende na Durmitoru, prenosivi wifi hotspot ili crnogorska SIM kartica za goste koji rade na daljinu iz apartmana u Svetom Stefanu, i električni trotinet sa punjačem za kratke skokove do Old Towna kada vozilo može ostati parkirano. Prekogranično pokriće za Hrvatsku, Albaniju, Bosnu, Srbiju i Kosovo tarifirano je u tri kategorije, treća je ona koju na rezervaciji želi gost koji planira balkanski krug Mostar-pa-Beograd, a dokumentacija Zelene karte priprema se u trenutku potvrde.",
     "pickupTitle": "Preuzimanje i vraćanje",
     "pickupP1": "Dočekujemo svaki let na aerodromu Tivat (TIV), 20 km od Budve, 25 do 30 minuta vožnje. Kasni dolasci uključeni, bez doplate. Alternativno, dostavljamo do vašeg hotela u Budvi ili pješačkog ulaza u Stari grad za lak susret na dan dolaska.",
     "pickupP2": "Prekogranično vraćanje dostupno na aerodrom Dubrovnik uz najavu.",
