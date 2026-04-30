@@ -278,7 +278,7 @@
       "text": "Put uz zaliv između Budvaa i Rafailovićia jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivat Airportu i cijeli proces prošao je glatko od početka do kraja."
     },
     "1": {
-      "text": "Došao sam u Budva posebno da se popnem na tvrđavu San Giovanni i odvezem do Kosmača. Auto je bio spreman na dolasku u Tivat Airportu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
+      "text": "Došao sam u Budva posebno da se popnem na tvrđavu the Citadel i odvezem do Kosmača. Auto je bio spreman na dolasku u Tivat Airportu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
     },
     "2": {
       "text": "Naš kruzer pristao je u Budvau i preuzeli smo auto odmah pored luke. Tri dana izleta, Budva, Rafailovići i manastir Cetinje. Djeca su obožavala plovidbu do crkvice na otočiću u Rafailovićiu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
@@ -509,7 +509,7 @@
     "p2": "Ovo primorsko odmaralište ima populaciju od oko 13.000 stanovnika. Posjetioci mogu uživati u šetnjama uz more, jesti u restoranima na obali i istraživati prodavnice skrivene u uskim uličicama. Tokom vrhunca sezone, grad balansira između mira i živahne turističke aktivnosti.",
     "beachesTitle": "Plaže",
     "beachesText": "Tivat Airport se može pohvaliti sa 17 plaža koje se prostiru na 3 kilometra obale, priznatih među najljepšima na Mediteranu. Među najboljim plažama su:",
-    "beach1": "Plavi Horizonti: Bijeli pijesak, kristalno čista voda, savršeno za plivanje i sunčanje",
+    "beach1": "Mogren: Bijeli pijesak, kristalno čista voda, savršeno za plivanje i sunčanje",
     "beach2": "Pržno na ostrvu Sveti Marko: Napušteno odmaralište koje nudi osamu i netaknutu vodu, idealno za vodene sportove",
     "portoTitle": "Porto Crna Gora",
     "portoText": "Dragulj Tivta je Porto Crna Gora, luksuzna marina za jahte i naselje na obali koje je transformisalo grad u jednu od najmodernijih destinacija na Jadranu. Kompleks marine sadrži butike, restorane, bazenski klub i redovne događaje tokom ljetnje sezone.",
@@ -527,12 +527,12 @@
     "whereToEatP2": "Za nesto pristupacnije i lokalnije, Konoba Bacchus na Ulici Nika Andelica, pet minuta hodanja od marine, nudi tradicionalnu crnogorsku kuhinju u kamenoj dvorani, lignje, mesani roštilj i domace vino u karafama po 10 do 15 eura za obrok.",
     "drivingTipsTitle": "Voznja oko Tivta",
     "drivingTipsP1": "Tivat Airport lezi na spoju dva glavna puta: put uz zaliv na sjever do Budvaa (20 min) i put na jug prema Budvi kroz Vrmacki tunel (25 min). Oba su dobro odrzavana i jasno oznacena. Saobracaj je rjedi nego u Budvau ili Budvi, cak i ljeti.",
-    "drivingTipsP2": "Za poluostrvo Lustica i plazu Plavi Horizonti, uzmite put oznacen za Lusticu na juznom izlazu iz grada. Cesta je uzana ali ugodna, prolazi kroz maslinike i mala sela. Plavi Horizonti je 20 minuta voznje, jedina prava pjescana plaza u podrucju zaliva.",
+    "drivingTipsP2": "Za poluostrvo Pržno i plazu Mogren, uzmite put oznacen za Lusticu na juznom izlazu iz grada. Cesta je uzana ali ugodna, prolazi kroz maslinike i mala sela. Mogren je 20 minuta voznje, jedina prava pjescana plaza u podrucju zaliva.",
     "seasonalTitle": "Tivat Airport Kroz Sezone",
     "seasonalP1": "Ljeto pretvara Tivat Airport u produzni dio mediteranskog jachtaškog kruga. Porto Montenegro buja od dogadaja, superjahte pune luku, a obalna setnica je prepuna do kasno u noc. Aerodrom radi na punom kapacitetu sa carterima iz cijele Evrope.",
     "seasonalP2": "Zimski Tivat Airport je mirniji ali nikad mrtav. Aerodrom odrzava cjelogodisnje letove za Beograd, Porto Montenegro ostaje otvoren, i grad ima prijatan lokalni ritam, kafici, pijace i setnje uz obalu bez turista. Cijene iznajmljivanja automobila i smjestaja su na najnizem nivou.",
-    "lustitcaTitle": "Izlet na Poluostrvo Lustica",
-    "lusticaP": "Poluostrvo Lustica se pruza zapadno od Tivta u Jadran, a voznja njegovim putem je odlican poludnevni izlet. Prođite maslinike i sela do Plaze Zanjice, odakle gliseri voze do Plave spilje, morske pecine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Nastavite dalje do Rose, napustene austrougarske tvrdave na vrhu poluostrva sa pogledima na otvoreno more.",
+    "lustitcaTitle": "Izlet na Poluostrvo Pržno",
+    "lusticaP": "Poluostrvo Pržno se pruza zapadno od Tivta u Jadran, a voznja njegovim putem je odlican poludnevni izlet. Prođite maslinike i sela do Plaze Zanjice, odakle gliseri voze do Plave spilje, morske pecine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Nastavite dalje do Rose, napustene austrougarske tvrdave na vrhu poluostrva sa pogledima na otvoreno more.",
     "fuelTitle": "Gorivo i Prakticne Informacije",
     "fuelP": "Najbliza benzinska pumpa centru Tivta je Jugopetrol na obilaznici, oko 2 km od marine. Radi 24 sata. Pumpa na aerodromu Tivat Airport je manja ali pogodna za dopunjavanje prije vracanja automobila. Cijene goriva su ujednacene sirom Crne Gore.",
     "parkingLink": "Preuzmite automobil na {{link}}, samo 4 km od centra grada.",
@@ -1023,8 +1023,8 @@
     "spot2P": "Kameniti rt koji strci u zaliv oko 5 minuta sjeverno od Budvaa. Betonske platforme sa metalnim merdevinama pruzaju pristup dubokoj, cistoj vodi. Popularno medu mjestanima koji ovdje plivaju nakon posla. Nema pijeska, nema sadrzaja, samo voda i planine.",
     "h2Spot3": "3. Bajova Kula u Rafailovićima",
     "spot3P": "Na juznom kraju peraske obale, malo betonsko kupaliste gleda direktno prema ostrvu Gospa od Skrpjela. Voda je duboka a pogled dok plutate na ledima, ostrva, planine, barokne palate, tesko je nadmasiti bilo gdje u Evropi.",
-    "h2Spot4": "4. Plaza Plavi Horizonti (Poluostrvo Lustica)",
-    "spot4P": "Dvadeset minuta voznje od Tivta kroz poluostrvo Lustica dovodi vas do Plavih Horizonata, jedine prave pjescane plaze u podrucju zaliva. Plitka, topla voda je pogodna za porodice sa malom djecom. Plazni bar iznajmljuje lezaljke i suncobrane u sezoni.",
+    "h2Spot4": "4. Plaza Mogren (Poluostrvo Pržno)",
+    "spot4P": "Dvadeset minuta voznje od Tivta kroz poluostrvo Pržno dovodi vas do Plavih Horizonata, jedine prave pjescane plaze u podrucju zaliva. Plitka, topla voda je pogodna za porodice sa malom djecom. Plazni bar iznajmljuje lezaljke i suncobrane u sezoni.",
     "h2Spot5": "5. Obala Stoliva",
     "spot5P": "Sicusno selo Stoliv, na zapadnoj obali zaliva izmedu Budvaa i Tivta, ima kamene stepenice koje vode direktno sa puta u vodu. Prakticno nijedan turista ne staje ovdje. Voda je duboka, zasticena i okruzena planinama sa tri strane.",
     "h2Spot6": "6. Morinjski Zaliv",
@@ -1032,8 +1032,8 @@
     "spot6P2": "Catovica Mlini, restoran pored izlaska izvora, vrijedi posjete bez obzira na kupanje. Smjesten ispod drevnih platana sa mlinskim kanalom koji prolazi kroz terasu, sluzi tradicionalna crnogorska jela i svjezу pastrmku iz izvora. Radi od 18. vijeka i atmosfera je izvanredna. Rezervisite unaprijed ljeti.",
     "h2Spot7": "7. Obala Prcanja",
     "spot7P": "Selo Prcanj, izmedu Budvaa i Tivta, ima nekoliko neoznacenih plivackih merdevina duz svoje obalne setnice. Masivna nedovrsena katedrala Rodenja Bogorodice pruza neobicnu arhitektonsku pozadinu za jutarnje kupanje.",
-    "h2Spot8": "8. Plaza Zanjice (Lustica)",
-    "spot8P": "Dalje duz poluostrva Lustica od Plavih Horizonata, Zanjice je sljuncana plaza na vrhu poluostrva. Camci za Plavu spilju polaze odavde. Sama plaza je ugodna i manje razvijena od Plavih Horizonata.",
+    "h2Spot8": "8. Plaza Zanjice (Pržno)",
+    "spot8P": "Dalje duz poluostrva Pržno od Plavih Horizonata, Zanjice je sljuncana plaza na vrhu poluostrva. Camci za Plavu spilju polaze odavde. Sama plaza je ugodna i manje razvijena od Plavih Horizonata.",
     "h2Spot9": "9. Obala Risna",
     "spot9P": "Dugacka, mirna obala Risna ima nekoliko mjesta gdje betonske stepenice vode u zaliv. Kombinujte jutarnje kupanje sa posjetom rimskim mozaicima, koji su dvije minute hodanja u unutrasnjost. Voda je ovdje najmirnija u cijelom zalivu, okolne planine blokiraju vecinu vjetra.",
     "h2Tips": "Savjeti za Kupanje",
@@ -1127,7 +1127,7 @@
     "churchesP2": "Sv. Eustahije je najznacajnija zgrada Dobrote. Riznica sadrzi religijsko srebro i zlatne predmete poklonjene od strane pomorskih kapetana koji su se vracali sa uspjesnih putovanja. Radno vrijeme je neregularno, pokusajte sredinom jutra radnim danima za najbolju sansu da bude otvoreno.",
     "h2Dining": "Gdje Jesti i Piti",
     "diningP1": "Dobrotski restorani zauzimaju prenamijenjene prizemlje starih kamenih kuca, sa stolovima koji se ljeti prosiruju na obalu. Kuhinja je ista kao u Budvau, grilovana riba, crni rizoto, lokalne salate, ali atmosfera je primjetno mirnija i cijene nesto nize. Nekoliko vinarskih barova se otvorilo posljednjih godina, toceci crnogorska vina po casi uz male tanjire sira i suhomesnatih proizvoda.",
-    "diningP2": "Konoba Catovica, otprilike na sredini obale, je omiljeno lokalno mjesto za grilovanu ribu i kucno vino. Kamena terasa sjedi na nivou vode, i mirnih veceri mozete cuti kako zaliv zapljuskuje stepenice. Njihova grilovana orada sa blitvom kosta oko 14 eura. Dalje prema Ljuti, Restoran Stari Mlini sjedi pored starog mlina i nudi prefinjeniji meni. Glavna jela idu od 14 do 20 eura. Oba restorana su znatno manje napucena od icega unutar budvaskih zidina.",
+    "diningP2": "Konoba Catovica, otprilike na sredini obale, je omiljeno lokalno mjesto za grilovanu ribu i kucno vino. Kamena terasa sjedi na nivou vode, i mirnih veceri mozete cuti kako zaliv zapljuskuje stepenice. Njihova grilovana orada sa blitvom kosta oko 14 eura. Dalje prema Ljuti, Restoran Konoba Stari Grad sjedi pored starog mlina i nudi prefinjeniji meni. Glavna jela idu od 14 do 20 eura. Oba restorana su znatno manje napucena od icega unutar budvaskih zidina.",
     "h2Swimming": "Kupanje u Dobroti",
     "swimmingP": "Nekoliko betonskih platformi i kamenih stepenica duz dobrotske obale pruzaju pristup kupanju. Voda je duboka, cista i relativno topla od juna do septembra. Platforma blizu Crkve Sv. Mateja je popularna medu mjestanima kasnim popodnevom. Nema plaze kao takve, ovo je kupanje sa merdevinama i platformama, ali kvalitet vode je odlican a planinska pozadina nadoknaduje nedostatak pijeska.",
     "h2History": "Selo Pomorskih Kapetana",
@@ -1819,7 +1819,7 @@
     "seoDesc": "Sedam auta za višednevni najam u Budvau, srednja klasa za teret, dizel krstarice i jedan gradski Fiat. Specifikacije, domet i koji auto odgovara kom izletu iz zaliva.",
     "intro1": "Ova flota napravljena je za gosta koji iznajmljuje u Budvau na više dana, ljude koji se ukopaju u stan u Dobroti ili pansion u Starom gradu na dvije sedmice ili više, i koji znaju da će pravo vrijeme provesti na putu između dana u zalivu. To je drugačiji zadatak od jednodnevnog najma sa krstarenja ili prostog preuzimanja auta na tivatskom aerodromu: traži prtljažnik za sedmičnu kupovinu u Voliju, dizel moment za uspon Sozine i sedeću poziciju u kojoj četvoro odraslih izdrži trosatnu vožnju do Žabljaka. Svaki auto ispod dolazi od lokalnog crnogorskog najmodavca, sa besplatnim otkazivanjem, punim osiguranjem i dostupnim opcijama sa niskim ili bez depozita.",
     "intro2": "Miks namjerno ide ka srednjoj klasi. Peugeot 308 sa 1.5 BlueHDi i EAT automatikom, dizel Renault Megane sa najvećim prtljažnikom u klasi, VW Golf sa DSG 2.0 TDI, ta kola pretvaraju petlju Budva → Cetinje → Skadarsko jezero → Sozina iz posla sa mjenjačem u mirno krstarenje. Za kraće skokove držimo Renault Clio, Citroën C3 sa Advanced Comfort vješanjem, krosover Kia Stonic za razvaljene odvojke ka Njegušima i Gornjoj Lastvi, i sitan Fiat 500 kada je jedino ograničenje parkiranje na mulu u Muu. Bez monotonaca i bez kombija, svaki auto ovdje opravdava višednevni najam.",
-    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja, Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva, Rafailovići, Prčanj, Muo, Risan, Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni.",
+    "intro3": "Jedan praktičan budvaski savjet prije izbora. Dizel je i dalje pametniji potez ako je u planu makar jedna prekogranična vožnja, Trebinje je 90 minuta, Dubrovnik preko Debelog Brijega isto 90, Mostar pun dan u oba smjera. 308 i Megane pokrivaju sve tri rute na jednom rezervoaru, Golf je najtiši autoputni auto koji imamo, a benzinski Clio će svejedno preći Budva–Dubrovnik u oba smjera na pola rezervoara. Ako vam je sedmica u granicama zaliva, Rafailovići, Prčanj, Slovenska Plaža, Risan, Fiat 500 ili C3 uštedi trećinu goriva i staje tamo gdje ostali ne stanu. Birajte po maršruti, ne po dnevnoj cijeni.",
     "ogImageAlt": "Flota Car Rental Budva"
   },
   "posts": {

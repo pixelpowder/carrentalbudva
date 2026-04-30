@@ -96,7 +96,7 @@
   "notFound": {
     "code": "404",
     "title": "Page non trouvée | Car Rental Budva",
-    "text": "Cette route ne mène nulle part, mais les plus belles routes de la baie de Boka sont à un clic de distance.",
+    "text": "Cette route ne mène nulle part, mais les plus belles routes de la riviera de Budva sont à un clic de distance.",
     "backHome": "Retour à l'Accueil",
     "searchCars": "Rechercher"
   },
@@ -150,7 +150,7 @@
       "text": "La route de la baie entre Budva et Rafailovići est l'un des plus beaux trajets que nous ayons jamais faits. Nous nous sommes arrêtés à chaque belvédère et avons pris le bateau jusqu'à Notre-Dame du Rocher. Avoir la voiture nous a permis de tout faire à notre propre rythme. Prise en charge facile à Tivat Airport et tout s'est déroulé sans accroc du début à la fin."
     },
     "1": {
-      "text": "Je suis venu à Budva spécialement pour gravir la forteresse San Giovanni et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat Airport avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord, escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
+      "text": "Je suis venu à Budva spécialement pour gravir la forteresse the Citadel et monter jusqu'au Lovcen. La voiture était prête aux arrivées de Tivat Airport avant même que j'aie trouvé la sortie. La route en lacets jusqu'au mausolée est comme rien de ce que j'ai conduit en Amérique du Nord, escarpée, étroite, spectaculaire. Je réserverai à nouveau sans hésiter."
     },
     "2": {
       "text": "Notre croisière a accosté à Budva et nous avons récupéré la voiture directement près du port. Trois jours d'excursions, Budva, Rafailovići et le monastère de Cetinje. Les enfants ont adoré la sortie en bateau vers l'église-île de Rafailovići. L'équipe a réglé les formalités rapidement et le siège enfant était déjà installé à notre arrivée."
@@ -280,7 +280,7 @@
     "blog/kotor-day-trip-from-budva": {
       "name": "Kotor",
       "tag": "30 min en voiture",
-      "desc": "La vieille ville fortifiée classée et la montée à la forteresse San Giovanni."
+      "desc": "La vieille ville fortifiée classée et la montée à la forteresse the Citadel."
     }
   },
   "hero": {
@@ -326,12 +326,12 @@
   },
   "about": {
     "title": "À Propos",
-    "subtitle": "Enracinés dans la baie de Boka, forts de 15 ans d'expérience sur les routes côtières.",
+    "subtitle": "Enracinés dans la riviera de Budva, forts de 15 ans d'expérience sur les routes côtières.",
     "seoDesc": "Locations à Budva conçues pour la côte adriatique: tarifs fixes, assurance incluse, retrait à l'aéroport de Tivat et accompagnement sur la Budva Riviera.",
     "heading1": "Car Rental Budva",
     "p1": "Depuis 2007, Car Rental Budva aide les visiteurs à explorer la baie de Budva à leur rythme. Ce qui a commencé comme une modeste flotte desservant le port s'est développé en l'une des agences de location les plus fiables de la baie, mettant en relation les voyageurs avec des véhicules adaptés aux ruelles côtières étroites, aux lacets de montagne et aux road trips transfrontaliers.",
     "heading2": "Pourquoi nous avons commencé",
-    "p2": "La baie de Boka récompense ceux qui se promènent sans emploi du temps. Les hameaux côtiers, les monastères perchés sur les falaises et les criques cachées se trouvent au-delà de la portée des rares bus locaux. Nous avons compris que donner aux visiteurs un jeu de clés de voiture était le moyen le plus simple de révéler tout le potentiel de la baie, pas de visites de groupe, pas d'horaires fixes, aucun compromis.",
+    "p2": "La riviera de Budva récompense ceux qui se promènent sans emploi du temps. Les hameaux côtiers, les monastères perchés sur les falaises et les criques cachées se trouvent au-delà de la portée des rares bus locaux. Nous avons compris que donner aux visiteurs un jeu de clés de voiture était le moyen le plus simple de révéler tout le potentiel de la baie, pas de visites de groupe, pas d'horaires fixes, aucun compromis.",
     "heading3": "Ce que nous proposons",
     "p3a": "Nous proposons des services de location de voitures dans toute",
     "p3Link1": "la baie de Budva",
@@ -405,7 +405,7 @@
   },
   "aboutBody": {
     "h1": "Nés au Bord de la Baie, Forgés sur les Routes Locales",
-    "p1": "Nos racines remontent à 2007, quand deux habitants qui ont passé leur enfance à gravir les marches de San Giovanni ont décidé de faire découvrir la baie au monde entier. Ce qui a commencé avec trois voitures et un téléphone portable est devenu une flotte couvrant citadines, SUV et berlines premium, toutes entretenues pour les conditions de la baie de Boka, des ruelles pavées devant Saint-Tryphon aux 25 virages de la serpentine du Lovcen.",
+    "p1": "Nos racines remontent à 2007, quand deux habitants qui ont passé leur enfance à gravir les marches de the Citadel ont décidé de faire découvrir la baie au monde entier. Ce qui a commencé avec trois voitures et un téléphone portable est devenu une flotte couvrant citadines, SUV et berlines premium, toutes entretenues pour les conditions de la riviera de Budva, des ruelles pavées devant Sainte-Trinité aux 25 virages de la serpentine du Lovcen.",
     "h2": "Pourquoi une Voiture Change Tout Ici",
     "p2": "Les bus suivent la route principale et s'arrêtent. C'est toute l'étendue des transports en commun. Ils ne feront pas de détour vers le belvédère au-dessus de Rafailovići où la baie se divise en deux bras scintillants. Ils ne peuvent pas s'arrêter près de la villa romaine de Risan ni emprunter la route à voie unique vers Gornji Stoliv, le village fantôme accroché aux falaises à 400 mètres au-dessus de l'eau. Seul votre propre véhicule et une envie d'explorer vous révèlent vraiment la Budva Riviera.",
     "h3": "Flotte et Points de Prise en Charge",
@@ -501,7 +501,7 @@
     "p2": "Pour les voyageurs arrivant à l'aéroport de Tivat Airport (code TIV, à 4 km du centre-ville et 8 km de Budva), la ville sert à la fois de porte d'entrée et de destination. Récupérez une voiture de location aux arrivées et vous pouvez être dans les remparts de Budva en vingt minutes, ou assis dans un bar de plage à Tivat Airport en cinq.",
     "beachesTitle": "Dix-sept Plages, Trois Kilomètres",
     "beachesText": "La commune de Tivat Airport compte 17 plages le long de 3 km de côte. Deux méritent particulièrement le détour :",
-    "beach1": "Plavi Horizonti (Horizons Bleus) sur la péninsule de Lustica : sable fin blanc dans une crique abritée, eau si transparente qu'on peut compter les galets à trois mètres",
+    "beach1": "Mogren (Horizons Bleus) sur la péninsule de Pržno : sable fin blanc dans une crique abritée, eau si transparente qu'on peut compter les galets à trois mètres",
     "beach2": "Plages de l'île Sveti Marko près de Przno : vestiges d'un resort des années 1960, désormais à moitié repris par la nature. Des bateaux-taxis circulent depuis le port de Przno en été",
     "portoTitle": "Porto Montenegro : Le Quartier de la Marina",
     "portoText": "Les anciennes cales sèches de l'Arsenal abritent désormais des superyachts allant jusqu'à 250 mètres. Le village en front de mer a été construit avec des boutiques, un club de piscine, des restaurants et une collection du patrimoine naval installée dans les anciens bâtiments de réparation de sous-marins. Les soirées d'été apportent des événements en plein air sur le quai.",
@@ -513,18 +513,18 @@
     "museumText": "Le musée maritime de Budva, à vingt minutes en voiture, met en contexte le passé naval de Tivat Airport. Les expositions couvrent des siècles de navigation dans la Boka sous les drapeaux vénitien et austro-hongrois.",
     "parkingTitle": "Stationnement à Tivat Airport",
     "parkingP1": "Se garer à Tivat Airport est considérablement plus facile qu'à Budva ou Budva. Porto Montenegro dispose de son propre parking à étages à 1 euro de l'heure, avec la première heure gratuite. Le stationnement sur la promenade principale fonctionne à 0,50 euro de l'heure, l'un des moins chers de la côte.",
-    "parkingP2": "Le parking à côté du centre sportif de Tivat Airport, à 400 mètres de Porto Montenegro, est gratuit et rarement plein. Pour la plage de Plavi Horizonti, un parking dédié au bout de la route d'accès facture 3 euros la journée en été.",
+    "parkingP2": "Le parking à côté du centre sportif de Tivat Airport, à 400 mètres de Porto Montenegro, est gratuit et rarement plein. Pour la plage de Mogren, un parking dédié au bout de la route d'accès facture 3 euros la journée en été.",
     "whereToEatTitle": "Où Manger à Tivat Airport",
     "whereToEatP1": "One, dans le complexe Porto Montenegro, sert des plats méditerranéens créatifs dans un cadre qui évoque plutôt Dubrovnik ou Monaco que le Monténégro. Le poulpe grillé avec purée de pomme de terre fumée est leur spécialité, et un repas revient à 20-30 euros par personne.",
     "whereToEatP2": "Pour quelque chose de plus abordable, Konoba Bacchus sur Ulica Nika Andelica sert d'énormes portions d'agneau et de veau grillés sous le sac (un dôme en métal traditionnel). Un dîner complet pour deux coûte 25 à 35 euros. L'atmosphère est authentiquement monténégrine.",
     "drivingTipsTitle": "Conduire Autour de Tivat Airport",
     "drivingTipsP1": "Tivat Airport se trouve à la jonction de deux routes principales : la route de la baie vers Budva au nord (20 min) et la route côtière vers Budva au sud via le tunnel du Vrmac (25 min). Les deux sont bien entretenues. Le tunnel du Vrmac est le principal goulot d'étranglement, il porte le trafic dans les deux sens dans un seul tube.",
-    "drivingTipsP2": "Pour la péninsule de Lustica et la plage de Plavi Horizonti, prenez la route indiquée Lustica au rond-point de Tivat Airport. La route de la péninsule est étroite et sinueuse mais goudronnée. Attention aux cyclistes, les routes calmes de Lustica attirent les groupes de cyclisme.",
+    "drivingTipsP2": "Pour la péninsule de Pržno et la plage de Mogren, prenez la route indiquée Pržno au rond-point de Tivat Airport. La route de la péninsule est étroite et sinueuse mais goudronnée. Attention aux cyclistes, les routes calmes de Pržno attirent les groupes de cyclisme.",
     "seasonalTitle": "Tivat Airport au Fil des Saisons",
     "seasonalP1": "L'été transforme Tivat Airport en prolongement du circuit méditerranéen des yachts. Porto Montenegro se remplit de navires à millions d'euros, le club de piscine fonctionne à pleine capacité, et les bars en front de mer restent ouverts après minuit.",
     "seasonalP2": "L'hiver à Tivat Airport est plus calme mais jamais mort. L'aéroport maintient des vols toute l'année vers Belgrade, les cafés de la promenade restent ouverts, et les restaurants de Porto Montenegro continuent de fonctionner.",
-    "lustitcaTitle": "Road Trip sur la Péninsule de Lustica",
-    "lusticaP": "La péninsule de Lustica s'étend à l'ouest de Tivat Airport dans l'Adriatique, et la parcourir en voiture fait une demi-journée d'aventure. Au-delà de Plavi Horizonti, la route continue jusqu'à la plage de Zanjice à la pointe de la péninsule, d'où des bateaux partent vers la Grotte Bleue (Plava Spilja). L'aller-retour depuis Tivat Airport fait environ 50 km. Emportez un maillot et prévoyez du temps pour au moins deux arrêts plage.",
+    "lustitcaTitle": "Road Trip sur la Péninsule de Pržno",
+    "lusticaP": "La péninsule de Pržno s'étend à l'ouest de Tivat Airport dans l'Adriatique, et la parcourir en voiture fait une demi-journée d'aventure. Au-delà de Mogren, la route continue jusqu'à la plage de Zanjice à la pointe de la péninsule, d'où des bateaux partent vers la Grotte Bleue (Plava Spilja). L'aller-retour depuis Tivat Airport fait environ 50 km. Emportez un maillot et prévoyez du temps pour au moins deux arrêts plage.",
     "fuelTitle": "Carburant et Informations Pratiques",
     "fuelP": "La station-service la plus proche du centre de Tivat Airport est une Jugopetrol sur la route de contournement, à environ 1 km au nord de l'entrée de Porto Montenegro. Elle dispose d'une supérette, d'une pompe à air et d'un lave-auto. Le diesel et l'essence coûtent environ 1,45 à 1,55 euro le litre. Les distributeurs de billets se trouvent le long de la promenade de Porto Montenegro et à l'intérieur du terminal de l'aéroport.",
     "parkingLink": "Récupérez votre voiture à {{link}}, à seulement 4 km du centre-ville.",
@@ -812,7 +812,7 @@
       },
       "kotor-day-trip-from-budva": {
         "title": "Excursion à Kotor depuis Budva, ce qu il faut voir en quatre heures",
-        "excerpt": "Trente minutes de route côtière : vieille ville fortifiée, montée à la forteresse San Giovanni, et retour à la plage de Budva au coucher du soleil."
+        "excerpt": "Trente minutes de route côtière : vieille ville fortifiée, montée à la forteresse the Citadel, et retour à la plage de Budva au coucher du soleil."
       }
     },
     "card_budvatobarferryport_title": "De Budva au port de Bar, en route vers le ferry de Bari pour l Italie",
@@ -824,7 +824,7 @@
     "card_drobnipijesakcove_title": "Drobni Pijesak, la petite crique de sable du clan Paštrovići",
     "card_drobnipijesakcove_excerpt": "Un croissant de sable fin de 250 mètres entre Sveti Stefan et Petrovac, et le parlement à ciel ouvert qui s y tenait jadis.",
     "card_kotordaytripfrombudva_title": "Excursion à Kotor depuis Budva, ce qu il faut voir en quatre heures",
-    "card_kotordaytripfrombudva_excerpt": "Trente minutes de route côtière : vieille ville fortifiée, montée à la forteresse San Giovanni, et retour à la plage de Budva au coucher du soleil.",
+    "card_kotordaytripfrombudva_excerpt": "Trente minutes de route côtière : vieille ville fortifiée, montée à la forteresse the Citadel, et retour à la plage de Budva au coucher du soleil.",
     "card_milocerparkvilla_title": "Parc Miločer et Villa Miločer, la retraite royale d été près de Sveti Stefan",
     "card_milocerparkvilla_excerpt": "Dix-huit hectares de parc méditerranéen, une villa des années 1930 construite pour la reine Marija, et la plage que la famille royale yougoslave gardait pour elle.",
     "card_mogrenbeachdukleytunnel_title": "Plage Mogren et le tunnel de la falaise, deux criques cachées au nord du vieux Budva",
@@ -849,7 +849,7 @@
     "subtitle": "Au-delà de la cathédrale, les ruelles médiévales cachent une douzaine de sanctuaires plus petits, certains ouverts, d'autres derrière des portes anonymes, tous dignes d'être découverts.",
     "description": "Un guide pédestre des églises et chapelles cachées dans la vieille ville de Budva. Emplacements, horaires d'ouverture et histoires derrière chaque espace sacré.",
     "h2Intro": "Une Ville Bâtie sur la Foi et la Pierre",
-    "introP1": "La vieille ville de Budva mesure à peine 600 mètres d'une porte à l'autre, pourtant elle abrite plus de vingt églises et chapelles dans ses murs. Les visiteurs affluent à la cathédrale Saint-Tryphon, photographient ses deux tours et passent à autre chose. Pendant ce temps, une douzaine de sanctuaires plus petits restent ouverts dans des ruelles tranquilles, leurs intérieurs ornés de fresques vus par presque personne.",
+    "introP1": "La vieille ville de Budva mesure à peine 600 mètres d'une porte à l'autre, pourtant elle abrite plus de vingt églises et chapelles dans ses murs. Les visiteurs affluent à la cathédrale Sainte-Trinité, photographient ses deux tours et passent à autre chose. Pendant ce temps, une douzaine de sanctuaires plus petits restent ouverts dans des ruelles tranquilles, leurs intérieurs ornés de fresques vus par presque personne.",
     "introP2": "Ce guide couvre six des plus remarquables. Tous sont dans la vieille ville, tous sont gratuits (dons bienvenus), et aucun n'apparaît dans la visite standard des croisiéristes.",
     "h2StLuke": "Église Saint-Luc (Sveti Luka)",
     "stLukeP1": "Construite en 1195, Saint-Luc se trouve sur la petite place du même nom. Pendant des siècles, elle a servi simultanément les congrégations orthodoxe et catholique, un arrangement à double autel qu'on ne trouve pratiquement nulle part ailleurs en Europe. L'intérieur est sombre, l'iconostase richement peint, et le sol en pierre usé porte l'empreinte de huit cents ans de fidèles.",
@@ -899,14 +899,14 @@
   "blogVrmacRidgeTrail": {
     "title": "Conduire et Randonner sur la Crête du Vrmac entre Budva et Tivat Airport",
     "subtitle": "La crête boisée séparant la baie intérieure de la baie extérieure, garez-vous au départ du sentier et marchez jusqu'à la forteresse austro-hongroise au sommet.",
-    "description": "Guide de randonnée sur la crête du Vrmac entre Budva et Tivat Airport. Parking au départ du sentier, options d'itinéraire, la forteresse austro-hongroise et les vues panoramiques des deux côtés de la baie de Boka.",
+    "description": "Guide de randonnée sur la crête du Vrmac entre Budva et Tivat Airport. Parking au départ du sentier, options d'itinéraire, la forteresse austro-hongroise et les vues panoramiques des deux côtés de la riviera de Budva.",
     "h2Intro": "La Crête entre Deux Mondes",
     "introP1": "La péninsule du Vrmac est le doigt montagneux qui sépare la baie intérieure de Budva de la baie extérieure près de Tivat Airport. D'en bas, elle apparaît comme un mur forestier sombre. Du sommet, elle révèle des vues panoramiques dans toutes les directions : la forteresse de Budva à l'est, Porto Montenegro à l'ouest, Rafailovići de l'autre côté de l'eau au nord, et l'Adriatique ouverte au-delà du détroit de Verige au sud.",
     "introP2": "Le sentier de la crête est le secret de randonnée le mieux gardé de Budva, bien moins fréquenté que l'ascension de la forteresse, avec de meilleures vues et plus d'ombre. Une voiture de location le rend accessible : le départ du sentier est à 10 minutes en voiture de la vieille ville de Budva.",
     "h2Trailhead": "Accéder au Départ du Sentier",
     "trailheadP1": "Depuis Budva, roulez vers le sud direction Tivat Airport. Après l'entrée du tunnel du Vrmac (que vous ne prenez pas), une petite route tourne à gauche et grimpe à travers le hameau de Prcanj. Suivez les panneaux pour Vrmac ou la forteresse autrichienne. Le départ du sentier dispose de places pour environ huit voitures sur une aire de gravier. Arrivez avant 09h00 en été.",
     "trailheadP2": "La route d'accès depuis Prcanj est étroite et raide, avec quelques virages serrés entre des murs de pierre. Toute voiture la gère par temps sec, mais un SUV offre plus de garde au sol sur le dernier tronçon non goudronné. Si le parking du départ est plein, il y a de la place pour deux ou trois voitures 200 mètres en contrebas.",
-    "altRidge": "Vue depuis le sentier de la crête du Vrmac surplombant les deux côtés de la baie de Boka",
+    "altRidge": "Vue depuis le sentier de la crête du Vrmac surplombant les deux côtés de la riviera de Budva",
     "h2Route": "Le Sentier",
     "routeP1": "Le chemin principal suit l'arête de la crête à travers une forêt méditerranéenne dense, chênes verts, lauriers et herbes sauvages qui parfument l'air. La surface est un mélange de terre compactée et de roche affleurante. Ce n'est pas techniquement difficile, mais le dénivelé est constant.",
     "routeP2": "Après environ 45 minutes de marche, vous atteignez les ruines du Fort Vrmac, une installation militaire austro-hongroise construite dans les années 1860 pour contrôler l'entrée de la baie. Le fort est partiellement en ruines mais explorable. Le toit (accessible avec précaution) offre le panorama à 360 degrés qui justifie l'effort.",
@@ -1029,8 +1029,8 @@
     "spot2P": "Un promontoire rocheux avançant dans la baie à environ 5 minutes au nord de Budva. Des plateformes en béton avec échelles métalliques donnent accès à une eau profonde et propre. Populaire auprès des habitants qui nagent ici après le travail. Pas de sable, pas d’équipements, juste l’eau et les montagnes.",
     "h2Spot3": "3. Bajova Kula à Rafailovići",
     "spot3P": "À l’extrémité sud du front de mer de Rafailovići, une petite aire de baignade en béton fait face directement à l’île de Notre-Dame du Rocher. L’eau est profonde et la vue en flottant sur le dos, îles, montagnes, palais baroques, est difficile à battre en Europe.",
-    "h2Spot4": "4. Plage Plavi Horizonti (Péninsule de Lustica)",
-    "spot4P": "À 20 minutes en voiture de Tivat Airport à travers la péninsule de Lustica, Plavi Horizonti est la seule vraie plage de sable de la baie. Eau peu profonde et chaude, adaptée aux familles avec de jeunes enfants. Un bar de plage loue transats et parasols en saison.",
+    "h2Spot4": "4. Plage Mogren (Péninsule de Pržno)",
+    "spot4P": "À 20 minutes en voiture de Tivat Airport à travers la péninsule de Pržno, Mogren est la seule vraie plage de sable de la baie. Eau peu profonde et chaude, adaptée aux familles avec de jeunes enfants. Un bar de plage loue transats et parasols en saison.",
     "h2Spot5": "5. Front de Mer de Stoliv",
     "spot5P": "Le minuscule village de Stoliv, sur la rive ouest de la baie entre Budva et Tivat Airport, a des marches en pierre menant directement de la route dans l’eau. Pratiquement aucun touriste ne s’arrête ici. L’eau est profonde, abritée et entourée de montagnes sur trois côtés.",
     "h2Spot6": "6. Anse de Morinj",
@@ -1038,8 +1038,8 @@
     "spot6P2": "Catovica Mlini, le restaurant à côté de la source, vaut le déplacement quel que soit le projet de baignade. Installé sous d’anciens platanes avec un ruisseau de moulin traversant la terrasse, il sert des plats traditionnels monténégrins et de la truite fraîche. Il fonctionne depuis le XVIIIe siècle. Réservez à l’avance en été.",
     "h2Spot7": "7. Front de Mer de Prcanj",
     "spot7P": "Le village de Prcanj, entre Budva et Tivat Airport, possède plusieurs échelles de baignade non signalées le long de sa promenade. L’imposante cathédrale inachevée de la Nativité de Notre-Dame offre un arrière-plan architectural inhabituel pour une baignade matinale.",
-    "h2Spot8": "8. Plage de Zanjice (Lustica)",
-    "spot8P": "Plus loin sur la péninsule de Lustica au-delà de Plavi Horizonti, Zanjice est une plage de galets à la pointe de la péninsule. Des bateaux vers la Grotte Bleue partent d’ici. La plage est agréable et moins aménagée que Plavi Horizonti.",
+    "h2Spot8": "8. Plage de Zanjice (Pržno)",
+    "spot8P": "Plus loin sur la péninsule de Pržno au-delà de Mogren, Zanjice est une plage de galets à la pointe de la péninsule. Des bateaux vers la Grotte Bleue partent d’ici. La plage est agréable et moins aménagée que Mogren.",
     "h2Spot9": "9. Front de Mer de Risan",
     "spot9P": "Le long et paisible front de mer de Risan a plusieurs points où des marches en béton mènent dans la baie. Combinez une baignade matinale avec une visite des mosaïques romaines, à deux minutes à pied vers l’intérieur. L’eau ici est la plus calme de toute la baie, les montagnes environnantes bloquent la plupart du vent.",
     "h2Tips": "Conseils de Baignade",
@@ -1133,7 +1133,7 @@
     "churchesP2": "Saint-Eustache est le bâtiment le plus important de Bečići. Le trésor contient des pièces d’argent et d’or religieuses offertes par des capitaines de retour de voyages réussis. Les horaires sont irréguliers, essayez le milieu de matinée en semaine. Un sacristain déverrouille parfois la salle du trésor pour les visiteurs intéressés. Pas de frais d’entrée formel, mais un don de quelques euros est apprécié.",
     "h2Dining": "Où Manger et Boire",
     "diningP1": "Les restaurants de Bečići occupent des rez-de-chaussée de maisons en pierre reconvertis, avec des tables s’étendant sur le front de mer en été. La cuisine est la même qu’à Budva, poisson grillé, risotto noir, salades locales, mais l’atmosphère est nettement plus calme et les prix légèrement plus bas. Plusieurs bars à vin ont ouvert ces dernières années, servant des vins monténégrins au verre avec de petites assiettes de fromage et charcuterie.",
-    "diningP2": "Konoba Catovica, environ au milieu du front de mer, est un favori local pour le poisson grillé et le vin de la maison. La terrasse en pierre est au niveau de l’eau. La daurade grillée avec blitva coûte environ 14 euros. Plus loin vers Ljuta, Restoran Stari Mlini (Vieux Moulins) se trouve à côté d’un ancien moulin et offre un menu plus raffiné, essayez le risotto noir à l’encre de seiche. Plats principaux de 14 à 20 euros.",
+    "diningP2": "Konoba Catovica, environ au milieu du front de mer, est un favori local pour le poisson grillé et le vin de la maison. La terrasse en pierre est au niveau de l’eau. La daurade grillée avec blitva coûte environ 14 euros. Plus loin vers Ljuta, Restoran Konoba Stari Grad (Vieux Moulins) se trouve à côté d’un ancien moulin et offre un menu plus raffiné, essayez le risotto noir à l’encre de seiche. Plats principaux de 14 à 20 euros.",
     "h2Swimming": "Baignade à Bečići",
     "swimmingP": "Plusieurs plateformes en béton et marches en pierre le long du front de mer de Bečići donnent accès à la baignade. L’eau est profonde, propre et relativement chaude de juin à septembre. La plateforme près de l’église Saint-Matthieu est populaire auprès des habitants en fin d’après-midi. Il n’y a pas de plage à proprement parler, c’est de la baignade par échelle et plateforme, mais la qualité de l’eau est excellente. Apportez des chaussures d’eau.",
     "h2History": "Un Village de Capitaines de Marine",
@@ -1159,7 +1159,7 @@
   },
   "blogBudvaKayakAndCar": {
     "title": "Kayak dans la Baie : Où Mettre à l’Eau depuis la Route Côtière",
-    "subtitle": "Où lancer un kayak autour de la baie de Boka, que voir depuis l’eau, et comment combiner pagaie et excursion en voiture.",
+    "subtitle": "Où lancer un kayak autour de la riviera de Budva, que voir depuis l’eau, et comment combiner pagaie et excursion en voiture.",
     "description": "Guide de kayak pour la baie de Budva. Points de mise à l’eau accessibles en voiture, options de visites guidées, que voir depuis l’eau, et comment combiner kayak et road trip dans la baie.",
     "h2Intro": "La Baie Vue depuis l’Eau",
     "introP1": "La baie de Budva a été conçue pour les bateaux. Pendant des siècles, le seul moyen de se déplacer entre les villes de la baie était par l’eau, les routes sont venues après et, par endroits, à peine. Voir la baie depuis un kayak restaure cette perspective originale : les montagnes s’élèvent plus haut, les palazzi de Rafailovići semblent encore plus improbables, et les îles sont assez proches pour les toucher.",
@@ -1818,8 +1818,8 @@
     "subtitle": "Citadines compactes, compactes, berlines, SUV et utilitaires choisis pour une base pluri-journées à Budva, avec excursions à Cetinje, au lac de Skadar, à Durmitor et au-delà de la frontière.",
     "seoDesc": "Sept voitures de location pluri-journées pour Budva, break intermédiaires, diesels routiers et une Fiat citadine. Fiches, autonomie et quelle voiture pour quelle excursion.",
     "intro1": "Cette flotte est pensée pour le locataire qui reste plusieurs jours à Budva, les visiteurs qui s’installent dans un appartement de Bečići ou dans une pension de la vieille ville pour quinze jours ou plus, et qui prévoient du vrai temps sur la route entre les journées dans la baie. Ce besoin n’est pas celui d’une location d’une journée au départ d’un paquebot ou d’un simple retrait à l’aéroport de Tivat Airport : il réclame du coffre pour la grosse course hebdomadaire chez Voli, du couple diesel pour la montée de Sozina et une position de conduite qui tienne quatre adultes confortables sur les trois heures jusqu’à Žabljak. Chaque voiture ci-dessous provient d un loueur local du Monténégro, avec annulation gratuite, assurance tous risques et options sans ou avec faible caution disponibles.",
-    "intro2": "Le panel penche volontairement vers l’intermédiaire. Une Peugeot 308 1.5 BlueHDi EAT, une Renault Megane diesel avec le plus grand coffre du segment, une VW Golf DSG 2.0 TDI, ces voitures transforment la boucle Budva → Cetinje → lac de Skadar → Sozina d’une corvée de changements de rapport en une croisière posée. Pour les trajets plus courts nous gardons une Renault Clio, une Citroën C3 à amortisseurs Advanced Comfort, un Kia Stonic crossover pour les accès défoncés à Njeguši et Gornja Lastva, et une minuscule Fiat 500 quand la seule contrainte est le stationnement sur le quai de Muo. Pas de mono-usage, pas de fourgon ; chaque voiture ici justifie une location pluri-journées.",
-    "intro3": "Une note pratique sur Budva avant de choisir. Le diesel reste plus malin dès qu’un passage frontière est prévu : Trebinje à 90 minutes, Dubrovnik via Debeli Brijeg aussi 90, Mostar une journée aller-retour. 308 et Megane couvrent les trois trajets sur un plein, la Golf est la voiture la plus silencieuse en autoroute, et la Clio essence fait quand même Budva–Dubrovnik aller-retour sur un demi-plein. Si votre semaine reste dans la baie, Rafailovići, Prčanj, Muo, Risan, la Fiat 500 ou la C3 économisent un tiers de carburant et se garent où les autres renoncent. Choisissez sur l’itinéraire, pas sur le tarif journalier.",
+    "intro2": "Le panel penche volontairement vers l’intermédiaire. Une Peugeot 308 1.5 BlueHDi EAT, une Renault Megane diesel avec le plus grand coffre du segment, une VW Golf DSG 2.0 TDI, ces voitures transforment la boucle Budva → Cetinje → lac de Skadar → Sozina d’une corvée de changements de rapport en une croisière posée. Pour les trajets plus courts nous gardons une Renault Clio, une Citroën C3 à amortisseurs Advanced Comfort, un Kia Stonic crossover pour les accès défoncés à Njeguši et Reževići, et une minuscule Fiat 500 quand la seule contrainte est le stationnement sur le quai de Muo. Pas de mono-usage, pas de fourgon ; chaque voiture ici justifie une location pluri-journées.",
+    "intro3": "Une note pratique sur Budva avant de choisir. Le diesel reste plus malin dès qu’un passage frontière est prévu : Trebinje à 90 minutes, Dubrovnik via Debeli Brijeg aussi 90, Mostar une journée aller-retour. 308 et Megane couvrent les trois trajets sur un plein, la Golf est la voiture la plus silencieuse en autoroute, et la Clio essence fait quand même Budva–Dubrovnik aller-retour sur un demi-plein. Si votre semaine reste dans la baie, Rafailovići, Prčanj, Slovenska Plaža, Risan, la Fiat 500 ou la C3 économisent un tiers de carburant et se garent où les autres renoncent. Choisissez sur l’itinéraire, pas sur le tarif journalier.",
     "ogImageAlt": "Flotte Car Rental Budva"
   },
   "posts": {
@@ -1872,7 +1872,7 @@
     "whyTitle": "Pourquoi Budva comme base",
     "whyP1Pre": "Budva se situe au milieu de la côte monténégrine. Depuis ici, ",
     "whyP1Link1": "le parc Miločer et Sveti Stefan",
-    "whyP1Mid": " sont à 10 minutes au sud, Bečići à 5 minutes autour du cap, Petrovac à 20 minutes plus loin. La baie de Boka est à 30 minutes. L aéroport de Tivat à 25 minutes. Toute la Riviera de Budva (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) est accessible avec un seul plein.",
+    "whyP1Mid": " sont à 10 minutes au sud, Bečići à 5 minutes autour du cap, Petrovac à 20 minutes plus loin. La riviera de Budva est à 30 minutes. L aéroport de Tivat à 25 minutes. Toute la Riviera de Budva (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) est accessible avec un seul plein.",
     "whyP2Pre": "La Riviera est aussi la base pour les excursions intérieures : le ",
     "whyP2Link1": "monastère de Reževići",
     "whyP2Mid": " et la ",
