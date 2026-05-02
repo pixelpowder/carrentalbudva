@@ -90,6 +90,8 @@ const CITY_ID_MAP = {
 /* ─── LOCATION AUTOCOMPLETE ────────────────────────────── */
 const LOCATION_OPTIONS = LOCATIONS.map(l => ({ value: l, label: l }));
 
+const TIME_OPTIONS = ['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => ({ value: t, label: t }));
+
 const locationSelectStyles = {
   control: (base) => ({
     ...base,
@@ -101,20 +103,20 @@ const locationSelectStyles = {
     cursor: 'pointer',
   }),
   valueContainer: (base) => ({ ...base, padding: '0' }),
-  input: (base) => ({ ...base, margin: '0', padding: '0', fontSize: '15px', fontWeight: '500', color: '#1A1A1A' }),
-  singleValue: (base) => ({ ...base, fontSize: '15px', fontWeight: '500', color: '#1A1A1A', margin: '0' }),
-  placeholder: (base) => ({ ...base, fontSize: '15px', color: '#888888', margin: '0' }),
+  input: (base) => ({ ...base, margin: '0', padding: '0', fontSize: '15px', fontWeight: '500', color: 'var(--black)' }),
+  singleValue: (base) => ({ ...base, fontSize: '15px', fontWeight: '500', color: 'var(--black)', margin: '0' }),
+  placeholder: (base) => ({ ...base, fontSize: '15px', color: 'var(--text-light)', margin: '0' }),
   indicatorSeparator: () => ({ display: 'none' }),
   dropdownIndicator: (base) => ({ ...base, padding: '0', color: '#E31937' }),
-  menu: (base) => ({ ...base, zIndex: 9999, borderRadius: '10px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', marginTop: '6px', overflow: 'hidden' }),
+  menu: (base) => ({ ...base, zIndex: 9999, borderRadius: '10px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', marginTop: '6px', overflow: 'hidden', background: 'var(--white)', border: '1px solid var(--border)' }),
   menuPortal: (base) => ({ ...base, zIndex: 9999 }),
-  menuList: (base) => ({ ...base, padding: '4px', maxHeight: '260px' }),
+  menuList: (base) => ({ ...base, padding: '4px', maxHeight: '260px', background: 'var(--white)' }),
   option: (base, state) => ({
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? '#E31937' : '#1A1A1A',
-    background: state.isSelected ? 'rgba(227,25,55,0.08)' : state.isFocused ? 'rgba(227,25,55,0.04)' : 'transparent',
+    color: state.isSelected ? '#E31937' : 'var(--black)',
+    background: state.isSelected ? 'rgba(227,25,55,0.12)' : state.isFocused ? 'rgba(227,25,55,0.06)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',
@@ -142,6 +144,26 @@ function LocationField({ value, onChange }) {
         menuPortalTarget={document.body}
         maxMenuHeight={200}
         onMenuOpen={() => { if (window.innerWidth < 768) { document.activeElement?.blur(); setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); } }}
+      />
+    </div>
+  );
+}
+
+function TimeField({ id, label, value, onChange }) {
+  const selected = TIME_OPTIONS.find(o => o.value === value) || null;
+  return (
+    <div className="booking-field booking-field--time">
+      <label htmlFor={id}>{label}</label>
+      <Select
+        inputId={id}
+        options={TIME_OPTIONS}
+        value={selected}
+        onChange={opt => onChange(opt.value)}
+        styles={locationSelectStyles}
+        isSearchable={false}
+        menuPlacement="bottom"
+        menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+        maxMenuHeight={240}
       />
     </div>
   );
@@ -213,18 +235,8 @@ function Hero() {
                 onCalendarOpen={() => { if (window.innerWidth < 768) setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); }}
               />
             </div>
-            <div className="booking-field booking-field--time">
-              <label htmlFor="f-pickup-time">{t('hero.pickupTime')}</label>
-              <select id="f-pickup-time" className="booking-field__input" value={pickupTime} onChange={e => setPickupTime(e.target.value)}>
-                {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-              </select>
-            </div>
-            <div className="booking-field booking-field--time">
-              <label htmlFor="f-dropoff-time">{t('hero.dropoffTime')}</label>
-              <select id="f-dropoff-time" className="booking-field__input" value={dropoffTime} onChange={e => setDropoffTime(e.target.value)}>
-                {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-              </select>
-            </div>
+            <TimeField id="f-pickup-time" label={t('hero.pickupTime')} value={pickupTime} onChange={setPickupTime} />
+            <TimeField id="f-dropoff-time" label={t('hero.dropoffTime')} value={dropoffTime} onChange={setDropoffTime} />
             <button className="booking-card__search" onClick={handleSearch}>
               <Search size={20} />
             </button>

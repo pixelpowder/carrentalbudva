@@ -404,7 +404,7 @@
 
 /* ─── CONTENT CTA ─────────────────────────────────────── */
 .content-cta {
-  background: var(--black);
+  background: var(--surface-inverse);
   padding: 48px 24px;
   text-align: center;
 }
@@ -615,7 +615,7 @@
 }
 
 .aff-final-cta {
-  background: var(--black);
+  background: var(--surface-inverse);
   padding: 72px 24px;
   color: #fff;
 }

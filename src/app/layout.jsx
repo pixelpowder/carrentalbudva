@@ -53,8 +53,13 @@ export default async function RootLayout({ children }) {
   const htmlLang = LANG_HREFLANG[lang] || lang;
 
   return (
-    <html lang={htmlLang}>
+    <html lang={htmlLang} suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();`,
+          }}
+        />
         <LocaleAwareSchema lang={lang} isHomepage={isHomepage} />
       </head>
       <body>

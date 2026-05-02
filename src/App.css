@@ -131,7 +131,7 @@
 }
 
 .booking-calendar .react-datepicker__header {
-  background: var(--black);
+  background: var(--surface-inverse);
   border-bottom: none;
   border-radius: var(--radius) var(--radius) 0 0;
   padding-top: 12px;
@@ -191,6 +191,33 @@
 
 .booking-calendar .react-datepicker__day--disabled {
   color: #ccc !important;
+}
+
+/* Dark mode datepicker overrides */
+html[data-theme="dark"] .booking-calendar,
+html[data-theme="dark"] .booking-calendar .react-datepicker,
+html[data-theme="dark"] .booking-calendar .react-datepicker__month-container,
+html[data-theme="dark"] .booking-calendar .react-datepicker__month {
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--border);
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day {
+  color: var(--black);
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--outside-month {
+  color: var(--text-light);
+  opacity: 0.6;
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--disabled {
+  color: rgba(255,255,255,0.25) !important;
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--in-range,
+html[data-theme="dark"] .booking-calendar .react-datepicker__day--in-selecting-range {
+  color: #fff !important;
+}
+html[data-theme="dark"] .booking-calendar .react-datepicker__day:hover {
+  background: rgba(227,25,55,0.2);
 }
 
 @media (max-width: 768px) {
@@ -273,7 +300,7 @@
   left: 0;
   right: 0;
   z-index: 101;
-  background: var(--black);
+  background: var(--surface-inverse);
   height: 64px;
   display: flex;
   align-items: center;
@@ -411,7 +438,7 @@
 
 .nav__cta {
   background: var(--primary);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 14px;
   font-weight: 600;
   padding: 9px 24px;
@@ -448,6 +475,26 @@
   padding: 4px;
   line-height: 0;
   order: 2;
+}
+
+.nav__theme {
+  order: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.18s var(--ease-out), color 0.18s var(--ease-out), border-color 0.18s var(--ease-out);
+}
+.nav__theme:hover {
+  background: var(--bg-alt);
+  color: var(--black);
+  border-color: var(--text-light);
 }
 
 .nav__lang {
@@ -576,10 +623,20 @@
   color: var(--primary);
 }
 
+button.mobile-drawer__theme {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
 .mobile-drawer__cta {
   margin: 16px 24px 32px;
   background: var(--primary);
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 15px;
   font-weight: 700;
   padding: 16px;
@@ -724,6 +781,15 @@
   z-index: 10;
 }
 
+html[data-theme="dark"] .booking-card {
+  background: rgba(20, 22, 28, 0.62);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+html[data-theme="dark"] .booking-field {
+  border-right-color: rgba(255, 255, 255, 0.12);
+}
+
 .booking-card__fields {
   display: flex;
   align-items: stretch;
@@ -808,7 +874,7 @@ select.booking-field__input {
 
 .booking-card__search {
   background: var(--primary);
-  color: var(--white);
+  color: var(--on-inverse);
   border: none;
   border-radius: 50%;
   padding: 0;
@@ -974,7 +1040,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--on-inverse);
   font-size: 14px;
   font-weight: 700;
   flex-shrink: 0;
@@ -1350,7 +1416,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   max-height: 4000px;
   overflow: hidden;
-  background: #fff;
+  background: var(--white);
   margin-left: -72px;
   margin-right: -72px;
   width: calc(100% + 144px);
@@ -1599,7 +1665,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── BROWSE CARS CTA (showcase) ─────────────────────── */
 .showcase-cta {
-  background: var(--black);
+  background: var(--surface-inverse);
   padding: 48px 0;
 }
 
@@ -1615,7 +1681,7 @@ h1, h2, h3, h4, h5, h6 {
 .showcase-cta__title {
   font-size: clamp(22px, 2.5vw, 28px);
   font-weight: 700;
-  color: var(--white);
+  color: var(--on-inverse);
   margin-bottom: 6px;
 }
 
@@ -1629,7 +1695,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 8px;
   background: var(--primary);
-  color: var(--white);
+  color: var(--on-inverse);
   padding: 14px 28px;
   border-radius: var(--radius-pill);
   font-size: 15px;
@@ -1828,7 +1894,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--black);
+  background: var(--surface-inverse);
   color: #fff;
   padding: 14px 32px;
   border-radius: var(--radius-pill);
@@ -2074,7 +2140,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 90;
   width: 44px;
   height: 44px;
-  background: var(--black);
+  background: var(--surface-inverse);
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -2189,7 +2255,7 @@ h1, h2, h3, h4, h5, h6 {
 .cta-banner__title {
   font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
-  color: var(--white);
+  color: var(--on-inverse);
   letter-spacing: -0.02em;
   line-height: 1.15;
   margin-bottom: 14px;
@@ -2238,7 +2304,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-btn--outline {
   background: transparent;
-  color: var(--white);
+  color: var(--on-inverse);
   border: 2px solid rgba(255,255,255,0.5);
   border-radius: var(--radius-pill);
   padding: 13px 24px;
@@ -2291,7 +2357,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   border-radius: 50%;
   background: var(--primary);
-  color: var(--white);
+  color: var(--on-inverse);
   border: none;
   cursor: pointer;
   display: flex;
@@ -2518,7 +2584,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .search-cigarette__wrap {
-  background-color: var(--black) !important;
+  background-color: var(--surface-inverse) !important;
 }
 .search-placeholder,
 .search-cigarette__placeholder {
@@ -2844,7 +2910,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 41px auto 0;
     border-radius: var(--radius);
     box-shadow: var(--shadow-lg);
-    background: #fff;
+    background: var(--white);
     border: 1px solid var(--border);
   }
 
@@ -3324,8 +3390,8 @@ h1, h2, h3, h4, h5, h6 {
 .fleet-showcase__chip {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border: 1px solid var(--gray-200, #e9ecef);
+  background: var(--white);
+  border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -3358,7 +3424,7 @@ h1, h2, h3, h4, h5, h6 {
 .fleet-showcase__chip-name {
   font-size: 14px;
   font-weight: 700;
-  color: var(--navy, #05203c);
+  color: var(--black);
   line-height: 1.2;
 }
 .fleet-showcase__all {
@@ -3390,8 +3456,8 @@ h1, h2, h3, h4, h5, h6 {
 .fleet-index-card {
   display: flex;
   flex-direction: column;
-  background: #fff;
-  border: 1px solid var(--gray-200, #e9ecef);
+  background: var(--white);
+  border: 1px solid var(--border);
   border-radius: 14px;
   overflow: hidden;
   text-decoration: none;
