@@ -230,6 +230,15 @@ export default function CarDetail({ slug }) {
         })}
       </ul>
 
+      <div className="car-detail-cta">
+        <a href={localePath('/book')} className="car-detail-cta__btn">
+          {tf('cars.checkAvailability', 'Check availability & live pricing')} <ArrowRight size={16} />
+        </a>
+        <a href={localePath(`/cars/${next.slug}`)} className="car-detail-cta__next">
+          {tf('cars.nextBtn', `Next in fleet: ${next.name}`)} →
+        </a>
+      </div>
+
       {RELATED[slug] && (
         <div className="car-detail-related">
           <h2>{tf('cars.relatedTitle', 'Where this car takes you')}</h2>
@@ -246,15 +255,6 @@ export default function CarDetail({ slug }) {
           </div>
         </div>
       )}
-
-      <div className="car-detail-cta">
-        <a href={localePath('/book')} className="car-detail-cta__btn">
-          {tf('cars.checkAvailability', 'Check availability & live pricing')} <ArrowRight size={16} />
-        </a>
-        <a href={localePath(`/cars/${next.slug}`)} className="car-detail-cta__next">
-          {tf('cars.nextBtn', `Next in fleet: ${next.name}`)} →
-        </a>
-      </div>
     </ContentPage>
   );
 }
