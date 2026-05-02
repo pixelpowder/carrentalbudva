@@ -3,7 +3,7 @@ import { useState } from 'react';
 import useTranslation from '@/src/i18n/useTranslation';
 import Nav from '@/src/Nav';
 import Footer from '@/src/Footer';
-import { Mail, MessageCircle, MapPin, Clock, ArrowRight, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Mail, MapPin, Clock, ArrowRight, CheckCircle2, AlertCircle } from 'lucide-react';
 import config from '@/src/siteConfig';
 import '@/src/ContentPage.css';
 
@@ -82,23 +82,7 @@ export default function Contact() {
               <div style={{ fontSize: '14px', color: 'var(--text-light)' }}>{config.email}</div>
             </div>
           </a>
-
-          <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Kotor." target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px',
-            padding: '32px 20px', background: '#fff', borderRadius: '16px', textDecoration: 'none',
-            color: 'var(--black)', border: '1px solid var(--border)', textAlign: 'center',
-            boxShadow: '0 4px 16px rgba(0,0,0,0.08)'
-          }}>
-            <div style={{ width: '52px', height: '52px', borderRadius: '50%', background: '#25d366', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
-              <MessageCircle size={22} />
-            </div>
-            <div>
-              <div style={{ fontSize: '16px', fontWeight: 700, marginBottom: '4px' }}>{t('contact.whatsapp')}</div>
-              <div style={{ fontSize: '14px', color: 'var(--text-light)' }}>{t('contact.chatNow')}</div>
-            </div>
-          </a>
-
-          <div style={{
+<div style={{
             display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px',
             padding: '32px 20px', background: '#fff', borderRadius: '16px',
             color: 'var(--black)', border: '1px solid var(--border)', textAlign: 'center',

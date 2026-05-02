@@ -22,7 +22,6 @@ import {
   ArrowRight,
   Mail,
   Search,
-  MessageCircle,
   Car,
   Truck,
   Zap,
@@ -1017,17 +1016,7 @@ function StickyMobileCTA() {
   return (
     <div className={`sticky-cta${visible ? ' sticky-cta--visible' : ''}`}>
       <a href={localePath("/book")} className="sticky-cta__btn">{t('common.bookNow')} <ArrowRight size={16} /></a>
-      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone"><MessageCircle size={18} /></a>
-    </div>
-  );
-}
-
-function WhatsAppFab() {
-  const { t } = useTranslation();
-  return (
-    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label={t('a11y.chatWhatsApp')}>
-      <MessageCircle size={22} />
-    </a>
+</div>
   );
 }
 

@@ -185,7 +185,7 @@
     "localLink3": "Rafailovići",
     "localEnd": "o affrontando i tornanti verso la vetta del Lovcen, possiamo aiutarvi a tracciare il percorso ideale.",
     "contactTitle": "Contattaci",
-    "contactText": "Domande sul noleggio auto a Budva? Siamo disponibili per telefono, WhatsApp e Viber. Sfoglia la flotta online e prenota in pochi minuti, oppure scrivici e ti aiuteremo a trovare il veicolo giusto per il tuo viaggio."
+    "contactText": "Domande sul noleggio auto a Budva? Siamo disponibili via email. Sfoglia la flotta online e prenota in pochi minuti, oppure scrivici e ti aiuteremo a trovare il veicolo giusto per il tuo viaggio."
   },
   "budva": {
     "title": "Noleggio Auto a Budva",
@@ -1315,7 +1315,7 @@
     "heroTitle": "Contattaci",
     "heroSubtitle": "Domande sul noleggio auto a Budva? Rispondiamo entro 2 ore nei giorni lavorativi.",
     "email": "Email",
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Email",
     "chatNow": "Chatta con noi ora",
     "responseTime": "Tempo di risposta",
     "under2Hours": "Meno di 2 ore",
@@ -1863,7 +1863,7 @@
     }
   },
   "a11y": {
-    "chatWhatsApp": "Chatta su WhatsApp",
+    "chatWhatsApp": "Email",
     "scrollTop": "Torna su"
   },
   "aboutPage": {
@@ -1874,14 +1874,14 @@
     "whoP1": "Car Rental Budva è una piattaforma di prenotazione che collabora con piccoli e medi operatori montenegrini lungo la Riviera di Budva. Non siamo un banco aeroportuale in franchising, siamo un team locale che gestisce i ritiri, le pratiche e la telefonata quando qualcosa va storto in strada.",
     "whoP2": "Gli operatori con cui lavoriamo gestiscono flotte pulite e moderne con copertura assicurativa completa e abbastanza auto per garantire la disponibilità in alta stagione. Facciamo noi il lavoro di confronto per offrirti il veicolo giusto al prezzo giusto.",
     "whyTitle": "Perché Budva come base",
-    "whyP1Pre": "Budva si trova al centro della costa montenegrina. Da qui, ",
+    "whyP1Pre": "Budva si trova al centro della costa montenegrina. Da qui,",
     "whyP1Link1": "il Parco Miločer e Sveti Stefan",
-    "whyP1Mid": " sono a 10 minuti a sud, Bečići a 5 minuti oltre il promontorio, Petrovac a 20 minuti. Le Bocche di Cattaro a 30 minuti. L aeroporto di Tivat a 25 minuti. Tutta la Riviera di Budva (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) è raggiungibile con un solo pieno.",
-    "whyP2Pre": "La Riviera è anche base per gite nell entroterra: il ",
+    "whyP1Mid": "sono a 10 minuti a sud, Bečići a 5 minuti oltre il promontorio, Petrovac a 20 minuti. Le Bocche di Cattaro a 30 minuti. L aeroporto di Tivat a 25 minuti. Tutta la Riviera di Budva (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) è raggiungibile con un solo pieno.",
+    "whyP2Pre": "La Riviera è anche base per gite nell entroterra: il",
     "whyP2Link1": "Monastero di Reževići",
-    "whyP2Mid": " e la ",
+    "whyP2Mid": "e la",
     "whyP2Link2": "serpentina del Lovćen",
-    "whyP2End": " via Njeguši verso Cetinje.",
+    "whyP2End": "via Njeguši verso Cetinje.",
     "includedTitle": "Cosa è incluso",
     "includedP1": "Ogni noleggio include assicurazione CDW, responsabilità civile, IVA, chilometri illimitati nella maggior parte delle categorie e assistenza. Disponibile l upgrade assicurativo senza franchigia, e Theft Protection o PAI si selezionano alla prenotazione per le giornate al mare con auto incustodita e per le uscite in montagna sul Lovćen. Gli extra opzionali coprono buona parte di un soggiorno sulla Riviera: seggiolini sotto 1 anno, standard e rialzo montati prima della consegna, un Winter Pack con portasci, portasnowboard o portapacchi da tetto per i weekend a Durmitor, un hotspot wifi portatile o una SIM montenegrina per gli ospiti che lavorano da remoto da appartamenti a Sveti Stefan, e un monopattino elettrico con caricabatterie per i brevi spostamenti verso Old Town quando l'auto può restare parcheggiata. La copertura transfrontaliera per Croazia, Albania, Bosnia, Serbia e Kosovo è tariffata in tre fasce, la terza è quella che vuole sulla prenotazione chi pianifica il giro balcanico Mostar-poi-Belgrado, e la documentazione della Carta Verde viene preparata al momento della conferma.",
     "pickupTitle": "Ritiro e riconsegna",
@@ -1890,9 +1890,9 @@
     "pricingTitle": "Prezzi",
     "pricingP1": "Nessun supplemento estivo aggiunto alla conferma. Il prezzo prenotato è il prezzo pagato, tasse, diritti aeroportuali e chilometraggio standard già inclusi. Gli unici extra sono l assicurazione senza franchigia opzionale e i costi transfrontalieri.",
     "contactTitle": "Contattaci",
-    "contactPre": "Per prenotazioni o domande, la ",
+    "contactPre": "Per prenotazioni o domande, la",
     "contactLink": "pagina di contatto",
-    "contactEnd": " contiene il modulo, l e-mail e il numero WhatsApp. Rispondiamo entro due ore negli orari di ufficio, la mattina seguente per richieste notturne."
+    "contactEnd": "contiene il modulo, l e-mail e il numero via email. Rispondiamo entro due ore negli orari di ufficio, la mattina seguente per richieste notturne."
   },
   "montenegroPage": {
     "title": "Guidare lungo la costa adriatica, una panoramica del Montenegro",
@@ -1902,9 +1902,9 @@
     "numbersP1": "Il Montenegro è di poco meno di 14.000 chilometri quadrati, all incirca le dimensioni dell Irlanda del Nord. Popolazione 620.000. Circa 290 km di costa adriatica, di cui la fascia turistica più densa (la Riviera di Budva) misura 25 km. L entroterra è dominato da montagne calcaree che superano i 2.500 metri entro 30 km dal mare.",
     "numbersP2": "Per un visitatore con base a Budva, ciò significa che un ora di guida porta a terreni drasticamente diversi: città costiere, alti passi montani, regioni lacustri o in Albania.",
     "rivieraTitle": "La Riviera di Budva (la tua fascia di casa)",
-    "rivieraP1Pre": "Spiaggia Jaz, centro storico di Budva, Slovenska Plaza, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km da capo a capo, coperti dalla costiera E65. Vedi la nostra guida su ",
+    "rivieraP1Pre": "Spiaggia Jaz, centro storico di Budva, Slovenska Plaza, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km da capo a capo, coperti dalla costiera E65. Vedi la nostra guida su",
     "rivieraP1Link1": "il Parco Miločer",
-    "rivieraP1Mid": " e la ",
+    "rivieraP1Mid": "e la",
     "rivieraP1Link2": "cala di Drobni Pijesak",
     "rivieraP1End": ".",
     "within60Title": "Entro 60 minuti in auto",
@@ -1930,13 +1930,13 @@
     "bordersP1": "Il Montenegro confina con Albania, Kosovo, Serbia, Bosnia ed Erzegovina e Croazia. Tutte e cinque sono raggiungibili in auto da Budva. La maggior parte dei passaporti UE/UK/US/AU entra senza visto. Le auto a noleggio necessitano della Carta Verde per il passaggio di confine, la includiamo per impostazione predefinita quando ci comunicate i vostri piani in fase di prenotazione.",
     "bordersP2": "I due valichi più utilizzati da Budva: Debeli Brijeg per la Croazia (Dubrovnik 2 ore), Božaj per l Albania (Scutari 2 ore).",
     "whenTitle": "Quando visitare",
-    "whenSpringLabel": "Da maggio a giugno: ",
+    "whenSpringLabel": "Da maggio a giugno:",
     "whenSpringText": "costa mite, mare caldo a fine maggio, folle costiere ridotte, fiori selvatici nell entroterra. Il migliore nel complesso.",
-    "whenSummerLabel": "Da luglio ad agosto: ",
+    "whenSummerLabel": "Da luglio ad agosto:",
     "whenSummerText": "caldo, affollato, stagione dei festival a Jaz Beach. L esperienza classica della Riviera, a prezzi di punta.",
-    "whenSeptemberLabel": "Settembre: ",
+    "whenSeptemberLabel": "Settembre:",
     "whenSeptemberText": "il momento ideale. Acqua calda, spiagge più tranquille, vendemmia nell entroterra.",
-    "whenWinterLabel": "Da ottobre ad aprile: ",
+    "whenWinterLabel": "Da ottobre ad aprile:",
     "whenWinterText": "costa silenziosa ed economica. La maggior parte dei bar sulla spiaggia chiusi. L entroterra può avere vera neve invernale da dicembre."
   },
   "carInline": {

@@ -185,7 +185,7 @@
     "localLink3": "Rafailovićia",
     "localEnd": ", ili se penjete serpentinama ka vrhu Lovcena, mozemo vam pomoci da isplanirate idealnu rutu.",
     "contactTitle": "Kontaktirajte Nas",
-    "contactText": "Imate pitanje o iznajmljivanju automobila u Budvau? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte flotu online i rezervisite za nekoliko minuta, ili nam posaljite poruku i pomoci cemo vam da pronadete pravo vozilo za vase putovanje."
+    "contactText": "Imate pitanje o iznajmljivanju automobila u Budvau? Dostupni smo putem e-maila. Pregledajte flotu online i rezervisite za nekoliko minuta, ili nam posaljite poruku i pomoci cemo vam da pronadete pravo vozilo za vase putovanje."
   },
   "budva": {
     "title": "Rent a Car Budva",
@@ -1315,7 +1315,7 @@
     "heroTitle": "Kontaktirajte nas",
     "heroSubtitle": "Pitanje o najmu automobila u Budvau? Odgovaramo u roku od 2 sata radnim danima.",
     "email": "Email",
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Email",
     "chatNow": "Razgovarajte s nama sada",
     "responseTime": "Vrijeme odgovora",
     "under2Hours": "Manje od 2 sata",
@@ -1386,7 +1386,7 @@
     "how1": "Da vas povežemo s dostupnošću i cijenama najma automobila",
     "how2": "Za unapređenje naše web stranice i korisničkog iskustva",
     "how3": "Da razumijemo kako posjetioci koriste našu stranicu (analitika)",
-    "how4": "Za odgovaranje na upite putem WhatsApp-a, Viber-a ili emaila",
+    "how4": "Za odgovaranje na upite putem e-maila",
     "thirdTitle": "Usluge trećih strana",
     "thirdText": "Naša web stranica koristi sljedeće usluge trećih strana:",
     "third1Label": "Partner za rezervacije:",
@@ -1863,7 +1863,7 @@
     }
   },
   "a11y": {
-    "chatWhatsApp": "Razgovaraj na WhatsAppu",
+    "chatWhatsApp": "Email",
     "scrollTop": "Idi na vrh"
   },
   "aboutPage": {
@@ -1874,14 +1874,14 @@
     "whoP1": "Car Rental Budva je platforma za rezervacije koja sarađuje sa malim i srednjim crnogorskim rent-a-car operaterima duž Budvanske rivijere. Nismo aerodromski franšizni šalter, mi smo lokalni tim koji se bavi preuzimanjima, papirologijom i telefonskim pozivom kada nešto pođe po zlu na putu.",
     "whoP2": "Operateri sa kojima radimo imaju čiste, savremene flote sa potpunim osiguranjem i dovoljno automobila za održavanje dostupnosti u špicu sezone. Mi radimo posao poređenja kako biste dobili pravo vozilo po pravoj cijeni.",
     "whyTitle": "Zašto Budva kao baza",
-    "whyP1Pre": "Budva se nalazi u sredini crnogorske obale. Odavde su ",
+    "whyP1Pre": "Budva se nalazi u sredini crnogorske obale. Odavde su",
     "whyP1Link1": "Park Miločer i Sveti Stefan",
-    "whyP1Mid": " 10 minuta južno, Bečići 5 minuta oko rta, Petrovac dodatnih 20 minuta. Bokokotorski zaliv je 30 minuta. Aerodrom Tivat je 25 minuta. Cijela Budvanska rivijera (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) dostupna je sa jednim punim rezervoarom.",
-    "whyP2Pre": "Rivijera je i baza za vožnje u unutrašnjost: ",
+    "whyP1Mid": "10 minuta južno, Bečići 5 minuta oko rta, Petrovac dodatnih 20 minuta. Bokokotorski zaliv je 30 minuta. Aerodrom Tivat je 25 minuta. Cijela Budvanska rivijera (Jaz, Bečići, Rafailovići, Sveti Stefan, Petrovac) dostupna je sa jednim punim rezervoarom.",
+    "whyP2Pre": "Rivijera je i baza za vožnje u unutrašnjost:",
     "whyP2Link1": "Manastir Reževići",
-    "whyP2Mid": " i ",
+    "whyP2Mid": "i",
     "whyP2Link2": "lovćenske serpentine",
-    "whyP2End": " preko Njeguša prema Cetinju.",
+    "whyP2End": "preko Njeguša prema Cetinju.",
     "includedTitle": "Šta je uključeno",
     "includedP1": "Svaki najam uključuje CDW osiguranje, odgovornost prema trećim licima, PDV, neograničenu kilometražu u većini kategorija i podršku. Dostupna je nadogradnja osiguranja bez učešća, a Theft Protection ili PAI pokriće označava se pri rezervaciji za plažne dane sa autom bez nadzora i za planinske vožnje na Lovćenu. Opcioni dodaci pokrivaju većinu situacija tokom boravka na Rivijeri: dječija sjedišta do 1 godine, standardna i busterska, montirana prije primopredaje, Winter Pack sa nosačem za skije, snowboard ili krovnim nosačem za vikende na Durmitoru, prenosivi wifi hotspot ili crnogorska SIM kartica za goste koji rade na daljinu iz apartmana u Svetom Stefanu, i električni trotinet sa punjačem za kratke skokove do Old Towna kada vozilo može ostati parkirano. Prekogranično pokriće za Hrvatsku, Albaniju, Bosnu, Srbiju i Kosovo tarifirano je u tri kategorije, treća je ona koju na rezervaciji želi gost koji planira balkanski krug Mostar-pa-Beograd, a dokumentacija Zelene karte priprema se u trenutku potvrde.",
     "pickupTitle": "Preuzimanje i vraćanje",
@@ -1890,9 +1890,9 @@
     "pricingTitle": "Cijene",
     "pricingP1": "Bez ljetnje doplate u potvrdi. Cijena koju rezervišete je cijena koju plaćate, porezi, aerodromske takse i standardna kilometraža već uključeni. Jedini dodaci su opciono osiguranje bez učešća i prekogranične takse.",
     "contactTitle": "Kontakt",
-    "contactPre": "Za rezervacije ili pitanja, ",
+    "contactPre": "Za rezervacije ili pitanja,",
     "contactLink": "kontakt strana",
-    "contactEnd": " sadrži formular, email i WhatsApp broj. Odgovaramo u roku od dva sata tokom radnog vremena, sljedećeg jutra za noćne upite."
+    "contactEnd": "sadrži formular, email i putem e-maila broj. Odgovaramo u roku od dva sata tokom radnog vremena, sljedećeg jutra za noćne upite."
   },
   "montenegroPage": {
     "title": "Vožnja jadranskom obalom, pregled Crne Gore",
@@ -1902,9 +1902,9 @@
     "numbersP1": "Crna Gora ima manje od 14.000 kvadratnih kilometara, otprilike veličine Sjeverne Irske. Stanovništvo 620.000. Oko 290 km jadranske obale, od čega je najgušća turistička dionica (Budvanska rivijera) duga 25 km. Unutrašnjošću dominiraju krečnjačke planine koje se uzdižu preko 2.500 metara unutar 30 km od mora.",
     "numbersP2": "Za posjetioca sa bazom u Budvi to znači da vas sat vožnje vodi do dramatično drugačijeg terena: primorski gradovi, visoki planinski prevoji, jezerski kraj ili u Albaniju.",
     "rivieraTitle": "Budvanska rivijera (vaša domaća dionica)",
-    "rivieraP1Pre": "Plaža Jaz, Stari grad Budva, Slovenska plaža, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km od kraja do kraja, pokriveni primorskom E65. Pogledajte naš vodič o ",
+    "rivieraP1Pre": "Plaža Jaz, Stari grad Budva, Slovenska plaža, Bečići, Rafailovići, Pržno, Miločer, Sveti Stefan, Petrovac. 25 km od kraja do kraja, pokriveni primorskom E65. Pogledajte naš vodič o",
     "rivieraP1Link1": "Parku Miločer",
-    "rivieraP1Mid": " i ",
+    "rivieraP1Mid": "i",
     "rivieraP1Link2": "uvali Drobni Pijesak",
     "rivieraP1End": ".",
     "within60Title": "Unutar 60 minuta automobilom",
@@ -1930,13 +1930,13 @@
     "bordersP1": "Crna Gora se graniči sa Albanijom, Kosovom, Srbijom, Bosnom i Hercegovinom i Hrvatskom. Sve pet su dostupne automobilom iz Budve. Većina EU/UK/US/AU pasoša ulazi bez vize. Iznajmljeni automobili trebaju Zelenu kartu za prelazak granice, podrazumijevano je uključujemo kada nam kažete svoje planove pri rezervaciji.",
     "bordersP2": "Dva najkorišćenija prelaza iz Budve: Debeli Brijeg za Hrvatsku (Dubrovnik 2 sata), Božaj za Albaniju (Skadar 2 sata).",
     "whenTitle": "Kada posjetiti",
-    "whenSpringLabel": "Maj do juna: ",
+    "whenSpringLabel": "Maj do juna:",
     "whenSpringText": "blago primorje, toplo more do kraja maja, malo gužve na obali, divlje cvijeće u unutrašnjosti. Najbolje sveukupno.",
-    "whenSummerLabel": "Jul do avgusta: ",
+    "whenSummerLabel": "Jul do avgusta:",
     "whenSummerText": "vruće, gužva, sezona festivala na plaži Jaz. Klasično rivijersko iskustvo, po vršnim cijenama.",
-    "whenSeptemberLabel": "Septembar: ",
+    "whenSeptemberLabel": "Septembar:",
     "whenSeptemberText": "idealan period. Topla voda, mirnije plaže, berba grožđa u unutrašnjosti.",
-    "whenWinterLabel": "Oktobar do aprila: ",
+    "whenWinterLabel": "Oktobar do aprila:",
     "whenWinterText": "obala mirna i jeftina. Većina plažnih barova zatvorena. Unutrašnjost može dobiti ozbiljan zimski snijeg od decembra."
   },
   "carInline": {
