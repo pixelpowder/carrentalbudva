@@ -20,7 +20,7 @@ const siteConfig = {
       name: "VW Polo",
       category: "Economy",
       tagline: "Compact German hatch for Old Town parking and Riviera day-hops",
-      lede: "Turning circle made for Slovenska pay-bays, five seats, 351 L boot, calm on the coast road.",
+      lede: "A small hatchback that handles Budva's Old Town lanes, the Slovenska pay-bays, and the coast road as far as Sveti Stefan without breaking a sweat.",
       price: 25,
       image: "/img/fleet/vw-polo.jpg",
       seats: 5,
