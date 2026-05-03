@@ -5,7 +5,9 @@
     "destinations": "Reiseziele",
     "about": "Über uns",
     "contact": "Kontakt",
-    "fleet": "Flotte"
+    "fleet": "Flotte",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus"
   },
   "common": {
     "home": "Startseite",

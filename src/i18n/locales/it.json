@@ -5,7 +5,9 @@
     "destinations": "Destinazioni",
     "about": "Chi Siamo",
     "contact": "Contatti",
-    "fleet": "Flotta"
+    "fleet": "Flotta",
+    "darkMode": "Modalità scura",
+    "lightMode": "Modalità chiara"
   },
   "common": {
     "home": "Home",
